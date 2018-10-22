@@ -293,6 +293,11 @@ div.tab-content {
   @media (max-width: 1024px) {
     height: 200vh;
   }
+  @media (min-width: 1024px) {
+    div.intro{
+      padding: 100px 20px 0px 20px;
+    }
+  }
   &__background {
     position: absolute;
     top: 0;
