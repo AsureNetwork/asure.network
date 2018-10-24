@@ -138,9 +138,9 @@ $link-color: #2877bd;
   border-color: #146492;
   color: #fff;
 
-  &.disabled, &:disabled {
-    background-color: #5380a5;
-    border-color: #146492;
+  &.disabled, &:disabled,&.disabled:hover, &:disabled:hover {
+    background-color: #999999 !important;
+    border-color: #444444 !important;
   }
 }
 
@@ -1755,4 +1755,8 @@ table.dist {
 }
 .embed-responsive-4by3 {
   padding-bottom: 75%;
+}
+
+div.container.kyc label.col-form-label{
+  font-weight: bold;
 }
