@@ -2119,11 +2119,11 @@
         wallet?$("input[name='_wallet']").addClass("is-valid"):$("input[name='_wallet']").removeClass("is-valid");
         var eth=isNumber($("input[name='_eth']").val());
         eth?$("input[name='_eth']").addClass("is-valid"):$("input[name='_eth']").removeClass("is-valid");
-        var sourceOfFounds=isNotUndefinedAndEmpty($("input[name='_sourceOfFounds]").val());
+        var sourceOfFounds=isNotUndefinedAndEmpty($("input[name='_sourceOfFounds']").val());
         sourceOfFounds?$("input[name='_sourceOfFounds']").addClass("is-valid"):$("input[name='_sourceOfFounds']").removeClass("is-valid");
 
-        var file_id=isNotUndefinedAndEmpty($("input[name='_file_id]").val());
-        var file_photo=isNotUndefinedAndEmpty($("input[name='_file_photo]").val());
+        var file_id=isNotUndefinedAndEmpty($("input[name='_file_id']").val());
+        var file_photo=isNotUndefinedAndEmpty($("input[name='_file_photo']").val());
 
         var policy=isNotUndefinedAndEmpty($("input[name='_policy']:checked").val());
         if(fn && ln &&
