@@ -1,8 +1,8 @@
 {
   "index": {
-    "title": "Imprint",
-    "keywords": "Imprint",
-    "description": "Imprint",
+    "title": "Asure Network - Imprint",
+    "keywords": "Asure Network Imprint",
+    "title": "Asure Network - Imprint",
 
     "headerLinks": [
       {
@@ -37,7 +37,7 @@
       },
       {
         "title": "Blog",
-        "url": "https://medium.com/asure-io",
+        "url": "https://medium.com/AsureNetwork",
         "urlSegment": ""
       }
     ]

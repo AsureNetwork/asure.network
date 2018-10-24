@@ -1,8 +1,8 @@
 {
   "index": {
-    "title": "Asure.Network Newsletter",
-    "keywords": "Asure.Network Newsletter",
-    "description": "Asure.Network Newsletter",
+    "title": "Asure.Network - KYC Policy for TGE",
+    "keywords": "Asure.Network KYC Policy for TGE",
+    "description": "Asure.Network - KYC Policy for TGE",
 
     "headerLinks": [
       {
@@ -37,7 +37,7 @@
       },
       {
         "title": "Blog",
-        "url": "https://medium.com/asure-io",
+        "url": "https://medium.com/AsureNetwork",
         "urlSegment": ""
       }
     ]
