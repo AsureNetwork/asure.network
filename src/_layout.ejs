@@ -276,20 +276,20 @@
         $("form#form-kyc input,form#form-kyc select").trigger("change");
     }
     $("form#form-kyc input,form#form-kyc select").change(function(){
-        var fn=$("input[name='_fn']").val() != "";
+        var fn=isNotUndefinedAndEmpty($("input[name='_fn']").val());
         fn?$("input[name='_fn']").addClass("is-valid"):$("input[name='_fn']").removeClass("is-valid");
-        var ln=$("input[name='_ln']").val() != "";
+        var ln=isNotUndefinedAndEmpty($("input[name='_ln']").val());
         ln?$("input[name='_ln']").addClass("is-valid"):$("input[name='_ln']").removeClass("is-valid");
-        var us=$("input[name='_us']:checked").val() != undefined;
-        var exposed=$("input[name='_exposed']:checked").val() != undefined;
+        var us=isNotUndefinedAndEmpty($("input[name='_us']:checked").val());
+        var exposed=isNotUndefinedAndEmpty($("input[name='_exposed']:checked").val());
         var citizenship=$("select[name='_citizenship']").val() != "0";
-        var tel=$("input[name='_tel']").val()!="";
+        var tel=isNotUndefinedAndEmpty($("input[name='_tel']").val());
         tel?$("input[name='_tel']").addClass("is-valid"):$("input[name='_tel']").removeClass("is-valid");
-        var address=$("input[name='_address']").val()!="";
+        var address=isNotUndefinedAndEmpty($("input[name='_address']").val());
         address?$("input[name='_address']").addClass("is-valid"):$("input[name='_address']").removeClass("is-valid");
-        var city=$("input[name='_city']").val()!="";
+        var city=isNotUndefinedAndEmpty($("input[name='_city']").val());
         city?$("input[name='_city']").addClass("is-valid"):$("input[name='_city']").removeClass("is-valid");
-        var postcode=$("input[name='_postcode]").val()!="";
+        var postcode=isNotUndefinedAndEmpty($("input[name='_postcode]").val());
         postcode?$("input[name='_postcode']").addClass("is-valid"):$("input[name='_postcode']").removeClass("is-valid");
         var country=$("select[name='_country']").val() != "0";
         country?$("input[name='_country']").addClass("is-valid"):$("input[name='_country']").removeClass("is-valid");
@@ -297,13 +297,13 @@
         wallet?$("input[name='_wallet']").addClass("is-valid"):$("input[name='_wallet']").removeClass("is-valid");
         var eth=isNumber($("input[name='_eth']").val());
         eth?$("input[name='_eth']").addClass("is-valid"):$("input[name='_eth']").removeClass("is-valid");
-        var sourceOfFounds=$("input[name='_sourceOfFounds]").val()!=undefined;
+        var sourceOfFounds=isNotUndefinedAndEmpty($("input[name='_sourceOfFounds]").val());
         sourceOfFounds?$("input[name='_sourceOfFounds']").addClass("is-valid"):$("input[name='_sourceOfFounds']").removeClass("is-valid");
 
-        var file_id=$("input[name='_file_id]").val()!=undefined;
-        var file_photo=$("input[name='_file_photo]").val()!=undefined;
+        var file_id=isNotUndefinedAndEmpty($("input[name='_file_id]").val());
+        var file_photo=isNotUndefinedAndEmpty($("input[name='_file_photo]").val());
 
-        var policy=$("input[name='_policy']:checked").val() != undefined;
+        var policy=isNotUndefinedAndEmpty($("input[name='_policy']:checked").val());
         if(fn && ln &&
             us && exposed && citizenship &&
             tel && address && city && postcode && country &&
@@ -334,6 +334,13 @@
             processData: false
         });
     });
+
+    function isNotUndefinedAndEmpty(value) {
+        if ((undefined === value) || (null === value) || (value==="")) {
+            return false;
+        }
+        return true;
+    }
 
     function isNumber(value) {
         if ((undefined === value) || (null === value)) {
