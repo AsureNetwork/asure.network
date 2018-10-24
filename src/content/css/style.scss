@@ -1,5 +1,9 @@
 $link-color: #2877bd;
 
+[hidden] {
+  display: none !important;
+}
+
 @mixin line {
   background: inherit;
   content: '';

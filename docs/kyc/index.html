@@ -181,7 +181,7 @@
 </nav>
 
 <div>
-    <section class="blc-kyc bg-blue" id="kyc">
+    <section class="blc-news bg-blue" id="kyc">
     <div class="head">
         <h1 class="title hr">Asure KYC</h1>
     </div>
@@ -842,7 +842,7 @@
                         <label for="country-input" class="col-12 col-form-label">ETH address from which you will be contributing</label>
                         <div class="offset-4 col-8">
                             <span>Your tokens will be sent here</span>
-                            <input class="form-control" type="text" value="" id="wallet" placeholder="0x5c712391234113331451ab21f" name="_wallet">
+                            <input class="form-control" type="text" value="" id="wallet" placeholder="0xcbbc3d3d381f3a9a48cbae9ca701ac3c92e0aea5" name="_wallet">
                         </div>
                     </div>
 
@@ -874,7 +874,9 @@
                         </label>
                         <div class="offset-4 col-8">
                             <span>A photo of valid passport or national ID</span>
-                            <input type="file" id="file_id" name="_file_id">
+                            <label class="btn btn-primary form-control">
+                                UPLOAD ID PHOTO <input type="file" id="file_id" name="_file_id" hidden>
+                            </label>
                         </div>
                     </div>
 
@@ -885,14 +887,16 @@
                         <div class="offset-4 col-8">
                             <span>A photo of yourself holding a valid passport or national ID</span>
                             <img src="../content/img/kyc_photo.png" alt="kyc-photo sample" class="img img-responsive" style="width: 100%">
-                            - Stand in a well-lit space, where your face, piece of paper and/or ID
-                            are clearly visible, and the photo is focused.
-                            <br>
-                            - Do not tilt your piece of paper in such a way that the date is not visible.
-                            <br>
-                            - Do not obscure your face, piece of paper and/or ID.
-                            <br><br>
-                            <input type="file" id="file_photo" name="_file_photo">
+
+                            <ul>
+                                <li>Stand in a well-lit space, where your face, piece of paper and/or ID
+                                    are clearly visible, and the photo is focused.</li>
+                                <li>Do not tilt your piece of paper in such a way that the date is not visible.</li>
+                                <li>Do not obscure your face, piece of paper and/or ID.</li>
+                            </ul>
+                            <label class="btn btn-primary form-control">
+                                UPLOAD PHOTO <input type="file" id="file_photo" name="_file_photo" hidden>
+                            </label>
                         </div>
                     </div>
 
@@ -1217,7 +1221,7 @@
         address?$("input[name='_address']").addClass("is-valid"):$("input[name='_address']").removeClass("is-valid");
         var city=isNotUndefinedAndEmpty($("input[name='_city']").val());
         city?$("input[name='_city']").addClass("is-valid"):$("input[name='_city']").removeClass("is-valid");
-        var postcode=isNotUndefinedAndEmpty($("input[name='_postcode]").val());
+        var postcode=isNotUndefinedAndEmpty($("input[name='_postcode']").val());
         postcode?$("input[name='_postcode']").addClass("is-valid"):$("input[name='_postcode']").removeClass("is-valid");
         var country=$("select[name='_country']").val() != "0";
         country?$("input[name='_country']").addClass("is-valid"):$("input[name='_country']").removeClass("is-valid");
