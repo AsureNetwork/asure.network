@@ -432,21 +432,40 @@
             $("input[type='submit']").prop('disabled', true);
             $('.alert.alert-warning').show();
         }
+        //$("input[type='submit']").prop('disabled', false);
     });
     $("form#form-kyc").submit(function(e) {
+        $("input[type='submit']").prop('disabled', true);
         e.preventDefault();
         var formData = new FormData(this);
+
+        jQuery.support.cors = true;
 
         $.ajax({
             url: "https://kyc.echtnice.com",
             type: 'POST',
+            dataType : "json",
+            contentType: false,
             data: formData,
+            crossDomain: true,
             success: function (data) {
+                if(data.status=="true") {
+                    $('.alert.alert-success').show().delay(5000).hide(1);//success
+                }else{
+                    $('.alert.alert-warning').show(); // error
+                    $('.alert.alert-warning span.error-list').html("");
+                    if(data.errors) {
+                        var data_errors=JSON.parse(data.errors);
+                        $('.alert.alert-warning p.error-list').html(data_errors.map(x => x +"<br/>"));
+                    }
+                }
+                $("input[type='submit']").prop('disabled', false);
                 $(".form").trigger("reset");
-                $('.alert.alert-success').show().delay(5000).hide(1);
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                $("input[type='submit']").prop('disabled', false);
             },
             cache: false,
-            contentType: false,
             processData: false
         });
     });
