@@ -1759,3 +1759,18 @@ table.dist {
 div.container.kyc label.col-form-label{
   font-weight: bold;
 }
+
+div.container.staking-calculator{
+  .form-group{
+    padding: 5px;
+    label{
+      margin-bottom: 0rem;
+    }
+  }
+  .form-group.disabled{
+    background-color: #e9ecef;
+    input{
+      border: 0;
+    }
+  }
+}
