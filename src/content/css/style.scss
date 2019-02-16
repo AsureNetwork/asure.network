@@ -510,7 +510,7 @@ div.tab-content {
 .bg-dark {
   background: #241302;
   h1 {
-    color: #c17726 !important;
+    color: #ddd !important;
   }
   p, div, li {
     color: #ddd !important;
@@ -669,6 +669,10 @@ div.tab-content {
       padding-top: 100px;
     }
   }
+  .content-block .row{
+    margin-bottom: 10px;
+    padding: 15px 0px 15px 0px;
+  }
 }
 
 .blc-one, .blc-three {
@@ -752,7 +756,9 @@ div.tab-content {
     text-align: center;
 
     img {
-      max-height: 62px;
+      max-height: 75px;
+      opacity: 0.5;
+      filter: invert(1);
     }
   }
 }
