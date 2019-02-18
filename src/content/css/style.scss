@@ -1,4 +1,6 @@
 $link-color: #2877bd;
+$title-color: #69acd6;
+$hero-title-color: #62381b;
 
 [hidden] {
   display: none !important;
@@ -263,6 +265,14 @@ section {
   background: #fff;
 }
 
+.bg-white-green {
+  background: #e5ece3;
+}
+
+.bg-white-blue {
+  background: #f0f8ff;
+}
+
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link, .nav-tabs .nav-link.active {
   border-radius: 0px;
   text-transform: uppercase;
@@ -292,11 +302,11 @@ div.tab-content {
 }
 
 .blc-hero {
-  //background-color: #000000;
+  /*background-color: #000000;*/
   height: 100vh;
-  @media (max-width: 1024px) {
+  /*@media (max-width: 1024px) {
     height: 150vh;
-  }
+  }*/
   @media (min-width: 1024px) {
     div.intro {
       /*padding: 100px 20px 0px 20px;*/
@@ -318,7 +328,7 @@ div.tab-content {
     border-bottom: 0.1px solid #efefef;
 
     @media (max-width: 1024px) {
-      height: 150vh;
+      height: 100vh;
     }
 
     /*
@@ -376,13 +386,13 @@ div.tab-content {
     h1 {
       font-weight: 100;
       font-size: 40px;
-      color: #ddd;
+      color: $hero-title-color;
       text-shadow: 0px 0px 20px #ddd;
 
     }
     h2 {
       font-weight: 100;
-      color: #ddd;
+      color: $hero-title-color;
       text-shadow: 0px 0px 20px #ddd;
       text-transform: uppercase;
       font-size: 24px !important;
@@ -418,7 +428,7 @@ div.tab-content {
     margin-bottom: 10px;
     padding-bottom: 0px;
     font-size: 40px;
-    color: #444; //#69acd6; //#444444;
+    color: $title-color; //#69acd6; //#444444;
     font-weight: 100;
   }
   h1.title.white {
@@ -558,12 +568,18 @@ div.tab-content {
 }
 
 .bg-blue {
-  background: #a6cbd8;
+  //background: #a6cbd8;
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #a6cbd8 100%);
 }
 
 .bg-green {
   background: #b3d8b9;
 }
+
+.bg-full-green {
+  background: #339790;
+}
+
 
 .bg-green-gray {
   background: #95adaa;
@@ -638,7 +654,7 @@ div.tab-content {
 
 .social-header {
   a {
-    color: #ddd;
+    color: #69acd6;
     font-size: 25px;
     text-decoration: none;
     &:hover {
@@ -751,7 +767,7 @@ div.tab-content {
   }
 
   .inverted .image {
-    width: 220px;
+
     margin: 0 auto;
     padding: 15px 0;
     text-align: center;
@@ -762,7 +778,7 @@ div.tab-content {
     }
   }
   .image {
-    width: 220px;
+
     margin: 0 auto;
     padding: 15px 0;
     text-align: center;
@@ -773,8 +789,7 @@ div.tab-content {
   }
 }
 
-.blc-ico {
-  background-color: #f5f6fa;
+.blc-tge {
   padding: 80px 0;
 }
 
@@ -1069,7 +1084,7 @@ div.tab-content {
 }
 
 .blc-about {
-  padding: 80px 0 20px;
+  padding: 80px 0 80px;
 
   .about {
     .item {
@@ -1627,7 +1642,9 @@ blockquote {
 .gray {
   color: #444;
 }
-
+.light-gray{
+  color: #eee;
+}
 .red {
   color: #e91f62;
 }
@@ -1638,6 +1655,10 @@ blockquote {
 
 .bg-red {
   background-color: #e91f62;
+}
+
+.bg-dark-blue {
+  background-color: #002044;
 }
 
 .bg-color1 {
@@ -1804,4 +1825,8 @@ div.container.staking-calculator {
       border: 0;
     }
   }
+}
+
+.padding-top-100 {
+  padding-top: 100px;
 }
