@@ -35,6 +35,11 @@
         "url": "#roadmap",
         "urlSegment": ""
       },
+      "partners": {
+        "title": "Partners",
+        "url": "#partners",
+        "urlSegment": ""
+      },
       "contacts": {
         "title": "Contact",
         "url": "#contacts",
