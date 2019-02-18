@@ -298,12 +298,12 @@ div.tab-content {
     height: 150vh;
   }
   @media (min-width: 1024px) {
-    div.intro{
+    div.intro {
       /*padding: 100px 20px 0px 20px;*/
     }
 
   }
-  div.intro iframe{
+  div.intro iframe {
     border: #444 solid 1px;
   }
   &__background {
@@ -635,7 +635,8 @@ div.tab-content {
   //background: #69acd6;
   @include add;
 }
-.social-header{
+
+.social-header {
   a {
     color: #ddd;
     font-size: 25px;
@@ -669,7 +670,7 @@ div.tab-content {
       padding-top: 100px;
     }
   }
-  .content-block .row{
+  .content-block .row {
     margin-bottom: 10px;
     padding: 15px 0px 15px 0px;
   }
@@ -749,6 +750,17 @@ div.tab-content {
     text-align: center;
   }
 
+  .inverted .image {
+    width: 220px;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+
+    img {
+      opacity: 0.5;
+      filter: invert(1);
+    }
+  }
   .image {
     width: 220px;
     margin: 0 auto;
@@ -757,8 +769,6 @@ div.tab-content {
 
     img {
       max-height: 75px;
-      opacity: 0.5;
-      filter: invert(1);
     }
   }
 }
@@ -1706,14 +1716,14 @@ table.dist {
   }
 }
 
-.call-to-action a img:hover{
-  -webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+.call-to-action a img:hover {
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.75);
   border-radius: 8px;
 }
 
-.carousel-indicators li{
+.carousel-indicators li {
   cursor: pointer;
 }
 
@@ -1754,6 +1764,7 @@ table.dist {
   padding: 0;
   overflow: hidden;
 }
+
 .embed-responsive .embed-responsive-item,
 .embed-responsive iframe,
 .embed-responsive embed,
@@ -1767,27 +1778,29 @@ table.dist {
   height: 100%;
   border: 0;
 }
+
 .embed-responsive-16by9 {
   padding-bottom: 56.25%;
 }
+
 .embed-responsive-4by3 {
   padding-bottom: 75%;
 }
 
-div.container.kyc label.col-form-label{
+div.container.kyc label.col-form-label {
   font-weight: bold;
 }
 
-div.container.staking-calculator{
-  .form-group{
+div.container.staking-calculator {
+  .form-group {
     padding: 5px;
-    label{
+    label {
       margin-bottom: 0rem;
     }
   }
-  .form-group.disabled{
+  .form-group.disabled {
     background-color: #e9ecef;
-    input{
+    input {
       border: 0;
     }
   }
