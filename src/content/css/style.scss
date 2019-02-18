@@ -156,6 +156,25 @@ $hero-title-color: #62381b;
   border-color: #146492 !important;
 }
 
+.btn-action {
+  background-color: #e2324b;
+  border-color: #cd3249;
+  color: #fff;
+
+  &.disabled, &:disabled, &.disabled:hover, &:disabled:hover {
+    background-color: #999999 !important;
+    border-color: #444444 !important;
+  }
+}
+
+.btn-action:hover {
+  color: #fff;
+  background-color: #eb334c !important;
+  border-color: #cd3249 !important;
+}
+
+
+
 .head {
   .sub {
     text-transform: uppercase;
@@ -573,7 +592,11 @@ div.tab-content {
 }
 
 .bg-green {
-  background: #b3d8b9;
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #b3d8b9 100%);
+}
+
+.bg-gradient-green {
+  background: -webkit-radial-gradient(center, ellipse cover, #75cdc8 0%, #339790 100%);
 }
 
 .bg-full-green {
@@ -1825,6 +1848,10 @@ div.container.staking-calculator {
       border: 0;
     }
   }
+}
+
+.padding-top-20 {
+  padding-top: 20px;
 }
 
 .padding-top-100 {
