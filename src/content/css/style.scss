@@ -710,9 +710,10 @@ div.tab-content {
     }
   }
   .content-block .row {
-    margin-bottom: 10px;
+    margin: 0 5px 10px 5px;
     padding: 15px 0px 15px 0px;
   }
+
 }
 
 .blc-one, .blc-three {
@@ -814,6 +815,16 @@ div.tab-content {
 
 .blc-tge {
   padding: 80px 0;
+
+  h2 {
+    font-size: 26px;
+    color: #444;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    @media (max-width: 768px) {
+      padding-top: 30px;
+    }
+  }
 }
 
 .flip-container {
@@ -992,12 +1003,12 @@ div.tab-content {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 
   .team, .investor {
-    margin: 0 30px 60px;
+    margin: 0 30px 40px;
     text-align: center;
 
     img {
       //border-radius: 10px;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
       -webkit-filter: grayscale(100%); /* Chrome, Opera, Safari  */
       filter: grayscale(100%);
       border: 1px solid #888;
@@ -1010,7 +1021,7 @@ div.tab-content {
 
     .name {
       font-size: 16px;
-      margin-bottom: 5px;
+      margin-bottom: 0px;
       font-weight: bold;
     }
   }
@@ -1448,7 +1459,6 @@ blockquote {
 
   h2 {
     font-size: 26px;
-    font-weight: 800;
     color: #444;
     margin-bottom: 10px;
     text-transform: uppercase;
