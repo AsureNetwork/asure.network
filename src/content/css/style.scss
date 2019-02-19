@@ -135,9 +135,6 @@ $hero-title-color: #62381b;
   color: #ffffff;
 }
 
-.blc-footer a, .social a {
-  text-decoration: none;
-}
 
 .btn-primary {
   background-color: #69acd6;
@@ -265,7 +262,7 @@ section {
 }
 
 .brand {
-  font-size: 18px;
+  font-size: 1.1rem;
   color: #444;
   font-weight: 100;
 }
@@ -279,6 +276,7 @@ section {
 
   .nav-link {
     font-weight: 100;
+    font-size: 1.1rem;
   }
 
   // make menu line up with social media buttons
@@ -748,10 +746,20 @@ div.tab-content {
   color: #ababa9;
 
   .brand {
-    img {
-      width: 50px;
+    font-size: 1.1rem;
+    color: #84878a;
+    font-weight: 100;
+    text-transform: uppercase;
+    span{
+      padding: 15px 0 15px 0;
+      display: block;
+    }
+    img{
+      filter:invert(1);
+      width: 64px;
     }
   }
+
 
   .title {
     font-size: 18px;
@@ -766,6 +774,7 @@ div.tab-content {
 
     a {
       color: #ababa9;
+      text-decoration: none;
     }
   }
 }
@@ -777,6 +786,7 @@ div.tab-content {
     font-size: 28px;
     margin-right: 5px;
     color: #444444;
+    text-decoration: none;
 
     &:hover {
       color: $link-color;
@@ -1603,10 +1613,11 @@ blockquote {
 #footer {
   background-color: #192028;
   height: 140px;
-  line-height: 80px;
+  line-height: 25px;
   color: #999999;
-  font-size: 14px;
+  font-size: 1.0rem;
   text-align: center;
+  padding: 50px 0 50px 0;
 }
 
 @media (max-width: 768px) {
@@ -1887,4 +1898,8 @@ div.container.staking-calculator {
 
 .padding-top-100 {
   padding-top: 100px;
+}
+
+.border-left-gray{
+  border-left: 1px solid #444;
 }
