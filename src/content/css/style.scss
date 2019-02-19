@@ -171,7 +171,6 @@ $hero-title-color: #62381b;
 }
 
 
-
 .head {
   .sub {
     text-transform: uppercase;
@@ -213,6 +212,7 @@ a:hover, a:active {
 
 ul {
   list-style-position: inside;
+
   &.ul {
     list-style: inside square;
   }
@@ -245,6 +245,7 @@ i.telegram {
   border-radius: 64px !important;
   padding: 2px 5px 0 0;
   text-align: center;
+
   &:hover {
     background-color: #159cd1;
     color: #fff;
@@ -288,7 +289,7 @@ section {
   }
 
   // make menu line up with social media buttons
-  .nav-item:last-child > .nav-link{
+  .nav-item:last-child > .nav-link {
     padding-right: 0;
   }
 }
@@ -338,7 +339,6 @@ div.tab-content {
 }
 
 
-
 .blc-hero {
   /*background-color: #000000;*/
   height: 100vh;
@@ -364,6 +364,7 @@ div.tab-content {
   div.intro iframe {
     border: #444 solid 1px;
   }
+
   &__background {
     position: absolute;
     top: 0;
@@ -431,6 +432,7 @@ div.tab-content {
         font-size: 24px !important;
       }
     }
+
     h1 {
       font-weight: 100;
       font-size: 40px;
@@ -438,6 +440,7 @@ div.tab-content {
       text-shadow: 0px 0px 20px #ddd;
 
     }
+
     h2 {
       font-weight: 100;
       color: $hero-title-color;
@@ -469,6 +472,7 @@ div.tab-content {
 .head {
   text-align: center;
   margin-bottom: 50px;
+
   h1.title {
     @include hr;
     text-transform: uppercase;
@@ -479,6 +483,7 @@ div.tab-content {
     color: $title-color; //#69acd6; //#444444;
     font-weight: 100;
   }
+
   h1.title.white {
     //@include hrwhite;
     color: #fff;
@@ -539,9 +544,11 @@ div.tab-content {
   padding: 80px 0 40px;
 
   background: #fbfbfb;
+
   .row.row-padding {
     padding: 30px 0 30px;
   }
+
   .features {
     .title {
       font-weight: bold;
@@ -549,6 +556,7 @@ div.tab-content {
       text-transform: uppercase;
       margin-bottom: 15px;
     }
+
     .item {
       border: 1px solid #eeeeee;
       text-align: center;
@@ -568,9 +576,11 @@ div.tab-content {
 
 .bg-dark {
   background: #241302;
+
   h1 {
     color: #ddd !important;
   }
+
   p, div, li {
     color: #ddd !important;
   }
@@ -651,6 +661,7 @@ div.tab-content {
       text-transform: uppercase;
       margin-bottom: 15px;
     }
+
     .item {
       border: 1px solid #eeeeee;
       text-align: center;
@@ -683,6 +694,7 @@ div.tab-content {
       text-transform: uppercase;
       margin-bottom: 15px;
     }
+
     .item {
       border: 1px solid #eeeeee;
       text-align: center;
@@ -711,6 +723,7 @@ div.tab-content {
     font-size: 25px;
     padding-left: 5px;
     text-decoration: none;
+
     &:hover {
       color: $link-color;
       text-decoration: none;
@@ -724,6 +737,7 @@ div.tab-content {
       color: #444;
     }
   }
+
   @include add;
 
   p {
@@ -740,6 +754,7 @@ div.tab-content {
       padding-top: 100px;
     }
   }
+
   .content-block .row {
     margin: 0 5px 10px 5px;
     padding: 15px 0px 15px 0px;
@@ -768,12 +783,14 @@ div.tab-content {
     color: #84878a;
     font-weight: 100;
     text-transform: uppercase;
-    span{
+
+    span {
       padding: 15px 0 15px 0;
       display: block;
     }
-    img{
-      filter:invert(1);
+
+    img {
+      filter: invert(1);
       width: 64px;
     }
   }
@@ -800,6 +817,7 @@ div.tab-content {
 .social {
   padding-top: 50px;
   text-align: center;
+
   a {
     font-size: 28px;
     margin-right: 5px;
@@ -850,6 +868,7 @@ div.tab-content {
       filter: invert(1);
     }
   }
+
   .image {
 
     margin: 0 auto;
@@ -890,6 +909,7 @@ div.tab-content {
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
   }
+
   -webkit-transition: 0.6s;
   -webkit-transform-style: preserve-3d;
 
@@ -1720,9 +1740,11 @@ blockquote {
 .gray {
   color: #444;
 }
-.light-gray{
+
+.light-gray {
   color: #eee;
 }
+
 .red {
   color: #e91f62;
 }
@@ -1781,6 +1803,7 @@ blockquote {
 
 table.dist {
   height: 60px;
+
   td {
     text-align: center;
     padding: 15px;
@@ -1845,6 +1868,7 @@ table.dist {
 
   .language-switch-mobile {
     width: 100%;
+
     .navbar-nav {
       flex-direction: row;
       justify-content: center;
@@ -1893,12 +1917,15 @@ div.container.kyc label.col-form-label {
 div.container.staking-calculator {
   .form-group {
     padding: 5px;
+
     label {
       margin-bottom: 0rem;
     }
   }
+
   .form-group.disabled {
     background-color: #e9ecef;
+
     input {
       border: 0;
     }
@@ -1917,8 +1944,13 @@ div.container.staking-calculator {
   }
 }
 
-.border-left-gray{
-  border-left: 1px solid #444;
+.border-left-gray {
+  @media (max-width: 767px) {
+    border-top: 1px solid #444;
+  }
+  @media (min-width: 768px) {
+    border-left: 1px solid #444;
+  }
 }
 
 
