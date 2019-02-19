@@ -489,15 +489,16 @@ div.tab-content {
   animation: fadein2 250ms ease-out 4s forwards;
 
   .navbar-cookies {
-    background-color: #f7f7f7;
-    //border-top: 2px solid #e61664;
+    background-color: #1f252c;
+    border-bottom: none;
+    color: #fff;
 
     .container {
-      font-size: 0.8em;
-    }
+      font-size: 1rem;
 
-    p {
-      margin: 0;
+      .row {
+        width: 100%;
+      }
     }
   }
 
