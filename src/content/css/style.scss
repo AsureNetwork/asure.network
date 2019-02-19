@@ -264,12 +264,14 @@ section {
   border-radius: 0;
 }
 
-.blc-navbar {
+.brand {
+  font-size: 18px;
+  color: #444;
+  font-weight: 100;
+}
 
+.blc-navbar {
   .navbar-brand {
-    font-size: 18px;
-    color: #444;
-    font-weight: 100;
     img {
       max-height: 32px;
     }
@@ -731,6 +733,12 @@ div.tab-content {
   //padding-top: 80px;
   padding-bottom: 30px;
   color: #ababa9;
+
+  .brand {
+    img {
+      width: 50px;
+    }
+  }
 
   .title {
     font-size: 18px;
