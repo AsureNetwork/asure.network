@@ -94,13 +94,6 @@
                 
                 <li class="nav-item">
                     <a class="nav-link "
-                       href="#solutions">
-                        Solutions
-                    </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link "
                        href="#team">
                         Team
                     </a>
@@ -417,7 +410,7 @@ provided with this package.</p>
         var self = this;
 
         self.registerEvents = function () {
-            $('.navbar-cookies a#acceptCookiePolicy').click(self.acceptCookies);
+            $('.navbar-cookies #acceptCookiePolicy').click(self.acceptCookies);
         };
 
         self.acceptCookies = function () {
