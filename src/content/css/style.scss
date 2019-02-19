@@ -204,7 +204,11 @@ b {
 
 a {
   color: $link-color;
-  font-weight: 500;
+  font-weight: normal;
+}
+
+a:hover, a:active {
+  text-decoration: none;
 }
 
 ul {
@@ -246,6 +250,10 @@ i.telegram {
     color: #fff;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
   }
+}
+
+.text-uppercase {
+  text-transform: uppercase;
 }
 
 section {
@@ -1905,6 +1913,10 @@ div.container.staking-calculator {
 
 .padding-top-100 {
   padding-top: 100px;
+
+  @media (max-width: 768px) {
+    padding-top: 20px !important;
+  }
 }
 
 .border-left-gray{
