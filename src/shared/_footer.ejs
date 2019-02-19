@@ -3,29 +3,15 @@
         <%- partial("_social_row") %>
 
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3 links text-center">
                 <p class="brand">
-                    <img src="logo/asure-logo.svg" alt="ASURE LOGO" style="width: 60px;"> Asure.Network
+                    <img src="logo/asure.black64x64.png" alt="ASURE LOGO" style="width: 64px;">
+                    <span>Asure.Network</span>
                 </p>
-
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci at consectetur,
-                cupiditate deserunt dolores fugit, incidunt iste itaque, iure laboriosam magnam neque perferendis quae qui rem repellat repudiandae voluptatem?
-            </div>
-            <div class="col-md-4 links">
-                <div class="title">HOME</div>
+                <p style="display: none">
+                    A scalable blockchain network for decentralized social security use-cases.
+                </p>
                 <ul>
-                    <li>
-                        <a href="<%= fixUrl(current.path, '#about') %>">About</a>
-                    </li>
-                    <li>
-                        <a href="<%= fixUrl(current.path, '#solutions') %>">Solutions</a>
-                    </li>
-                    <li>
-                        <a href="<%= fixUrl(current.path, '#team') %>">Team</a>
-                    </li>
-                    <li>
-                        <a href="<%= fixUrl(current.path, '#roadmap') %>">Roadmap</a>
-                    </li>
                     <li>
                         <a href="<%= fixUrl(current.path, 'imprint/') %>">Imprint</a>
                     </li>
@@ -33,20 +19,54 @@
                         <a href="<%= fixUrl(current.path, 'dataprivacy-policy/') %>">Data Privacy Policy</a>
                     </li>
                 </ul>
+
             </div>
-            <div class="col-md-4" id="contacts">
+            <div class="col-md-3 links border-left-gray">
+                <div class="title">MENU</div>
+                <ul>
+                    <li>
+                        <a href="<%= fixUrl(current.path, '#about') %>">About</a>
+                    </li>
+                    <li>
+                        <a href="<%= fixUrl(current.path, '#tge') %>">TGE</a>
+                    </li>
+                    <li>
+                        <a href="<%= fixUrl(current.path, '#news') %>">Media</a>
+                    </li>
+                    <li>
+                        <a href="<%= fixUrl(current.path, '#team') %>">Team</a>
+                    </li>
+                    <li>
+                        <a href="<%= fixUrl(current.path, '#roadmap') %>">Roadmap</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 links border-left-gray">
+                <div class="title">DOWNLOAD</div>
+                <ul>
+                    <li>
+                        <a href="<%= fixUrl(current.path, '/asure.network.whitepaper.en.pdf') %>">Whitepaper</a>
+                    </li>
+                    <li>
+                        <a href="<%= fixUrl(current.path, '/asure.network.tge.en.pdf') %>">TGE Paper</a>
+                    </li>
+                    <li>
+                        <a href="<%= fixUrl(current.path, '/asure.network.investordeck.en.pdf') %>">Pitchdeck</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 border-left-gray" id="contacts">
                 <div class="title">CONTACT</div>
                 <div class="address">
-                    <p>
+                    <p style="display: none">
                         Asure Foundation<br/>
                         c/o Immobörse GmbH<br/>
                         Baarerstrasse 112<br/>
                         6300 Zug, Switzerland<br/>
                     </p>
 
-                    <p>
-                        <br> E-Mail: info(at)asure.io
-                    </p>
+                    E-Mail: info(at)asure.io
+
                 </div>
 
 
@@ -60,11 +80,12 @@
 <footer id="footer">
     <div class="copyright">
         &copy; 2018 Asure Foundation — Made with
-        <i class="fa fa-heart fa-beat red"></i> in Switzerland
+        <i class="fa fa-heart fa-beat red"></i> in Switzerland <br/>
+        The Asure Foundation is incorporated in Zug, Switzerland
     </div>
 </footer>
 
 <nav class="navbar-footer fixed-bottom">
-<%- partial("_cookies") %>
-<%/* partial("_social-navbar") */%>
+    <%- partial("_cookies") %>
+    <%/* partial("_social-navbar") */%>
 </nav>
