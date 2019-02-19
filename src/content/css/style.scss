@@ -276,6 +276,11 @@ section {
       max-height: 32px;
     }
   }
+
+  // make menu line up with social media buttons
+  .nav-item:last-child > .nav-link{
+    padding-right: 0;
+  }
 }
 
 .navbar {
@@ -321,6 +326,8 @@ div.tab-content {
     color: #c8001e;
   }*/
 }
+
+
 
 .blc-hero {
   /*background-color: #000000;*/
@@ -681,6 +688,7 @@ div.tab-content {
   a {
     color: #69acd6;
     font-size: 25px;
+    padding-left: 5px;
     text-decoration: none;
     &:hover {
       color: $link-color;

@@ -44,11 +44,6 @@
         "title": "Contact",
         "url": "#contacts",
         "urlSegment": ""
-      },
-      "blog": {
-        "title": "Blog",
-        "url": "https://medium.com/AsureNetwork",
-        "urlSegment": ""
       }
     }
   }
