@@ -20,11 +20,6 @@
         "url": "#news",
         "urlSegment": ""
       },
-      "solutions": {
-        "title": "Solutions",
-        "url": "#solutions",
-        "urlSegment": ""
-      },
       "team": {
         "title": "Team",
         "url": "#team",
