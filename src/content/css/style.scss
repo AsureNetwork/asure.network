@@ -1910,3 +1910,18 @@ div.container.staking-calculator {
 .border-left-gray{
   border-left: 1px solid #444;
 }
+
+
+.animate-move-up-down {
+  animation: move-up-down 2s linear infinite;
+  position: absolute;
+}
+
+@keyframes move-up-down {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 10px;
+  }
+}
