@@ -343,6 +343,16 @@ div.tab-content {
     }
 
   }
+
+  .scroll-down {
+    position: absolute;
+    bottom: 20px;
+    margin: 0 50%;
+    font-size: 50px;
+    right: -25px;
+    color: #63acd3;
+  }
+
   div.intro iframe {
     border: #444 solid 1px;
   }
