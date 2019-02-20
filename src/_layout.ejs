@@ -226,7 +226,9 @@
                     var currLink = $(this);
 
                     var refElement = $(currLink[0].hash);
-                    if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() + 75 > scrollPos) {
+                    var isActive = refElement.position().top - 5 <= scrollPos && refElement.position().top + refElement.height() + 75 > scrollPos;
+                    //console.log(`onScroll: ${currLink[0].hash}, top: ${refElement.position().top} bottom: ${refElement.position().top + refElement.height() + 75}, scrollPos: ${scrollPos}, isActive: ${isActive}`);
+                    if (isActive) {
                         $('.blc-navbar .navbar-nav a[href*="#"]:not([href="#"])').removeClass("active");
                         currLink.addClass("active");
                     }
@@ -240,7 +242,7 @@
                 $(document).on("scroll", onScroll);
 
                 // Smooth scrolling. From https://css-tricks.com/snippets/jquery/smooth-scrolling/#comment-197181
-                $('.blc-navbar .navbar-nav a[href*="#"]:not([href="#"])').click(function (e) {
+                $('a.scroll-animation[href*="#"]:not([href="#"])').click(function (e) {
                     if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') || location.hostname === this.hostname) {
                         e.preventDefault();
 
