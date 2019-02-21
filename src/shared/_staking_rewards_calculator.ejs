@@ -1,14 +1,110 @@
-<section class="blc-news bg-white" id="about">
+<section class="blc-news bg-green" id="about">
     <div class="head">
         <h1 class="title hr">Staking Rewards Calculator</h1>
-    </div>
-    <form novalidate="novalidate" id="form">
-        <div class="container staking-calculator">
         <div class="row">
-            <div class="col-md-12 content-block">
-                <h2 class="title"></h2>
-                <p></p>
+            <div class="offset-md-2 col-md-8 justify">
+                The token will be used for On-Chain Governance and by Network Validators as well as Service Providers to
+                participate as stakers in the proof-of-stake consensus mechanisms of the Asure network.
             </div>
+
+        </div>
+
+    </div>
+
+    <div class="container staking-calculator">
+
+        <form novalidate="novalidate" id="form">
+            <div class="row padding-top-20">
+                <div class="col-md-12 content-block text-center">
+                    <h3>Expected rewards</h3>
+                </div>
+                <div class="col-md-4">
+                    <h3 id="perDay"></h3>
+                </div>
+                <div class="col-md-4">
+                    <h3 id="perMonth"></h3>
+                </div>
+                <div class="col-md-4">
+                    <h3 id="perYear"></h3>
+                </div>
+            </div>
+
+            <div class="row padding-top-20">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="disabledTextInput">Tokens you're staking</label>
+                        <input type="number" value="0" id="ownTokensStaking" class="form-control" placeholder="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="disabledTextInput">Tokens staked</label>
+                        <input type="number" value="0" id="totalTokensStaked" class="form-control" placeholder="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group disabled">
+                        <label for="disabledTextInput">Average Token staked</label>
+                        <input type="number" value="0" id="avgTokensStaked" class="form-control"
+                               placeholder="Disabled input" disabled="disabled">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="disabledTextInput">Daily transaction volume</label>
+                        <input type="number" value="0" id="dalilyTransactionVolume" class="form-control" placeholder="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="disabledTextInput">Average transaction size</label>
+                        <input type="number" value="0" id="avgTransactionSize" class="form-control" placeholder="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group disabled">
+                        <label for="disabledTextInput">Average transactions per day</label>
+                        <input type="number" value="0" id="avgTransactionDay" class="form-control"
+                               placeholder="Disabled input" disabled="disabled">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="disabledTextInput">Base flat fee</label>
+                        <input type="number" value="0" id="baseFlatFee" class="form-control" placeholder="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="disabledTextInput">Percentage fee</label>
+                        <input type="number" value="0" id="percentageFee" class="form-control" placeholder="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group disabled">
+                        <label for="disabledTextInput">Average fees paid per day</label>
+                        <input type="number" value="0" id="avgFeesPaidDay" class="form-control"
+                               placeholder="Average fees paid per day" disabled="disabled">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 content-block">
+                    <input type="button" value="RESET VALUES" name="subscribe" class="btn btn-primary mb-2"
+                           onclick="resetValues()">
+                </div>
+            </div>
+
+            <!--
+        <div class="row">
+
             <div class="col-md-4">
 
                 <div class="form-group">
@@ -27,12 +123,13 @@
 
                 <div class="form-group">
                     <label for="disabledTextInput">Average transaction size</label>
-                    <input type="number" value="0" id="avgTransactionSize" class="form-control" placeholder="" >
+                    <input type="number" value="0" id="avgTransactionSize" class="form-control" placeholder="">
                 </div>
 
                 <div class="form-group disabled">
                     <label for="disabledTextInput">Average transactions per day</label>
-                    <input type="number" value="0" id="avgTransactionDay" class="form-control" placeholder="Disabled input" disabled="disabled">
+                    <input type="number" value="0" id="avgTransactionDay" class="form-control"
+                           placeholder="Disabled input" disabled="disabled">
                 </div>
             </div>
             <div class="col-md-4">
@@ -46,7 +143,8 @@
                 </div>
                 <div class="form-group disabled">
                     <label for="disabledTextInput">Average fees paid per day</label>
-                    <input type="number" value="0" id="avgFeesPaidDay" class="form-control" placeholder="Average fees paid per day" disabled="disabled">
+                    <input type="number" value="0" id="avgFeesPaidDay" class="form-control"
+                           placeholder="Average fees paid per day" disabled="disabled">
                 </div>
 
             </div>
@@ -58,9 +156,31 @@
                 <h3 id="perYear"></h3> <br/>
             </div>
             <div class="col-md-12 content-block">
-                <input  type="button" value="RESET VALUES" name="subscribe" class="btn btn-primary mb-2" onclick="resetValues()">
+                <input type="button" value="RESET VALUES" name="subscribe" class="btn btn-primary mb-2"
+                       onclick="resetValues()">
+            </div>
+        </div>
+        -->
+        </form>
+
+        <div class="row padding-top-20">
+            <div class="col-md-4 justify">
+                <h4>Governance:</h4>
+                On-Chain governance is crucial. ASR token holders will be able to govern the Asure blockchain,
+                network, and vote over future improvements.
+            </div>
+            <div class="col-md-4 justify">
+                <h4>Network validators:</h4>
+                Validators need to stake ASR tokens to validate transactions
+                within the Asure network. In return, the network validators receive the networks transaction fees in
+                the form of ASR as an incentive for validating correct blocks.
+            </div>
+            <div class="col-md-4 justify">
+                <h4>Service providers:</h4>
+                The ASR token serves as an incentive for service providers within the Asure platform to work
+                correctly and as advertised within their SLA’s.
             </div>
         </div>
     </div>
-    </form>
+
 </section>
