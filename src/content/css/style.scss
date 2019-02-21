@@ -140,7 +140,6 @@ $hero-title-color: #62381b;
   color: #ffffff;
 }
 
-
 .btn-primary {
   background-color: #69acd6;
   border-color: #146492;
@@ -174,7 +173,6 @@ $hero-title-color: #62381b;
   background-color: #eb334c !important;
   border-color: #cd3249 !important;
 }
-
 
 .head {
   .sub {
@@ -342,7 +340,6 @@ div.tab-content {
     color: #c8001e;
   }*/
 }
-
 
 .blc-hero {
   /*background-color: #000000;*/
@@ -644,9 +641,6 @@ div.tab-content {
   background: radial-gradient(#69c8c3, #339790);
 }
 
-
-
-
 .bg-green-gray {
   background: #95adaa;
 }
@@ -832,7 +826,6 @@ div.tab-content {
     }
   }
 
-
   .title {
     font-size: 18px;
     margin-bottom: 34px;
@@ -946,7 +939,6 @@ div.tab-content {
 
   transition: 0.6s;
   transform-style: preserve-3d;
-
 
   .front, .back {
     backface-visibility: hidden;
@@ -1589,7 +1581,17 @@ blockquote {
     }
   }
 
-  .partners, .marketing {
+  .partners {
+    .grp .in {
+      background-color: #f15c27;
+    }
+
+    .parcent, .summ {
+      color: #f15c27;
+    }
+  }
+
+  .marketing, .family {
     .grp .in {
       background-color: #B59439;
     }
@@ -1790,7 +1792,7 @@ blockquote {
 }
 
 .bg-color7 {
-  background-color: #5bfb56;
+  background-color: #f15c27;
 }
 
 .small-text {
@@ -1957,7 +1959,6 @@ div.container.staking-calculator {
   }
 }
 
-
 .animate-move-up-down {
   animation: move-up-down 2s linear infinite;
   position: absolute;
@@ -1972,6 +1973,6 @@ div.container.staking-calculator {
   }
 }
 
-.form-error{
+.form-error {
   border: 1px solid #f00;
 }
