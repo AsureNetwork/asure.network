@@ -200,6 +200,10 @@ body {
   font-weight: 100;
 }
 
+.popover{
+  border-radius: 0px !important;
+}
+
 b {
   font-weight: 500;
 }
@@ -631,8 +635,15 @@ div.tab-content {
 .bg-blue, bg-gradient-blue {
   background: radial-gradient(#ffffff, #bfe6ff);
 }
+.bg-light-green {
+  background-color: #b6ebe9;
+}
 
-.bg-green, .bg-gradient-green {
+.bg-green{
+  background-color: #69c8c3; //#6fcbc6;
+}
+
+.bg-gradient-green {
   /*background: radial-gradient(#ffffff, #b3d8b9);*/
   background: radial-gradient(#d1f8f6, #69c8c3);
 }
@@ -1930,16 +1941,22 @@ div.container.staking-calculator {
   }
 
   .form-group.disabled {
-    background-color: #e9ecef;
+    background-color: #69c8c3;
+    padding-bottom: 0px;
 
     input {
       border: 0;
+      background-color: #69c8c3;
     }
   }
 }
 
 .padding-top-20 {
   padding-top: 20px;
+}
+
+.padding-bottom-20 {
+  padding-bottom: 20px;
 }
 
 .padding-top-100 {

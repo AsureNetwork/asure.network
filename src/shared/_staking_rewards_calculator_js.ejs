@@ -1,5 +1,10 @@
 <script src="http://afarkas.github.io/webshim/js-webshim/minified/polyfiller.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script>
+
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    });
 
     $("input").keyup(rewards);
     $("input").change(rewards);
@@ -46,9 +51,9 @@
         $("#avgTransactionDay").val(dailyTx);
         //TODO: Average fees paid per day
 
-        $("#perDay").text("$ " + (Math.round(daily * 10000) / 10000) + " per Day");
-        $("#perMonth").text("$ " + (Math.round(monthly * 10000) / 10000) + " per Month");
-        $("#perYear").text("$ " + (Math.round(yearly * 100) / 100) + " per Year");
+        $("#perDay").text("$ " + (Math.round(daily * 10000) / 10000) + "");
+        $("#perMonth").text("$ " + (Math.round(monthly * 10000) / 10000) + "");
+        $("#perYear").text("$ " + (Math.round(yearly * 100) / 100) + "");
     }
 
     function resetValues() {

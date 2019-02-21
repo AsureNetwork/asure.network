@@ -1,35 +1,61 @@
-<section class="blc-news bg-green" id="about">
-    <div class="head">
+<section class="blc-news bg-gradient-green" id="about">
+    <div class="head" style="margin-bottom: 0px;">
         <h1 class="title hr">Staking Rewards Calculator</h1>
-        <div class="row">
+    </div>
+
+    <div class="container staking-calculator">
+        <div class="row padding-bottom-20">
             <div class="offset-md-2 col-md-8 justify">
-                The token will be used for On-Chain Governance and by Network Validators as well as Service Providers to
+                The token will be used for On-Chain
+                <span data-toggle="popover"
+                      title="Governance"
+                      data-placement="bottom"
+                      data-trigger="hover"
+                      data-content="On-Chain governance is crucial. ASR token holders will be able to govern the Asure blockchain,
+                network, and vote over future improvements."
+                ><b>Governance</b></span>
+                and by
+                <span data-toggle="popover"
+                      title="Network Validators"
+                      data-placement="bottom"
+                      data-trigger="hover"
+                      data-content="Validators need to stake ASR tokens to validate transactions
+                within the Asure network. In return, the network validators receive the networks transaction fees in
+                the form of ASR as an incentive for validating correct blocks."
+                ><b>Network Validators</b></span> as well as
+                <span data-toggle="popover"
+                      title="Service Providers"
+                      data-placement="bottom"
+                      data-trigger="hover"
+                      data-content="The ASR token serves as an incentive for service providers within the Asure platform to work
+                correctly and as advertised within their SLA’s."
+                ><b>Service Providers</b></span> to
                 participate as stakers in the proof-of-stake consensus mechanisms of the Asure network.
             </div>
 
         </div>
 
-    </div>
-
-    <div class="container staking-calculator">
 
         <form novalidate="novalidate" id="form">
-            <div class="row padding-top-20">
+            <div class="row padding-top-20 padding-bottom-20 bg-green">
                 <div class="col-md-12 content-block text-center">
-                    <h3>Expected rewards</h3>
+                    <h1 class="title hr">Expected rewards</h1>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 text-center">
+                    <h3>per Day</h3>
                     <h3 id="perDay"></h3>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 text-center">
+                    <h3>per Month</h3>
                     <h3 id="perMonth"></h3>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 text-center">
+                    <h3>per Year</h3>
                     <h3 id="perYear"></h3>
                 </div>
             </div>
 
-            <div class="row padding-top-20">
+            <div class="row padding-top-20 bg-light-green">
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="disabledTextInput">Tokens you're staking</label>
@@ -51,7 +77,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row bg-light-green">
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="disabledTextInput">Daily transaction volume</label>
@@ -73,7 +99,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row bg-light-green">
                 <div class="col-md-4">
                     <div class="form-group">
                         <label for="disabledTextInput">Base flat fee</label>
@@ -95,7 +121,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row bg-light-green">
                 <div class="offset-4 col-md-4 content-block text-center">
                     <input type="button" value="RESET VALUES" name="subscribe" class="btn btn-action mb-2 form-control"
                            onclick="resetValues()">
@@ -163,24 +189,6 @@
         -->
         </form>
 
-        <div class="row padding-top-20">
-            <div class="col-md-4 justify">
-                <h4>Governance:</h4>
-                On-Chain governance is crucial. ASR token holders will be able to govern the Asure blockchain,
-                network, and vote over future improvements.
-            </div>
-            <div class="col-md-4 justify">
-                <h4>Network validators:</h4>
-                Validators need to stake ASR tokens to validate transactions
-                within the Asure network. In return, the network validators receive the networks transaction fees in
-                the form of ASR as an incentive for validating correct blocks.
-            </div>
-            <div class="col-md-4 justify">
-                <h4>Service providers:</h4>
-                The ASR token serves as an incentive for service providers within the Asure platform to work
-                correctly and as advertised within their SLA’s.
-            </div>
-        </div>
     </div>
 
 </section>
