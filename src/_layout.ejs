@@ -64,7 +64,7 @@
     <i class="fab fa-telegram-plane telegram"></i>
 </a>
 */ %>
-
+<script src="https://unpkg.com/imask"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
@@ -412,6 +412,8 @@
         return true;
     };
 </script>
+
+<%- partial("/shared/_staking_rewards_calculator_js.ejs") %>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112962931-6"></script>

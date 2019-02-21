@@ -2,118 +2,65 @@
     <div class="head">
         <h1 class="title hr">Staking Rewards Calculator</h1>
     </div>
-
-    <div class="container staking-calculator">
+    <form novalidate="novalidate" id="form">
+        <div class="container staking-calculator">
         <div class="row">
             <div class="col-md-12 content-block">
                 <h2 class="title"></h2>
-                <p>
-
-                </p>
-
-<!--
-            totalTokens: "50,000,000",
-            volumeTx: "100,000,000",
-            amountTx: "40",
-            flatFee: "0.05",
-            percentageFee: "0.25",
-            nbTokens: "1"
-
-                formValues: function() {
-                    return {
-                        totalTokens: this.strToNumber(this.form.totalTokens),
-                        volumeTx: this.strToNumber(this.form.volumeTx),
-                        amountTx: this.strToNumber(this.form.amountTx),
-                        flatFee: this.strToNumber(this.form.flatFee),
-                        percentageFee: this.strToNumber(this.form.percentageFee),
-                        nbTokens: this.strToNumber(this.form.nbTokens)
-                    }
-                },
-                dailyTx: function() {
-                    return this.formValues.volumeTx / this.formValues.amountTx
-                },
-                dailyTxDisplay: function() {
-                    return d()(this.dailyTx).format("0,0")
-                },
-                averageFeeDisplay: function() {
-                    return "$" + d()(this.flatFee + this.percentageFee).format("0,0")
-                },
-                flatFee: function() {
-                    return this.dailyTx * this.formValues.flatFee
-                },
-                percentageFee: function() {
-                    return this.formValues.volumeTx * this.formValues.percentageFee / 100
-                },
-                rewards: function() {
-                    if (!this.valid)
-                        return {
-                            daily: 0,
-                            monthly: 0,
-                            yearly: 0
-                        };
-                    var e = (this.flatFee + this.percentageFee) / this.formValues.totalTokens * this.formValues.nbTokens;
-                    return {
-                        daily: e,
-                        monthly: 30 * e,
-                        yearly: 365 * e
-                    }
-                }
--->
-
+                <p></p>
             </div>
             <div class="col-md-4">
 
                 <div class="form-group">
+                    <label for="disabledTextInput">Tokens you're staking</label>
+                    <input type="number" value="0" id="ownTokensStaking" class="form-control" placeholder="">
+                </div>
+                <div class="form-group">
                     <label for="disabledTextInput">Tokens staked</label>
-                    <input type="number" value="50,000,000" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                    <input type="number" value="0" id="totalTokensStaked" class="form-control" placeholder="">
                 </div>
 
                 <div class="form-group">
                     <label for="disabledTextInput">Daily transaction volume</label>
-                    <input type="number" value="100,000,000" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                    <input type="number" value="0" id="dalilyTransactionVolume" class="form-control" placeholder="">
                 </div>
 
                 <div class="form-group">
                     <label for="disabledTextInput">Average transaction size</label>
-                    <input type="number" value="40" id="disabledTextInput" class="form-control" placeholder="Disabled input" >
+                    <input type="number" value="0" id="avgTransactionSize" class="form-control" placeholder="" >
                 </div>
 
                 <div class="form-group disabled">
                     <label for="disabledTextInput">Average transactions per day</label>
-                    <input type="number" value="2,500,000" id="disabledTextInput" class="form-control" placeholder="Disabled input" disabled="disabled">
+                    <input type="number" value="0" id="avgTransactionDay" class="form-control" placeholder="Disabled input" disabled="disabled">
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="form-group">
                     <label for="disabledTextInput">Base flat fee</label>
-                    <input type="number" value="0,05" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                    <input type="number" value="0" id="baseFlatFee" class="form-control" placeholder="">
                 </div>
                 <div class="form-group">
                     <label for="disabledTextInput">Percentage fee</label>
-                    <input type="number" value="0,05" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+                    <input type="number" value="0" id="percentageFee" class="form-control" placeholder="">
                 </div>
                 <div class="form-group disabled">
                     <label for="disabledTextInput">Average fees paid per day</label>
-                    <input type="number" value="375,000" id="disabledTextInput" class="form-control" placeholder="Disabled input" disabled="disabled">
+                    <input type="number" value="0" id="avgFeesPaidDay" class="form-control" placeholder="Average fees paid per day" disabled="disabled">
                 </div>
-                <div class="form-group">
-                    <label for="disabledTextInput">Tokens you're staking</label>
-                    <input type="number" value="1" id="disabledTextInput" class="form-control" placeholder="Disabled input">
-                </div>
+
             </div>
             <div class="col-md-4">
                 <h3>Expected rewards</h3>
                 <br/>
-                <h3>$0.07 per day</h3><br/>
-                <h3>$2.1 per month</h3><br/>
-                <h3>$25.55 per year</h3><br/>
+                <h3 id="perDay"></h3> <br/>
+                <h3 id="perMonth"></h3> <br/>
+                <h3 id="perYear"></h3> <br/>
             </div>
-
-
-
             <div class="col-md-12 content-block">
-                <input type="submit" value="RESET VALUES" name="subscribe" class="btn btn-primary mb-2">
+                <input  type="button" value="RESET VALUES" name="subscribe" class="btn btn-primary mb-2" onclick="resetValues()">
             </div>
         </div>
     </div>
+    </form>
 </section>
