@@ -1,16 +1,15 @@
 <section class="blc-news bg-blue" id="kyc">
-    <div class="head">
-        <h1 class="title hr">Asure KYC</h1>
-    </div>
 
     <div class="container kyc">
-        <div class="row" style="background: #fff;border: 1px solid #3b95b5;">
+        <div class="row" style="background: #fff;border: 1px solid #3b95b5; padding: 10px">
             <div class="col-md-12 col-lg-8 offset-lg-2 content-block">
-                <h2 class="title"></h2>
-                <p style="text-align: left;">
-                    <h2>Asure KYC</h2>
+                <div class="head">
+                    <h1 class="title hr">Asure.Network KYC</h1>
+                </div>
 
-                    <br/><br/>
+                <p style="text-align: left;">
+                    <h2 style="display: none">Asure KYC</h2>
+
                     Asure’s KYC guidelines enable us to mitigate business risk,
                     better understand our backers and whitelist contributing ETH addresses.
                     <br/><br/>
@@ -29,7 +28,7 @@
                       action=""
                       method="post" target="_blank" rel="noopener" novalidate="" enctype="multipart/form-data">
 
-                    <fieldset class="form-group row">
+                    <fieldset class="form-group row" id="fg_us">
                         <label class="col-12 col-form-label">Are you a US citizen?</label>
                         <div class="col-sm-10">
                             <div class="form-check">
@@ -49,7 +48,7 @@
                         </div>
                     </fieldset>
 
-                    <div class="form-group row">
+                    <div class="form-group row" id="fg_citizenship">
                         <label for="citizenship-input" class="col-4 col-form-label">Citizenship</label>
                         <div class="col-8">
                             <select class="form-control" id="citizenship-input" name="_citizenship">
@@ -321,7 +320,7 @@
                         </div>
                     </div>
 
-                    <fieldset class="form-group row">
+                    <fieldset class="form-group row" id="fg_exposed">
                         <label class="col-12 col-form-label">Are you a politically exposed person?</label>
                         <div class="col-sm-10">
                             <div class="form-check">
@@ -341,7 +340,7 @@
                         </div>
                     </fieldset>
 
-                    <div class="form-group row">
+                    <div class="form-group row" id="fg_fn">
                         <label for="fn-input" class="col-4 col-form-label">First Name</label>
                         <div class="col-8">
                             <input class="form-control" type="text" value="" id="fn-input" name="_fn"
@@ -349,7 +348,7 @@
                         </div>
                     </div>
 
-                    <div class="form-group row">
+                    <div class="form-group row" id="fg_ln">
                         <label for="ln-input" class="col-4 col-form-label">Last Name</label>
                         <div class="col-8">
                             <input class="form-control" type="text" value="" id="ln-input" name="_ln"
@@ -676,7 +675,7 @@
                             Expected contribution amount (in ETH)
                         </label>
                         <div class="offset-4 col-8 input-group">
-                            <input class="form-control" type="text" value="" id="eth" placeholder="10" name="_eth">
+                            <input class="form-control" type="number" min="1" max="500000" value="10" id="eth" placeholder="10" name="_eth">
                             <div class="input-group-append">
                                 <span class="input-group-text">ETH</span>
                             </div>
@@ -789,6 +788,9 @@
                             <br/>
                             All fields are mandatory.
                             <br/>
+                            <p class="wallet-error">
+                                ETH Address must be valid.
+                            </p>
                             <p class="mb-0 error-list">
 
                             </p>

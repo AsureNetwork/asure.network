@@ -628,7 +628,7 @@ div.tab-content {
 
 .bg-blue {
   //background: #a6cbd8;
-  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #a6cbd8 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #bfe6ff 100%);
 }
 
 .bg-green {
@@ -1076,9 +1076,7 @@ div.tab-content {
     text-align: center;
 
     img {
-      //border-radius: 10px;
       margin-bottom: 5px;
-      border: 1px solid #888;
     }
 
     img:hover {
@@ -1282,22 +1280,9 @@ blockquote {
 }
 
 .blc-timeline {
-  background: url('../img/timeline.jpg');
-  background-size: cover;
   padding: 80px 0;
   color: #444444;
   position: relative;
-
-  &:before {
-    content: '';
-    //background-color: rgba(105, 172, 214, 0.93);
-    background-color: rgba(165, 203, 217, 0.93);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
 
   .container {
     position: relative;
@@ -1359,7 +1344,7 @@ blockquote {
     width: 15px;
 
     &:before {
-      background: #fff;
+      background: #e2324b;
       border: 3px solid transparent;
       //border-radius: 100%;
       content: "";
@@ -1375,7 +1360,7 @@ blockquote {
     &:after {
       content: "";
       width: 3px;
-      background: #CCD5DB;
+      background: #262b2f;
       display: block;
       position: absolute;
       top: 24px;
@@ -1400,7 +1385,7 @@ blockquote {
 
   .timeline-item:not(.period):hover .timeline-marker:before {
     background: transparent;
-    border: 3px solid #fff;
+    border: 3px solid #e2324b;
   }
 
   .timeline-centered {
@@ -1966,4 +1951,8 @@ div.container.staking-calculator {
   50% {
     bottom: 10px;
   }
+}
+
+.form-error{
+  border: 1px solid #f00;
 }
