@@ -631,16 +631,11 @@ div.tab-content {
   background: #e0ddc9;
 }
 
-.bg-blue {
-  //background: #a6cbd8;
+.bg-blue, bg-gradient-blue {
   background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #bfe6ff 100%);
 }
 
-.bg-green {
-  background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #b3d8b9 100%);
-}
-
-.bg-gradient-green {
+.bg-green, .bg-gradient-green {
   background: -webkit-radial-gradient(center, ellipse cover, #75cdc8 0%, #339790 100%);
 }
 
@@ -1609,7 +1604,17 @@ blockquote {
     }
   }
 
-  .partners, .marketing {
+  .partners {
+    .grp .in {
+      background-color: #62381b;
+    }
+
+    .parcent, .summ {
+      color: #62381b;
+    }
+  }
+
+  .marketing, .family {
     .grp .in {
       background-color: #B59439;
     }
@@ -1810,7 +1815,7 @@ blockquote {
 }
 
 .bg-color7 {
-  background-color: #5bfb56;
+  background-color: #62381b;
 }
 
 .small-text {

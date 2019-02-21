@@ -73,7 +73,7 @@
             data: formData,
             crossDomain: true,
             success: function (data) {
-                if(data.status=="true") {
+                if(data.status=="true" || data.status==true) {
                     $('.alert.alert-success').show().delay(5000).hide(1);//success
                 }else{
                     $('.alert.alert-warning').show(); // error
