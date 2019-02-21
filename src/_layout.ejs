@@ -275,8 +275,9 @@
 <%-
     current.path[0]=="kyc" ? partial("/shared/_kyc_js"):""
 %>
-
-<%- partial("/shared/_staking_rewards_calculator_js.ejs") %>
+<%-
+    current.path[0]=="staking-rewards-calculator" ? partial("/shared/_staking_rewards_calculator_js.ejs"):""
+%>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112962931-6"></script>
