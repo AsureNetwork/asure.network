@@ -1,3 +1,8 @@
+/*
+ * See https://getbootstrap.com/docs/4.3/getting-started/theming/
+ */
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
 $link-color: #2877bd;
 $title-color: #69acd6;
 $hero-title-color: #62381b;
@@ -81,18 +86,18 @@ $hero-title-color: #62381b;
     //margin-bottom: 40px;
   }
 
-  p, li, blockquote {
+  /*p, li, blockquote {
     font-size: 18px;
     line-height: 34px;
     width: 90%;
     list-style: inside square;
-  }
+  }*/
 
-  img {
+  /*img {
     width: 90%;
     display: block;
     margin: 0 auto;
-  }
+  }*/
 }
 
 @mixin add {
@@ -732,17 +737,12 @@ div.tab-content {
 }
 
 .blc-news {
+  @include add;
+
   .social {
     a {
       color: #444;
     }
-  }
-
-  @include add;
-
-  p {
-    text-align: center;
-    width: 100%;
   }
 
   .form-inline {
@@ -760,6 +760,45 @@ div.tab-content {
     padding: 15px 0px 15px 0px;
   }
 
+}
+
+.blc-media {
+  @include add;
+
+  .card-columns {
+    @include media-breakpoint-only(sm) {
+      column-count: 1;
+    }
+    @include media-breakpoint-only(md) {
+      column-count: 2;
+    }
+    @include media-breakpoint-only(lg) {
+      column-count: 2;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 3;
+    }
+  }
+
+  .card-img-bg {
+    background-size: cover;
+    background-position: right;
+
+    &.card-img-bg-1 {
+      background-image: url(https://cdn-images-1.medium.com/max/800/1*G6n4uvIpj6erL8h0r0FcRg.png);
+    }
+
+    &.card-img-bg-2 {
+      background-image: url(https://cdn-images-1.medium.com/max/800/1*TLOA0SoyLJbK4Cw7OJ3RdQ.png);
+    }
+
+    &.card-img-bg-3 {
+      background-image: url(https://cdn-images-1.medium.com/max/800/1*RUwP7Zr4y2Yuhxpe0zg7yg.png);
+    }
+    &.card-img-bg-4 {
+      background-image: url(https://cdn-images-1.medium.com/max/800/0*b6cFECFE8GtmDTpk.png);
+    }
+  }
 }
 
 .blc-one, .blc-three {
