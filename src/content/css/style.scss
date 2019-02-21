@@ -636,12 +636,15 @@ div.tab-content {
 }
 
 .bg-green, .bg-gradient-green {
-  background: radial-gradient(#ffffff, #b3d8b9);
+  /*background: radial-gradient(#ffffff, #b3d8b9);*/
+  background: radial-gradient(#d1f8f6, #69c8c3);
 }
 
-.bg-full-green {
-  background: #339790;
+.bg-full-green, .bg-gradient-full-green {
+  background: radial-gradient(#69c8c3, #339790);
 }
+
+
 
 
 .bg-green-gray {
