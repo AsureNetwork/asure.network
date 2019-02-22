@@ -79,7 +79,9 @@
 
 <script>
     $(function () {
-        $('[data-toggle="popover"]').popover()
+        $('[data-toggle="popover"]').popover();
+
+        $('ul.nav-tabs li:first-child a').tab('show');
     });
 
     function getCookie(cname) {
