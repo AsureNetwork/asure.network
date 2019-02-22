@@ -78,6 +78,10 @@
 <script src="<%= prefixUrl() %>js/libs/slick/slick.min.js"></script>
 
 <script>
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    });
+
     function getCookie(cname) {
         var name = cname + "=";
         var decodedCookie = decodeURIComponent(document.cookie);

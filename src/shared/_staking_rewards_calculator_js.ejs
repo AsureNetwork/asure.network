@@ -1,10 +1,5 @@
 <script src="http://afarkas.github.io/webshim/js-webshim/minified/polyfiller.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script>
-
-    $(function () {
-        $('[data-toggle="popover"]').popover()
-    });
 
     $("input").keyup(rewards);
     $("input").change(rewards);
@@ -20,8 +15,10 @@
         $("#baseFlatFee").val(0.05);
         $("#percentageFee").val(0.25);
 
-        $("#avgFeesPaidDay").val(375000);
-        $("#avgTransactionDay").val(2500000);
+        $("#percentageTokensStaked").val(0);
+        $("#avgTransactionDay").val(0);
+        $("#avgFeesPaidDay").val(0);
+
         rewards();
     }
 
@@ -30,9 +27,9 @@
     }
 
     function rewards() {
-
         var ownTokensStaking = strToNumber($("#ownTokensStaking").val());
         var totalTokensStaked = strToNumber($("#totalTokensStaked").val());
+        var percentageTokensStaked = ownTokensStaking/totalTokensStaked;
 
         var baseFlatFee = strToNumber($("#baseFlatFee").val());
         var percentageFee = strToNumber($("#percentageFee").val());
@@ -43,13 +40,16 @@
         var flatFee = dailyTx * baseFlatFee;
         var percentageFeeCalc = dalilyTransactionVolume * percentageFee / 100;
 
-        var e = (flatFee + percentageFeeCalc) / totalTokensStaked * ownTokensStaking;
-        var daily = e;
-        var monthly = 30 * e;
-        var yearly = 365 * e;
+        var result = (flatFee + percentageFeeCalc) / totalTokensStaked * ownTokensStaking;
+        var daily = result;
+        var monthly = 30 * result;
+        var yearly = 365 * result;
 
+        $("#percentageTokensStaked").val((Math.round(percentageTokensStaked * 100 * 1000000) / 1000000)+" %");
         $("#avgTransactionDay").val(dailyTx);
-        //TODO: Average fees paid per day
+        $("#avgFeesPaidDay").val("$ "+(flatFee + percentageFeeCalc).toLocaleString("en-US"));
+
+
 
         $("#perDay").text("$ " + (Math.round(daily * 10000) / 10000) + "");
         $("#perMonth").text("$ " + (Math.round(monthly * 10000) / 10000) + "");
@@ -68,32 +68,5 @@
         webshims.polyfill('forms forms-ext');
     }
 </script>
-
-<!--
-            totalTokens: "50,000,000",
-            volumeTx: "100,000,000",
-            amountTx: "40",
-            flatFee: "0.05",
-            percentageFee: "0.25",
-            nbTokens: "1"
-
-                formValues: function() {
-                    return {
-                        totalTokens: this.strToNumber(this.form.totalTokens),
-                        volumeTx: this.strToNumber(this.form.volumeTx),
-                        amountTx: this.strToNumber(this.form.amountTx),
-                        flatFee: this.strToNumber(this.form.flatFee),
-                        percentageFee: this.strToNumber(this.form.percentageFee),
-                        nbTokens: this.strToNumber(this.form.nbTokens)
-                    }
-                },,
-                dailyTxDisplay: function() {
-                    r) {
-                    retureturn d()(this.dailyTx).format("0,0")
-                },
-                averageFeeDisplay: function(n "$" + d()(this.flatFee + this.percentageFee).format("0,0")
-                },
-
--->
 
 
