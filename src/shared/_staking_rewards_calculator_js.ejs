@@ -46,7 +46,7 @@
         var yearly = 365 * result;
 
         $("#percentageTokensStaked").val((Math.round(percentageTokensStaked * 100 * 1000000) / 1000000)+" %");
-        $("#avgTransactionDay").val(dailyTx);
+        $("#avgTransactionDay").val(dailyTx.toLocaleString("en-US"));
         $("#avgFeesPaidDay").val("$ "+(flatFee + percentageFeeCalc).toLocaleString("en-US"));
 
 
