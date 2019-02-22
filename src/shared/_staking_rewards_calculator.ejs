@@ -13,7 +13,7 @@
                       data-trigger="hover"
                       data-content="On-Chain governance is crucial. ASR token holders will be able to govern the Asure blockchain,
                 network, and vote over future improvements."
-                ><b>Governance</b></span>
+                ><strong>Governance</strong></span>
                 and by
                 <span data-toggle="popover"
                       title="Network Validators"
@@ -22,116 +22,119 @@
                       data-content="Validators need to stake ASR tokens to validate transactions
                 within the Asure network. In return, the network validators receive the networks transaction fees in
                 the form of ASR as an incentive for validating correct blocks."
-                ><b>Network Validators</b></span> as well as
+                ><strong>Network Validators</strong></span> as well as
                 <span data-toggle="popover"
                       title="Service Providers"
                       data-placement="bottom"
                       data-trigger="hover"
                       data-content="The ASR token serves as an incentive for service providers within the Asure platform to work
                 correctly and as advertised within their SLA’s."
-                ><b>Service Providers</b></span> to
+                ><strong>Service Providers</strong></span> to
                 participate as stakers in the proof-of-stake consensus mechanisms of the Asure network.
             </div>
 
         </div>
 
-<div class="row shadow">
-    <div class="col-md-12">
+        <div class="row shadow">
+            <div class="col-md-12">
 
-        <form novalidate="novalidate" id="form">
-            <div class="row padding-top-20 padding-bottom-20 bg-green">
-                <div class="col-md-12 content-block text-center padding-bottom-20">
-                    <h1 class="title hr">Expected rewards</h1>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h3>Daily</h3>
-                    <h3 id="perDay"></h3>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h3>Monthly</h3>
-                    <h3 id="perMonth"></h3>
-                </div>
-                <div class="col-md-4 text-center">
-                    <h3>Yearly</h3>
-                    <h3 id="perYear"></h3>
-                </div>
-            </div>
+                <form novalidate="novalidate" id="form">
+                    <div class="row padding-top-20 padding-bottom-20 bg-green">
+                        <div class="col-md-12 content-block text-center padding-bottom-20">
+                            <h1 class="title hr">Expected rewards</h1>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <h3>Daily</h3>
+                            <h3 id="perDay"></h3>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <h3>Monthly</h3>
+                            <h3 id="perMonth"></h3>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <h3>Yearly</h3>
+                            <h3 id="perYear"></h3>
+                        </div>
+                    </div>
 
-            <div class="row padding-top-20 bg-light-green">
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <label for="disabledTextInput">Tokens you're staking</label>
-                        <input type="number" value="0" id="ownTokensStaking" class="form-control" placeholder="">
+                    <div class="row padding-top-20 bg-light-green">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="disabledTextInput">Tokens you're staking</label>
+                                <input type="number" value="0" id="ownTokensStaking" class="form-control"
+                                       placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="disabledTextInput">Tokens staked</label>
+                                <input type="number" value="0" id="totalTokensStaked" class="form-control"
+                                       placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group disabled">
+                                <label for="disabledTextInput">Percentage Token staked</label>
+                                <input type="text" value="0" id="percentageTokensStaked" class="form-control"
+                                       placeholder="Disabled input" disabled="disabled">
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <label for="disabledTextInput">Tokens staked</label>
-                        <input type="number" value="0" id="totalTokensStaked" class="form-control" placeholder="">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="form-group disabled">
-                        <label for="disabledTextInput">Percentage Token staked</label>
-                        <input type="text" value="0" id="percentageTokensStaked" class="form-control"
-                               placeholder="Disabled input" disabled="disabled">
-                    </div>
-                </div>
-            </div>
 
-            <div class="row bg-light-green">
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <label for="disabledTextInput">Daily transaction volume</label>
-                        <input type="number" value="0" id="dalilyTransactionVolume" class="form-control" placeholder="">
+                    <div class="row bg-light-green">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="disabledTextInput">Daily transaction volume</label>
+                                <input type="number" value="0" id="dalilyTransactionVolume" class="form-control"
+                                       placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="disabledTextInput">Average transaction size</label>
+                                <input type="number" value="0" id="avgTransactionSize" class="form-control"
+                                       placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group disabled">
+                                <label for="disabledTextInput">Average transactions per day</label>
+                                <input type="text" value="0" id="avgTransactionDay" class="form-control"
+                                       placeholder="Disabled input" disabled="disabled">
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <label for="disabledTextInput">Average transaction size</label>
-                        <input type="number" value="0" id="avgTransactionSize" class="form-control" placeholder="">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="form-group disabled">
-                        <label for="disabledTextInput">Average transactions per day</label>
-                        <input type="text" value="0" id="avgTransactionDay" class="form-control"
-                               placeholder="Disabled input" disabled="disabled">
-                    </div>
-                </div>
-            </div>
 
-            <div class="row bg-light-green">
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <label for="disabledTextInput">Base flat fee</label>
-                        <input type="number" value="0" id="baseFlatFee" class="form-control" placeholder="">
+                    <div class="row bg-light-green">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="disabledTextInput">Base flat fee</label>
+                                <input type="number" value="0" id="baseFlatFee" class="form-control" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="disabledTextInput">Percentage fee</label>
+                                <input type="number" value="0" id="percentageFee" class="form-control" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group disabled">
+                                <label for="disabledTextInput">Average fees paid per day</label>
+                                <input type="text" value="0" id="avgFeesPaidDay" class="form-control"
+                                       placeholder="Average fees paid per day" disabled="disabled">
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="form-group">
-                        <label for="disabledTextInput">Percentage fee</label>
-                        <input type="number" value="0" id="percentageFee" class="form-control" placeholder="">
+                    <div class="row bg-light-green padding-bottom-20">
+                        <div class="offset-md-8 col-md-4 content-block text-center">
+                            <input type="button" value="RESET VALUES" name="subscribe"
+                                   class="btn btn-primary mb-2 form-control"
+                                   onclick="resetValues()">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="form-group disabled">
-                        <label for="disabledTextInput">Average fees paid per day</label>
-                        <input type="text" value="0" id="avgFeesPaidDay" class="form-control"
-                               placeholder="Average fees paid per day" disabled="disabled">
-                    </div>
-                </div>
+                </form>
             </div>
-
-            <div class="row bg-light-green padding-bottom-20">
-                <div class="offset-md-8 col-md-4 content-block text-center">
-                    <input type="button" value="RESET VALUES" name="subscribe" class="btn btn-primary mb-2 form-control"
-                           onclick="resetValues()">
-                </div>
-            </div>
-        </form>
+        </div>
     </div>
-</div>
-    </div>
-
 </section>
