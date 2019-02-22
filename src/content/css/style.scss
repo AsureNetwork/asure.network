@@ -200,16 +200,17 @@ body {
   font-weight: 100;
 }
 
-.popover, .card{
+.popover, .card {
   border-radius: 0px !important;
   border: 0px;
   box-shadow: 1px 1px 1px #888888;
 }
 
-.shadow{
+.shadow {
   box-shadow: 1px 1px 1px #888888;
 }
-.shadow-buttom{
+
+.shadow-buttom {
   box-shadow: 0px 1px 0px #69acd6;
 }
 
@@ -506,6 +507,7 @@ div.tab-content {
     color: #fff;
     font-size: 40px;
   }
+
   h1.title.black {
     //@include hrwhite;
     color: #444;
@@ -656,7 +658,7 @@ div.tab-content {
   background-color: #b6ebe9;
 }
 
-.bg-green{
+.bg-green {
   background-color: #69c8c3; //#6fcbc6;
 }
 
@@ -675,6 +677,10 @@ div.tab-content {
 
 .bg-blue-gray {
   background: #959bad;
+}
+
+span[data-toggle="popover"] {
+  cursor: pointer;
 }
 
 .blc-token {
@@ -815,6 +821,7 @@ div.tab-content {
     &.card-img-bg-3 {
       background-image: url(https://cdn-images-1.medium.com/max/800/1*RUwP7Zr4y2Yuhxpe0zg7yg.png);
     }
+
     &.card-img-bg-4 {
       background-image: url(https://cdn-images-1.medium.com/max/800/0*b6cFECFE8GtmDTpk.png);
     }
