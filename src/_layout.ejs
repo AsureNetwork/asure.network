@@ -295,17 +295,5 @@
     gtag('config', 'UA-112962931-6');
 </script>
 
-<script>
-    $(function () {
-        $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-            console.log('new, prev', e.target, e.relatedTarget);
-            if(!e.target) {
-                debugger;
-            }
-            e.target // newly activated tab
-            e.relatedTarget // previous active tab
-        })
-    });
-</script>
 </body>
 </html>
