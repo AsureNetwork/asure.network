@@ -142,19 +142,19 @@ $hero-title-color: #62381b;
 
 .btn-primary {
   background-color: #69acd6;
-  border-color: #146492;
+  border-color: #69acd6;
   color: #fff;
 
   &.disabled, &:disabled, &.disabled:hover, &:disabled:hover {
     background-color: #999999 !important;
     border-color: #444444 !important;
   }
-}
 
-.btn-primary:hover {
-  color: #fff;
-  background-color: #6ac1eb !important;
-  border-color: #146492 !important;
+  &:hover {
+    color: #fff;
+    background-color: #6ac1eb !important;
+    border-color: #69acd6 !important;
+  }
 }
 
 .btn-action {
