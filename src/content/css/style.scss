@@ -796,13 +796,13 @@ div.tab-content {
       column-count: 2;
     }
     @include media-breakpoint-only(xl) {
-      column-count: 3;
+      column-count: 2;
     }
   }
 
   .card-img-bg {
     background-size: cover;
-    background-position: right;
+    background-position: left;
 
     &.card-img-bg-1 {
       background-image: url(https://cdn-images-1.medium.com/max/800/1*G6n4uvIpj6erL8h0r0FcRg.png);
