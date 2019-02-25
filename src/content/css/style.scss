@@ -1,7 +1,20 @@
 /*
  * See https://getbootstrap.com/docs/4.3/getting-started/theming/
  */
+$enable-rounded: false;
+$success: #58c9c4;
+$danger: #e2324b;
 @import "../../../node_modules/bootstrap/scss/bootstrap";
+
+.invalid-feedback {
+  display: block;
+  visibility: hidden;
+}
+
+.was-validated .form-control:invalid ~ .invalid-feedback,
+.form-control.is-invalid ~ .invalid-feedback {
+  visibility: visible;
+}
 
 $link-color: #2877bd;
 $title-color: #69acd6;
@@ -201,7 +214,6 @@ body {
 }
 
 .popover, .card {
-  border-radius: 0px !important;
   border: 0px;
   box-shadow: 1px 1px 1px #888888;
 }
@@ -2016,4 +2028,11 @@ div.container.staking-calculator {
 
 .form-error {
   border: 1px solid #f00;
+}
+
+.blc-stacking-calculator {
+  .form-control:focus {
+    border-color: rgba(0,123,255,0.25);
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+  }
 }

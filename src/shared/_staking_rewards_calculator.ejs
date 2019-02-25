@@ -1,4 +1,4 @@
-<section class="blc-news bg-gradient-blue" id="about">
+<section class="blc-news blc-staking-calculator bg-gradient-blue" id="staking-calculator">
     <div class="head" style="margin-bottom: 0px;">
         <h1 class="title hr black">Staking Rewards Calculator</h1>
     </div>
@@ -38,9 +38,9 @@
         <div class="row shadow">
             <div class="col-md-12">
 
-                <form novalidate="novalidate" id="form">
-                    <div class="row padding-top-20 padding-bottom-20 bg-green">
-                        <div class="col-md-12 content-block text-center padding-bottom-20">
+                <form id="form" class="form-stacking-calc" novalidate>
+                    <div class="row bg-green">
+                        <div class="col-md-12 py-4 content-block text-center">
                             <h1 class="title hr">Expected rewards</h1>
                         </div>
                         <div class="col-md-4 text-center">
@@ -57,24 +57,30 @@
                         </div>
                     </div>
 
-                    <div class="row padding-top-20 bg-light-green">
+                    <div class="row pt-4 bg-light-green">
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="ownTokensStaking">Tokens you're staking</label>
-                                <input type="number" value="0" id="ownTokensStaking" class="form-control">
+                                <input type="number" value="0" id="ownTokensStaking" class="form-control" required min="0">
+                                <div class="invalid-feedback">
+                                    Please provide a valid amount.
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="totalTokensStaked">Tokens staked</label>
-                                <input type="number" value="0" id="totalTokensStaked" class="form-control">
+                                <input type="number" value="0" id="totalTokensStaked" class="form-control" required min="0">
+                                <div class="invalid-feedback">
+                                    Please provide a valid amount.
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group disabled">
                                 <label for="percentageTokensStaked">Percentage Token staked</label>
                                 <input type="text" value="0" id="percentageTokensStaked"
-                                       readonly class="form-control-plaintext">
+                                       readonly tabindex="-1" class="form-control-plaintext">
                             </div>
                         </div>
                     </div>
@@ -83,20 +89,26 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="dalilyTransactionVolume">Daily transaction volume</label>
-                                <input type="number" value="0" id="dalilyTransactionVolume" class="form-control">
+                                <input type="number" value="0" id="dalilyTransactionVolume" class="form-control" required min="0">
+                                <div class="invalid-feedback">
+                                    Please provide a valid amount.
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="avgTransactionSize">Average transaction size</label>
-                                <input type="number" value="0" id="avgTransactionSize" class="form-control">
+                                <input type="number" value="0" id="avgTransactionSize" class="form-control" required min="0">
+                                <div class="invalid-feedback">
+                                    Please provide a valid amount.
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group disabled">
                                 <label for="avgTransactionDay">Average transactions per day</label>
-                                <input type="text" value="0" id="avgTransactionDay"
-                                       readonly class="form-control-plaintext">
+                                <input type="text" value="1" id="avgTransactionDay"
+                                       readonly tabindex="-1" class="form-control-plaintext">
                             </div>
                         </div>
                     </div>
@@ -105,24 +117,31 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="baseFlatFee">Base flat fee</label>
-                                <input type="number" value="0" id="baseFlatFee" class="form-control">
+                                <input type="number" value="1" id="baseFlatFee" class="form-control" step="any" required min="0">
+                                <div class="invalid-feedback">
+                                    Please provide a valid amount.
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="percentageFee">Percentage fee</label>
-                                <input type="number" value="0" id="percentageFee" class="form-control">
+                                <input type="number" value="0" id="percentageFee" class="form-control" step="any" required min="0">
+                                <div class="invalid-feedback">
+                                    Please provide a valid amount.
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group disabled">
                                 <label for="avgFeesPaidDay">Average fees paid per day</label>
                                 <input type="text" value="0" id="avgFeesPaidDay" placeholder="Average fees paid per day"
-                                       readonly class="form-control-plaintext">
+                                       readonly tabindex="-1" class="form-control-plaintext">
                             </div>
                         </div>
                     </div>
-                    <div class="row bg-light-green padding-bottom-20">
+
+                    <div class="row pb-4 bg-light-green">
                         <div class="offset-md-8 col-md-4 content-block text-center">
                             <input type="button" value="RESET VALUES" name="subscribe"
                                    class="btn btn-primary mb-2 form-control"

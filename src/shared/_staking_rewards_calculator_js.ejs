@@ -1,8 +1,7 @@
 <script src="http://afarkas.github.io/webshim/js-webshim/minified/polyfiller.js"></script>
 <script>
 
-    $("input").keyup(rewards);
-    $("input").change(rewards);
+    $("input").keyup(rewards).change(rewards);
 
     init();
 
@@ -26,10 +25,40 @@
         return e ? Number(e.replace(/[^0-9\.\-]/g, "")) : 0
     }
 
+    function validateForm() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function (form) {
+            form.addEventListener('submit', function (event) {
+                if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+        });
+    }
+
+    function validate() {
+        var form = $('.form-stacking-calc');
+        if (form[0].checkValidity()) {
+            form.removeClass('was-validated');
+            return true;
+        } else {
+            form.addClass('was-validated');
+            return false;
+        }
+    }
+
     function rewards() {
+        if (!validate()) {
+            return;
+        }
+
         var ownTokensStaking = strToNumber($("#ownTokensStaking").val());
         var totalTokensStaked = strToNumber($("#totalTokensStaked").val());
-        var percentageTokensStaked = ownTokensStaking/totalTokensStaked;
+        var percentageTokensStaked = ownTokensStaking / totalTokensStaked;
 
         var baseFlatFee = strToNumber($("#baseFlatFee").val());
         var percentageFee = strToNumber($("#percentageFee").val());
@@ -45,10 +74,9 @@
         var monthly = 30 * result;
         var yearly = 365 * result;
 
-        $("#percentageTokensStaked").val((Math.round(percentageTokensStaked * 100 * 1000000) / 1000000)+" %");
+        $("#percentageTokensStaked").val((Math.round(percentageTokensStaked * 100 * 1000000) / 1000000) + " %");
         $("#avgTransactionDay").val(dailyTx.toLocaleString("en-US"));
-        $("#avgFeesPaidDay").val("$ "+(flatFee + percentageFeeCalc).toLocaleString("en-US"));
-
+        $("#avgFeesPaidDay").val("$ " + (flatFee + percentageFeeCalc).toLocaleString("en-US"));
 
 
         $("#perDay").text("$ " + (Math.round(daily * 10000) / 10000) + "");
@@ -60,13 +88,13 @@
         this.init();
     }
 
-    if(webshims) {
-        webshims.setOptions('forms-ext', {
-            replaceUI: 'auto',
-            types: 'number'
-        });
-        webshims.polyfill('forms forms-ext');
-    }
+    //if (webshims) {
+    //    webshims.setOptions('forms-ext', {
+    //        replaceUI: 'auto',
+    //        types: 'number'
+    //    });
+    //    webshims.polyfill('forms forms-ext');
+    //}
 </script>
 
 
