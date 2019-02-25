@@ -9,7 +9,7 @@
     <meta name="keywords" content="Asure.Network KYC Application for TGE">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta name="google-site-verification" content="ayUCyn7BJqzIM80AU5tbf1ZWLq4AtpqOZ0rRMhgclIk" />
+    <meta name="google-site-verification" content="ayUCyn7BJqzIM80AU5tbf1ZWLq4AtpqOZ0rRMhgclIk"/>
 
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../content/img/ico/ms-icon-144x144.png">
@@ -42,8 +42,8 @@
     <link rel="icon" type="image/png" sizes="16x16"
           href="../content/img/ico/favicon-16x16.png">
     <link rel="manifest" href="../content/img/ico/manifest.json">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic"
           rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
@@ -51,7 +51,8 @@
     <link rel="stylesheet" href="../content/css/style.css">
     <link rel="stylesheet" href="../js/libs/slick/slick-all.css">
 
-    <link rel="stylesheet" type="text/css" href="../js/libs/html5-device-mockups/dist/device-mockups.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="../js/libs/html5-device-mockups/dist/device-mockups.min.css">
 
 </head>
 <body id="top">
@@ -72,51 +73,51 @@
             <ul class="navbar-nav ml-auto">
                 
                 <li class="nav-item">
-                    <a class="nav-link "
-                       href="../#about">
+                    <a class="nav-link scroll-animation "
+                       href="#about">
                         About
                     </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link "
-                       href="../#news">
-                        News
+                    <a class="nav-link scroll-animation "
+                       href="#tge">
+                        TGE
                     </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link "
-                       href="../#features">
-                        Features
+                    <a class="nav-link scroll-animation "
+                       href="#media">
+                        Media
                     </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link "
-                       href="../#team">
+                    <a class="nav-link scroll-animation "
+                       href="#team">
                         Team
                     </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link "
-                       href="../#roadmap">
+                    <a class="nav-link scroll-animation "
+                       href="#roadmap">
                         Roadmap
                     </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link "
-                       href="../#contacts">
-                        Contacts
+                    <a class="nav-link scroll-animation "
+                       href="#partners">
+                        Partners
                     </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link "
-                       href="https://medium.com/AsureNetwork">
-                        Blog
+                    <a class="nav-link scroll-animation "
+                       href="#contacts">
+                        Contact
                     </a>
                 </li>
                 
@@ -129,37 +130,32 @@
 
 <div>
     <section class="blc-news bg-blue" id="kyc">
-    <div class="head">
-        <h1 class="title hr">Asure KYC</h1>
-    </div>
-
     <div class="container kyc">
-        <div class="row" style="background: #fff;border: 1px solid #3b95b5">
+        <div class="row" style="background: #fff;border: 1px solid #3b95b5; padding: 10px">
             <div class="col-md-12 col-lg-8 offset-lg-2 content-block">
-                <h2 class="title"></h2>
-                <p style="text-align: left">
-                    <h2>Asure KYC</h2>
+                <div class="head">
+                    <h1 class="title hr">Asure.Network KYC</h1>
+                </div>
+                <div class="text-content">
+                    <p style="text-align: left">
+                        Asure’s KYC guidelines enable us to mitigate business risk,
+                        better understand our backers and whitelist contributing ETH addresses.
+                        <br><br>
+                        KYC also helps ensure that Asure is not used,
+                        intentionally or unintentionally,
+                        by undesirable elements or for money laundering activities.
 
-                    <br><br>
-                    Asure’s KYC guidelines enable us to mitigate business risk,
-                    better understand our backers and whitelist contributing ETH addresses.
-                    <br><br>
-                    KYC also helps ensure that Asure is not used,
-                    intentionally or unintentionally,
-                    by undesirable elements or for money laundering activities.
-
-                    <br><br>
-                    Please complete the KYC form below to verify your eligibility for participation
-                    in the Asure token sale.
-                </p>
-
-                <hr>
-
+                        <br><br>
+                        Please complete the KYC form below to verify your eligibility for participation
+                        in the Asure token sale.
+                    </p>
+                    <hr>
+                </div>
                 <form class="form" id="form-kyc" action="" method="post" target="_blank" rel="noopener" novalidate="" enctype="multipart/form-data">
 
-                    <fieldset class="form-group row">
+                    <fieldset class="form-group row" id="fg_us">
                         <label class="col-12 col-form-label">Are you a US citizen?</label>
-                        <div class="col-sm-10">
+                        <div class="col-md-12">
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input class="form-check-input" type="radio" name="_us" id="gridRadios1" value="yes">
@@ -175,11 +171,12 @@
                         </div>
                     </fieldset>
 
-                    <div class="form-group row">
-                        <label for="citizenship-input" class="col-4 col-form-label">Citizenship</label>
-                        <div class="col-8">
+                    <div class="form-group row" id="fg_citizenship">
+                        <label for="citizenship-input" class="col-md-4 col-form-label">Citizenship</label>
+                        <div class="col-md-8">
                             <select class="form-control" id="citizenship-input" name="_citizenship">
-                                <option value="0" label="Select a country … " selected="selected">Select a country …       </option>
+                                <option value="0" label="Select a country … " selected="selected">Select a country …
+                                </option>
                                 <optgroup id="country-optgroup-Africa" label="Africa">
                                     <option value="DZ" label="Algeria">Algeria</option>
                                     <option value="AO" label="Angola">Angola</option>
@@ -189,7 +186,8 @@
                                     <option value="BI" label="Burundi">Burundi</option>
                                     <option value="CM" label="Cameroon">Cameroon</option>
                                     <option value="CV" label="Cape Verde">Cape Verde</option>
-                                    <option value="CF" label="Central African Republic">Central African Republic</option>
+                                    <option value="CF" label="Central African Republic">Central African Republic
+                                    </option>
                                     <option value="TD" label="Chad">Chad</option>
                                     <option value="KM" label="Comoros">Comoros</option>
                                     <option value="CG" label="Congo - Brazzaville">Congo - Brazzaville</option>
@@ -284,11 +282,15 @@
                                     <option value="KN" label="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
                                     <option value="LC" label="Saint Lucia">Saint Lucia</option>
                                     <option value="MF" label="Saint Martin">Saint Martin</option>
-                                    <option value="PM" label="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
-                                    <option value="VC" label="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+                                    <option value="PM" label="Saint Pierre and Miquelon">Saint Pierre and Miquelon
+                                    </option>
+                                    <option value="VC" label="Saint Vincent and the Grenadines">Saint Vincent and the
+                                        Grenadines
+                                    </option>
                                     <option value="SR" label="Suriname">Suriname</option>
                                     <option value="TT" label="Trinidad and Tobago">Trinidad and Tobago</option>
-                                    <option value="TC" label="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                                    <option value="TC" label="Turks and Caicos Islands">Turks and Caicos Islands
+                                    </option>
                                     <option value="VI" label="U.S. Virgin Islands">U.S. Virgin Islands</option>
                                     <option value="US" label="United States">United States</option>
                                     <option value="UY" label="Uruguay">Uruguay</option>
@@ -330,7 +332,9 @@
                                     <option value="OM" label="Oman">Oman</option>
                                     <option value="PK" label="Pakistan">Pakistan</option>
                                     <option value="PS" label="Palestinian Territories">Palestinian Territories</option>
-                                    <option value="YD" label="People's Democratic Republic of Yemen">People's Democratic Republic of Yemen</option>
+                                    <option value="YD" label="People's Democratic Republic of Yemen">People's Democratic
+                                        Republic of Yemen
+                                    </option>
                                     <option value="PH" label="Philippines">Philippines</option>
                                     <option value="QA" label="Qatar">Qatar</option>
                                     <option value="SA" label="Saudi Arabia">Saudi Arabia</option>
@@ -402,7 +406,9 @@
                                     <option value="SE" label="Sweden">Sweden</option>
                                     <option value="CH" label="Switzerland">Switzerland</option>
                                     <option value="UA" label="Ukraine">Ukraine</option>
-                                    <option value="SU" label="Union of Soviet Socialist Republics">Union of Soviet Socialist Republics</option>
+                                    <option value="SU" label="Union of Soviet Socialist Republics">Union of Soviet
+                                        Socialist Republics
+                                    </option>
                                     <option value="GB" label="United Kingdom">United Kingdom</option>
                                     <option value="VA" label="Vatican City">Vatican City</option>
                                     <option value="AX" label="Åland Islands">Åland Islands</option>
@@ -412,15 +418,20 @@
                                     <option value="AQ" label="Antarctica">Antarctica</option>
                                     <option value="AU" label="Australia">Australia</option>
                                     <option value="BV" label="Bouvet Island">Bouvet Island</option>
-                                    <option value="IO" label="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                                    <option value="IO" label="British Indian Ocean Territory">British Indian Ocean
+                                        Territory
+                                    </option>
                                     <option value="CX" label="Christmas Island">Christmas Island</option>
                                     <option value="CC" label="Cocos [Keeling] Islands">Cocos [Keeling] Islands</option>
                                     <option value="CK" label="Cook Islands">Cook Islands</option>
                                     <option value="FJ" label="Fiji">Fiji</option>
                                     <option value="PF" label="French Polynesia">French Polynesia</option>
-                                    <option value="TF" label="French Southern Territories">French Southern Territories</option>
+                                    <option value="TF" label="French Southern Territories">French Southern Territories
+                                    </option>
                                     <option value="GU" label="Guam">Guam</option>
-                                    <option value="HM" label="Heard Island and McDonald Islands">Heard Island and McDonald Islands</option>
+                                    <option value="HM" label="Heard Island and McDonald Islands">Heard Island and
+                                        McDonald Islands
+                                    </option>
                                     <option value="KI" label="Kiribati">Kiribati</option>
                                     <option value="MH" label="Marshall Islands">Marshall Islands</option>
                                     <option value="FM" label="Micronesia">Micronesia</option>
@@ -429,17 +440,21 @@
                                     <option value="NZ" label="New Zealand">New Zealand</option>
                                     <option value="NU" label="Niue">Niue</option>
                                     <option value="NF" label="Norfolk Island">Norfolk Island</option>
-                                    <option value="MP" label="Northern Mariana Islands">Northern Mariana Islands</option>
+                                    <option value="MP" label="Northern Mariana Islands">Northern Mariana Islands
+                                    </option>
                                     <option value="PW" label="Palau">Palau</option>
                                     <option value="PG" label="Papua New Guinea">Papua New Guinea</option>
                                     <option value="PN" label="Pitcairn Islands">Pitcairn Islands</option>
                                     <option value="WS" label="Samoa">Samoa</option>
                                     <option value="SB" label="Solomon Islands">Solomon Islands</option>
-                                    <option value="GS" label="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option>
+                                    <option value="GS" label="South Georgia and the South Sandwich Islands">South
+                                        Georgia and the South Sandwich Islands
+                                    </option>
                                     <option value="TK" label="Tokelau">Tokelau</option>
                                     <option value="TO" label="Tonga">Tonga</option>
                                     <option value="TV" label="Tuvalu">Tuvalu</option>
-                                    <option value="UM" label="U.S. Minor Outlying Islands">U.S. Minor Outlying Islands</option>
+                                    <option value="UM" label="U.S. Minor Outlying Islands">U.S. Minor Outlying Islands
+                                    </option>
                                     <option value="VU" label="Vanuatu">Vanuatu</option>
                                     <option value="WF" label="Wallis and Futuna">Wallis and Futuna</option>
                                 </optgroup>
@@ -447,9 +462,9 @@
                         </div>
                     </div>
 
-                    <fieldset class="form-group row">
+                    <fieldset class="form-group row" id="fg_exposed">
                         <label class="col-12 col-form-label">Are you a politically exposed person?</label>
-                        <div class="col-sm-10">
+                        <div class="col-12">
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input class="form-check-input" type="radio" name="_exposed" id="gridRadios3" value="yes">
@@ -465,58 +480,59 @@
                         </div>
                     </fieldset>
 
-                    <div class="form-group row">
-                        <label for="fn-input" class="col-4 col-form-label">First Name</label>
-                        <div class="col-8">
+                    <div class="form-group row" id="fg_fn">
+                        <label for="fn-input" class="col-md-4 col-form-label">First Name</label>
+                        <div class="col-md-8">
                             <input class="form-control" type="text" value="" id="fn-input" name="_fn" placeholder="First Name">
                         </div>
                     </div>
 
-                    <div class="form-group row">
-                        <label for="ln-input" class="col-4 col-form-label">Last Name</label>
-                        <div class="col-8">
+                    <div class="form-group row" id="fg_ln">
+                        <label for="ln-input" class="col-md-4 col-form-label">Last Name</label>
+                        <div class="col-md-8">
                             <input class="form-control" type="text" value="" id="ln-input" name="_ln" placeholder="Last Name">
                         </div>
                     </div>
 
                     <div class="form-group row">
-                        <label for="email-input" class="col-4 col-form-label">Email</label>
-                        <div class="col-8">
+                        <label for="email-input" class="col-md-4 col-form-label">Email</label>
+                        <div class="col-md-8">
                             <input class="form-control" type="email" value="" id="email-input" name="_email" placeholder="Email address">
                         </div>
                     </div>
 
                     <div class="form-group row">
-                        <label for="tel-input" class="col-4 col-form-label">Telephone</label>
-                        <div class="col-8">
+                        <label for="tel-input" class="col-md-4 col-form-label">Telephone</label>
+                        <div class="col-md-8">
                             <input class="form-control" type="tel" placeholder="1-(333)-333-3333" id="tel-input" name="_tel">
                         </div>
                     </div>
 
                     <div class="form-group row">
-                        <label for="address-input" class="col-4 col-form-label">Address</label>
-                        <div class="col-8">
+                        <label for="address-input" class="col-md-4 col-form-label">Address</label>
+                        <div class="col-md-8">
                             <input class="form-control" type="text" value="" id="address-input" name="_address">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="city-input" class="col-4 col-form-label">City</label>
-                        <div class="col-8">
+                        <label for="city-input" class="col-md-4 col-form-label">City</label>
+                        <div class="col-md-8">
                             <input class="form-control" type="text" value="" id="city-input" name="_city">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="postcode-input" class="col-4 col-form-label">Postcode</label>
-                        <div class="col-8">
+                        <label for="postcode-input" class="col-md-4 col-form-label">Postcode</label>
+                        <div class="col-md-8">
                             <input class="form-control" type="text" value="" id="postcode-input" name="_postcode">
                         </div>
                     </div>
 
                     <div class="form-group row">
-                        <label for="country-input" class="col-4 col-form-label">Country</label>
-                        <div class="col-8">
+                        <label for="country-input" class="col-md-4 col-form-label">Country</label>
+                        <div class="col-md-8">
                             <select class="form-control" id="country-input" name="_country">
-                                <option value="0" label="Select a country … " selected="selected">Select a country … </option>
+                                <option value="0" label="Select a country … " selected="selected">Select a country …
+                                </option>
                                 <optgroup label="Africa">
                                     <option value="DZ" label="Algeria">Algeria</option>
                                     <option value="AO" label="Angola">Angola</option>
@@ -526,7 +542,8 @@
                                     <option value="BI" label="Burundi">Burundi</option>
                                     <option value="CM" label="Cameroon">Cameroon</option>
                                     <option value="CV" label="Cape Verde">Cape Verde</option>
-                                    <option value="CF" label="Central African Republic">Central African Republic</option>
+                                    <option value="CF" label="Central African Republic">Central African Republic
+                                    </option>
                                     <option value="TD" label="Chad">Chad</option>
                                     <option value="KM" label="Comoros">Comoros</option>
                                     <option value="CG" label="Congo - Brazzaville">Congo - Brazzaville</option>
@@ -621,11 +638,15 @@
                                     <option value="KN" label="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
                                     <option value="LC" label="Saint Lucia">Saint Lucia</option>
                                     <option value="MF" label="Saint Martin">Saint Martin</option>
-                                    <option value="PM" label="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
-                                    <option value="VC" label="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+                                    <option value="PM" label="Saint Pierre and Miquelon">Saint Pierre and Miquelon
+                                    </option>
+                                    <option value="VC" label="Saint Vincent and the Grenadines">Saint Vincent and the
+                                        Grenadines
+                                    </option>
                                     <option value="SR" label="Suriname">Suriname</option>
                                     <option value="TT" label="Trinidad and Tobago">Trinidad and Tobago</option>
-                                    <option value="TC" label="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                                    <option value="TC" label="Turks and Caicos Islands">Turks and Caicos Islands
+                                    </option>
                                     <option value="VI" label="U.S. Virgin Islands">U.S. Virgin Islands</option>
                                     <option value="US" label="United States">United States</option>
                                     <option value="UY" label="Uruguay">Uruguay</option>
@@ -667,7 +688,9 @@
                                     <option value="OM" label="Oman">Oman</option>
                                     <option value="PK" label="Pakistan">Pakistan</option>
                                     <option value="PS" label="Palestinian Territories">Palestinian Territories</option>
-                                    <option value="YD" label="People's Democratic Republic of Yemen">People's Democratic Republic of Yemen</option>
+                                    <option value="YD" label="People's Democratic Republic of Yemen">People's Democratic
+                                        Republic of Yemen
+                                    </option>
                                     <option value="PH" label="Philippines">Philippines</option>
                                     <option value="QA" label="Qatar">Qatar</option>
                                     <option value="SA" label="Saudi Arabia">Saudi Arabia</option>
@@ -739,7 +762,9 @@
                                     <option value="SE" label="Sweden">Sweden</option>
                                     <option value="CH" label="Switzerland">Switzerland</option>
                                     <option value="UA" label="Ukraine">Ukraine</option>
-                                    <option value="SU" label="Union of Soviet Socialist Republics">Union of Soviet Socialist Republics</option>
+                                    <option value="SU" label="Union of Soviet Socialist Republics">Union of Soviet
+                                        Socialist Republics
+                                    </option>
                                     <option value="GB" label="United Kingdom">United Kingdom</option>
                                     <option value="VA" label="Vatican City">Vatican City</option>
                                     <option value="AX" label="Åland Islands">Åland Islands</option>
@@ -749,15 +774,20 @@
                                     <option value="AQ" label="Antarctica">Antarctica</option>
                                     <option value="AU" label="Australia">Australia</option>
                                     <option value="BV" label="Bouvet Island">Bouvet Island</option>
-                                    <option value="IO" label="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                                    <option value="IO" label="British Indian Ocean Territory">British Indian Ocean
+                                        Territory
+                                    </option>
                                     <option value="CX" label="Christmas Island">Christmas Island</option>
                                     <option value="CC" label="Cocos [Keeling] Islands">Cocos [Keeling] Islands</option>
                                     <option value="CK" label="Cook Islands">Cook Islands</option>
                                     <option value="FJ" label="Fiji">Fiji</option>
                                     <option value="PF" label="French Polynesia">French Polynesia</option>
-                                    <option value="TF" label="French Southern Territories">French Southern Territories</option>
+                                    <option value="TF" label="French Southern Territories">French Southern Territories
+                                    </option>
                                     <option value="GU" label="Guam">Guam</option>
-                                    <option value="HM" label="Heard Island and McDonald Islands">Heard Island and McDonald Islands</option>
+                                    <option value="HM" label="Heard Island and McDonald Islands">Heard Island and
+                                        McDonald Islands
+                                    </option>
                                     <option value="KI" label="Kiribati">Kiribati</option>
                                     <option value="MH" label="Marshall Islands">Marshall Islands</option>
                                     <option value="FM" label="Micronesia">Micronesia</option>
@@ -766,17 +796,21 @@
                                     <option value="NZ" label="New Zealand">New Zealand</option>
                                     <option value="NU" label="Niue">Niue</option>
                                     <option value="NF" label="Norfolk Island">Norfolk Island</option>
-                                    <option value="MP" label="Northern Mariana Islands">Northern Mariana Islands</option>
+                                    <option value="MP" label="Northern Mariana Islands">Northern Mariana Islands
+                                    </option>
                                     <option value="PW" label="Palau">Palau</option>
                                     <option value="PG" label="Papua New Guinea">Papua New Guinea</option>
                                     <option value="PN" label="Pitcairn Islands">Pitcairn Islands</option>
                                     <option value="WS" label="Samoa">Samoa</option>
                                     <option value="SB" label="Solomon Islands">Solomon Islands</option>
-                                    <option value="GS" label="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option>
+                                    <option value="GS" label="South Georgia and the South Sandwich Islands">South
+                                        Georgia and the South Sandwich Islands
+                                    </option>
                                     <option value="TK" label="Tokelau">Tokelau</option>
                                     <option value="TO" label="Tonga">Tonga</option>
                                     <option value="TV" label="Tuvalu">Tuvalu</option>
-                                    <option value="UM" label="U.S. Minor Outlying Islands">U.S. Minor Outlying Islands</option>
+                                    <option value="UM" label="U.S. Minor Outlying Islands">U.S. Minor Outlying Islands
+                                    </option>
                                     <option value="VU" label="Vanuatu">Vanuatu</option>
                                     <option value="WF" label="Wallis and Futuna">Wallis and Futuna</option>
                                 </optgroup>
@@ -785,8 +819,9 @@
                     </div>
 
                     <div class="form-group row">
-                        <label for="country-input" class="col-12 col-form-label">ETH address from which you will be contributing</label>
-                        <div class="offset-4 col-8">
+                        <label for="country-input" class="col-12 col-form-label">ETH address from which you will be
+                            contributing</label>
+                        <div class="offset-md-4 col-md-8">
                             <span>Your tokens will be sent here</span>
                             <input class="form-control" type="text" value="" id="wallet" placeholder="0xcbbc3d3d381f3a9a48cbae9ca701ac3c92e0aea5" name="_wallet">
                         </div>
@@ -796,8 +831,8 @@
                         <label for="country-input" class="col-12 col-form-label">
                             Expected contribution amount (in ETH)
                         </label>
-                        <div class="offset-4 col-8 input-group">
-                            <input class="form-control" type="text" value="" id="eth" placeholder="10" name="_eth">
+                        <div class="offset-md-4 col-md-8 input-group">
+                            <input class="form-control" type="number" min="1" max="500000" value="10" id="eth" placeholder="10" name="_eth">
                             <div class="input-group-append">
                                 <span class="input-group-text">ETH</span>
                             </div>
@@ -808,7 +843,7 @@
                         <label for="country-input" class="col-12 col-form-label">
                             Source of funds
                         </label>
-                        <div class="offset-4 col-8">
+                        <div class="offset-md-4 col-md-8">
                             <span>Example: Savings, salary, trust fund</span>
                             <input class="form-control" type="text" value="" id="sourceOfFounds" name="_sourceOfFounds">
                         </div>
@@ -818,7 +853,7 @@
                         <label for="country-input" class="col-12 col-form-label">
                             Upload a clear high resolution image of your ID
                         </label>
-                        <div class="offset-4 col-8">
+                        <div class="offset-md-4 col-md-8">
                             <span>A photo of valid passport or national ID</span>
                             <label class="btn btn-primary form-control">
                                 UPLOAD ID PHOTO <input type="file" id="file_id" name="_file_id" hidden>
@@ -830,13 +865,14 @@
                         <label for="country-input" class="col-12 col-form-label">
                             Upload a selfie holding your photo ID
                         </label>
-                        <div class="offset-4 col-8">
+                        <div class="offset-md-4 col-md-8">
                             <span>A photo of yourself holding a valid passport or national ID</span>
                             <img src="../content/img/kyc_photo.png" alt="kyc-photo sample" class="img img-responsive" style="width: 100%">
 
                             <ul>
                                 <li>Stand in a well-lit space, where your face, piece of paper and/or ID
-                                    are clearly visible, and the photo is focused.</li>
+                                    are clearly visible, and the photo is focused.
+                                </li>
                                 <li>Do not tilt your piece of paper in such a way that the date is not visible.</li>
                                 <li>Do not obscure your face, piece of paper and/or ID.</li>
                             </ul>
@@ -849,7 +885,7 @@
                     <hr>
 
                     <div class="form-group row">
-                        <div class="col-sm-12">
+                        <div class="col-md-12">
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input class="form-check-input" type="checkbox" name="_policy">
@@ -858,21 +894,22 @@
                             </div>
                         </div>
 
-                        <div class="col-sm-12">
+                        <div class="col-md-12">
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input class="form-check-input" type="checkbox" name="_terms">
-                                    I hereby agree to <a href="../asure.network.tge.terms.en.pdf">Contribution and ASR Allocation Terms and  Explanatory Note</a>
+                                    I hereby agree to <a href="../asure.network.tge.terms.en.pdf">Contribution and ASR
+                                        Allocation Terms and  Explanatory Note</a>
                                 </label>
                             </div>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <div class="g-recaptcha" data-sitekey="6LfHhnYUAAAAAJBRA8jQV29_LYipdVQC3jW0YRHo" data-callback="recaptchaCallback"></div>
                         </div>
-                        <div class="col-6 text-center">
+                        <div class="col-md-6 text-center">
                         </div>
                     </div>
 
@@ -887,33 +924,35 @@
                         </label>
                     </div>
 
-
-
-                    <div class="alert alert-success hidden" role="alert">
-                        <h4 class="alert-heading">Well done!</h4>
-                        <p>
-                            Form data submitted successfully.
-                        </p>
-                        <hr>
-                        <p class="mb-0">
-                            We will inform you about the progress of your application.
-                        </p>
-                    </div>
-
-                    <div class="alert alert-warning hidden" role="alert">
-                        <h4 class="alert-heading">Warning:</h4>
-                        <p>You should check some fields.
-                            <br>
-                            All fields are mandatory.
-                            <br>
-                            </p><p class="mb-0 error-list">
-
-                            </p>
-                        
-
-                    </div>
-
                 </form>
+
+                <div class="alert alert-success hidden" role="alert">
+                    <h4 class="alert-heading">Well done!</h4>
+                    <p>
+                        Form data submitted successfully.
+                    </p>
+                    <hr>
+                    <p class="mb-0">
+                        We will inform you about the progress of your application.
+                    </p>
+                </div>
+
+                <div class="alert alert-warning hidden" role="alert">
+                    <h4 class="alert-heading">Warning:</h4>
+                    <p>You should check some fields.
+                        <br>
+                        All fields are mandatory.
+                        <br>
+                    </p><p class="wallet-error">
+                        ETH Address must be valid.
+                    </p>
+                    <p class="mb-0 error-list">
+
+                    </p>
+                    
+
+                </div>
+
             </div>
         </div>
         <div class="row">
@@ -956,18 +995,25 @@
 </div>
 
 
-
+<script src="https://unpkg.com/imask"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
-        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
-        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 <script src="../js/libs/slick/slick.min.js"></script>
+
 <script>
+    $(function () {
+        $('[data-toggle="popover"]').popover();
+
+        $('ul.nav-tabs li:first-child a').tab('show');
+    });
+
     function getCookie(cname) {
         var name = cname + "=";
         var decodedCookie = decodeURIComponent(document.cookie);
@@ -1117,7 +1163,9 @@
                     var currLink = $(this);
 
                     var refElement = $(currLink[0].hash);
-                    if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() + 75 > scrollPos) {
+                    var isActive = refElement.position().top - 5 <= scrollPos && refElement.position().top + refElement.height() + 75 > scrollPos;
+                    //console.log(`onScroll: ${currLink[0].hash}, top: ${refElement.position().top} bottom: ${refElement.position().top + refElement.height() + 75}, scrollPos: ${scrollPos}, isActive: ${isActive}`);
+                    if (isActive) {
                         $('.blc-navbar .navbar-nav a[href*="#"]:not([href="#"])').removeClass("active");
                         currLink.addClass("active");
                     }
@@ -1131,7 +1179,7 @@
                 $(document).on("scroll", onScroll);
 
                 // Smooth scrolling. From https://css-tricks.com/snippets/jquery/smooth-scrolling/#comment-197181
-                $('.blc-navbar .navbar-nav a[href*="#"]:not([href="#"])').click(function (e) {
+                $('a.scroll-animation[href*="#"]:not([href="#"])').click(function (e) {
                     if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') || location.hostname === this.hostname) {
                         e.preventDefault();
 
@@ -1171,6 +1219,8 @@
     $("form#form-kyc input,form#form-kyc select").change(function(){
         var fn=isNotUndefinedAndEmpty($("input[name='_fn']").val());
         fn?$("input[name='_fn']").addClass("is-valid"):$("input[name='_fn']").removeClass("is-valid");
+        //fn?$("#fg_fn").removeClass("form-error"):$("#fg_fn").addClass("form-error");
+
         var ln=isNotUndefinedAndEmpty($("input[name='_ln']").val());
         ln?$("input[name='_ln']").addClass("is-valid"):$("input[name='_ln']").removeClass("is-valid");
         var us=isNotUndefinedAndEmpty($("input[name='_us']:checked").val());
@@ -1188,8 +1238,13 @@
         country?$("input[name='_country']").addClass("is-valid"):$("input[name='_country']").removeClass("is-valid");
         var wallet=isAddress($("input[name='_wallet']").val());
         wallet?$("input[name='_wallet']").addClass("is-valid"):$("input[name='_wallet']").removeClass("is-valid");
+
+        wallet?$(".wallet-error").addClass("hidden"):$(".wallet-error").removeClass("hidden");
+
+
         var eth=isNumber($("input[name='_eth']").val());
         eth?$("input[name='_eth']").addClass("is-valid"):$("input[name='_eth']").removeClass("is-valid");
+
         var sourceOfFounds=isNotUndefinedAndEmpty($("input[name='_sourceOfFounds']").val());
         sourceOfFounds?$("input[name='_sourceOfFounds']").addClass("is-valid"):$("input[name='_sourceOfFounds']").removeClass("is-valid");
 
@@ -1197,11 +1252,13 @@
         var file_photo=isNotUndefinedAndEmpty($("input[name='_file_photo']").val());
 
         var policy=isNotUndefinedAndEmpty($("input[name='_policy']:checked").val());
+        var terms=isNotUndefinedAndEmpty($("input[name='_terms']:checked").val());
+
         if(fn && ln &&
             us && exposed && citizenship &&
             tel && address && city && postcode && country &&
             wallet && eth && sourceOfFounds &&
-            file_id && file_photo && policy &&
+            file_id && file_photo && policy && terms &&
             recaptchaOk){
             $("input[type='submit']").prop('disabled', false);
             $('.alert.alert-warning').hide();
@@ -1226,7 +1283,7 @@
             data: formData,
             crossDomain: true,
             success: function (data) {
-                if(data.status=="true") {
+                if(data.status=="true" || data.status==true) {
                     $('.alert.alert-success').show().delay(5000).hide(1);//success
                 }else{
                     $('.alert.alert-warning').show(); // error
@@ -1305,6 +1362,7 @@
     };
 </script>
 
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112962931-6"></script>
 <script>
@@ -1314,5 +1372,6 @@
 
     gtag('config', 'UA-112962931-6');
 </script>
+
 </body>
 </html>
