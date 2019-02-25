@@ -2,8 +2,20 @@
  * See https://getbootstrap.com/docs/4.3/getting-started/theming/
  */
 $enable-rounded: false;
-$success: #58c9c4;
-$danger: #e2324b;
+
+$blue:    #69acd6;
+$indigo:  #6610f2;
+$purple:  #a90cfb;
+$pink:    #e83e8c;
+$red:     #e2324b;
+$orange:  #f15c27;
+$yellow:  #d49b40;
+$green:   #99c759;
+$teal:    #58c9c4;
+$cyan:    #7ec5b7;
+
+$success: $teal;
+
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 .invalid-feedback {
@@ -153,7 +165,7 @@ $hero-title-color: #62381b;
   color: #ffffff;
 }
 
-.btn {
+.btn, .btn:hover {
   color: #fff;
 }
 
@@ -1815,31 +1827,31 @@ blockquote {
 }
 
 .bg-color1 {
-  background-color: #69acd6;
+  background-color: $blue;
 }
 
 .bg-color2 {
-  background-color: #7ec5b7;
+  background-color: $teal;
 }
 
 .bg-color3 {
-  background-color: #e91f62;
+  background-color: $red;
 }
 
 .bg-color4 {
-  background-color: #d49b40;
+  background-color: $yellow;
 }
 
 .bg-color5 {
-  background-color: #99c759;
+  background-color: $green;
 }
 
 .bg-color6 {
-  background-color: #a90cfb;
+  background-color: $purple;
 }
 
 .bg-color7 {
-  background-color: #f15c27;
+  background-color: $orange;
 }
 
 .small-text {
