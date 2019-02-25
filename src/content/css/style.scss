@@ -153,10 +153,13 @@ $hero-title-color: #62381b;
   color: #ffffff;
 }
 
+.btn {
+  color: #fff;
+}
+
 .btn-primary {
   background-color: #69acd6;
   border-color: #69acd6;
-  color: #fff;
 
   &.disabled, &:disabled, &.disabled:hover, &:disabled:hover {
     background-color: #999999 !important;
@@ -164,7 +167,6 @@ $hero-title-color: #62381b;
   }
 
   &:hover {
-    color: #fff;
     background-color: #6ac1eb !important;
     border-color: #69acd6 !important;
   }
@@ -173,7 +175,6 @@ $hero-title-color: #62381b;
 .btn-action {
   background-color: #e2324b;
   border-color: #cd3249;
-  color: #fff;
 
   &.disabled, &:disabled, &.disabled:hover, &:disabled:hover {
     background-color: #999999 !important;
@@ -182,7 +183,6 @@ $hero-title-color: #62381b;
 }
 
 .btn-action:hover {
-  color: #fff;
   background-color: #eb334c !important;
   border-color: #cd3249 !important;
 }
