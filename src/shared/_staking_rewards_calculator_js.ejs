@@ -25,21 +25,6 @@
         return e ? Number(e.replace(/[^0-9\.\-]/g, "")) : 0
     }
 
-    function validateForm() {
-        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-        var forms = document.getElementsByClassName('needs-validation');
-        // Loop over them and prevent submission
-        var validation = Array.prototype.filter.call(forms, function (form) {
-            form.addEventListener('submit', function (event) {
-                if (form.checkValidity() === false) {
-                    event.preventDefault();
-                    event.stopPropagation();
-                }
-                form.classList.add('was-validated');
-            }, false);
-        });
-    }
-
     function validate() {
         var form = $('.form-stacking-calc');
         if (form[0].checkValidity()) {
@@ -58,13 +43,18 @@
 
         var ownTokensStaking = strToNumber($("#ownTokensStaking").val());
         var totalTokensStaked = strToNumber($("#totalTokensStaked").val());
+        if(totalTokensStaked === 0 || ownTokensStaking === 0) return resetRewards();
+        if(ownTokensStaking > totalTokensStaked){
+            totalTokensStaked = ownTokensStaking;
+            $("#totalTokensStaked").val(ownTokensStaking); return
+        }
         var percentageTokensStaked = ownTokensStaking / totalTokensStaked;
 
         var baseFlatFee = strToNumber($("#baseFlatFee").val());
         var percentageFee = strToNumber($("#percentageFee").val());
         var dalilyTransactionVolume = strToNumber($("#dalilyTransactionVolume").val());
         var avgTransactionSize = strToNumber($("#avgTransactionSize").val());
-
+        if(avgTransactionSize === 0) return resetRewards();
         var dailyTx = dalilyTransactionVolume / avgTransactionSize;
         var flatFee = dailyTx * baseFlatFee;
         var percentageFeeCalc = dalilyTransactionVolume * percentageFee / 100;
@@ -88,13 +78,11 @@
         this.init();
     }
 
-    //if (webshims) {
-    //    webshims.setOptions('forms-ext', {
-    //        replaceUI: 'auto',
-    //        types: 'number'
-    //    });
-    //    webshims.polyfill('forms forms-ext');
-    //}
+    function resetRewards(){
+        $("#perDay").text("$ 0");
+        $("#perMonth").text("$ 0");
+        $("#perYear").text("$ 0");
+    }
 </script>
 
 
