@@ -22,14 +22,14 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <div class="card">
+                <div id="card-registration" class="card">
                     <div class="card-header bg-green">
                         <h2 class="text-center">Registration</h2>
                     </div>
                     <div class="card-body bg-light-green">
                         <form class="form m-lg-5" id="form-kyc"
                               action=""
-                              method="post" target="_blank" rel="noopener" novalidate="" enctype="multipart/form-data">
+                              method="post" target="_blank" rel="noopener" novalidate enctype="multipart/form-data">
 
                             <fieldset class="form-group" id="fg-us-group">
                                 <div class="row">
@@ -37,13 +37,16 @@
                                     <div class="col-md-8">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="_us" id="fg-us-yes"
-                                                   value="yes">
+                                                   value="yes" required>
                                             <label class="form-check-label" for="fg-us-yes">Yes</label>
                                         </div>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="_us" id="fg-us-no"
-                                                   value="no">
+                                                   value="no" required>
                                             <label class="form-check-label" for="fg-us-no">No</label>
+                                            <div class="invalid-feedback">
+                                                Please provide if you are a US citizen.
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -52,9 +55,9 @@
                             <div class="form-group row" id="fg-citizenship-group">
                                 <label for="fg-citizenship" class="col-md-4 col-form-label">Citizenship</label>
                                 <div class="col-md-8">
-                                    <select class="form-control" id="fg-citizenship" name="_citizenship">
-                                        <option value="0" label="Select a country … " selected="selected">Select a
-                                            country …
+                                    <select class="form-control" id="fg-citizenship" name="_citizenship" required>
+                                        <option value="" selected="selected" disabled>
+                                            Select a country ...
                                         </option>
                                         <optgroup id="country-optgroup-Africa" label="Africa">
                                             <option value="DZ" label="Algeria">Algeria</option>
@@ -357,6 +360,9 @@
                                             <option value="WF" label="Wallis and Futuna">Wallis and Futuna</option>
                                         </optgroup>
                                     </select>
+                                    <div class="invalid-feedback">
+                                        Please provide your citizenship.
+                                    </div>
                                 </div>
                             </div>
 
@@ -368,14 +374,17 @@
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="_exposed"
                                                    id="fg-exposed-yes"
-                                                   value="yes">
+                                                   value="yes" required>
                                             <label class="form-check-label" for="fg-exposed-yes">Yes</label>
                                         </div>
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="_exposed"
                                                    id="fg-exposed-no"
-                                                   value="no">
+                                                   value="no" required>
                                             <label class="form-check-label" for="fg-exposed-no">No</label>
+                                            <div class="invalid-feedback">
+                                                Please provide if you are a politically exposed person.
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -385,7 +394,10 @@
                                 <label for="fg-fn" class="col-md-4 col-form-label">First Name</label>
                                 <div class="col-md-8">
                                     <input class="form-control" type="text" value="" id="fg-fn" name="_fn"
-                                           placeholder="First Name">
+                                           placeholder="First Name" required>
+                                    <div class="invalid-feedback">
+                                        Please provide your first name.
+                                    </div>
                                 </div>
                             </div>
 
@@ -393,7 +405,10 @@
                                 <label for="fg-ln" class="col-md-4 col-form-label">Last Name</label>
                                 <div class="col-md-8">
                                     <input class="form-control" type="text" value="" id="fg-ln" name="_ln"
-                                           placeholder="Last Name">
+                                           placeholder="Last Name" required>
+                                    <div class="invalid-feedback">
+                                        Please provide your last name.
+                                    </div>
                                 </div>
                             </div>
 
@@ -401,7 +416,10 @@
                                 <label for="fg-email" class="col-md-4 col-form-label">Email</label>
                                 <div class="col-md-8">
                                     <input class="form-control" type="email" value="" id="fg-email" name="_email"
-                                           placeholder="Email address">
+                                           placeholder="Email address" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid email address.
+                                    </div>
                                 </div>
                             </div>
 
@@ -409,38 +427,51 @@
                                 <label for="fg-tel" class="col-md-4 col-form-label">Telephone</label>
                                 <div class="col-md-8">
                                     <input class="form-control" type="tel" placeholder="1-(333)-333-3333" id="fg-tel"
-                                           name="_tel">
+                                           name="_tel" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid phone number.
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="form-group row" id="fg-address-group">
                                 <label for="fg-address" class="col-md-4 col-form-label">Address</label>
                                 <div class="col-md-8">
-                                    <input class="form-control" type="text" value="" id="fg-address" name="_address">
+                                    <input class="form-control" type="text" value="" id="fg-address" name="_address"
+                                           required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid address.
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="form-group row" id="fg-city-group">
                                 <label for="fg-city" class="col-md-4 col-form-label">City</label>
                                 <div class="col-md-8">
-                                    <input class="form-control" type="text" value="" id="fg-city" name="_city">
+                                    <input class="form-control" type="text" value="" id="fg-city" name="_city" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid city.
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="form-group row" id="fg-postcode-group">
-                                <label for="fg-postcode" class="col-md-4 col-form-label">Postcode</label>
+                                <label for="fg-postcode" class="col-md-4 col-form-label">Zip code</label>
                                 <div class="col-md-8">
                                     <input class="form-control" type="text" value="" id="fg-postcode"
-                                           name="_postcode">
+                                           name="_postcode" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid zip code.
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="form-group row" id="fg-country-group">
                                 <label for="fg-country" class="col-md-4 col-form-label">Country</label>
                                 <div class="col-md-8">
-                                    <select class="form-control" id="fg-country" name="_country">
-                                        <option value="0" label="Select a country … " selected="selected">Select a
-                                            country …
+                                    <select class="form-control" id="fg-country" name="_country" required>
+                                        <option value="" selected="selected" disabled>
+                                            Select a country …
                                         </option>
                                         <optgroup label="Africa">
                                             <option value="DZ" label="Algeria">Algeria</option>
@@ -743,6 +774,9 @@
                                             <option value="WF" label="Wallis and Futuna">Wallis and Futuna</option>
                                         </optgroup>
                                     </select>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid country.
+                                    </div>
                                 </div>
                             </div>
 
@@ -752,7 +786,11 @@
                                 </label>
                                 <div class="col-md-8">
                                     <input class="form-control" type="text" value="" id="fg-wallet"
-                                           placeholder="0xcbbc3d3d381f3a9a48cbae9ca701ac3c92e0aea5" name="_wallet">
+                                           placeholder="0xcbbc3d3d381f3a9a48cbae9ca701ac3c92e0aea5" name="_wallet"
+                                           required>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid ETH address.
+                                    </div>
                                     <small class="form-text text-muted">Your tokens will be sent here</small>
                                 </div>
                             </div>
@@ -763,12 +801,14 @@
                                 </label>
                                 <div class="col-md-8">
                                     <div class="input-group">
-                                        <input class="form-control" type="number" min="1" max="500000" value="10"
-                                               id="fg-eth"
-                                               placeholder="10" name="_eth">
+                                        <input class="form-control" type="number" required min="1" max="500000"
+                                               value="10" id="fg-eth" placeholder="10" name="_eth">
                                         <div class="input-group-append">
                                             <span class="input-group-text">ETH</span>
                                         </div>
+                                    </div>
+                                    <div class="invalid-feedback">
+                                        Please provide a valid ETH address.
                                     </div>
                                 </div>
                             </div>
@@ -779,7 +819,10 @@
                                 </label>
                                 <div class="col-md-8">
                                     <input class="form-control" type="text" value="" id="fg-source-of-funds"
-                                           name="_sourceOfFounds">
+                                           name="_sourceOfFounds" required>
+                                    <div class="invalid-feedback">
+                                        Please provide a source.
+                                    </div>
                                     <small class="form-text text-muted">Example: Savings, salary, trust fund</small>
                                 </div>
                             </div>
@@ -789,12 +832,15 @@
                                     Upload a clear high resolution image of your ID
                                 </label>
                                 <div class="col-md-8">
-                                    <label class="btn btn-primary form-control">
-                                        UPLOAD ID <input type="file" id="fg-file-id" name="_file_id" hidden>
-                                    </label>
-                                    <small class="form-text text-muted">A photo of valid passport or national ID</small>
+                                    <div class="custom-file">
+                                        <input class="custom-file-input" type="file" id="fg-file-id" name="_file_id" required>
+                                        <label class="custom-file-label" for="fg-file-id">Choose file...</label>
+                                        <div class="invalid-feedback">Please provide valid photo of your ID.</div>
+                                        <small class="form-text text-muted">A photo of valid passport or national ID</small>
+                                    </div>
                                 </div>
                             </div>
+
 
                             <div class="form-group row" id="fg-file-photo-group">
                                 <label for="fg-file-photo" class="col-md-4 col-form-label">
@@ -805,23 +851,27 @@
                                          style="width: 100%;">
                                 </label>
                                 <div class="col-md-8">
-                                    <label class="btn btn-primary form-control">
-                                        UPLOAD PHOTO <input type="file" id="fg-file-photo" name="_file_photo" hidden>
-                                    </label>
-                                    <small class="form-text text-muted">A photo of yourself holding a valid passport or
-                                        national ID
-                                    </small>
-                                    <small class="form-text text-muted">
-                                        <ul>
-                                            <li>Stand in a well-lit space, where your face, piece of paper and/or ID
-                                                are clearly visible, and the photo is focused.
-                                            </li>
-                                            <li>Do not tilt your piece of paper in such a way that the date is not
-                                                visible.
-                                            </li>
-                                            <li>Do not obscure your face, piece of paper and/or ID.</li>
-                                        </ul>
-                                    </small>
+                                    <div class="custom-file">
+                                        <input class="custom-file-input" type="file" id="fg-file-photo" name="_file_photo" required>
+                                        <label class="custom-file-label" for="fg-file-photo">Choose file...</label>
+                                        <div class="invalid-feedback">
+                                            Please provide valid photo of yourself and your ID.
+                                        </div>
+                                        <small class="form-text text-muted">A photo of yourself holding a valid passport or
+                                            national ID
+                                        </small>
+                                        <small class="form-text text-muted">
+                                            <ul>
+                                                <li>Stand in a well-lit space, where your face, piece of paper and/or ID
+                                                    are clearly visible, and the photo is focused.
+                                                </li>
+                                                <li>Do not tilt your piece of paper in such a way that the date is not
+                                                    visible.
+                                                </li>
+                                                <li>Do not obscure your face, piece of paper and/or ID.</li>
+                                            </ul>
+                                        </small>
+                                    </div>
                                 </div>
                             </div>
 
@@ -831,29 +881,38 @@
                                 <div class="offset-md-4 col-md-8">
                                     <div class="form-check">
                                         <label class="form-check-label">
-                                            <input class="form-check-input" type="checkbox" name="_policy">
+                                            <input class="form-check-input" type="checkbox" name="_policy" required>
                                             I hereby agree to <a href="/kyc_policy">Asure's KYC policy</a>
                                         </label>
+                                        <div class="invalid-feedback">
+                                            You must agree with our KYC policy.
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div class="offset-md-4 col-md-8" id="fg-terms-group">
                                     <div class="form-check">
                                         <label class="form-check-label">
-                                            <input class="form-check-input" type="checkbox" name="_terms">
+                                            <input class="form-check-input" type="checkbox" name="_terms" required>
                                             I hereby agree to
                                             <a href="../asure.network.tge.terms.en.pdf">
-                                                Contribution and ASR Allocation Terms and  Explanatory Note
+                                                Contribution and ASR Allocation Terms and Explanatory Note
                                             </a>
                                         </label>
+                                        <div class="invalid-feedback">
+                                            You must agree with our contribution and ASR allocation terms and explanatory note.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="row">
+                            <div class="form-group row">
                                 <div class="offset-md-4 col-md-8">
                                     <div class="g-recaptcha" data-sitekey="6LfHhnYUAAAAAJBRA8jQV29_LYipdVQC3jW0YRHo"
                                          data-callback="recaptchaCallback"></div>
+                                    <div class="invalid-feedback">
+                                        You must provide a recaptcha.
+                                    </div>
                                 </div>
                             </div>
 
@@ -863,36 +922,23 @@
                                 <label class="offset-md-4 col-md-8">
                                     <input type="submit" value="SUBMIT"
                                            name="SUBMIT"
-                                           class="btn btn-primary form-control"
-                                           disabled>
+                                           class="btn btn-primary form-control">
                                 </label>
                             </div>
                         </form>
-
-                        <div class="alert alert-success hidden" role="alert">
-                            <h4 class="alert-heading">Well done!</h4>
-                            <p>
-                                Form data submitted successfully.
-                            </p>
-                            <hr>
-                            <p class="mb-0">
-                                We will inform you about the progress of your application.
-                            </p>
-                        </div>
-
-                        <div class="alert alert-warning hidden" role="alert">
-                            <h4 class="alert-heading">Warning:</h4>
-                            <p>You should check some fields.
-                                <br/>
-                                All fields are mandatory.
-                                <br/>
-                            <p class="wallet-error">
-                                ETH Address must be valid.
-                            </p>
-                            <p class="mb-0 error-list">
-
-                            </p>
-                        </div>
+                    </div>
+                </div>
+                <div id="card-registration-successful" class="card hidden">
+                    <div class="card-header bg-green">
+                        <h2 class="text-center">Registration successful</h2>
+                    </div>
+                    <div class="card-body bg-light-green">
+                        <p class="card-text">
+                            Form data submitted successfully.
+                        </p>
+                        <p class="card-text">
+                            We will inform you about the progress of your application.
+                        </p>
                     </div>
                 </div>
             </div>

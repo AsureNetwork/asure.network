@@ -18,16 +18,6 @@ $success: $teal;
 
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
-.invalid-feedback {
-  display: block;
-  visibility: hidden;
-}
-
-.was-validated .form-control:invalid ~ .invalid-feedback,
-.form-control.is-invalid ~ .invalid-feedback {
-  visibility: visible;
-}
-
 $link-color: #2877bd;
 $title-color: #69acd6;
 $hero-title-color: #62381b;
@@ -2047,6 +2037,20 @@ div.container.staking-calculator {
 }
 
 .blc-stacking-calculator {
+  /*
+   * Reserve space for feedbacks so the Layout does not change
+   * in size.
+   */
+  .invalid-feedback {
+    display: block;
+    visibility: hidden;
+  }
+
+  .was-validated .form-control:invalid ~ .invalid-feedback,
+  .form-control.is-invalid ~ .invalid-feedback {
+    visibility: visible;
+  }
+
   .form-control:focus {
     border-color: rgba(0,123,255,0.25);
     box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
@@ -2059,4 +2063,14 @@ div.container.staking-calculator {
 
 .blc-kyc {
   @include section;
+  min-height: 100vh;
+
+  .custom-file-label {
+    font-size: 1rem;
+  }
+
+  .was-validated .form-check-input:valid ~ .form-check-label {
+    color: #000;
+  }
+
 }
