@@ -234,8 +234,12 @@ body {
   box-shadow: 1px 1px 1px #888888;
 }
 
-.shadow-buttom {
-  box-shadow: 0px 1px 0px #69acd6;
+.btn-shadow {
+  box-shadow: 1px 1px 1px #444444;
+}
+
+.btn-shadow:hover {
+  box-shadow: 0.5px 0.5px 0.5px #444444;
 }
 
 b {
@@ -2047,6 +2051,10 @@ div.container.staking-calculator {
     border-color: rgba(0,123,255,0.25);
     box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
   }
+}
+
+.w-33 {
+  width: 33%!important
 }
 
 .blc-kyc {

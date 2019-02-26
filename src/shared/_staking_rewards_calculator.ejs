@@ -61,7 +61,8 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="ownTokensStaking">Tokens you're staking</label>
-                                <input type="number" value="0" id="ownTokensStaking" class="form-control" required min="0">
+                                <input type="number" value="0" id="ownTokensStaking" class="form-control" required
+                                       min="1" max="100000000">
                                 <div class="invalid-feedback">
                                     Please provide a valid amount.
                                 </div>
@@ -70,7 +71,8 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="totalTokensStaked">Tokens staked</label>
-                                <input type="number" value="0" id="totalTokensStaked" class="form-control" required min="0">
+                                <input type="number" value="0" id="totalTokensStaked" class="form-control" required
+                                       min="1" max="100000000">
                                 <div class="invalid-feedback">
                                     Please provide a valid amount.
                                 </div>
@@ -80,7 +82,7 @@
                             <div class="form-group disabled">
                                 <label for="percentageTokensStaked">Percentage Token staked</label>
                                 <input type="text" value="0" id="percentageTokensStaked"
-                                       readonly tabindex="-1" class="form-control-plaintext">
+                                       readonly tabindex="-1" class="form-control-plaintext" max="100">
                             </div>
                         </div>
                     </div>
@@ -89,7 +91,8 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="dalilyTransactionVolume">Daily transaction volume</label>
-                                <input type="number" value="0" id="dalilyTransactionVolume" class="form-control" required min="0">
+                                <input type="number" value="0" id="dalilyTransactionVolume" class="form-control"
+                                       required min="1" max="10000000000">
                                 <div class="invalid-feedback">
                                     Please provide a valid amount.
                                 </div>
@@ -98,7 +101,7 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="avgTransactionSize">Average transaction size</label>
-                                <input type="number" value="0" id="avgTransactionSize" class="form-control" required min="0">
+                                <input type="number" value="0" id="avgTransactionSize" class="form-control" required min="1" max="10000000000">
                                 <div class="invalid-feedback">
                                     Please provide a valid amount.
                                 </div>
@@ -108,7 +111,7 @@
                             <div class="form-group disabled">
                                 <label for="avgTransactionDay">Average transactions per day</label>
                                 <input type="text" value="1" id="avgTransactionDay"
-                                       readonly tabindex="-1" class="form-control-plaintext">
+                                       readonly tabindex="-1" class="form-control-plaintext" min="1">
                             </div>
                         </div>
                     </div>
@@ -117,7 +120,7 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="baseFlatFee">Base flat fee</label>
-                                <input type="number" value="1" id="baseFlatFee" class="form-control" step="any" required min="0">
+                                <input type="number" value="1" id="baseFlatFee" class="form-control" step="any" required min="0" max="100">
                                 <div class="invalid-feedback">
                                     Please provide a valid amount.
                                 </div>
@@ -126,7 +129,7 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="percentageFee">Percentage fee</label>
-                                <input type="number" value="0" id="percentageFee" class="form-control" step="any" required min="0">
+                                <input type="number" value="0" id="percentageFee" class="form-control" step="any" required min="0" max="100">
                                 <div class="invalid-feedback">
                                     Please provide a valid amount.
                                 </div>
