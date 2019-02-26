@@ -175,7 +175,7 @@ $hero-title-color: #62381b;
 
   &.disabled, &:disabled, &.disabled:hover, &:disabled:hover {
     background-color: #999999 !important;
-    border-color: #444444 !important;
+    border-color: #898989 !important;
   }
 
   &:hover {
@@ -2047,4 +2047,8 @@ div.container.staking-calculator {
     border-color: rgba(0,123,255,0.25);
     box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
   }
+}
+
+.blc-kyc {
+  @include section;
 }
