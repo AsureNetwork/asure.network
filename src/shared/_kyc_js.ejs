@@ -44,8 +44,6 @@
             return true;
         };
 
-        self.recaptchaOk = false;
-
         self.validateWallet = function () {
             if (!isAddress(this.value)) {
                 this.setCustomValidity('"' + this.value + '" is not a valid address.');
@@ -114,6 +112,6 @@
 
 
     function recaptchaCallback() {
-        kycManager.recaptchaOk = true;
+        $('#fg-recaptcha').val('1')
     }
 </script>

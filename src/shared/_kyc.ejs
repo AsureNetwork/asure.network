@@ -880,8 +880,8 @@
                             <div class="form-group row" id="fg-policy-group">
                                 <div class="offset-md-4 col-md-8">
                                     <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input class="form-check-input" type="checkbox" name="_policy" required>
+                                        <input class="form-check-input" type="checkbox" id="fg-policy" name="_policy" required>
+                                        <label class="form-check-label" for="fg-policy">
                                             I hereby agree to <a href="/kyc_policy">Asure's KYC policy</a>
                                         </label>
                                         <div class="invalid-feedback">
@@ -892,8 +892,8 @@
 
                                 <div class="offset-md-4 col-md-8" id="fg-terms-group">
                                     <div class="form-check">
-                                        <label class="form-check-label">
-                                            <input class="form-check-input" type="checkbox" name="_terms" required>
+                                        <input class="form-check-input" type="checkbox" id="fg-terms" name="_terms" required>
+                                        <label class="form-check-label" for="fg-terms">
                                             I hereby agree to
                                             <a href="../asure.network.tge.terms.en.pdf">
                                                 Contribution and ASR Allocation Terms and Explanatory Note
@@ -910,6 +910,7 @@
                                 <div class="offset-md-4 col-md-8">
                                     <div class="g-recaptcha" data-sitekey="6LfHhnYUAAAAAJBRA8jQV29_LYipdVQC3jW0YRHo"
                                          data-callback="recaptchaCallback"></div>
+                                    <input class="form-control hidden" type="text" value="" id="fg-recaptcha" name="_fn" required>
                                     <div class="invalid-feedback">
                                         You must provide a recaptcha.
                                     </div>
@@ -922,7 +923,7 @@
                                 <label class="offset-md-4 col-md-8">
                                     <input type="submit" value="SUBMIT REGISTRATION"
                                            name="SUBMIT"
-                                           class="btn btn-action btn-shadow form-control">
+                                           class="btn btn-action btn-shadow btn-block">
                                 </label>
                             </div>
 
