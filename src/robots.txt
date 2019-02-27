@@ -25,5 +25,5 @@ Disallow: /
 User-agent: penthesilea
 Disallow: /
 
-Sitemap: https://www.asure.io/sitemap.xml
+Sitemap: https://www.asure.network/sitemap.xml
 
