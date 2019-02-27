@@ -9,7 +9,7 @@
     <meta name="keywords" content="<%= getByKey("keywords", keywords) %>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta name="google-site-verification" content="ayUCyn7BJqzIM80AU5tbf1ZWLq4AtpqOZ0rRMhgclIk" />
+    <meta name="google-site-verification" content="ayUCyn7BJqzIM80AU5tbf1ZWLq4AtpqOZ0rRMhgclIk"/>
 
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="<%= fixUrl(current.path, 'content/img/ico/ms-icon-144x144.png') %>">
@@ -42,8 +42,8 @@
     <link rel="icon" type="image/png" sizes="16x16"
           href="<%= fixUrl(current.path, 'content/img/ico/favicon-16x16.png') %>">
     <link rel="manifest" href="<%= fixUrl(current.path, 'content/img/ico/manifest.json') %>">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic"
           rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
@@ -51,7 +51,8 @@
     <link rel="stylesheet" href="<%= prefixUrl() %>content/css/style.css">
     <link rel="stylesheet" href="<%= prefixUrl() %>js/libs/slick/slick-all.css">
 
-    <link rel="stylesheet" type="text/css" href="<%= prefixUrl() %>js/libs/html5-device-mockups/dist/device-mockups.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="<%= prefixUrl() %>js/libs/html5-device-mockups/dist/device-mockups.min.css">
 
 </head>
 <body id="top">
@@ -59,22 +60,30 @@
 <%- partial("/shared/_header") %>
 <%- yield %>
 
-
-<a href="https://t.me/asure_io" target="_blank" rel="noopener" alt="telegram" class="d-none d-sm-inline">
+<%- /*
+<a href="https://t.me/asurenetwork" target="_blank" rel="noopener" alt="telegram" class="d-none d-sm-inline">
     <i class="fab fa-telegram-plane telegram"></i>
 </a>
-
+*/ %>
+<script src="https://unpkg.com/imask"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
-        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
-        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 <script src="<%= prefixUrl() %>js/libs/slick/slick.min.js"></script>
+
 <script>
+    $(function () {
+        $('[data-toggle="popover"]').popover();
+
+        $('ul.nav-tabs li:first-child a').tab('show');
+    });
+
     function getCookie(cname) {
         var name = cname + "=";
         var decodedCookie = decodeURIComponent(document.cookie);
@@ -105,7 +114,7 @@
         var self = this;
 
         self.registerEvents = function () {
-            $('.navbar-cookies a#acceptCookiePolicy').click(self.acceptCookies);
+            $('.navbar-cookies #acceptCookiePolicy').click(self.acceptCookies);
         };
 
         self.acceptCookies = function () {
@@ -224,7 +233,9 @@
                     var currLink = $(this);
 
                     var refElement = $(currLink[0].hash);
-                    if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() + 75 > scrollPos) {
+                    var isActive = refElement.position().top - 5 <= scrollPos && refElement.position().top + refElement.height() + 75 > scrollPos;
+                    //console.log(`onScroll: ${currLink[0].hash}, top: ${refElement.position().top} bottom: ${refElement.position().top + refElement.height() + 75}, scrollPos: ${scrollPos}, isActive: ${isActive}`);
+                    if (isActive) {
                         $('.blc-navbar .navbar-nav a[href*="#"]:not([href="#"])').removeClass("active");
                         currLink.addClass("active");
                     }
@@ -238,7 +249,7 @@
                 $(document).on("scroll", onScroll);
 
                 // Smooth scrolling. From https://css-tricks.com/snippets/jquery/smooth-scrolling/#comment-197181
-                $('.blc-navbar .navbar-nav a[href*="#"]:not([href="#"])').click(function (e) {
+                $('a.scroll-animation[href*="#"]:not([href="#"])').click(function (e) {
                     if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') || location.hostname === this.hostname) {
                         e.preventDefault();
 
@@ -257,6 +268,7 @@
                                 window.location.hash = target.attr('id');
                                 $(document).on("scroll", onScroll);
                             });
+                            $('ul.nav-tabs li:first-child a').tab('show');
                             return true;
                         }
                     }
@@ -267,150 +279,12 @@
     }
 </script>
 
-<script src='https://www.google.com/recaptcha/api.js'></script>
-
-<script>
-    var recaptchaOk=false;
-    function recaptchaCallback(){
-        recaptchaOk=true;
-        $("form#form-kyc input,form#form-kyc select").trigger("change");
-    }
-    $("form#form-kyc input,form#form-kyc select").change(function(){
-        var fn=isNotUndefinedAndEmpty($("input[name='_fn']").val());
-        fn?$("input[name='_fn']").addClass("is-valid"):$("input[name='_fn']").removeClass("is-valid");
-        var ln=isNotUndefinedAndEmpty($("input[name='_ln']").val());
-        ln?$("input[name='_ln']").addClass("is-valid"):$("input[name='_ln']").removeClass("is-valid");
-        var us=isNotUndefinedAndEmpty($("input[name='_us']:checked").val());
-        var exposed=isNotUndefinedAndEmpty($("input[name='_exposed']:checked").val());
-        var citizenship=$("select[name='_citizenship']").val() != "0";
-        var tel=isNotUndefinedAndEmpty($("input[name='_tel']").val());
-        tel?$("input[name='_tel']").addClass("is-valid"):$("input[name='_tel']").removeClass("is-valid");
-        var address=isNotUndefinedAndEmpty($("input[name='_address']").val());
-        address?$("input[name='_address']").addClass("is-valid"):$("input[name='_address']").removeClass("is-valid");
-        var city=isNotUndefinedAndEmpty($("input[name='_city']").val());
-        city?$("input[name='_city']").addClass("is-valid"):$("input[name='_city']").removeClass("is-valid");
-        var postcode=isNotUndefinedAndEmpty($("input[name='_postcode']").val());
-        postcode?$("input[name='_postcode']").addClass("is-valid"):$("input[name='_postcode']").removeClass("is-valid");
-        var country=$("select[name='_country']").val() != "0";
-        country?$("input[name='_country']").addClass("is-valid"):$("input[name='_country']").removeClass("is-valid");
-        var wallet=isAddress($("input[name='_wallet']").val());
-        wallet?$("input[name='_wallet']").addClass("is-valid"):$("input[name='_wallet']").removeClass("is-valid");
-        var eth=isNumber($("input[name='_eth']").val());
-        eth?$("input[name='_eth']").addClass("is-valid"):$("input[name='_eth']").removeClass("is-valid");
-        var sourceOfFounds=isNotUndefinedAndEmpty($("input[name='_sourceOfFounds']").val());
-        sourceOfFounds?$("input[name='_sourceOfFounds']").addClass("is-valid"):$("input[name='_sourceOfFounds']").removeClass("is-valid");
-
-        var file_id=isNotUndefinedAndEmpty($("input[name='_file_id']").val());
-        var file_photo=isNotUndefinedAndEmpty($("input[name='_file_photo']").val());
-
-        var policy=isNotUndefinedAndEmpty($("input[name='_policy']:checked").val());
-        if(fn && ln &&
-            us && exposed && citizenship &&
-            tel && address && city && postcode && country &&
-            wallet && eth && sourceOfFounds &&
-            file_id && file_photo && policy &&
-            recaptchaOk){
-            $("input[type='submit']").prop('disabled', false);
-            $('.alert.alert-warning').hide();
-        }else{
-            $("input[type='submit']").prop('disabled', true);
-            $('.alert.alert-warning').show();
-        }
-        //$("input[type='submit']").prop('disabled', false);
-    });
-    $("form#form-kyc").submit(function(e) {
-        $("input[type='submit']").prop('disabled', true);
-        e.preventDefault();
-        var formData = new FormData(this);
-
-        jQuery.support.cors = true;
-
-        $.ajax({
-            url: "https://kyc.echtnice.com",
-            type: 'POST',
-            dataType : "json",
-            contentType: false,
-            data: formData,
-            crossDomain: true,
-            success: function (data) {
-                if(data.status=="true") {
-                    $('.alert.alert-success').show().delay(5000).hide(1);//success
-                }else{
-                    $('.alert.alert-warning').show(); // error
-                    $('.alert.alert-warning span.error-list').html("");
-                    if(data.errors) {
-                        var data_errors=JSON.parse(data.errors);
-                        $('.alert.alert-warning p.error-list').html(data_errors.map(x => x +"<br/>"));
-                    }
-                }
-                $("input[type='submit']").prop('disabled', false);
-                $(".form").trigger("reset");
-            },
-            error: function (xhr, ajaxOptions, thrownError) {
-                $("input[type='submit']").prop('disabled', false);
-            },
-            cache: false,
-            processData: false
-        });
-    });
-
-    function isNotUndefinedAndEmpty(value) {
-        if ((undefined === value) || (null === value) || (value==="")) {
-            return false;
-        }
-        return true;
-    }
-
-    function isNumber(value) {
-        if ((undefined === value) || (null === value)) {
-            return false;
-        }
-        if (typeof value == 'number') {
-            return true;
-        }
-        return !isNaN(value - 0);
-    }
-
-    /**
-     * Checks if the given string is an address
-     *
-     * @method isAddress
-     * @param {String} address the given HEX adress
-     * @return {Boolean}
-     */
-    var isAddress = function (address) {
-        if (!/^(0x)?[0-9a-f]{40}$/i.test(address)) {
-            // check if it has the basic requirements of an address
-            return false;
-        } else if (/^(0x)?[0-9a-f]{40}$/.test(address) || /^(0x)?[0-9A-F]{40}$/.test(address)) {
-            // If it's all small caps or all all caps, return true
-            return true;
-        } else {
-            // Otherwise check each case
-            return isChecksumAddress(address);
-        }
-    };
-
-    /**
-     * Checks if the given string is a checksummed address
-     *
-     * @method isChecksumAddress
-     * @param {String} address the given HEX adress
-     * @return {Boolean}
-     */
-    var isChecksumAddress = function (address) {
-        // Check each case
-        address = address.replace('0x','');
-        var addressHash = sha3(address.toLowerCase());
-        for (var i = 0; i < 40; i++ ) {
-            // the nth letter should be uppercase if the nth digit of casemap is 1
-            if ((parseInt(addressHash[i], 16) > 7 && address[i].toUpperCase() !== address[i]) || (parseInt(addressHash[i], 16) <= 7 && address[i].toLowerCase() !== address[i])) {
-                return false;
-            }
-        }
-        return true;
-    };
-</script>
+<%-
+    current.path[0]=="kyc" ? partial("/shared/_kyc_js"):""
+%>
+<%-
+    current.path[0]=="staking-rewards-calculator" ? partial("/shared/_staking_rewards_calculator_js.ejs"):""
+%>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112962931-6"></script>
@@ -421,5 +295,6 @@
 
     gtag('config', 'UA-112962931-6');
 </script>
+
 </body>
 </html>
