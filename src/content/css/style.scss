@@ -22,6 +22,13 @@ $link-color: #2877bd;
 $title-color: #69acd6;
 $hero-title-color: #62381b;
 
+@include media-breakpoint-only(xs) {
+  .btn-block-xs-only {
+    display: block;
+    width: 100%;
+  }
+}
+
 [hidden] {
   display: none !important;
 }
@@ -2016,10 +2023,12 @@ div.container.staking-calculator {
 }
 
 .border-left-gray {
-  @media (max-width: 767px) {
+  @include media-breakpoint-down(sm) {
     border-top: 1px solid #444;
+    padding-top: 5px;
   }
-  @media (min-width: 768px) {
+
+  @include media-breakpoint-up(md) {
     border-left: 1px solid #444;
   }
 }
