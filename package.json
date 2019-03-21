@@ -25,6 +25,7 @@
     "node-sass": "^4.9.0"
   },
   "dependencies": {
-    "html5-device-mockups": "^3.2.1"
+    "html5-device-mockups": "^3.2.1",
+    "web3": "^1.0.0-beta.50"
   }
 }

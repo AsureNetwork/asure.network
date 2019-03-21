@@ -1150,6 +1150,7 @@
         crossorigin="anonymous"></script>
 <script src="../js/libs/slick/slick.min.js"></script>
 
+
 <script>
     $(function () {
         $('[data-toggle="popover"]').popover();
@@ -1353,6 +1354,7 @@
 </script>
 
 <script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="../js/libs/web3/web3.umd.js"></script>
 
 <script>
     function KycManager() {
@@ -1388,7 +1390,7 @@
         var isChecksumAddress = function (address) {
             // Check each case
             address = address.replace('0x', '');
-            var addressHash = sha3(address.toLowerCase());
+            var addressHash = web3.sha3(address.toLowerCase());
             for (var i = 0; i < 40; i++) {
                 // the nth letter should be uppercase if the nth digit of casemap is 1
                 if ((parseInt(addressHash[i], 16) > 7 && address[i].toUpperCase() !== address[i]) || (parseInt(addressHash[i], 16) <= 7 && address[i].toLowerCase() !== address[i])) {
