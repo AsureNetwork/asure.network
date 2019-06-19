@@ -37,7 +37,7 @@
                                 <li role="presentation" class="nav-item">
                                     <a class="nav-link active" href="#tab-info" aria-controls="messages" role="tab"
                                        data-toggle="tab">
-                                        Info
+                                        <i class="fa fa-info"></i>
                                     </a>
                                 </li>
                                 <li role="presentation" class="nav-item">
@@ -47,35 +47,61 @@
                                     </a>
                                 </li>
                                 <li role="presentation" class="nav-item">
+                                    <a class="nav-link" href="#tab-creative" aria-controls="home" role="tab"
+                                       data-toggle="tab">
+                                        Creative
+                                    </a>
+                                </li>
+                                <li role="presentation" class="nav-item">
                                     <a class="nav-link" href="#tab-twitter" aria-controls="home" role="tab"
                                        data-toggle="tab">
-                                        Twitter
+                                        <i class="fab fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li role="presentation" class="nav-item">
-                                    <a class="nav-link" href="#tab-telegram" aria-controls="profile" role="tab"
+                                    <a class="nav-link" href="#tab-peepeth" aria-controls="profile" role="tab"
                                        data-toggle="tab">
-                                        Telegram
-                                    </a>
-                                </li>
-                                <li role="presentation" class="nav-item">
-                                    <a class="nav-link" href="#tab-youtube" aria-controls="profile" role="tab"
-                                       data-toggle="tab">
-                                        Youtube
+                                        <img src='data:image/png;base64,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'
+                                        width="18px" height="18px"/>
                                     </a>
                                 </li>
                                 <li role="presentation" class="nav-item">
                                     <a class="nav-link" href="#tab-linkedin" aria-controls="profile" role="tab"
                                        data-toggle="tab">
-                                        Linkedin
+                                        <i class="fab fa-linkedin-in"></i>
                                     </a>
                                 </li>
                                 <li role="presentation" class="nav-item">
-                                    <a class="nav-link" href="#tab-contact" aria-controls="messages" role="tab"
+                                    <a class="nav-link" href="#tab-telegram" aria-controls="profile" role="tab"
                                        data-toggle="tab">
-                                        Contact
+                                        <i class="fab fa-telegram-plane"></i>
                                     </a>
                                 </li>
+                                <li role="presentation" class="nav-item">
+                                    <a class="nav-link" href="#tab-reddit" aria-controls="messages" role="tab"
+                                       data-toggle="tab">
+                                        <i class="fab fa-reddit-alien"></i>
+                                    </a>
+                                </li>
+                                <li role="presentation" class="nav-item">
+                                    <a class="nav-link" href="#tab-youtube" aria-controls="profile" role="tab"
+                                       data-toggle="tab">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li role="presentation" class="nav-item">
+                                    <a class="nav-link" href="#tab-facebook" aria-controls="messages" role="tab"
+                                       data-toggle="tab">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                </li>
+                                <li role="presentation" class="nav-item">
+                                    <a class="nav-link" href="#tab-signature" aria-controls="profile" role="tab"
+                                       data-toggle="tab">
+                                        <i class="far fa-address-card"></i>
+                                    </a>
+                                </li>
+
                             </ul>
                             <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane active" id="tab-info">
@@ -85,12 +111,20 @@
                                         <br/><br/>
                                     How to Apply<br/>
                                     1. Fill out the registration application form:<br/>
-                                    https://forms.gle/kLfbUSbyfjRSZEkU7
+                                        <a href="https://forms.gle/kLfbUSbyfjRSZEkU7" target="_blank" class="btn btn-primary col-2">
+                                            Registration
+                                        </a>
                                         <br/>
-                                    2. Fill in your activities in the form here: https://forms.gle/uzwm5xwyvsnoJ2aY9
+                                    2. Fill in your activities in the form here: <br/>
+                                        <a href="https://forms.gle/uzwm5xwyvsnoJ2aY9" target="_blank" class="btn btn-primary col-2">
+                                            Report
+                                        </a>
                                         <br/>
-                                    3. Kindly fill up the forms in Bitcointalk below
-                                    TODO: Bitcointalk Link
+                                    3. Kindly fill up the forms in Bitcointalk below:<br/>
+                                        <a href="https://bitcointalk.org/index.php?topic=5150750.msg51349151" target="_blank" class="btn btn-primary col-2">
+                                            bitcointalk.org
+                                        </a>
+
                                     </p>
                                     <pre>Report Example:
  Your Name: ________
@@ -103,28 +137,42 @@
                                 </div>
                                 <div role="tabpanel" class="tab-pane" id="tab-rules">
 
-                                    We reserve the right to limit the number of participants in the campaigns at any
-                                    time.
-                                    We reserve the right to change the conditions of our bounty campaign at any time.
-                                    We reserve the right to disqualify any user at any time.
-                                    Only one account per person. Using multi-accounts, cheating and spamming are
-                                    strictly forbidden. The ones breaking the rule will be disqualified from the Bounty
-                                    program without getting any tokens.
-                                    The distribution of the tokens to bounty participants will occur after the end of
-                                    TGE.
-                                    Your payment address cannot be changed. Once you apply, your address will be locked.
-                                    (Every participant is responsible for the protection of his/her payment address and
-                                    private keys).
-                                    You need to join our Bounty Telegram group in order to participate in the Asure
-                                    Bounty program. Without joining the telegram group, you will not be counted on any
-                                    Bounty. The telegram link is: https://t.me/AsureBounty
+                                        <img src="https://cdn-images-1.medium.com/max/1200/1*AnFzFKlDBaWuhrPknroqwA.png" class="img-fluid" />
 
+                                    <ul>
+                                        <li>We reserve the right to limit the number of participants in the campaigns at any
+                                            time.</li>
+                                        <li>We reserve the right to change the conditions of our bounty campaign at any time.</li>
+                                        <li>We reserve the right to disqualify any user at any time.</li>
+                                        <li>Only one account per person. Using multi-accounts, cheating and spamming are
+                                            strictly forbidden. The ones breaking the rule will be disqualified from the Bounty
+                                            program without getting any tokens.</li>
+                                        <li>The distribution of the tokens to bounty participants will occur after the end of
+                                            TGE.</li>
+                                        <li>Your payment address cannot be changed. Once you apply, your address will be locked.
+                                            (Every participant is responsible for the protection of his/her payment address and
+                                            private keys).</li>
+                                        <li>You need to join our Bounty Telegram group in order to participate in the Asure
+                                            Bounty program. Without joining the telegram group, you will not be counted on any
+                                            Bounty. <br/><br/>
+                                            The telegram link is: <a href="https://t.me/AsureNetwork" target="_blank">https://t.me/AsureNetwork</a></li>
+                                            The Bounty telegram link is: <a href="https://t.me/AsureBounty" target="_blank">https://t.me/AsureBounty</a></li>
+                                    </ul>
+
+                                    <br/>
                                     Note: ALL BOUNTY RELATED QUESTIONS MUST BE ASKED ONLY IN OUR BOUNTY GROUP HERE:
-                                    https://t.me/AsureBounty
+                                    <a href="https://t.me/AsureBounty" target="_blank">https://t.me/AsureBounty</a>
+                                </div>
+
+                                <div role="tabpanel" class="tab-pane" id="tab-creative">
+                                    <img src="https://cdn-images-1.medium.com/max/1200/1*5AaP1bbjNPzqJaTo7AK7IA.png" class="img-fluid" />
 
 
                                 </div>
                                 <div role="tabpanel" class="tab-pane" id="tab-twitter">
+                                    <img src="https://cdn-images-1.medium.com/max/1200/1*6s9vTNyOA9MKBOPguHoZSg.png" class="img-fluid" />
+
+
                                     Earn Tokens as a reward for retweets and likes of the official announcements twits
                                     of the Asure Network account.
 
@@ -157,13 +205,34 @@
                                         disqualified and blacklisted from all future campaigns
                                     </p>
                                 </div>
-                                <div role="tabpanel" class="tab-pane" id="tab-telegram">
+                                <div role="tabpanel" class="tab-pane" id="tab-peepeth">
+                                    <img src="https://cdn-images-1.medium.com/max/1200/1*ZRD4kEGLzAS2oPh92vBt3g.png" class="img-fluid" />
 
                                 </div>
-                                <div role="tabpanel" class="tab-pane" id="tab-contact">
-                                    If you have any questions regarding the bounty campaign or if you need any
-                                    assistance, feel free to contact us either in the specially created Telegram group
-                                    https://t.me/AsureBounty or per email using bounty@asure.io.
+                                <div role="tabpanel" class="tab-pane" id="tab-linkedin">
+                                    <img src="https://cdn-images-1.medium.com/max/1200/1*1srg1A3pnD30Dj_Z72fXJQ.png" class="img-fluid" />
+
+                                </div>
+
+                                <div role="tabpanel" class="tab-pane" id="tab-telegram">
+                                    <img src="https://cdn-images-1.medium.com/max/1200/1*YeKOdGVVDTriECQVkGn7WQ.png" class="img-fluid" />
+
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="tab-reddit">
+                                    <img src="https://cdn-images-1.medium.com/max/1200/1*2oDl6lM5hDYiEfRVeGovLA.png" class="img-fluid" />
+
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="tab-youtube">
+                                    <img src="https://cdn-images-1.medium.com/max/1200/1*pznwoKy3V_3ont0EUxp7pQ.png" class="img-fluid" />
+
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="tab-facebook">
+                                    <img src="https://cdn-images-1.medium.com/max/1200/1*zk6VW0ufoA6x6HGMri9bYg.png" class="img-fluid" />
+
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="tab-signature">
+                                    <img src="https://cdn-images-1.medium.com/max/1200/1*scHIXnUvxZCiot99RaqHUw.png" class="img-fluid" />
+
                                 </div>
                             </div>
                         </div>
