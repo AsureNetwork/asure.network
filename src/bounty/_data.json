@@ -2,6 +2,361 @@
   "index": {
     "title": "Asure.Network - Bounty Campaign for TGE",
     "keywords": "Asure.Network Bounty Campaign for TGE",
-    "description": "Asure.Network - Bounty Campaign for TGE"
+    "description": "Asure.Network - Bounty Campaign for TGE",
+    "bounties": {
+      "created": "2019-06-27T12:05:30.233Z",
+      "weekNos": [
+        "Week 23",
+        "Week 24",
+        "Week 25",
+        "Week 26",
+        "Week 27",
+        "Week 28",
+        "Week 29",
+        "Week 30",
+        "Week 31",
+        "Week 32",
+        "Week 33",
+        "Week 34",
+        "Week 35",
+        "Week 36",
+        "Week 37",
+        "Week 38",
+        "Week 39",
+        "Week 40",
+        "Week 41",
+        "Week 42",
+        "Week 43",
+        "Week 44",
+        "Week 45",
+        "Week 46",
+        "Week 47",
+        "Week 48",
+        "Week 49",
+        "Week 50",
+        "Week 51",
+        "Week 52"
+      ],
+      "campaigns": [
+        "Creative Contest",
+        "LinkedIn Campaign",
+        "Twitter Campaign",
+        "Telegram Campaign",
+        "Facebook Campaign",
+        "Youtube Campaign",
+        "Translation Campaign",
+        "Peepeth Campaign",
+        "Reddit Campaign",
+        "Signature Campaign"
+      ],
+      "data": [
+        {
+          "address": "0xA22B5936F19459c8ecb1EB894282D4Cf61e81273",
+          "weeks": [
+            {
+              "weekNo": "1",
+              "parsedWeekNo": "Week 23",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x5bB7f5893284B03fFBA63CF32687870A68811fd8",
+          "weeks": [
+            {
+              "weekNo": "1",
+              "parsedWeekNo": "Week 23",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "3",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 25 - June 17, 2019 - June 23, 2019",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xD72300D2ADd33c19591742A6aA44568af4352619",
+          "weeks": [
+            {
+              "weekNo": "1",
+              "parsedWeekNo": "Week 23",
+              "campaigns": {
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "2",
+              "parsedWeekNo": "Week 24",
+              "campaigns": {
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 25 - June 17, 2019 - June 23, 2019",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x400E2B1817d020094d090FEaff754fC49058B173",
+          "weeks": [
+            {
+              "weekNo": "2",
+              "parsedWeekNo": "Week 24",
+              "campaigns": {
+                "Youtube Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 25 - June 17, 2019 - June 23, 2019",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xaeC4b8aaec16C568992068aC798277F28CeA6Df0",
+          "weeks": [
+            {
+              "weekNo": "2",
+              "parsedWeekNo": "Week 24",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 25 - June 17, 2019 - June 23, 2019",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x71ad543eBD4d0c0550c97B837eBe090E893CCDF1",
+          "weeks": [
+            {
+              "weekNo": "1",
+              "parsedWeekNo": "Week 23",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x44ba7C44490A4bD8B80b9A50272d0F2C016a6D9B",
+          "weeks": [
+            {
+              "weekNo": "2",
+              "parsedWeekNo": "Week 24",
+              "campaigns": {
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 25 - June 17, 2019 - June 23, 2019",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xF30431d4e31e6E54d9338Eb8f54DA5eceaDc4cB4",
+          "weeks": [
+            {
+              "weekNo": "Week 25 - June 17, 2019 - June 23, 2019",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x6a0D36928B9C22024C7601cEa83269235Cb3bD60",
+          "weeks": [
+            {
+              "weekNo": "Week 25 - June 17, 2019 - June 23, 2019",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x46856891dD8b6331E783559022e3f721bD06aFB6",
+          "weeks": [
+            {
+              "weekNo": "Week 25 - June 17, 2019 - June 23, 2019",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x42C975dDC7d7e9757f246DDAE552F63A5b4429F7",
+          "weeks": [
+            {
+              "weekNo": "Week 25 - June 17, 2019 - June 23, 2019",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xadc3dee8b63d0e56fC740C74B30CC8F106DfAA02",
+          "weeks": [
+            {
+              "weekNo": "Week 25 - June 17, 2019 - June 23, 2019",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 }
