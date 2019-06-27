@@ -220,6 +220,14 @@
         $('[data-toggle="popover"]').popover();
 
         $('ul.nav-tabs li:first-child a').tab('show');
+
+        $('#bounty-eth-addr-btn').click(function (evt) {
+            evt.preventDefault();
+
+            const addr = $('#bounty-eth-addr').val()
+            $('.bounties > .bounty').addClass('hidden');
+            $('.bounties > #bounty-' + addr).removeClass('hidden');
+        });
     });
 
     function getCookie(cname) {
