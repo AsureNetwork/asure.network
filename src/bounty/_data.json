@@ -3,6 +3,16 @@
     "title": "Asure.Network - Bounty Campaign for TGE",
     "keywords": "Asure.Network Bounty Campaign for TGE",
     "description": "Asure.Network - Bounty Campaign for TGE",
+    "bug_bounty_airdrops": [
+      {
+        "name": "smash",
+        "address": "0x19dc9ab0f5d73a4adc3e46da06c4f9681143f0cc"
+      },
+      {
+        "name": "calisto",
+        "address": "0xTODO"
+      }
+    ],
     "bounties": {
       "created": "2019-06-27T12:05:30.233Z",
       "weekNos": [
