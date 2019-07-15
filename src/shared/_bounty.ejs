@@ -1,21 +1,21 @@
 <%
 hasCampaign = function (bounty, weekNo, campaignName) {
-    let result = false;
+let result = false;
 
-    const week = bounty.weeks.find(week => week.parsedWeekNo == weekNo);
-    if (week) {
-        const campaign = week.campaigns[campaignName];
-        if (campaign) {
-            result = campaign.done;
-        }
-    }
+const week = bounty.weeks.find(week => week.parsedWeekNo == weekNo);
+if (week) {
+const campaign = week.campaigns[campaignName];
+if (campaign) {
+result = campaign.done;
+}
+}
 
-    let output = '';
-    if (result) {
-        output = 'bounty-done';
-    }
+let output = '';
+if (result) {
+output = 'bounty-done';
+}
 
-    return output;
+return output;
 }
 %>
 
@@ -51,49 +51,49 @@ hasCampaign = function (bounty, weekNo, campaignName) {
 
         <div class="bounties">
             <% for (const bounty of bounties.data) { %>
-                <div class="row bounty hidden" style="margin-bottom: 20px; margin-top: 20px;"
-                     id="<%= 'bounty-' + bounty.address %>">
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title text-center">Bounty activities</h5>
-                                <h6 class="card-subtitle mb-2 text-muted text-center">Last
-                                    Update: <%= bounties.created %></h6>
-                                <h6 class="card-subtitle mb-2 text-muted text-center">ETH
-                                    Address: <%= bounty.address %></h6>
-                                <table class="table table-sm table-bordered table-responsive-md table-fixed">
-                                    <thead>
-                                    <tr>
-                                        <th class="text-center">Week</th>
-                                        <th class="text-center">Creative Contest</th>
-                                        <th class="text-center"><i class="fab fa-linkedin-in"></i></th>
-                                        <th class="text-center"><i class="fab fa-twitter"></i></th>
-                                        <th class="text-center"><i class="fab fa-telegram-plane"></i></th>
-                                        <th class="text-center"><i class="fab fa-facebook-square"></i></th>
-                                        <th class="text-center"><i class="fab fa-youtube"></i></th>
-                                        <th class="text-center">Translation</th>
-                                        <th class="text-center"><img
-                                                    src='data:image/png;base64,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'
-                                                    width="18px" height="18px"/></th>
-                                        <th class="text-center"><i class="fab fa-reddit-alien"></i></th>
-                                        <th class="text-center"><i class="far fa-address-card"></i></th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <% for (const weekNo of bounties.weekNos) { %>
-                                        <tr>
-                                            <td class="text-center"><strong><%= weekNo.substring(4, 7) %></strong></td>
-                                            <% for (const campaign of bounties.campaigns) { %>
-                                                <td class="<%= hasCampaign(bounty, weekNo, campaign) %>"></td>
-                                            <% } %>
-                                        </tr>
+            <div class="row bounty hidden" style="margin-bottom: 20px; margin-top: 20px;"
+                 id="<%= 'bounty-' + bounty.address %>">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Bounty activities</h5>
+                            <h6 class="card-subtitle mb-2 text-muted text-center">Last
+                                Update: <%= bounties.created %></h6>
+                            <h6 class="card-subtitle mb-2 text-muted text-center">ETH
+                                Address: <%= bounty.address %></h6>
+                            <table class="table table-sm table-bordered table-responsive-md table-fixed">
+                                <thead>
+                                <tr>
+                                    <th class="text-center">Week</th>
+                                    <th class="text-center">Creative Contest</th>
+                                    <th class="text-center"><i class="fab fa-linkedin-in"></i></th>
+                                    <th class="text-center"><i class="fab fa-twitter"></i></th>
+                                    <th class="text-center"><i class="fab fa-telegram-plane"></i></th>
+                                    <th class="text-center"><i class="fab fa-facebook-square"></i></th>
+                                    <th class="text-center"><i class="fab fa-youtube"></i></th>
+                                    <th class="text-center">Translation</th>
+                                    <th class="text-center"><img
+                                            src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AUkSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXXPues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgABeNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAtAGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dXLh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G/yJiYuP+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUAoOnaV/Nw+H48PEWhkLnZ2eXk5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA4vcAAPK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCBKrBBG/TBGCzABhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD/phCJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhMWE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQAkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+IoUspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdpr+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZD5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61MbU2epO6iHqmeob1Q/pH5Z/YkGWcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllirSKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79up+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6VhlWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lOk06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N/T0HDYfZDqsdWh1+c7RyFDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3IveRKdPVxXeF60vWdm7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+BZ7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nvnl+F30N/I/9k/3r/0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5pDoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5qPNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIsOpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQrAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1dT1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aXDm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3SPVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKaRptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfVP1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAAAAEZ0FNQQAAsY58+1GTAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAUUSURBVHja5JdZbFRlFMd/3713NtrbYadgU7SxTYDSiBELgbQQQggojEAkNUYjaglCXKAPooIEwoP6gAtSlVR8UIRgylIbioJKeDMU6BQch7LVUpDK1pVxOjP3+MC9MqlAy2qM/+Qkdznn/M+3nnOUiPBvQuM/ChdQCHwAzLkdR8ZN6ufYhHOAkfa3dCAPqAd+AUJAy50ecQGwCegApBs5Bay3bW4bo4CKHpBeT74FHrlV8pIejrg7iQBLbnaDfX4HiLvKl4CnJ8dy410gd+QbQL9RAO/cRXJHVl+PfNo9IHck0JU8BQjfwwCOA2ZyAAvvIbkjiwGUvev3J91smKYphYWFatSoUfj9fs6dO0dVVZXU1taqnhyj3NxcmTp1qho0aBAtLS0Eg0H27NlDa2trsloYeAhgXHJk06dPl6qqKgmHwxIOh5tDoVBrXV2d1NTUyKxZs7odWSAQkIMHD0pdXZ2EQqHWcDjcHA6HZefOnRIIBLrqT9CBYjuxUFxczPLlyy+bplkmIiUisjIajZZGo9HdhmH48vPzh+3atYuWlmtf9RkZGaxZswav17s9EomUxOPxZbqurxGR7WlpaZenTJkyIh6Pu6urqx2TJh14HXiwoKCAVatWBUXkic7OzrLDhw83NDQ0tPfu3bvN7/cfE5HN6enpJ5uamibv27fPfa0AioqKOmbMmDE/EokscbvdR0WkLRgMtp89e7bBNM0qt9u9Y8yYMY+GQqHB9fX1AJ0AIY/HI1u3bt3b2NjYf/fu3RQUXM0jOTk5lJaWUllZSUlJCWPHjn0paQp/B8447/n5+a8uXryYyspKysvLGT9+/N9+8vLy2LRpE6dPn+5bUVHxo9frFeAIwKWsrKyjW7ZsGVBWVkZmZqaTppcCrwG9AHw+n+Nrkk3Y/OzEXjOfHpYWAC7a36YBpKSkJOuPBt4DCk3TZPXq1Wzbtq1fdnZ22EnbcaXUii65wAOctJ1+3aVyWgTIpGG+F9rLsnf89kzu9xP7pTwPWF2Sjm7bFdl+YsAE56dSaimQAGgDnkwyXAkcsh06hhmOHbA/d6i+4kxp5tqOdTlybO7DEpw58rPhfT1vA0FbB2AI8LO9TM6SlSXxzATaNOC0reTgMpCb5OgPwDnAEwb31fZuXDRQBqZ5F0QTQkwsUk3PvI/HDXUP8Rg/AJNt3VZgqF0xOTiR9HwWOKMBNUB70o+1wGZ7Zk4A821nRqpHeTfMS28akW4ua49aSATi0QSRuEVOf/+bn4zJupiqaR57D7UDc+1rtw0ot307aAMOKXv6D9iKybgPaEHRnnW/wuPGWDatz3NPjej/afMpdHVBEbsAB463obkNUtN8DPT7Et81nF/40f4z66MJYidjlpNnetsznYwHgLEKcCet9T/weI7JhhcHIyRc3kva+5EGfQ5RBigNYiLsr28lGr2yXXSXdn5An17l8qfnFYXeueRIIz+da75R4aMZzmVwPczOTCXlpEF7TEtEVGKjpFonlBcfnSpAlNEigu5S1T6vZ7vX6+7QDb1aUo14iq7zWIb/RgHEelSWK02IaXE6NctyQS1QZLnJ0zx8hYsvzFSfMtyG7nK5ZgMhJP65pRKWZYBmdN91dRuA07nZR6JNE+tly9LWWhofYvBritlLEgmGI7JOxFqglAJRIFdt72RjcqVwFGuhWOpSAv0tEQGRdxWy5Fa6zFsKAECzZKkmIpqIoUTeEM3eyjcJ9b/vjv8aANKbxkPcQqAXAAAAAElFTkSuQmCC'
+                                            width="18px" height="18px"/></th>
+                                    <th class="text-center"><i class="fab fa-reddit-alien"></i></th>
+                                    <th class="text-center"><i class="far fa-address-card"></i></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <% for (const weekNo of bounties.weekNos) { %>
+                                <tr>
+                                    <td class="text-center"><strong><%= weekNo.substring(4, 7) %></strong></td>
+                                    <% for (const campaign of bounties.campaigns) { %>
+                                    <td class="<%= hasCampaign(bounty, weekNo, campaign) %>"></td>
                                     <% } %>
-                                    </tbody>
-                                </table>
-                            </div>
+                                </tr>
+                                <% } %>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
+            </div>
             <% } %>
         </div>
 
@@ -292,6 +292,9 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                         5% Facebook Campaign — (Follow, like, share, comments)<br/>
                                         5% Signature Campaign — (Bitcointalk, Twitter, Facebook)<br/>
                                         <br/>
+                                        <img src="https://miro.medium.com/max/1000/1*TsVaB_UWWxAzokLSdOIS0Q.png"
+                                             class="img-fluid"/>
+
                                     </div>
                                     <div role="tabpanel" class="tab-pane" id="tab-rules">
 
@@ -403,46 +406,51 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                         <br/><br/>
                                         <strong>Payment:</strong><br/>
                                         <br/>
-                                        25% of the Total Bounty will be allocated to the Creative Contest.<br/>
-                                        <br/>
-                                        Examples of the creative work done for Creative Contest<br/>
-                                        Creative text<br/>
-                                        Write a post or an article about Asure Network in any language, with at least
-                                        300
-                                        words and containing 2 links to https://www.asure.network/. We will categorize
-                                        each
-                                        article as extraordinary (100 stakes), medium 50 stakes, low (unaccepted).
-                                        Unaccepted works must be removed from the Internet as soon as possible, but not
-                                        later than after 2 days after the work was marked as unaccepted, otherwise, the
-                                        user
-                                        will be completely banned from all our Bounty programs (current ones and the
-                                        future
-                                        ones).
-                                        You can post it in your blog, in Medium, LinkedIn, Facebook or in a forum where
-                                        you
-                                        are active. The article must be online at least until the end of our TGE. The
-                                        popularity of the media where the post/article will be published as well as the
-                                        quality of the content will be taken into consideration when we categorize works
-                                        sent to us.
-                                        After finishing your article/video/post paste the link in the bitcointalk bounty
-                                        thread and submit it with this Form: https://forms.gle/uzwm5xwyvsnoJ2aY9
+                                        25% of the Total Bounty will be allocated to the Creative Contest.
+
                                         <br/><br/>
                                         <strong>Rules</strong><br/>
                                         <br/>
-                                        The blog must be at least 3 months old and at least 500 subscribers.<br/>
-                                        The blog/video/article must be public.<br/>
-                                        The blog post/article has to have at least 300 words.<br/>
-                                        The website/blog where you post the content has to be relevant and connected to
-                                        the
-                                        crypto/financial world.<br/>
-                                        Your article/blog post has to have good writing quality.<br/>
-                                        You must have at least 1,000 subscribers on YouTube for a video.<br/>
-                                        The video has to be of good quality.<br/>
-                                        You can’t post the same article twice.<br/>
-                                        Only original work is accepted, using the work of someone else or copy/pasting
-                                        parts
-                                        of the ann thread/website/whitepaper will disqualify your work(s).<br/>
-                                        Any content must have a link to our website.<br/>
+                                        <ul>
+                                            <li>Write a public post or an article about Asure Network in any language,
+                                                with at least
+                                                300 words and containing 2 links to https://www.asure.network/.
+                                            </li>
+                                            <li>The website/blog where you post the content has to be relevant and
+                                                connected to
+                                                the crypto/financial world.
+                                            </li>
+                                            <li>Your article/blog post has to have good writing quality.</li>
+                                            <li>You can post it in your blog, in Medium, LinkedIn, Facebook or in a
+                                                forum where
+                                                you are active. The article must be online at least until the end of our
+                                                TGE.<br/>
+                                                The popularity of the media where the post/article will be published as
+                                                well as the
+                                                quality of the content will be taken into consideration when we
+                                                categorize works.
+                                            </li>
+                                            <li>Only original work is accepted, using the work of someone else or
+                                                copy/pasting
+                                                parts of the ann thread/website/whitepaper will disqualify your work(s).
+                                            </li>
+                                            <li>You can’t post the same article twice.</li>
+                                            <li>Unaccepted works must be removed from the Internet as soon as possible,
+                                                but not
+                                                later than after 2 days after the work was marked as unaccepted,
+                                                otherwise, the
+                                                user will be completely banned from all our Bounty programs (current
+                                                ones and
+                                                the future ones).
+                                            </li>
+                                            <li>You accept, that we can repost your post in our publications.</li>
+                                        </ul>
+                                        <br/>
+                                        <strong>Shares</strong><br/><br/>
+                                        We will categorize each article as extraordinary (100 shares), medium 5 shares,
+                                        low (unaccepted). Extraordinary articles are articles published on press
+                                        websites such as Forbes, TechCrunch, BitcoinMagazine, etc.
+                                        <br/><br/>
 
                                     </div>
                                     <div role="tabpanel" class="tab-pane" id="tab-twitter">
@@ -564,8 +572,8 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                                                              target="_blank">https://www.reddit.com/r/Asure</a><br/>
                                         <br/>
                                         Like all official posts: <a
-                                                href="https://www.reddit.com/user/AsureFoundation/posts/"
-                                                target="_blank">https://www.reddit.com/user/AsureFoundation/posts/</a>
+                                            href="https://www.reddit.com/user/AsureFoundation/posts/"
+                                            target="_blank">https://www.reddit.com/user/AsureFoundation/posts/</a>
                                         <br/>
                                         Share at least 5 Asure Network posts in other crypto related community
                                         subreddits
