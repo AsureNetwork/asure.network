@@ -70,5 +70,137 @@
 
 
 
-  ]
+  ],
+  "tgeData": {
+    "dateFormat": "YYYY-MM-DD HH:mm",
+    "owner": "0x20d76ce09754e473aa7e320d0afb95a22460b5d0",
+    "crowdsaleWallet": "0x4b7a3dad1ca56a9a30d9e118137592746257c6d6",
+    "foundationWallet": "0x0a90dae8784c4863a29bf6183379364e4b9d234b",
+    "familyFriendsWallet": "0x85bae1978a5b161c0811d27867cb49b2bd40fccf",
+    "token": {
+      "name": "AsureToken",
+      "symbol": "ASR",
+      "decimals": "18",
+      "addr": "0xAF3019736462fd8Dff5ae192CDa4f9A4Df114Fa6"
+    },
+    "preSale": {
+      "ethUsdPrice": 136.79,
+      "opening": "2019-08-01 00:00",
+      "bonusTime": "2019-08-08 00:00",
+      "closing": "2019-08-15 00:00",
+      "addr": "0x6E97C810300542DE5C4e0876785d1Cf71D7e83A8"
+    },
+    "mainSale": {
+      "ethUsdPrice": 136.79,
+      "opening": "2019-12-1 00:00",
+      "bonusTime": "2019-12-15 00:00",
+      "closing": "2019-12-31 00:00",
+      "addr": "0x2352F27aaE7409b5784781343171C1501c68f2D2"
+    },
+    "team": [
+      {
+        "owner": "0xf289d0f6da7aabb61b42cb7abda94981b2850620",
+        "amount": 500000,
+        "addr": "0xE7ED9354DAf59a70cE1565a1b2a84346937dDeFD"
+      },
+      {
+        "owner": "0xea29784d6ab3d901073b8df84e0d0e4af2f12a4a",
+        "amount": 500000,
+        "addr": "0xE09515ebAc5370AebCe78a7beAAc02599Bf6E076"
+      },
+      {
+        "owner": "0x7c3e3d4fa31fb4df06e85317f7f1ef968c52668c",
+        "amount": 500000,
+        "addr": "0x18aDc6AFbF1d68605fC94844c4DDC844891b221a"
+      },
+      {
+        "owner": "0xa9fa09285121f8d98b0286d357ad168d528aa528",
+        "amount": 500000,
+        "addr": "0x1B8Fc17a668f359869Ea886cCC3bE57771542904"
+      },
+      {
+        "owner": "0xcc2e39231a7e0969acaff7184c0d37a55ddcd8a7",
+        "amount": 500000,
+        "addr": "0x58f9E1D2Df54FEeA9a5a8D679f3CEeBaCE9ec582"
+      },
+      {
+        "owner": "0xac9acbe6a18e1c9a9d0c48b2053209ce1e10ef03",
+        "amount": 500000,
+        "addr": "0x0532f712199428c7AE593ABE91E02b916bDD6EFd"
+      },
+      {
+        "owner": "0x374ee620de796e3054cecd8bd8d93f9a7a4a5ec6",
+        "amount": 500000,
+        "addr": "0x3fec67D56514AE5F9C5aBc1F0878Db2FFc233b0D"
+      },
+      {
+        "owner": "0xa7a6cc1c2d209ae0738787b706300610b3770d86",
+        "amount": 500000,
+        "addr": "0xdA4dF79b547E9f705b38Ee999200C4A1110174E6"
+      },
+      {
+        "owner": "0x0069de9656264ef16c82583c3ec5e36ec7eeacda",
+        "amount": 500000,
+        "addr": "0x6B6E7630a4fe58DD62110185DAc37f2c36aAF5C8"
+      },
+      {
+        "owner": "0xab6c18aa606d31305e8c40b0408d040f4f83305f",
+        "amount": 500000,
+        "addr": "0xB7E109208e9E0AD43C1042EF1BA0E61C34373b36"
+      },
+      {
+        "owner": "0x1a48a6f20aee92fab5607b0e4cf69f6a75d2106b",
+        "amount": 500000,
+        "addr": "0xF1Ebd945e3D6Ae4bfa75a4345922C3aF643004cB"
+      },
+      {
+        "owner": "0x5cebbb8bc62b35c0222f69ce2e1ecc65af9f737e",
+        "amount": 500000,
+        "addr": "0xa73954483d8d1F10f25FCC5a99454320cD06A740"
+      },
+      {
+        "owner": "0x6bc6be8d61a2ad3b8bb44b16423bfdce6b0f1e75",
+        "amount": 500000,
+        "addr": "0x6b9555FC33a2b6af97b097f8A6498b1F175C98aD"
+      },
+      {
+        "owner": "0x6c2fe757237f5f643889386bc6d581e150d47a6a",
+        "amount": 500000,
+        "addr": "0xAa11C7e99265e5cD4Af1328266C6d85d4f6a0A3d"
+      },
+      {
+        "owner": "0xda5138e339bb005e937a481c17fe7dc20b3d815b",
+        "amount": 500000,
+        "addr": "0xA655FE4e3159f7aa11B0397319B2aBC9B91DA900"
+      },
+      {
+        "owner": "0xd53a5afa705b029bbcb2a6495483afd7008ef881",
+        "amount": 500000,
+        "addr": "0x3Fa8BCCDB9DEbC6F405810dAAd0914Fa25aD755c"
+      }
+    ],
+    "advisor": [
+      {
+        "owner": "0x458af463a2a9e912e5b9b9463121804fb5659a6b",
+        "amount": 500000,
+        "addr": "0x2fE0F77A400076d00CA76388D5d157710D0CdcF5"
+      },
+      {
+        "owner": "0x9f60603b78f0132fb94f2f6f701fd9ab812858e7",
+        "amount": 500000,
+        "addr": "0x654Ad367C4D0fbC9AFfef8E3Ac2b19c8ACe268f6"
+      },
+      {
+        "owner": "0x2e65af9574a2c887095782df554923983310558c",
+        "amount": 500000,
+        "addr": "0x31fFFad09F06BAe4a270C20eCF66ac8E84aa266E"
+      },
+      {
+        "owner": "0x7384d8cf0f548d09b85405b68a11b0c1d43c4064",
+        "amount": 500000,
+        "addr": "0x695387507a706b8cE5898154b988A5E6b7D34463"
+      }
+    ],
+    "bountyAddr": "0xBbAB87c8d1926E4aC512bcCE1a32bB5353306075"
+  }
 }
