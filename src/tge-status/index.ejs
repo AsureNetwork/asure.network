@@ -1,0 +1,79 @@
+﻿<% include ../helpers.ejs %>
+<div>
+    <section class="blc-kyc bg-blue pt-5" id="tge-status">
+        <div class="container">
+            <div class="head pt-5">
+                <h1 class="title hr black">Asure Network PreSale status</h1>
+                <div class="row">
+                    <div class="offset-md-2 col-md-8 justify">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="card-registration" class="card">
+                        <div class="card-header text-center bg-green">
+                            <h2>PreSale Token Generation Event Status</h2>
+                            <p>ETH address: <span></span></p>
+                        </div>
+                        <div class="card-body bg-light-green">
+                            <div class="alert alert-danger alert-addr hidden" role="alert">
+                                <h4 class="alert-heading"></h4>
+                                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                                <hr>
+                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                            </div>
+
+                            <form class="form-result hidden">
+                                <div class="form-group row">
+                                    <label for="isWhitelisted" class="col-md-3 col-form-label">ETH address whitelisted</label>
+                                    <div class="col-md-6">
+                                        <input type="text" readonly class="form-control-plaintext" id="isWhitelisted" value="">
+                                        <small id="passwordHelpBlock" class="form-text text-muted">
+                                            Our team will start the Whitelisting on July 24th 2019.
+
+                                            We will whitelist all addresses that have been registered with our KYC process and
+                                            after our team has verified the correctness of your registration. <br>
+                                        </small>
+                                    </div>
+                                    <div class="col-md-3 d-flex align-items-end">
+                                        <a class="btn btn-primary btn-block text-uppercase" href="/kyc" target="_blank" rel="noopener">
+                                            Start Registration
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="isOpen" class="col-md-3 col-form-label">Pre-sale open</label>
+                                    <div class="col-md-6">
+                                        <input type="text" readonly class="form-control-plaintext" id="isOpen" value="">
+                                        <small id="passwordHelpBlock" class="form-text text-muted">
+                                            The Pre-sale will take place from August 1st to August 15th 2019.
+                                        </small>
+                                    </div>
+                                    <div class="col-md-3 d-flex align-items-end">
+                                        <a class="btn btn-primary btn-block text-uppercase" href="/tge-buy" target="_blank" rel="noopener">
+                                            Buy ASR Tokens
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="balance" class="col-md-3 col-form-label">ASR token balance</label>
+                                    <div class="col-md-6">
+                                        <input type="text" readonly class="form-control-plaintext" id="balance" value="">
+                                    </div>
+                                    <div class="col-md-3 d-flex align-items-end">
+                                        <button type="submit" class="btn btn-primary btn-block btn-add-token-metamask text-uppercase">
+                                            Add ASR Token to MetaMask
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <%- partial("_social_row") %>
+        </div>
+    </section>
+</div>
