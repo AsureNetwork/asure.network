@@ -172,6 +172,7 @@
             console.log('Selected Network', network);
             switch (network.chainId) {
                 case 1:          // mainnet
+                case 4:          // rinkeby testnet
                 case 1234567890: // local testnet (ganache)
                     return { chainId: network.chainId, provider: provider };
                 default:
