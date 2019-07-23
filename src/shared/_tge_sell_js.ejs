@@ -108,16 +108,20 @@
         }
 
 
-        // var opening = moment(tgeData.preSale.opening, tgeData.dateFormat);
-        // var closing = moment(tgeData.preSale.closing, tgeData.dateFormat);
-
         var now = moment();
-        var opening = now.clone().add('10', 'seconds');
-        var closing = opening.clone().add('10', 'seconds');
+        var opening = moment(tgeData.preSale.opening, tgeData.dateFormat);
+        var closing = moment(tgeData.preSale.closing, tgeData.dateFormat);
+        // var opening = now.clone().add('10', 'seconds');
+        // var closing = opening.clone().add('10', 'seconds');
 
         new Tge(opening, closing).run();
         new Counter(opening, closing).run();
 
-        //suggestTokenInMetaMask(provider);
+        var $addrSearch = $('.form-addr-search');
+        $addrSearch.find('.btn-update-addr').click(function(evt) {
+            evt.preventDefault();
+            var newAddr = $addrSearch.find('#ethereumAddress').val();
+            window.location.href = '/tge-status?q=' + newAddr;
+        });
     });
 </script>
