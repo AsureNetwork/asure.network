@@ -17,27 +17,46 @@
                             <p>ETH address: <span></span></p>
                         </div>
                         <div class="card-body bg-light-green">
-                            <div class="alert alert-danger alert-addr hidden" role="alert">
-                                <h4 class="alert-heading"></h4>
-                                <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-                                <hr>
-                                <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                            <div class="form-addr-search hidden">
+                                <form class="form-inline">
+                                    <div class="flex-grow-1">
+                                        <label class="sr-only" for="ethereumAddress">Ethereum address</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text">@</div>
+                                            </div>
+                                            <input type="text" class="form-control form-control"
+                                                   id="ethereumAddress" placeholder="Insert your Ethereum address">
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn btn-primary btn-update-addr">
+                                        Check your Registration
+                                    </button>
+                                </form>
                             </div>
 
                             <form class="form-result hidden">
                                 <div class="form-group row">
-                                    <label for="isWhitelisted" class="col-md-3 col-form-label">ETH address whitelisted</label>
+                                    <label for="isWhitelisted" class="col-md-3 col-form-label">ETH address
+                                        whitelisted</label>
                                     <div class="col-md-6">
-                                        <input type="text" readonly class="form-control-plaintext" id="isWhitelisted" value="">
+                                        <input type="text" readonly class="form-control-plaintext" id="isWhitelisted"
+                                               value="">
                                         <small id="passwordHelpBlock" class="form-text text-muted">
                                             Our team will start the Whitelisting on July 24th 2019.
 
-                                            We will whitelist all addresses that have been registered with our KYC process and
+                                            We will whitelist all addresses that have been registered with our KYC
+                                            process and
                                             after our team has verified the correctness of your registration. <br>
                                         </small>
                                     </div>
                                     <div class="col-md-3 d-flex align-items-end">
-                                        <a class="btn btn-primary btn-block text-uppercase" href="/kyc" target="_blank" rel="noopener">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-4 offset-md-5">
+                                        <a class="btn btn-primary btn-block text-uppercase" href="/kyc" target="_blank"
+                                           rel="noopener">
                                             Start Registration
                                         </a>
                                     </div>
@@ -51,23 +70,149 @@
                                         </small>
                                     </div>
                                     <div class="col-md-3 d-flex align-items-end">
-                                        <a class="btn btn-primary btn-block text-uppercase" href="/tge-buy" target="_blank" rel="noopener">
-                                            Buy ASR Tokens
-                                        </a>
                                     </div>
                                 </div>
+
+
                                 <div class="form-group row">
                                     <label for="balance" class="col-md-3 col-form-label">ASR token balance</label>
                                     <div class="col-md-6">
-                                        <input type="text" readonly class="form-control-plaintext" id="balance" value="">
+                                        <input type="text" readonly class="form-control-plaintext" id="balance"
+                                               value="">
                                     </div>
                                     <div class="col-md-3 d-flex align-items-end">
-                                        <button type="submit" class="btn btn-primary btn-block btn-add-token-metamask text-uppercase">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-4 offset-md-5">
+                                        <button type="submit"
+                                                class="btn btn-primary btn-block btn-add-token-metamask text-uppercase">
                                             Add ASR Token to MetaMask
                                         </button>
                                     </div>
                                 </div>
+
+
+                                <div class="buy-token">
+                                    <hr>
+                                    <div class="form-group row">
+                                        <label for="amountEth" class="col-md-3 col-form-label">Buy ASR token</label>
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <input type="number" id="amountEth" class="form-control" value="1"
+                                                       min="0.5" max="50000" step="1">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">ETH</span>
+                                                </div>
+                                            </div>
+                                            <small class="form-text text-muted">
+                                                The amount of ETH you want to buy ASR token for.
+                                            </small>
+                                        </div>
+                                        <div class="col-md-3 d-flex align-items-end">
+
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="amountAsr" class="col-md-3 col-form-label"></label>
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <input type="number" id="amountAsr" readonly class="form-control"
+                                                       value="100">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">ASR</span>
+                                                </div>
+                                            </div>
+                                            <small id="passwordHelpBlock" class="form-text text-muted">
+                                                The amount of ASR token you receive.
+                                            </small>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <small id="passwordHelpBlock" class="form-text text-muted">
+                                                You receive a 50% bonus until August 8th.
+                                            </small>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-md-6 offset-md-3">
+                                            <div class="form-check form-control-sm">
+                                                <input class="form-check-input" type="checkbox" value="" id="termOfUse">
+                                                <label class="form-check-label" for="termOfUse">
+                                                    I agree to the <a href="#">Terms of Use</a> (including purchaser's
+                                                    citizenship and/or residency) and <a href="#">Privacy Policy</a>.
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 d-flex align-items-end">
+
+                                        </div>
+                                    </div>
+                                    <div class="form-group row mt-5">
+                                        <div class="col-md-6 offset-md-3">
+                                            <div class="alert alert-primary alert-buy" role="alert">
+                                                The following requirements have to be met to buy ASR token:
+                                                <ul>
+                                                    <li>You have successfully registered with our KYC process.</li>
+                                                    <li>Your ETH address has been whitelisted by our team.</li>
+                                                    <li>The Asure Network pre-sale is open.</li>
+                                                    <li>You have accepted the <a href="#">Terms of Use</a> and <a
+                                                                href="#">Privacy Policy</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col-md-4 offset-md-5">
+                                            <a class="btn btn-primary btn-block btn-buy text-uppercase disabled"
+                                               href="#"
+                                               target="_blank" rel="noopener">
+                                                Buy ASR Tokens
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Buy Success -->
+            <div class="modal fade" id="modal-buy-success" tabindex="-1" role="dialog"
+                 aria-labelledby="modal-buy-success" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Congratulations</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            You successfully participated in the Asure Network pre-sale.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal-buy-failure" tabindex="-1" role="dialog"
+                 aria-labelledby="modal-buy-failure" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">An error occured!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            An error occured while trying to buy ASR tokens.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
                         </div>
                     </div>
                 </div>

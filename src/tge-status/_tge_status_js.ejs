@@ -43,12 +43,12 @@
         return new ethers.Contract(address, abi, provider);
     }
 
-    function createPreSaleContract(provider) {
+    function createPreSaleContract(providerOrSigner) {
         // The Contract interface
         var abi = tgeContractsAbis.AsureCrowdsale;
         var address = tgeData.preSale.addr;
 
-        return new ethers.Contract(address, abi, provider);
+        return new ethers.Contract(address, abi, providerOrSigner);
     }
 
     /**
@@ -71,7 +71,14 @@
         });
     }
 
-    function updateResultForm(result) {
+    function buyTokens(preSale, beneficiary, ethAmount) {
+        return preSale.buyTokens(beneficiary, {
+            //gasLimit: 21000,
+            value: ethers.utils.parseEther(ethAmount),
+        });
+    }
+
+    function updateCrowdsaleInfo(result) {
         var $form = $('.form-result');
 
         $('.card-header p span').text(result.addr);
@@ -84,33 +91,48 @@
         $form.show();
     }
 
-    $(function () {
-        var addr = null;
-        try {
-            addr = getAddress();
-        } catch (ex) {
-            $('.alert-addr').show();
-            $('.alert-addr > .alert-heading').text(ex.message);
-            return;
+    function createEthersProvider() {
+        if (typeof window.ethereum !== 'undefined') {
+            if (window.ethereum.isMetaMask) {
+                console.log('MetaMask detected. Enabling ...');
+                return window.ethereum.enable().then(function () {
+                    console.log('MetaMask is enabled. Using ethers Web3Provider.');
+                    return new ethers.providers.Web3Provider(window.ethereum);
+                }, function () {
+                    console.log('MetaMask is disabled. Using ethers DefaultProvider.');
+                    return ethers.getDefaultProvider();
+                });
+            }
+
+            console.log('Web3 provider detected. Using ethers Web3Provider.');
+            return new ethers.providers.Web3Provider(window.ethereum);
         }
 
-        var provider = new ethers.providers.Web3Provider(window.ethereum);
+        console.log('No Web3 provider detected. Using ethers DefaultProvider.');
+        return ethers.getDefaultProvider();
+    }
 
-        provider.getNetwork().then(function (network) {
-            console.log('Selected Network', network);
-        });
-
+    function loadPreSaleData(provider, addr) {
         var preSale = createPreSaleContract(provider);
         var token = createAsureTokenContract(provider);
 
         var promises = [
-            preSale.isOpen(),
-            preSale.isWhitelisted(addr),
+            preSale.isOpen().catch(function (ex) {
+                console.error('isOpen', ex);
+                return ex;
+            }),
+            preSale.isWhitelisted(addr).catch(function (ex) {
+                console.error('isWhitelisted', ex);
+                return ex;
+            }),
             token.balanceOf(addr).then(function (balance) {
                 return ethers.utils.formatEther(balance);
+            }).catch(function (ex) {
+                console.error('balanceOf', ex);
+                return ex;
             }),
         ];
-        Promise.all(promises).then(function (resolved) {
+        return Promise.all(promises).then(function (resolved) {
             var result = {
                 addr: addr,
                 isOpen: resolved[0],
@@ -120,14 +142,88 @@
 
             console.log('PreSale isOpen', result.isOpen);
             console.log('PreSale isWhitelisted', result.isWhitelisted);
-
             console.log('ASR balance', result.balance);
 
-            $('.btn-add-token-metamask').click(function (evt) {
-                evt.preventDefault();
-                suggestTokenInMetaMask(provider);
+            return result;
+        });
+    }
+
+    function getCurrentCrowdsaleRate(crowdsaleData) {
+        var bonusTime = moment(crowdsaleData.bonusTime, tgeData.dateFormat);
+
+        if (moment().isSameOrBefore(bonusTime)) {
+            return crowdsaleData.bonusRate;
+        }
+
+        return crowdsaleData.defaultRate;
+    }
+
+    $(function () {
+        createEthersProvider().then(function (provider) {
+            provider.getNetwork().then(function (network) {
+                console.log('Selected Network', network);
             });
-            updateResultForm(result);
+
+            var addr = null;
+            try {
+                addr = getAddress();
+            } catch (ex) {
+                var $addrSearch = $('.form-addr-search')
+                $addrSearch.show();
+                $addrSearch.find('.btn-update-addr').click(function(evt) {
+                    evt.preventDefault();
+                    var newAddr = $addrSearch.find('#ethereumAddress').val();
+                    window.location.href = '/tge-status?q=' + newAddr;
+                });
+                return;
+            }
+
+            loadPreSaleData(provider, addr).then(function (result) {
+                $('.btn-add-token-metamask').click(function (evt) {
+                    evt.preventDefault();
+                    suggestTokenInMetaMask(provider);
+                });
+
+                updateCrowdsaleInfo(result);
+
+
+                var $amountEth = $('#amountEth');
+                var $amountAsr = $('#amountAsr');
+                var $buy = $('.btn-buy');
+
+                $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.preSale));
+                $amountEth.change(function () {
+                    $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.preSale));
+                });
+
+                $('#termOfUse').change(function () {
+                    var $alert = $('.alert-buy');
+
+                    if (/*result.isWhitelisted && result.isOpen &&*/ $(this).is(':checked')) {
+                        $buy.removeClass('disabled');
+                        $alert.hide();
+                    } else {
+                        $buy.addClass('disabled');
+                        $alert.show();
+                    }
+                });
+
+                $buy.click(function (evt) {
+                    evt.preventDefault();
+
+                    const preSale = createPreSaleContract(provider.getSigner());
+                    buyTokens(preSale, result.addr, $amountEth.val()).then(
+                        function () {
+                            $('#modal-buy-success').modal('show');
+                        }, function (ex) {
+                            console.log('buyTokens failed', ex);
+                            $('#modal-buy-failure').modal('show');
+                        }
+                    );
+                });
+            }, function (ex) {
+                console.warn(ex);
+            });
         });
     });
 </script>
