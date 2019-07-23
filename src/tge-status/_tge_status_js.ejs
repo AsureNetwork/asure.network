@@ -36,7 +36,6 @@
     }
 
     function createAsureTokenContract(provider) {
-        // The Contract interface
         var abi = tgeContractsAbis.AsureToken;
         var address = tgeData.token.addr;
 
@@ -44,7 +43,6 @@
     }
 
     function createPreSaleContract(providerOrSigner) {
-        // The Contract interface
         var abi = tgeContractsAbis.AsureCrowdsale;
         var address = tgeData.preSale.addr;
 
@@ -173,8 +171,8 @@
         return provider.getNetwork().then(function (network) {
             console.log('Selected Network', network);
             switch (network.chainId) {
-                case 1:
-                case 1234567890:
+                case 1:          // mainnet
+                case 1234567890: // local testnet (ganache)
                     return provider;
                 default:
                     throw new Error('Invalid chainId: ' + network.chainId);
