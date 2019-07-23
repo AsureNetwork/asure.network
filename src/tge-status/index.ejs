@@ -37,30 +37,28 @@
                             <form class="form-result hidden">
 
                                 <div class="row">
-                                    <div class="col-xl-3 col-sm-6 pt-3">
-                                        <div class="card">
+                                    <div class="col-xl-3 col-sm-6 d-flex pt-3">
+                                        <div class="card flex-fill">
                                             <div class="card-body text-center">
                                                 <h5 class="card-title text-uppercase">
                                                     <span data-toggle="popover" title="" data-placement="bottom"
                                                           data-trigger="hover" data-content="You need MetaMask plugin or other web3 wallet provider."
                                                           data-original-title="Metamask"><strong>Metamask</strong></span>
                                                 </h5>
+                                                <div class="card-text align-items-center">
+                                                    <input type="text" readonly class="form-control-plaintext text-center"
+                                                           value="YES">
+                                                </div>
                                             </div>
-                                            <div class="card-text align-items-center">
-
-                                                <input type="text" readonly class="form-control-plaintext text-center"
-                                                       value="YES">
-                                                <br/>
-                                                <a class="btn btn-primary btn-block text-uppercase"
-                                                   href="https://metamask.io/" target="_blank"
-                                                   rel="noopener">
-                                                    INSTALL METAMASK
-                                                </a>
-                                            </div>
+                                            <a class="btn btn-primary btn-block text-uppercase"
+                                               href="https://metamask.io/" target="_blank"
+                                               rel="noopener">
+                                                INSTALL METAMASK
+                                            </a>
                                         </div>
                                     </div>
-                                    <div class="col-xl-3 col-sm-6 pt-3">
-                                        <div class="card">
+                                    <div class="col-xl-3 col-sm-6 d-flex pt-3">
+                                        <div class="card flex-fill">
                                             <div class="card-body text-center">
                                                 <h5 class="card-title text-uppercase">
                                                     <span data-toggle="popover" title="" data-placement="bottom"
@@ -68,52 +66,48 @@
                                                     KYC process and after our team has verified the correctness of your registration."
                                                           data-original-title="Whitelisted"><strong>Whitelisted</strong></span>
                                                 </h5>
+                                                <div class="card-text align-items-center">
+                                                    <input type="text" readonly class="form-control-plaintext text-center"
+                                                           id="isWhitelisted"
+                                                           value="">
+                                                </div>
                                             </div>
-                                            <div class="card-text align-items-center">
-
-                                                <input type="text" readonly class="form-control-plaintext text-center"
-                                                       id="isWhitelisted"
-                                                       value="">
-                                                <br/>
-                                                <a class="btn btn-action btn-block text-uppercase" href="/kyc"
-                                                   target="_blank"
-                                                   rel="noopener">
-                                                    Register for TGE
-                                                </a>
-                                            </div>
+                                            <a class="btn btn-action btn-block text-uppercase" href="/kyc"
+                                               target="_blank"
+                                               rel="noopener">
+                                                Register for TGE
+                                            </a>
                                         </div>
                                     </div>
-                                    <div class="col-xl-3 col-sm-6 pt-3">
-                                        <div class="card">
+                                    <div class="col-xl-3 col-sm-6 d-flex pt-3">
+                                        <div class="card flex-fill">
                                             <div class="card-body d-flex flex-column text-center">
                                                 <h5 class="card-title text-uppercase">Pre-sale open</h5>
-                                            </div>
-                                            <div class="card-text align-items-center">
-                                                <input type="text" readonly class="form-control-plaintext text-center" id="isOpen"
-                                                       value="">
-                                                <small class="form-text text-muted text-center">
-                                                    The Pre-sale will take place from August 1st to August 15th 2019.
-                                                </small>
+                                                <div class="card-text align-items-center">
+                                                    <input type="text" readonly class="form-control-plaintext text-center" id="isOpen"
+                                                           value="">
+                                                    <small class="form-text text-muted text-center">
+                                                        The Pre-sale will take place from August 1st to August 15th 2019.
+                                                    </small>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-3 col-sm-6 pt-3">
-                                        <div class="card">
+                                    <div class="col-xl-3 col-sm-6 d-flex pt-3">
+                                        <div class="card flex-fill">
                                             <div class="card-body d-flex flex-column text-center">
                                                 <h5 class="card-title text-uppercase">ASR Token Balance</h5>
+                                                <div class="card-text align-items-center">
+                                                    <input type="text" readonly class="form-control-plaintext text-center"
+                                                           id="balance"
+                                                           value="">
+                                                </div>
                                             </div>
+                                            <button type="submit"
+                                                    class="btn btn-primary btn-block btn-add-token-metamask text-uppercase">
+                                                Add to MetaMask
+                                            </button>
 
-                                            <div class="card-text align-items-center">
-
-                                                <input type="text" readonly class="form-control-plaintext text-center"
-                                                       id="balance"
-                                                       value="">
-                                                <br/>
-                                                <button type="submit"
-                                                        class="btn btn-primary btn-block btn-add-token-metamask text-uppercase">
-                                                    Add to MetaMask
-                                                </button>
-                                            </div>
 
                                         </div>
                                     </div>
