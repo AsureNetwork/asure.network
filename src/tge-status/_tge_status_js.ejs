@@ -95,6 +95,17 @@
         if (typeof window.ethereum !== 'undefined') {
             if (window.ethereum.isMetaMask) {
                 console.log('MetaMask detected. Enabling ...');
+
+                window.ethereum.on('accountsChanged', function () {
+                    console.log('MetaMask accounts changed. Reloading page ...');
+                    location.reload();
+                });
+
+                window.ethereum.on('networkChanged', function () {
+                    console.log('MetaMask network changed. Reloading page ...');
+                    location.reload();
+                });
+
                 return window.ethereum.enable().then(function () {
                     console.log('MetaMask is enabled. Using ethers Web3Provider.');
                     return new ethers.providers.Web3Provider(window.ethereum);
@@ -105,11 +116,11 @@
             }
 
             console.log('Web3 provider detected. Using ethers Web3Provider.');
-            return new ethers.providers.Web3Provider(window.ethereum);
+            return Promise.resolve(new ethers.providers.Web3Provider(window.ethereum));
         }
 
         console.log('No Web3 provider detected. Using ethers DefaultProvider.');
-        return ethers.getDefaultProvider();
+        return Promise.resolve(ethers.getDefaultProvider());
     }
 
     function loadPreSaleData(provider, addr) {
@@ -119,17 +130,17 @@
         var promises = [
             preSale.isOpen().catch(function (ex) {
                 console.error('isOpen', ex);
-                return ex;
+                throw ex;
             }),
             preSale.isWhitelisted(addr).catch(function (ex) {
                 console.error('isWhitelisted', ex);
-                return ex;
+                throw ex;
             }),
             token.balanceOf(addr).then(function (balance) {
                 return ethers.utils.formatEther(balance);
             }).catch(function (ex) {
                 console.error('balanceOf', ex);
-                return ex;
+                throw ex;
             }),
         ];
         return Promise.all(promises).then(function (resolved) {
@@ -158,72 +169,89 @@
         return crowdsaleData.defaultRate;
     }
 
-    $(function () {
-        createEthersProvider().then(function (provider) {
-            provider.getNetwork().then(function (network) {
-                console.log('Selected Network', network);
-            });
-
-            var addr = null;
-            try {
-                addr = getAddress();
-            } catch (ex) {
-                var $addrSearch = $('.form-addr-search')
-                $addrSearch.show();
-                $addrSearch.find('.btn-update-addr').click(function(evt) {
-                    evt.preventDefault();
-                    var newAddr = $addrSearch.find('#ethereumAddress').val();
-                    window.location.href = '/tge-status?q=' + newAddr;
-                });
-                return;
+    function ensureCorrectNetwork(provider) {
+        return provider.getNetwork().then(function (network) {
+            console.log('Selected Network', network);
+            switch (network.chainId) {
+                case 1:
+                case 1234567890:
+                    return provider;
+                default:
+                    throw new Error('Invalid chainId: ' + network.chainId);
             }
-
-            loadPreSaleData(provider, addr).then(function (result) {
-                $('.btn-add-token-metamask').click(function (evt) {
-                    evt.preventDefault();
-                    suggestTokenInMetaMask(provider);
-                });
-
-                updateCrowdsaleInfo(result);
-
-
-                var $amountEth = $('#amountEth');
-                var $amountAsr = $('#amountAsr');
-                var $buy = $('.btn-buy');
-
-                $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.preSale));
-                $amountEth.change(function () {
-                    $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.preSale));
-                });
-
-                $('#termOfUse').change(function () {
-                    var $alert = $('.alert-buy');
-
-                    if (/*result.isWhitelisted && result.isOpen &&*/ $(this).is(':checked')) {
-                        $buy.removeClass('disabled');
-                        $alert.hide();
-                    } else {
-                        $buy.addClass('disabled');
-                        $alert.show();
-                    }
-                });
-
-                $buy.click(function (evt) {
-                    evt.preventDefault();
-
-                    const preSale = createPreSaleContract(provider.getSigner());
-                    buyTokens(preSale, result.addr, $amountEth.val()).then(
-                        function () {
-                            $('#modal-buy-success').modal('show');
-                        }, function (ex) {
-                            console.log('buyTokens failed', ex);
-                            $('#modal-buy-failure').modal('show');
-                        }
-                    );
-                });
-            }, function (ex) {
-                console.warn(ex);
-            });
         });
+    }
+
+    $(function () {
+        createEthersProvider()
+            .then(ensureCorrectNetwork)
+            .catch(function onEnsureCorrectNetworkReject(ex) {
+                $('.alert-network').show();
+                throw ex;
+            })
+            .then(function (provider) {
+                var addr = null;
+                try {
+                    addr = getAddress();
+                } catch (ex) {
+                    var $addrSearch = $('.form-addr-search')
+                    $addrSearch.show();
+                    $addrSearch.find('.btn-update-addr').click(function (evt) {
+                        evt.preventDefault();
+                        var newAddr = $addrSearch.find('#ethereumAddress').val();
+                        window.location.href = '/tge-status?q=' + newAddr;
+                    });
+                    return;
+                }
+
+                loadPreSaleData(provider, addr).then(function (result) {
+                    $('.btn-add-token-metamask').click(function (evt) {
+                        evt.preventDefault();
+                        suggestTokenInMetaMask(provider);
+                    });
+
+                    updateCrowdsaleInfo(result);
+
+
+                    var $amountEth = $('#amountEth');
+                    var $amountAsr = $('#amountAsr');
+                    var $buy = $('.btn-buy');
+
+                    $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.preSale));
+                    $amountEth.change(function () {
+                        $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.preSale));
+                    });
+
+                    $('#termOfUse').change(function () {
+                        var $alert = $('.alert-buy');
+
+                        if (/*result.isWhitelisted && result.isOpen &&*/ $(this).is(':checked') && typeof provider.getSigner === "function") {
+                            $buy.removeClass('disabled');
+                            $alert.hide();
+                        } else {
+                            $buy.addClass('disabled');
+                            $alert.show();
+                        }
+                    });
+
+                    $buy.click(function (evt) {
+                        evt.preventDefault();
+
+                        const preSale = createPreSaleContract(provider.getSigner());
+                        buyTokens(preSale, result.addr, $amountEth.val()).then(
+                            function () {
+                                $('#modal-buy-success').modal('show');
+                            }, function (ex) {
+                                console.log('buyTokens failed', ex);
+                                $('#modal-buy-failure').modal('show');
+                            }
+                        );
+                    });
+                }, function onLoadPreSaleDataReject(ex) {
+                    console.error(ex);
+                });
+            }, function onCreateEthersProviderReject(ex) {
+                console.error(ex);
+            });
     });
 </script>
