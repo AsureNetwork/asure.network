@@ -994,7 +994,7 @@ span[data-toggle="popover"] {
 }
 
 .blc-tge {
-  padding: 80px 0;
+  padding: 20px 0;
 
   h2 {
     font-size: 26px;
@@ -1004,6 +1004,25 @@ span[data-toggle="popover"] {
     @media (max-width: 768px) {
       padding-top: 30px;
     }
+  }
+
+  .card-price{
+    font-size: 0.70em;
+    margin: 0px;
+    border: 0;
+    -webkit-box-shadow: 1px 1px 1px #888;
+    box-shadow: 1px 1px 1px #888;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
   }
 }
 
