@@ -71,8 +71,14 @@
 
     function buyTokens(preSale, beneficiary, ethAmount) {
         return preSale.buyTokens(beneficiary, {
-            //gasLimit: 21000,
+            gasLimit: 750000,
             value: ethers.utils.parseEther(ethAmount),
+        }).then(function(tx) {
+            return tx.wait().then(function () {
+                return tx.hash;
+            }, function () {
+                return Promise.reject(tx.hash);
+            });
         });
     }
 
@@ -191,6 +197,12 @@
         return Promise.resolve(options);
     }
 
+    function createEtherscanUrl(chainId, txHash) {
+        var networkPrefix = chainId === 4 ? 'rinkeby.' : '';
+
+        return 'https://' + networkPrefix + 'etherscan.io/tx/' + txHash;
+    }
+
     $(function () {
         createEthersProvider()
             .then(ensureCorrectNetwork)
@@ -252,11 +264,20 @@
 
                         var preSale = createPreSaleContract(provider.getSigner(), tgeData.preSale);
                         buyTokens(preSale, result.addr, $amountEth.val()).then(
-                            function () {
-                                $('#modal-buy-success').modal('show');
-                            }, function (ex) {
-                                console.log('buyTokens failed', ex);
-                                $('#modal-buy-failure').modal('show');
+                            function (txHash) {
+                                var etherscanUrl = createEtherscanUrl(options.chainId, txHash);
+                                var $modal = $('#modal-buy-success');
+                                var $etherscanUrl = $modal.find('.etherscanUrl');
+                                $etherscanUrl.attr('href', etherscanUrl);
+                                $etherscanUrl.text(etherscanUrl);
+                                $modal.modal('show');
+                            }, function (txHash) {
+                                var etherscanUrl = createEtherscanUrl(options.chainId, txHash);
+                                var $modal = $('#modal-buy-failure');
+                                var $etherscanUrl = $modal.find('.etherscanUrl');
+                                $etherscanUrl.attr('href', etherscanUrl);
+                                $etherscanUrl.text(etherscanUrl);
+                                $modal.modal('show');
                             }
                         );
                     });
