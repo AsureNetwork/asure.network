@@ -86,8 +86,10 @@
 
     function updateCrowdsaleInfo(result) {
         var $form = $('.form-result');
+        var $header = $('.card-header');
 
-        $('.card-header p span').text(result.addr);
+        $header.find('p').show();
+        $header.find('p span').text(result.addr);
 
         $form.find('#isOpen').val(result.isOpen ? 'Yes' : 'No');
         $form.find('#isWhitelisted').val(result.isWhitelisted ? 'Yes' : 'No');
@@ -254,10 +256,17 @@
                         $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.preSale, tgeData.dateFormat));
                     });
 
-                    $('#termOfUse').change(function () {
+                    $('#termOfUse, #holdPrivKey, #sendingEth, #noExchangeAddress').change(function () {
                         var $alert = $('.alert-buy');
 
-                        if (/*result.isWhitelisted && result.isOpen &&*/ $(this).is(':checked') && typeof provider.getSigner === "function") {
+                        result.isUserAgreeingToTgeConditions =
+                            $('#termOfUse').is(':checked') &&
+                            $('#holdPrivKey').is(':checked') &&
+                            $('#sendingEth').is(':checked') &&
+                            $('#noExchangeAddress').is(':checked');
+
+                        var isDebug = getUrlVars().hasOwnProperty('debug');
+                        if ((isDebug || (result.isWhitelisted && result.isOpen && result.isUserAgreeingToTgeConditions)) && typeof provider.getSigner === "function") {
                             $buy.removeClass('disabled');
                             $alert.hide();
                         } else {
