@@ -277,27 +277,29 @@
 
                     $buy.click(function (evt) {
                         evt.preventDefault();
+                        var $loading = $('.alert-loading');
+                        $loading.show();
 
                         var preSale = createPreSaleContract(provider.getSigner(), tgeData.preSale);
                         buyTokens(preSale, result.addr, $amountEth.val()).then(
-                            function (txHash) {
+                            function onBuyTokensResolved(txHash) {
                                 var etherscanUrl = createEtherscanUrl(options.chainId, txHash);
                                 var $modal = $('#modal-buy-success');
                                 var $etherscanUrl = $modal.find('.etherscanUrl');
                                 $etherscanUrl.attr('href', etherscanUrl);
-                                $etherscanUrl.text(etherscanUrl);
                                 $modal.modal('show');
-                            }, function (txHash) {
+                            }, function onBuyTokensRejected(txHash) {
                                 if (txHash) {
                                     var etherscanUrl = createEtherscanUrl(options.chainId, txHash);
                                     var $modal = $('#modal-buy-failure');
                                     var $etherscanUrl = $modal.find('.etherscanUrl');
                                     $etherscanUrl.attr('href', etherscanUrl);
-                                    $etherscanUrl.text(etherscanUrl);
                                     $modal.modal('show');
                                 }
                             }
-                        );
+                        ).finally(function onBuyTokensFinally() {
+                            $loading.hide();
+                        });
                     });
                 }, function onLoadPreSaleDataReject(ex) {
                     console.error(ex);
