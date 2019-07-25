@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "harp compile src docs",
-    "start": "node server.js",
-    "start-old": "harp server src --port 9001"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
