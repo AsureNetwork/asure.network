@@ -295,6 +295,17 @@
     current.path[0]=="staking-rewards-calculator" ? partial("/shared/_staking_rewards_calculator_js.ejs"):""
 %>
 
+<% if (current.path[0]=="tge-status") { %>
+    <%- partial("/shared/_tge_data_js.ejs") %>
+    <%- partial("/tge-status/_tge_status_js.ejs") %>
+<% } %>
+
+<% if (current.path[0]=="index") { %>
+    <%- partial("/shared/_tge_data_js.ejs") %>
+    <%- partial("/shared/_tge_sell_js.ejs") %>
+<% } %>
+
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112962931-6"></script>
 <script>

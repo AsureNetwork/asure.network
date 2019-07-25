@@ -1,0 +1,129 @@
+<script charset="utf-8"
+        src="https://cdn.ethers.io/scripts/ethers-v4.min.js"
+        type="text/javascript">
+</script>
+<script charset="utf-8"
+        src="/js/libs/moment-with-locales.min.js"
+        type="text/javascript">
+</script>
+<script>
+    var tgeData = availableTgeData['1'];
+
+    function Counter(opening, closing) {
+        var self = this;
+
+        self.opening = opening;
+        self.closing = closing;
+        self.$element = $('.card-start-counter');
+    }
+
+    Counter.prototype.run = function run() {
+        var self = this, now = moment(), updateIntervalId;
+
+        if (now.isBefore(self.opening)) {
+            self.setTitle('Start Date', self.opening);
+            updateIntervalId = self.setUpdateInterval(self.opening);
+            setTimeout(function () {
+                clearInterval(updateIntervalId);
+                self.run();
+            }, self.opening.diff(now));
+        } else if (now.isBefore(self.closing)) {
+            self.setTitle('End Date', self.closing);
+            updateIntervalId = self.setUpdateInterval(self.closing);
+            setTimeout(function () {
+                clearInterval(updateIntervalId);
+                self.run();
+            }, self.closing.diff(now));
+        } else {
+            self.setTitle('End Date', self.closing);
+            self.setUpdateInterval(null);
+        }
+    }
+
+    Counter.prototype.setTitle = function setTitle(title, date) {
+        var self = this;
+
+        self.$element.find('.counter-title').text(title);
+        self.$element.find('.counter-title-date').text(date.format('LLL ZZ'));
+    };
+
+    Counter.prototype.setUpdateInterval = function setUpdateInterval(startMoment) {
+        var self = this;
+
+        function update() {
+            if (startMoment) {
+                var now = moment();
+                var duration = now.isBefore(startMoment) ?
+                    moment.duration(startMoment.diff(now)) :
+                    moment.duration(now.diff(startMoment));
+
+
+                self.$element.find('.counter-days').text(duration.days());
+                self.$element.find('.counter-hours').text(duration.hours());
+                self.$element.find('.counter-minutes').text(duration.minutes());
+                self.$element.find('.counter-seconds').text(duration.seconds());
+            } else {
+                self.$element.find('.counter-days').text('0');
+                self.$element.find('.counter-hours').text('0');
+                self.$element.find('.counter-minutes').text('0');
+                self.$element.find('.counter-seconds').text('0');
+            }
+        }
+
+        update();
+        return setInterval(update, 1000);
+    };
+
+
+    function Tge(opening, closing) {
+        var self = this;
+
+        self.opening = opening;
+        self.closing = closing;
+    }
+
+    Tge.prototype.run = function run() {
+        var self = this, now = moment();
+
+        if (now.isBefore(self.opening)) {
+
+        } else if (now.isBefore(self.closing)) {
+
+
+        } else {
+
+        }
+
+        self.updateTgeContractDetails()
+    };
+
+    Tge.prototype.updateTgeContractDetails = function updateTgeContractDetails() {
+        var $details = $('.card-tge-contract-details');
+        $details.find('.tge-contract-addr').text(tgeData.preSale.addr);
+        $details.find('.tge-contract-addr').attr('href', 'https://etherscan.io/address/' + tgeData.preSale.addr);
+    };
+
+    $(function () {
+        if (typeof window.ethereum === 'undefined') {
+            console.warn('MetaMask not available.');
+            return;
+        }
+
+
+        var now = moment();
+        var opening = moment(tgeData.preSale.opening, tgeData.dateFormat);
+        var closing = moment(tgeData.preSale.closing, tgeData.dateFormat);
+        // var opening = now.clone().add('10', 'seconds');
+        // var closing = opening.clone().add('10', 'seconds');
+
+        new Tge(opening, closing).run();
+        new Counter(opening, closing).run();
+
+        var $addrSearch = $('.form-addr-search');
+        $addrSearch.find('.btn-update-addr').click(function(evt) {
+            evt.preventDefault();
+            var newAddr = $addrSearch.find('#ethereumAddress').val();
+            window.location.href = '/tge-status?q=' + newAddr;
+        });
+    });
+</script>
