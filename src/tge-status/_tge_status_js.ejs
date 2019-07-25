@@ -71,15 +71,25 @@
 
     function buyTokens(preSale, beneficiary, ethAmount) {
         return preSale.buyTokens(beneficiary, {
-            //gasLimit: 21000,
+            gasLimit: 750000,
             value: ethers.utils.parseEther(ethAmount),
+        }).then(function onBuyTxResolved(tx) {
+            return tx.wait().then(function () {
+                return tx.hash;
+            }, function () {
+                return Promise.reject(tx.hash);
+            });
+        }, function onBuyTxRejected(ex) {
+            return Promise.reject(null);
         });
     }
 
     function updateCrowdsaleInfo(result) {
         var $form = $('.form-result');
+        var $header = $('.card-header');
 
-        $('.card-header p span').text(result.addr);
+        $header.find('p').show();
+        $header.find('p span').text(result.addr);
 
         $form.find('#isOpen').val(result.isOpen ? 'Yes' : 'No');
         $form.find('#isWhitelisted').val(result.isWhitelisted ? 'Yes' : 'No');
@@ -104,10 +114,15 @@
                     location.reload();
                 });
 
+
+                var $unlock = $('.alert-unlock');
+                $unlock.show();
                 return window.ethereum.enable().then(function () {
+                    $unlock.hide();
                     console.log('MetaMask is enabled. Using ethers Web3Provider.');
                     return new ethers.providers.Web3Provider(window.ethereum);
                 }, function () {
+                    $unlock.hide();
                     console.log('MetaMask is disabled. Using ethers DefaultProvider.');
                     return ethers.getDefaultProvider();
                 });
@@ -174,7 +189,7 @@
                 case 1:          // mainnet
                 case 4:          // rinkeby testnet
                 case 1234567890: // local testnet (ganache)
-                    return { chainId: network.chainId, provider: provider };
+                    return {chainId: network.chainId, provider: provider};
                 default:
                     throw new Error('Invalid chainId: ' + network.chainId);
             }
@@ -189,6 +204,12 @@
         options.tgeData = window.availableTgeData[options.chainId];
         console.log('Loaded tge data', options.tgeData);
         return Promise.resolve(options);
+    }
+
+    function createEtherscanUrl(chainId, txHash) {
+        var networkPrefix = chainId === 4 ? 'rinkeby.' : '';
+
+        return 'https://' + networkPrefix + 'etherscan.io/tx/' + txHash;
     }
 
     $(function () {
@@ -235,10 +256,17 @@
                         $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.preSale, tgeData.dateFormat));
                     });
 
-                    $('#termOfUse').change(function () {
+                    $('#termOfUse, #holdPrivKey, #sendingEth, #noExchangeAddress').change(function () {
                         var $alert = $('.alert-buy');
 
-                        if (/*result.isWhitelisted && result.isOpen &&*/ $(this).is(':checked') && typeof provider.getSigner === "function") {
+                        result.isUserAgreeingToTgeConditions =
+                            $('#termOfUse').is(':checked') &&
+                            $('#holdPrivKey').is(':checked') &&
+                            $('#sendingEth').is(':checked') &&
+                            $('#noExchangeAddress').is(':checked');
+
+                        var isDebug = getUrlVars().hasOwnProperty('debug');
+                        if ((isDebug || (result.isWhitelisted && result.isOpen && result.isUserAgreeingToTgeConditions)) && typeof provider.getSigner === "function") {
                             $buy.removeClass('disabled');
                             $alert.hide();
                         } else {
@@ -249,16 +277,29 @@
 
                     $buy.click(function (evt) {
                         evt.preventDefault();
+                        var $loading = $('.alert-loading');
+                        $loading.show();
 
                         var preSale = createPreSaleContract(provider.getSigner(), tgeData.preSale);
                         buyTokens(preSale, result.addr, $amountEth.val()).then(
-                            function () {
-                                $('#modal-buy-success').modal('show');
-                            }, function (ex) {
-                                console.log('buyTokens failed', ex);
-                                $('#modal-buy-failure').modal('show');
+                            function onBuyTokensResolved(txHash) {
+                                var etherscanUrl = createEtherscanUrl(options.chainId, txHash);
+                                var $modal = $('#modal-buy-success');
+                                var $etherscanUrl = $modal.find('.etherscanUrl');
+                                $etherscanUrl.attr('href', etherscanUrl);
+                                $modal.modal('show');
+                            }, function onBuyTokensRejected(txHash) {
+                                if (txHash) {
+                                    var etherscanUrl = createEtherscanUrl(options.chainId, txHash);
+                                    var $modal = $('#modal-buy-failure');
+                                    var $etherscanUrl = $modal.find('.etherscanUrl');
+                                    $etherscanUrl.attr('href', etherscanUrl);
+                                    $modal.modal('show');
+                                }
                             }
-                        );
+                        ).finally(function onBuyTokensFinally() {
+                            $loading.hide();
+                        });
                     });
                 }, function onLoadPreSaleDataReject(ex) {
                     console.error(ex);

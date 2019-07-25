@@ -7,6 +7,8 @@
         type="text/javascript">
 </script>
 <script>
+    var tgeData = availableTgeData['1'];
+
     function Counter(opening, closing) {
         var self = this;
 
@@ -97,8 +99,8 @@
 
     Tge.prototype.updateTgeContractDetails = function updateTgeContractDetails() {
         var $details = $('.card-tge-contract-details');
-        $details.find('.tge-contract-addr').text(availableTgeData['4'].preSale.addr);
-        $details.find('.tge-contract-addr').attr('href', 'https://etherscan.io/address/' + availableTgeData['4'].preSale.addr);
+        $details.find('.tge-contract-addr').text(tgeData.preSale.addr);
+        $details.find('.tge-contract-addr').attr('href', 'https://etherscan.io/address/' + tgeData.preSale.addr);
     };
 
     $(function () {
@@ -109,8 +111,8 @@
 
 
         var now = moment();
-        var opening = moment(availableTgeData['4'].preSale.opening, availableTgeData['4'].dateFormat);
-        var closing = moment(availableTgeData['4'].preSale.closing, availableTgeData['4'].dateFormat);
+        var opening = moment(tgeData.preSale.opening, tgeData.dateFormat);
+        var closing = moment(tgeData.preSale.closing, tgeData.dateFormat);
         // var opening = now.clone().add('10', 'seconds');
         // var closing = opening.clone().add('10', 'seconds');
 
