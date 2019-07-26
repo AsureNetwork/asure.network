@@ -30,6 +30,7 @@
                         <form class="form m-lg-5" id="form-kyc"
                               action=""
                               method="post" target="_blank" rel="noopener" novalidate enctype="multipart/form-data">
+                            <input type="hidden" name="_referrer" id="fg-referrer">
 
                             <fieldset class="form-group" id="fg-us-group">
                                 <div class="row">
@@ -824,6 +825,17 @@
                                         Please provide a source.
                                     </div>
                                     <small class="form-text text-muted">Example: Savings, salary, trust fund</small>
+                                </div>
+                            </div>
+
+                            <div class="form-group row" id="fg-learn-group">
+                                <label for="fg-source-of-funds" class="col-md-4 col-form-label">
+                                    How did you learn about Asure Network?
+                                </label>
+                                <div class="col-md-8">
+                                    <textarea class="form-control" type="text" value="" id="fg-learn"
+                                              name="_learn"></textarea>
+                                    <small class="form-text text-muted">Example: Facebook, Bitcointalk, Friends</small>
                                 </div>
                             </div>
 

@@ -177,6 +177,7 @@
                     </div>
                     <div class="card-body bg-light-green">
                         <form class="form m-lg-5" id="form-kyc" action="" method="post" target="_blank" rel="noopener" novalidate enctype="multipart/form-data">
+                            <input type="hidden" name="_referrer" id="fg-referrer">
 
                             <fieldset class="form-group" id="fg-us-group">
                                 <div class="row">
@@ -958,6 +959,16 @@
                                 </div>
                             </div>
 
+                            <div class="form-group row" id="fg-learn-group">
+                                <label for="fg-source-of-funds" class="col-md-4 col-form-label">
+                                    How did you learn about Asure Network?
+                                </label>
+                                <div class="col-md-8">
+                                    <textarea class="form-control" type="text" value="" id="fg-learn" name="_learn"></textarea>
+                                    <small class="form-text text-muted">Example: Facebook, Bitcointalk, Friends</small>
+                                </div>
+                            </div>
+
                             <div class="form-group row" id="fg-file-id-group">
                                 <label for="fg-file-id" class="col-md-4 col-form-label">
                                     Upload a clear high resolution image of your ID
@@ -1182,7 +1193,24 @@
             $('.bounties > .bounty').addClass('hidden');
             $('.bounties > #bounty-' + addr).removeClass('hidden');
         });
+
+        var ref = getQueryVariable("ref");
+        if(ref){
+            localStorage.setItem('ref', JSON.stringify(ref));
+        }
     });
+
+    function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split('&');
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split('=');
+            if (decodeURIComponent(pair[0]) == variable) {
+                return decodeURIComponent(pair[1]);
+            }
+        }
+        return "";
+    }
 
     function getCookie(cname) {
         var name = cname + "=";
@@ -1498,6 +1526,14 @@
             self.form = $('form#form-kyc');
             self.form.find('[name="_wallet"]').on('input', self.validateWallet);
             self.form.submit(self.submit);
+
+
+            //Get the item from local storage.
+            //localStorage.setItem('ref', JSON.stringify(featureArray));
+            var ref = JSON.parse(localStorage.getItem('ref'));
+            if(ref) {
+                $(self.form.find('[name="_referrer"]')).val(ref);
+            }
         }
     }
 

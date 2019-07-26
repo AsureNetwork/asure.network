@@ -117,6 +117,14 @@
             self.form = $('form#form-kyc');
             self.form.find('[name="_wallet"]').on('input', self.validateWallet);
             self.form.submit(self.submit);
+
+
+            //Get the item from local storage.
+            //localStorage.setItem('ref', JSON.stringify(featureArray));
+            var ref = JSON.parse(localStorage.getItem('ref'));
+            if(ref) {
+                $(self.form.find('[name="_referrer"]')).val(ref);
+            }
         }
     }
 
