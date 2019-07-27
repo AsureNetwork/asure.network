@@ -1502,7 +1502,8 @@
                 data: formData,
                 crossDomain: true,
                 success: function (data) {
-                    $('#address-link').attr('href', 'https://asure.network?address=' + $('[name="_wallet"]').val())
+
+                    $('#address-link').attr('href', 'https://asure.network/tge-status?q=address=' + $('[name="_wallet"]').val())
 
                     $('#card-registration').hide();
                     $('#card-registration-successful').show();
