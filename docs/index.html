@@ -4227,15 +4227,9 @@
     };
 
     $(function () {
-        if (typeof window.ethereum === 'undefined') {
-            console.warn('MetaMask not available.');
-            return;
-        }
-
-
-        var now = moment();
         var opening = moment(tgeData.preSale.opening, tgeData.dateFormat);
         var closing = moment(tgeData.preSale.closing, tgeData.dateFormat);
+        // var now = moment();
         // var opening = now.clone().add('10', 'seconds');
         // var closing = opening.clone().add('10', 'seconds');
 
