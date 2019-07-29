@@ -124,7 +124,7 @@
                 return provider.enable().then(function () {
                     $unlock.hide();
                     console.log('MetaMask is enabled. Using ethers Web3Provider.');
-                    return new ethers.providers.Web3Provider(window.ethereum);
+                    return new ethers.providers.Web3Provider(provider);
                 }, function () {
                     $unlock.hide();
                     console.log('MetaMask is disabled. Using ethers DefaultProvider.');
@@ -133,7 +133,7 @@
             }
 
             console.log('Web3 provider detected. Using ethers Web3Provider.');
-            return Promise.resolve(new ethers.providers.Web3Provider(window.ethereum));
+            return Promise.resolve(new ethers.providers.Web3Provider(provider));
         }
 
         console.log('No Web3 provider detected. Using ethers DefaultProvider.');
