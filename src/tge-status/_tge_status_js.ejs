@@ -106,8 +106,6 @@
             const provider = window['ethereum'] || window.web3.currentProvider
 
             if (provider.isMetaMask) {
-                console.log('MetaMask detected. Enabling ...');
-
                 provider.on('accountsChanged', function () {
                     console.log('MetaMask accounts changed. Reloading page ...');
                     location.reload();
@@ -117,7 +115,10 @@
                     console.log('MetaMask network changed. Reloading page ...');
                     location.reload();
                 });
+            }
 
+            if (provider.isMetaMask || provider.isStatus) {
+                console.log('MetaMask or Status detected. Enabling ...');
 
                 var $unlock = $('.alert-unlock');
                 $unlock.show();
