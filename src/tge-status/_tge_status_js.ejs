@@ -105,32 +105,38 @@
             // Web3 browser user detected. You can now use the provider.
             const provider = window['ethereum'] || window.web3.currentProvider
 
+            let providerName = 'Unknown';
             if (provider.isMetaMask) {
-                provider.on('accountsChanged', function () {
-                    console.log('MetaMask accounts changed. Reloading page ...');
-                    location.reload();
-                });
-
-                provider.on('networkChanged', function () {
-                    console.log('MetaMask network changed. Reloading page ...');
-                    location.reload();
-                });
+                providerName = 'MetaMask';
+            } else if (provider.isStatus) {
+                providerName = 'Status.im';
             }
 
             if (provider.isMetaMask || provider.isStatus) {
-                console.log('MetaMask or Status detected. Enabling ...');
+                console.log(providerName + ' detected. Enabling ...');
 
                 var $unlock = $('.alert-unlock');
                 $unlock.show();
                 return provider.enable().then(function () {
+                    if (provider.isMetaMask) {
+                        provider.on('accountsChanged', function () {
+                            console.log(providerName + ' accounts changed. Reloading page ...');
+                            location.reload();
+                        });
+
+                        provider.on('networkChanged', function () {
+                            console.log(providerName + ' network changed. Reloading page ...');
+                            location.reload();
+                        });
+                    }
+
                     $unlock.hide();
-                    console.log('MetaMask is enabled. Using ethers Web3Provider.');
+                    console.log(providerName + ' is enabled. Using ethers Web3Provider.');
                     return new ethers.providers.Web3Provider(provider);
                 }, function () {
                     $unlock.hide();
-                    console.log('MetaMask is disabled. Using ethers DefaultProvider.');
+                    console.log(providerName + ' is disabled. Using ethers DefaultProvider.');
                     return ethers.getDefaultProvider();
-
                 });
             }
 
