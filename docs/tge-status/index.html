@@ -191,7 +191,7 @@
                                         <div class="card flex-fill">
                                             <div class="card-body text-center">
                                                 <h5 class="card-title text-uppercase">
-                                                    <span data-toggle="popover" title="" data-placement="bottom" data-trigger="hover" data-content="You need MetaMask plugin or other web3 wallet provider." data-original-title="Metamask"><strong>Metamask</strong></span>
+                                                    <span data-toggle="popover" title="" data-placement="bottom" data-trigger="hover" data-content="You need to install the MetaMask browser plugin or another Web3 compatible browser." data-original-title="Web3 compatible Browser"><strong>Web3 Browser</strong></span>
                                                 </h5>
                                                 <div class="card-text align-items-center">
                                                     <input type="text" readonly="readonly" class="form-control-plaintext text-center" value="YES">
@@ -2008,29 +2008,37 @@
             // Web3 browser user detected. You can now use the provider.
             const provider = window['ethereum'] || window.web3.currentProvider
 
+            let providerName = 'Unknown';
             if (provider.isMetaMask) {
-                console.log('MetaMask detected. Enabling ...');
+                providerName = 'MetaMask';
+            } else if (provider.isStatus) {
+                providerName = 'Status.im';
+            }
 
-                provider.on('accountsChanged', function () {
-                    console.log('MetaMask accounts changed. Reloading page ...');
-                    location.reload();
-                });
-
-                provider.on('networkChanged', function () {
-                    console.log('MetaMask network changed. Reloading page ...');
-                    location.reload();
-                });
-
+            if (typeof provider.enable === 'function') {
+                console.log(providerName + ' detected. Enabling ...');
 
                 var $unlock = $('.alert-unlock');
                 $unlock.show();
                 return provider.enable().then(function () {
+                    if (typeof provider.on === 'function') {
+                        provider.on('accountsChanged', function () {
+                            console.log(providerName + ' accounts changed. Reloading page ...');
+                            location.reload();
+                        });
+
+                        provider.on('networkChanged', function () {
+                            console.log(providerName + ' network changed. Reloading page ...');
+                            location.reload();
+                        });
+                    }
+
                     $unlock.hide();
-                    console.log('MetaMask is enabled. Using ethers Web3Provider.');
+                    console.log(providerName + ' is enabled. Using ethers Web3Provider.');
                     return new ethers.providers.Web3Provider(provider);
                 }, function () {
                     $unlock.hide();
-                    console.log('MetaMask is disabled. Using ethers DefaultProvider.');
+                    console.log(providerName + ' is disabled. Using ethers DefaultProvider.');
                     return ethers.getDefaultProvider();
                 });
             }
@@ -2094,7 +2102,7 @@
             console.log('Selected Network', network);
             switch (network.chainId) {
                 case 1:          // mainnet
-                case 4:          // rinkeby testnet
+                //case 4:          // rinkeby testnet
                 case 1234567890: // local testnet (ganache)
                     return {chainId: network.chainId, provider: provider};
                 default:
