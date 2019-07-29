@@ -112,13 +112,13 @@
                 providerName = 'Status.im';
             }
 
-            if (provider.isMetaMask || provider.isStatus) {
+            if (typeof provider.enable === 'function') {
                 console.log(providerName + ' detected. Enabling ...');
 
                 var $unlock = $('.alert-unlock');
                 $unlock.show();
                 return provider.enable().then(function () {
-                    if (provider.isMetaMask) {
+                    if (typeof provider.on === 'function') {
                         provider.on('accountsChanged', function () {
                             console.log(providerName + ' accounts changed. Reloading page ...');
                             location.reload();
