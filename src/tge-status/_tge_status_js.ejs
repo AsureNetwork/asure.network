@@ -100,16 +100,20 @@
     }
 
     function createEthersProvider() {
-        if (typeof window.ethereum !== 'undefined') {
-            if (window.ethereum.isMetaMask) {
+        if ((typeof window.ethereum !== 'undefined') || (typeof window.web3 !== 'undefined')) {
+
+            // Web3 browser user detected. You can now use the provider.
+            const provider = window['ethereum'] || window.web3.currentProvider
+
+            if (provider.isMetaMask) {
                 console.log('MetaMask detected. Enabling ...');
 
-                window.ethereum.on('accountsChanged', function () {
+                provider.on('accountsChanged', function () {
                     console.log('MetaMask accounts changed. Reloading page ...');
                     location.reload();
                 });
 
-                window.ethereum.on('networkChanged', function () {
+                provider.on('networkChanged', function () {
                     console.log('MetaMask network changed. Reloading page ...');
                     location.reload();
                 });
@@ -117,10 +121,10 @@
 
                 var $unlock = $('.alert-unlock');
                 $unlock.show();
-                return window.ethereum.enable().then(function () {
+                return provider.enable().then(function () {
                     $unlock.hide();
                     console.log('MetaMask is enabled. Using ethers Web3Provider.');
-                    return new ethers.providers.Web3Provider(window.ethereum);
+                    return new ethers.providers.Web3Provider(provider);
                 }, function () {
                     $unlock.hide();
                     console.log('MetaMask is disabled. Using ethers DefaultProvider.');
@@ -129,7 +133,7 @@
             }
 
             console.log('Web3 provider detected. Using ethers Web3Provider.');
-            return Promise.resolve(new ethers.providers.Web3Provider(window.ethereum));
+            return Promise.resolve(new ethers.providers.Web3Provider(provider));
         }
 
         console.log('No Web3 provider detected. Using ethers DefaultProvider.');
