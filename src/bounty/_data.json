@@ -14,7 +14,7 @@
       }
     ],
     "bounties": {
-      "created": "2019-07-09T08:43:31.386Z",
+      "created": "2019-07-30T17:23:11.206Z",
       "weekNos": [
         "Week 22",
         "Week 23",
@@ -58,7 +58,8 @@
         "Translation Campaign",
         "Peepeth Campaign",
         "Reddit Campaign",
-        "Signature Campaign"
+        "Signature Campaign",
+        "Bitcointalk Campaign"
       ],
       "data": [
         {
@@ -158,6 +159,15 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -223,6 +233,45 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 34 - August 19, 2019 - August 25, 2019",
+              "parsedWeekNo": "Week 34",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -273,6 +322,54 @@
                   "done": true
                 },
                 "LinkedIn Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
                   "done": true
                 }
               }
@@ -350,6 +447,60 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -403,6 +554,33 @@
             {
               "weekNo": "Week 27 - July 1, 2019 - July 7, 2019",
               "parsedWeekNo": "Week 27",
+              "campaigns": {
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Facebook Campaign": {
                   "done": true
@@ -463,6 +641,42 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -496,6 +710,42 @@
             {
               "weekNo": "Week 27 - July 1, 2019 - July 7, 2019",
               "parsedWeekNo": "Week 27",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Twitter Campaign": {
                   "done": true
@@ -553,6 +803,42 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -607,6 +893,42 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -624,6 +946,30 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -633,6 +979,18 @@
             {
               "weekNo": "Week 26 - June 24, 2019 - June 30, 2019",
               "parsedWeekNo": "Week 26",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
               "campaigns": {
                 "Twitter Campaign": {
                   "done": true
@@ -731,6 +1089,45 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -807,6 +1204,15 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "Youtube Campaign": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -838,6 +1244,377 @@
                   "done": true
                 },
                 "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xbbfd48755ddb3ec2f8186c2f2ddace39f67e16e4",
+          "weeks": [
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x2092462b5cC6A670176Aa3F2D0215b8bda47b5a7",
+          "weeks": [
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x3E771526af80fB8b1Ea5bE26E638A8F523F677de",
+          "weeks": [
+            {
+              "weekNo": "Week 33 - August 12, 2019 - August 18, 2019",
+              "parsedWeekNo": "Week 33",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Youtube Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xdce2ccadec91d0c2097edef8f18b5ec4217bff09",
+          "weeks": [
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x086aF663cc8eE983dD630b6a09bAd4E5bfBE4794",
+          "weeks": [
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x37a0B0C2c66588Aa83cA4d1367B409C78704738b",
+          "weeks": [
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xa809395b84354d256302D97d5C68AaEE9EF84005",
+          "weeks": [
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x329e1d4863b43ef2aB762d3253B9b8083778A257",
+          "weeks": [
+            {
+              "weekNo": "Week 26 - June 24, 2019 - June 30, 2019",
+              "parsedWeekNo": "Week 26",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "Youtube Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x91406B5d57893E307f042D71C91e223a7058Eb72",
+          "weeks": [
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "Youtube Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x81C6e21Ce13598f35e53FE1d1cdE964C8E7fCC1C",
+          "weeks": [
+            {
+              "weekNo": "Week 29 - July 15, 2019 - July 21, 2019",
+              "parsedWeekNo": "Week 29",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x857Bf961C8b363502a0FD31cc43eE0Cf99D5DB99",
+          "weeks": [
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xF908364Deb4D2c86B372F6958D2AAaE394823932",
+          "weeks": [
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x0720244cc4922aB44E92616283a14dfa18Bd8c50",
+          "weeks": [
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "Translation Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xD97555D3571836B979ABBb90cc3d8015bA7b0a53",
+          "weeks": [
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x9DEa99C445A7C12f33C6418A47cebD894fdf7332",
+          "weeks": [
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x5a25EcBeA79F054Bb9c691317b18e2257e029579",
+          "weeks": [
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
                   "done": true
                 }
               }
