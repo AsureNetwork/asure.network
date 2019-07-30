@@ -89,7 +89,8 @@
         var $header = $('.card-header');
 
         $header.find('p').show();
-        $header.find('p span').text(result.addr);
+        $header.find('p a').text(result.addr);
+        $header.find('p a').attr('href', 'https://etherscan.io/address/' + result.addr);
 
         $form.find('#isOpen').val(result.isOpen ? 'Yes' : 'No');
         $form.find('#isWhitelisted').val(result.isWhitelisted ? 'Yes' : 'No');
