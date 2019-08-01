@@ -14,7 +14,7 @@
       }
     ],
     "bounties": {
-      "created": "2019-07-30T17:23:11.206Z",
+      "created": "2019-08-01T14:49:27.180Z",
       "weekNos": [
         "Week 22",
         "Week 23",
@@ -1544,6 +1544,15 @@
             {
               "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
               "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "Translation Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 31 - July 29, 2019 - August 4, 2019",
+              "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Translation Campaign": {
                   "done": true
