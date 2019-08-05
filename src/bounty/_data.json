@@ -3,6 +3,24 @@
     "title": "Asure.Network - Bounty Campaign for TGE",
     "keywords": "Asure.Network Bounty Campaign for TGE",
     "description": "Asure.Network - Bounty Campaign for TGE",
+    "faq": [
+      {
+        "q": "Can I buy tokens?",
+        "a": "You have to register for <a href=\"https://www.asure.network/kyc\" target=\"_blank\">KYC / Whitelisting From</a> and from the 1st of August you can buy tokens."
+      },
+      {
+        "q": "Is KYC needed for bounty hunters?",
+        "a": "No. For Bounty Hunters KYC is not needed at the moment."
+      },
+      {
+        "q": "Which blockchain will you use?",
+        "a": "We are are developing a new blockchain for social security applications wich will be connected via bridges to other public blockchains like ethereum-blockchain, binnace-blockchain, polkadot-blockchain, etc."
+      },
+      {
+        "q": "How can I buy ASR tokens?",
+        "a": "The first to <a href=\"https://asure.network/kyc\">sign up</a> for whitelisting. <br/> From August 1th                 to August 15th there will be Smart Contract addresse on this website."
+      }
+    ],
     "bug_bounty_airdrops": [
       {
         "name": "SOMISH Blockchain Labs",
