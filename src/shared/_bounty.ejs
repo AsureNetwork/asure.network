@@ -19,16 +19,53 @@ return output;
 }
 %>
 
+<% print_section = function (section) {%>
+<div class="row mb-3">
+    <div class="col-2">
+        <h4><%= section.name %></h4>
+    </div>
+    <div class="col-10">
+        <div class="row">
+            <% section.items.forEach(function(item){ %>
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header">
+                        <%= item.name%>
+                    </div>
+                    <div class="card-body">
+                        <%= item.description %>
+                        <hr/>
+                        <ul>
+                            <% item.rules.forEach(function(rule){ %>
+                            <li><%= rule %></li>
+                            <% }); %>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <% }); %>
+        </div>
+    </div>
+</div>
+<%}%>
+
 <section class="blc-tge bg-white-blue" id="tge">
     <div class="container">
         <div class="head">
             <h1 class="title hr">Asure Network Bounty Campaign</h1>
             <div class="row">
                 <div class="offset-md-2 col-md-8 justify">
-                    <a href="https://bitcointalk.org/index.php?topic=5150750.msg51349151" target="_blank" class="btn btn-success form-control">BITCOINTALK</a>
+                    <a href="https://bitcointalk.org/index.php?topic=5150750.msg51349151" target="_blank"
+                       class="btn btn-success form-control">BITCOINTALK</a>
                 </div>
             </div>
         </div>
+
+
+        <%= print_section(public.bounty._data.index.ui.twitter) %>
+
+        <%= print_section(public.bounty._data.index.ui.telegram) %>
+
 
         <div class="row" style="margin-bottom: 20px; margin-top: 20px;">
             <div class="col-lg-12">
@@ -101,6 +138,8 @@ return output;
             </div>
             <% } %>
         </div>
+
+
 
         <div class="ico">
             <div class="row">
@@ -181,7 +220,8 @@ return output;
                                             </a>
                                         </li>
                                         <li role="presentation" class="nav-item">
-                                            <a class="nav-link" href="#tab-bitcointalk" aria-controls="bitcointalk" role="tab"
+                                            <a class="nav-link" href="#tab-bitcointalk" aria-controls="bitcointalk"
+                                               role="tab"
                                                data-toggle="tab">
                                                 <i class="fab fa-btc"></i>
                                             </a>
@@ -265,7 +305,8 @@ return output;
                                         <br/><br/>
                                         <strong>Total Bounty Pool will be divided as follows:</strong><br/>
                                         <br/>
-                                        10 % = $ 500.000 ASR Tokens: <a href="https:/asure.network/angels" target="_blank">Asure Angels</a><br/>
+                                        10 % = $ 500.000 ASR Tokens: <a href="https:/asure.network/angels"
+                                                                        target="_blank">Asure Angels</a><br/>
                                         10 % = $ 500.000 ASR Tokens: Agencies and Partnership<br/>
                                         5 % = $ 250.000 ASR Tokens: Bug-Bounty Programm<br/>
                                         5 % = $ 250.000 ASR Tokens: Reserve for unexpected purposes<br/>
@@ -411,24 +452,36 @@ return output;
                                         <br/>
                                         <strong>Rules & Requirements</strong><br/><br/>
                                         <ul>
-                                            <li>Follow us here: <a href="https://twitter.com/AsureNetwork" target="_blank">https://twitter.com/AsureNetwork</a></li>
+                                            <li>Follow us here: <a href="https://twitter.com/AsureNetwork"
+                                                                   target="_blank">https://twitter.com/AsureNetwork</a>
+                                            </li>
                                             <li>The Twitter audit must be equal to or greater than 85% (use
-                                                https://www.twitteraudit.com/).</li>
+                                                https://www.twitteraudit.com/).
+                                            </li>
                                             <li>Must make at least 5 activities about Asure Network per week.</li>
                                             <li>Retweet all of Asure Network's official announcements</li>
                                             <li>Comments should have a minimum of 50 characters and constructive.</li>
                                             <li>Breaking Any of the Campaign rules can result in being rejected.</li>
                                             <li>You must have a minimum of 300 followers and a minimum of 50 twits.</li>
-                                            <li>Twitter account must be legitimate with no less than 90% Twitter Audit. No fake,
-                                                inactive or a bot account allowed.</li>
+                                            <li>Twitter account must be legitimate with no less than 90% Twitter Audit.
+                                                No fake,
+                                                inactive or a bot account allowed.
+                                            </li>
                                             <li>You must be an active and regular Twitter user & must retweet and like
-                                                @AsureNetwork official tweets and updates.</li>
-                                            <li>Include in all posts @AsureNetwork, posts without a tag will not be counted.</li>
-                                            <li>Account must be open as a Public Profile and all Posts shared need to be public
-                                                as well.</li>
+                                                @AsureNetwork official tweets and updates.
+                                            </li>
+                                            <li>Include in all posts @AsureNetwork, posts without a tag will not be
+                                                counted.
+                                            </li>
+                                            <li>Account must be open as a Public Profile and all Posts shared need to be
+                                                public
+                                                as well.
+                                            </li>
                                             <li>Make RETWEETS with the hashtags:
-                                                #asure #asuretoken #tge #ico #crypto #defi</li>
-                                            <li>Multiple accounts are not allowed. Those found using such multi accounts will be
+                                                #asure #asuretoken #tge #ico #crypto #defi
+                                            </li>
+                                            <li>Multiple accounts are not allowed. Those found using such multi accounts
+                                                will be
                                                 disqualified and blacklisted from all future campaigns
                                             </li>
                                             <li>Be create and create own Posts</li>
@@ -436,7 +489,8 @@ return output;
 
                                         <br/>
                                         <strong>Shares</strong><br/><br/>
-                                            Max 5 Shares per week, you need to perform 5 tasks in any combination (post, retweet, like, comment).
+                                        Max 5 Shares per week, you need to perform 5 tasks in any combination (post,
+                                        retweet, like, comment).
                                         <br/>
 
                                     </div>
@@ -457,7 +511,8 @@ return output;
                                         Be create and create own Posts<br/><br/>
 
                                         <strong>Shares</strong><br/><br/>
-                                        Max 5 Shares per week, you need to perform 5 tasks in any combination (post, retweet, like, comment).
+                                        Max 5 Shares per week, you need to perform 5 tasks in any combination (post,
+                                        retweet, like, comment).
                                         <br/>
                                     </div>
                                     <div role="tabpanel" class="tab-pane" id="tab-linkedin">
@@ -482,7 +537,8 @@ return output;
                                         Share at least one of our newest LinkedIn posts per week.<br/>
 
                                         <strong>Shares</strong><br/><br/>
-                                        Max 5 Shares per week, you need to perform 5 tasks in any combination (post, like, comment).
+                                        Max 5 Shares per week, you need to perform 5 tasks in any combination (post,
+                                        like, comment).
                                         <br/>
                                     </div>
 
@@ -492,7 +548,8 @@ return output;
 
                                         Earn Tokens as a reward for joining Asure Network Telegram group and changing
                                         your
-                                        account description/avatar in order to increase Asure awareness in Telegram (Signature Campaign).
+                                        account description/avatar in order to increase Asure awareness in Telegram
+                                        (Signature Campaign).
                                         <br/><br/>
                                         <strong>Payment</strong><br/>
                                         <br/>
@@ -512,7 +569,8 @@ return output;
                                         Breaking Any of the Telegram Campaign rules can result in being rejected.<br/>
                                         <br/>
                                         <strong>Shares</strong><br/><br/>
-                                            Max 5 Shares per week, you need to perform 5 tasks in any combination (post, comment, invite).
+                                        Max 5 Shares per week, you need to perform 5 tasks in any combination (post,
+                                        comment, invite).
                                         <br/>
 
                                     </div>
@@ -559,7 +617,8 @@ return output;
                                         <br/>
                                         <ul>
                                             <li>Subscribe to the official Asure Network Youtube channel:
-                                                https://www.youtube.com/c/AsureNetwork</li>
+                                                https://www.youtube.com/c/AsureNetwork
+                                            </li>
                                             <li>Watch and like Asure Network videos.</li>
                                             <li>We would accept any positive video about Asure Network, not only about
                                                 the
@@ -581,7 +640,8 @@ return output;
                                         </ul>
                                         <br/><br/>
                                         <strong>Shares</strong><br/><br/>
-                                            Max +5 Shares per week, you need to perform 5 tasks in any combination (comment, likes).
+                                        Max +5 Shares per week, you need to perform 5 tasks in any combination (comment,
+                                        likes).
                                         <br/>
                                     </div>
                                     <div role="tabpanel" class="tab-pane" id="tab-facebook">
@@ -599,12 +659,15 @@ return output;
                                         <strong>Rules</strong><br/>
                                         <br/>
                                         <ul>
-                                            <li>Like official Asure Network Facebook page: <a href="https://www.facebook.com/AsureNetwork" target="_blank">https://www.facebook.com/AsureNetwork</a></li>
+                                            <li>Like official Asure Network Facebook page: <a
+                                                    href="https://www.facebook.com/AsureNetwork" target="_blank">https://www.facebook.com/AsureNetwork</a>
+                                            </li>
                                             <li>Like Asure posts and/or share them on your Facebook page</li>
                                         </ul>
                                         <br/>
                                         <strong>Shares</strong><br/><br/>
-                                        Max 5 Shares per week, you need to perform 5 tasks in any combination (post, repost, comment, likes).
+                                        Max 5 Shares per week, you need to perform 5 tasks in any combination (post,
+                                        repost, comment, likes).
                                         <br/>
                                     </div>
                                     <div role="tabpanel" class="tab-pane" id="tab-bitcointalk">
@@ -621,9 +684,16 @@ return output;
                                         <strong>Rules</strong><br/>
                                         <br/>
                                         <ul>
-                                            <li>Comment to Official annoncement post <a href="https://bitcointalk.org/index.php?topic=5144579.0" target="_blank">https://bitcointalk.org/index.php?topic=5144579.0</a>.</li>
-                                            <li>Make one meaningful comment 70 character length (don't mention about Bounty).</li>
-                                            <li>(Optional) You can start a new discussion with a new positiv Post/Question about Asure Network.</li>
+                                            <li>Comment to Official annoncement post <a
+                                                    href="https://bitcointalk.org/index.php?topic=5144579.0"
+                                                    target="_blank">https://bitcointalk.org/index.php?topic=5144579.0</a>.
+                                            </li>
+                                            <li>Make one meaningful comment 70 character length (don't mention about
+                                                Bounty).
+                                            </li>
+                                            <li>(Optional) You can start a new discussion with a new positiv
+                                                Post/Question about Asure Network.
+                                            </li>
                                         </ul>
                                         <br/>
                                         <strong>Shares</strong><br/><br/>
@@ -731,7 +801,8 @@ return output;
                                             <strong>
                                                 Where can I find spreadsheet?
                                             </strong><br/>
-                                            There is no spreadsheet but we create https://asure.network/bounty site where you can check your shares.
+                                            There is no spreadsheet but we create https://asure.network/bounty site
+                                            where you can check your shares.
                                         </p>
 
                                         <p>
@@ -789,6 +860,11 @@ return output;
                     </div>
                 </div>
             </div>
+
+
+
+
+
             <br/><br/>
             If you have any questions regarding the bounty campaign or if you need any assistance,
             feel free to contact us either in the specially created Telegram group
@@ -797,3 +873,6 @@ return output;
         </div>
     </div>
 </section>
+
+
+

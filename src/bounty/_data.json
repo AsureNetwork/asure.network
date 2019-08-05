@@ -21,6 +21,62 @@
         "a": "The first to <a href=\"https://asure.network/kyc\">sign up</a> for whitelisting. <br/> From August 1th                 to August 15th there will be Smart Contract addresse on this website."
       }
     ],
+    "ui": {
+      "twitter": {
+        "name": "Twitter",
+        "items": [
+          {
+            "id": "twitter01",
+            "name": "like",
+            "reward": "7",
+            "type": "stake",
+            "description": "like it bla",
+            "rules": [
+              "follow the account",
+              "bala"
+            ]
+          },
+          {
+            "id": "twitter02",
+            "name": "post",
+            "reward": "7",
+            "type": "stake",
+            "description": "like it dada bla",
+            "rules": [
+              "follow the account",
+              "bala"
+            ]
+          }
+        ]
+      },
+      "telegram": {
+        "name": "Telegram",
+        "items": [
+          {
+            "id": "twitter01",
+            "name": "like",
+            "reward": "7",
+            "type": "stake",
+            "description": "like it bla",
+            "rules": [
+              "follow the account",
+              "bala"
+            ]
+          },
+          {
+            "id": "twitter02",
+            "name": "post",
+            "reward": "7",
+            "type": "stake",
+            "description": "like it dada bla",
+            "rules": [
+              "follow the account",
+              "bala"
+            ]
+          }
+        ]
+      }
+    },
     "bug_bounty_airdrops": [
       {
         "name": "SOMISH Blockchain Labs",
