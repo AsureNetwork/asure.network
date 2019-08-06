@@ -21,16 +21,15 @@ return output;
 
 <% print_section = function (name,sections) {%>
 <div class="row mb-4">
-    <div class="col-2">
-        <h4><%= name %></h4>
+    <div class="col-xl-12 pb-4 bg-green">
+        <h2 class="text-center m-4 text-uppercase"><%= name %></h2>
         <small class="text-muted" id="my-rewards-<%= name %>">
             Rewards: 1000 Stakes
         </small>
-    </div>
-    <div class="col-10">
+
         <div class="card-deck">
             <% sections.forEach(function(item){ %>
-            <div class="col-12">
+            <div class="col-6">
                 <div class="card mb-2">
                     <div class="card-header">
                         <h5><%= item.title %>  (ID: <%= item.id %>)

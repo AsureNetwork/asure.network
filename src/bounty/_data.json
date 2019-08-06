@@ -27,7 +27,7 @@
         "typeId": "twitter",
         "name": "Twitter",
         "title": "Likes",
-        "description": "5 likes per week of the posts on our main Twitter channel (@AsureNetwork).",
+        "description": "5 likes per week of the posts on our main Twitter channel.",
         "rules": [
           "Asures",
           "sdasd",
@@ -42,7 +42,7 @@
         "typeId": "twitter",
         "name": "Twitter",
         "title": "Retweets",
-        "description": "5 retweets per week of our tweets in our main Twitter channel (@AsureNetwork).",
+        "description": "5 retweets per week of our tweets in our main Twitter channel.",
         "rules": [
           ""
         ],
@@ -81,7 +81,7 @@
         "typeId": "twitter",
         "name": "Twitter",
         "title": "Profile",
-        "description": "Put a link to Asure Network website (https://www.asure.network/) in your Twitter description",
+        "description": "Put a link to Asure Network website in your Twitter description",
         "rules": [
           ""
         ],
@@ -93,8 +93,8 @@
         "id": "Telegram01",
         "typeId": "telegram",
         "name": "Telegram",
-        "title": "Posts in der Gruppe bis zu 7 Frage ",
-        "description": "",
+        "title": "Posts in der Gruppe bis zu 7 Fragen ",
+        "description": "Creative and interesting questions about Asure Network in our main Telegram group (5 questions per week)",
         "rules": [
           ""
         ],
@@ -106,8 +106,8 @@
         "id": "Telegram02",
         "typeId": "telegram",
         "name": "Telegram",
-        "title": "Kommentare auf Anfragen in der Hauptgruppe bis zu 7",
-        "description": "",
+        "title": "Answer the questions of other community members",
+        "description": "If (and only if) you already know the answer to a question raised by another Telegram community member, answer the question.",
         "rules": [
           ""
         ],
@@ -119,8 +119,8 @@
         "id": "Telegram03",
         "typeId": "telegram",
         "name": "Telegram",
-        "title": "Posts in anderen Gruppen bis 10k",
-        "description": "",
+        "title": "Post in another crypto-related Telegram group with less than 1k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found in our Twitter posts or in our Medium article \"Announcement: Asure.Network TGE\") in other crypto-related Telegram groups with a short description of our project.",
         "rules": [
           ""
         ],
@@ -132,8 +132,8 @@
         "id": "Telegram04",
         "typeId": "telegram",
         "name": "Telegram",
-        "title": "Posts in anderen Gruppen bis 50k",
-        "description": "",
+        "title": "Post in another crypto-related Telegram group with 1k - 5k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found in our Twitter posts or in our Medium article \"Announcement: Asure.Network TGE\") in other crypto-related Telegram groups with a short description of our project.",
         "rules": [
           ""
         ],
@@ -145,8 +145,8 @@
         "id": "Telegram05",
         "typeId": "telegram",
         "name": "Telegram",
-        "title": "Posts in anderen Gruppen über 50k",
-        "description": "",
+        "title": "Post in another crypto-related Telegram group with more than 5k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found in our Twitter posts or in our Medium article \"Announcement: Asure.Network TGE\") in other crypto-related Telegram groups with a short description of our project.",
         "rules": [
           ""
         ],
@@ -158,8 +158,8 @@
         "id": "Telegram06",
         "typeId": "telegram",
         "name": "Telegram",
-        "title": "7 Freunde einladen",
-        "description": "",
+        "title": "Invite friends to our Telegram group",
+        "description": "Invite 5 people per week to our main Telegram group ",
         "rules": [
           ""
         ],
@@ -172,7 +172,7 @@
         "typeId": "facebook",
         "name": "Facebook",
         "title": "7 Likes",
-        "description": "",
+        "description": "5 likes per week of the posts on our main Facebook group. ",
         "rules": [
           ""
         ],
@@ -185,7 +185,7 @@
         "typeId": "facebook",
         "name": "Facebook",
         "title": "7 Posts",
-        "description": "",
+        "description": "Write 5 posts per week about Asure Network in any crypto-related Facebook group.",
         "rules": [
           ""
         ],
@@ -198,7 +198,7 @@
         "typeId": "facebook",
         "name": "Facebook",
         "title": "7 RePosts",
-        "description": "",
+        "description": "Share 5 reposts per week of our posts in our main Facebook group.",
         "rules": [
           ""
         ],
