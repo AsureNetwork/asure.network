@@ -19,30 +19,49 @@ return output;
 }
 %>
 
-<% print_section = function (section) {%>
-<div class="row mb-3">
+<% print_section = function (name,sections) {%>
+<div class="row mb-4">
     <div class="col-2">
-        <h4><%= section.name %></h4>
-        <span id="my-rewards-<%= section.name %>">
+        <h4><%= name %></h4>
+        <small class="text-muted" id="my-rewards-<%= name %>">
             Rewards: 1000 Stakes
-        </span>
+        </small>
     </div>
     <div class="col-10">
-        <div class="row">
-            <% section.items.forEach(function(item){ %>
-            <div class="col-6">
-                <div class="card">
+        <div class="card-deck">
+            <% sections.forEach(function(item){ %>
+            <div class="col-12">
+                <div class="card mb-2">
                     <div class="card-header">
-                        <h5><%= item.name%> (<span class="text-right"><%= item.reward%> <%= item.type%></span>)</h5>
+                        <h5><%= item.title %>  (ID: <%= item.id %>)
+                            <span class="text-right float-right">
+                            <a data-toggle="collapse" href="#collapseRules<%=item.id%>" role="button" aria-expanded="false" aria-controls="collapse">
+                                <i class="far fa-question-circle"></i></a>
+                            </span>
+                        </h5>
                     </div>
                     <div class="card-body">
                         <%= item.description %>
-                        <hr/>
-                        <ul>
-                            <% item.rules.forEach(function(rule){ %>
-                            <li><%= rule %></li>
+                        <div class="collapse" id="collapseRules<%=item.id%>">
+                            <h5 class="mt-2">Rules</h5>
+                                <ul>
+                                    <% item.rules.forEach(function(rule){ %>
+                                    <li><%= rule %></li>
+                                    <% }); %>
+                                </ul>
+                            <h5 class="mt-2">Weeks</h5>
+                            <% [30,31,32,33,34,35,36,37,38,39,40,50,51,52,53,54,55].forEach(function(week){ %>
+                                <span class="id<%=week%>" data-toggle="tooltip" data-placement="top" title="Week <%=week%>">■</span>
                             <% }); %>
-                        </ul>
+
+
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            Reward: <strong><%= item.reward%></strong> <%= item.rewardType%> / <%= item.frequency%>
+
+                        </small>
                     </div>
                 </div>
             </div>
@@ -133,9 +152,19 @@ return output;
         </div>
         </div>
 
-        <%= print_section(public.bounty._data.index.ui.twitter) %>
+        <%= print_section("Twitter",public.bounty._data.index.ui.filter(data => data.typeId == "twitter")) %>
 
-        <%= print_section(public.bounty._data.index.ui.telegram) %>
+        <%= print_section("Telegram",public.bounty._data.index.ui.filter(data => data.typeId == "telegram")) %>
+
+        <%= print_section("Facebook",public.bounty._data.index.ui.filter(data => data.typeId == "facebook")) %>
+
+        <%= print_section("Linkedin",public.bounty._data.index.ui.filter(data => data.typeId == "linkedin")) %>
+
+        <%= print_section("Bitcointalk",public.bounty._data.index.ui.filter(data => data.typeId == "bitcointalk")) %>
+
+        <%= print_section("Reddit",public.bounty._data.index.ui.filter(data => data.typeId == "reddit")) %>
+
+        <%= print_section("Creative",public.bounty._data.index.ui.filter(data => data.typeId == "cc")) %>
 
 
         <div class="row" style="margin-bottom: 20px; margin-top: 20px;">
