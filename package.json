@@ -4,6 +4,7 @@
   "description": "asure.io WebSite",
   "main": "index.js",
   "scripts": {
+    "update-bounty-tasks": "node tools/update-bounty-tasks.js",
     "build": "harp compile src docs",
     "start": "node server.js"
   },
@@ -23,7 +24,9 @@
     "bootstrap": "^4.3.1",
     "harp": "^0.29.0",
     "node-sass": "^4.9.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "googleapis": "^42.0.0",
+    "lodash": "^4.17.15"
   },
   "dependencies": {
     "html5-device-mockups": "^3.2.1",

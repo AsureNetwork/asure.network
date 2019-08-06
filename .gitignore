@@ -65,5 +65,4 @@ old
 .idea
 .vscode
 
-#lock
-package-lock.json
+google-sheets-*.json
