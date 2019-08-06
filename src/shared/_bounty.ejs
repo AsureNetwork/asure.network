@@ -21,7 +21,7 @@ return output;
 
 <% print_section = function (name,sections) {%>
 <div class="row mb-4">
-    <div class="col-xl-12 pb-4 bg-green">
+    <div class="col-xl-12 pb-4 bg-green shadow">
         <h2 class="text-center m-4 text-uppercase"><%= name %></h2>
         <small class="text-muted" id="my-rewards-<%= name %>">
             Rewards: 1000 Stakes
@@ -74,17 +74,21 @@ return output;
     <div class="container">
         <div class="head">
             <h1 class="title hr">Asure Network Bounty Campaign II</h1>
-            <div class="row">
-                <div class="offset-md-2 col-md-8 justify">
-                    <a href="https://bitcointalk.org/index.php?topic=5150750.msg51349151" target="_blank"
-                       class="btn btn-success form-control">BITCOINTALK</a>
-                </div>
-            </div>
         </div>
+
+
 
         <div class="row">
             <div class="col-lg-12">
                 <div class="card mb-4 mt-4">
+                    <div class="card-header">
+                        <h5>Bounty Status
+                            <span class="text-right float-right">
+                                        <a data-toggle="collapse" href="#collapseBountyInfo" role="button" aria-expanded="false" aria-controls="collapse">
+                                        <i class="far fa-question-circle"></i></a>
+                            </span>
+                        </h5>
+                    </div>
                     <div class="card-body">
                         <form>
                             <div class="input-group">
@@ -143,13 +147,17 @@ return output;
                                         <i class="fab fa-medium"></i>
                                     </label>
                                 </div>
-                            </div>
 
+                            </div>
                         </form>
+                        <%- partial("_bounty_info") %>
                     </div>
+
+                </div>
             </div>
         </div>
-        </div>
+
+
 
         <%= print_section("Twitter",public.bounty._data.index.ui.filter(data => data.typeId == "twitter")) %>
 
