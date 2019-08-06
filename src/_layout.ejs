@@ -332,6 +332,10 @@
     current.path[0]=="staking-rewards-calculator" ? partial("/shared/_staking_rewards_calculator_js.ejs"):""
 %>
 
+<% if (current.path[0]=="bounty") { %>
+    <%- partial("/shared/_bounty_js.ejs") %>
+<% } %>
+
 <% if (current.path[0]=="tge-status") { %>
     <%- partial("/shared/_tge_data_js.ejs") %>
     <%- partial("/tge-status/_tge_status_js.ejs") %>
