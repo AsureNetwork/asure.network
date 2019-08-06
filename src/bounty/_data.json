@@ -21,62 +21,673 @@
         "a": "The first to <a href=\"https://asure.network/kyc\">sign up</a> for whitelisting. <br/> From August 1th                 to August 15th there will be Smart Contract addresse on this website."
       }
     ],
-    "ui": {
-      "twitter": {
+    "ui": [
+      {
+        "id": "Twitter01",
+        "typeId": "twitter",
         "name": "Twitter",
-        "items": [
-          {
-            "id": "twitter01",
-            "name": "like",
-            "reward": "7",
-            "type": "stake",
-            "description": "like it bla",
-            "rules": [
-              "follow the account",
-              "bala"
-            ]
-          },
-          {
-            "id": "twitter02",
-            "name": "post",
-            "reward": "7",
-            "type": "stake",
-            "description": "like it dada bla",
-            "rules": [
-              "follow the account",
-              "bala"
-            ]
-          }
-        ]
+        "title": "Likes",
+        "description": "5 likes per week of the posts on our main Twitter channel (@AsureNetwork).",
+        "rules": [
+          "Asures",
+          "sdasd",
+          "dsfsd"
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
       },
-      "telegram": {
+      {
+        "id": "Twitter02",
+        "typeId": "twitter",
+        "name": "Twitter",
+        "title": "Retweets",
+        "description": "5 retweets per week of our tweets in our main Twitter channel (@AsureNetwork).",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Twitter03",
+        "typeId": "twitter",
+        "name": "Twitter",
+        "title": "Posts",
+        "description": "5 posts per week about our project Asure Network, telling about our vision and mentioning @AsureNetwork (our vision can be found in our Whitepaper or in this article: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb)",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Twitter04",
+        "typeId": "twitter",
+        "name": "Twitter",
+        "title": "Comments",
+        "description": "5 comments per week telling about our vision (as close to our own words as possible) and mentioning @AsureNetwork twitter.",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Twitter05",
+        "typeId": "twitter",
+        "name": "Twitter",
+        "title": "Profile",
+        "description": "Put a link to Asure Network website (https://www.asure.network/) in your Twitter description",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "2",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Telegram01",
+        "typeId": "telegram",
         "name": "Telegram",
-        "items": [
-          {
-            "id": "twitter01",
-            "name": "like",
-            "reward": "7",
-            "type": "stake",
-            "description": "like it bla",
-            "rules": [
-              "follow the account",
-              "bala"
-            ]
-          },
-          {
-            "id": "twitter02",
-            "name": "post",
-            "reward": "7",
-            "type": "stake",
-            "description": "like it dada bla",
-            "rules": [
-              "follow the account",
-              "bala"
-            ]
-          }
-        ]
+        "title": "Posts in der Gruppe bis zu 7 Frage ",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Telegram02",
+        "typeId": "telegram",
+        "name": "Telegram",
+        "title": "Kommentare auf Anfragen in der Hauptgruppe bis zu 7",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Telegram03",
+        "typeId": "telegram",
+        "name": "Telegram",
+        "title": "Posts in anderen Gruppen bis 10k",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "10",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Telegram04",
+        "typeId": "telegram",
+        "name": "Telegram",
+        "title": "Posts in anderen Gruppen bis 50k",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "50",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Telegram05",
+        "typeId": "telegram",
+        "name": "Telegram",
+        "title": "Posts in anderen Gruppen über 50k",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "100",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Telegram06",
+        "typeId": "telegram",
+        "name": "Telegram",
+        "title": "7 Freunde einladen",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Facebook01",
+        "typeId": "facebook",
+        "name": "Facebook",
+        "title": "7 Likes",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Facebook02",
+        "typeId": "facebook",
+        "name": "Facebook",
+        "title": "7 Posts",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Facebook03",
+        "typeId": "facebook",
+        "name": "Facebook",
+        "title": "7 RePosts",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Facebook04",
+        "typeId": "facebook",
+        "name": "Facebook",
+        "title": "7 Comments",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Facebook05",
+        "typeId": "facebook",
+        "name": "Facebook",
+        "title": "Profil Beschreibung anpassen zu Asure Network",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "2",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Facebook06",
+        "typeId": "facebook",
+        "name": "Facebook",
+        "title": "Post in anderen Gruppen bis 10k",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "10",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Facebook07",
+        "typeId": "facebook",
+        "name": "Facebook",
+        "title": "Post in anderen Gruppen bis 50k",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "50",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Facebook08",
+        "typeId": "facebook",
+        "name": "Facebook",
+        "title": "Post in anderen Gruppen über 50k",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "100",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Facebook09",
+        "typeId": "facebook",
+        "name": "Facebook",
+        "title": "7 Freunde einladen (die die Asure Seite liken)",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Bitcointalk01",
+        "typeId": "bitcointalk",
+        "name": "Bitcointalk",
+        "title": "5 Comments",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Bitcointalk02",
+        "typeId": "bitcointalk",
+        "name": "Bitcointalk",
+        "title": "Post in anderen Kategorien starten (Diskussion starten / Moderieren)",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "50",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Bitcointalk03",
+        "typeId": "bitcointalk",
+        "name": "Bitcointalk",
+        "title": "Profil Beschreibung anpassen zu Asure Network",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "2",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Bitcointalk04",
+        "typeId": "bitcointalk",
+        "name": "Bitcointalk",
+        "title": "Signatur anpassen stufe 1",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "25",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Bitcointalk05",
+        "typeId": "bitcointalk",
+        "name": "Bitcointalk",
+        "title": "Signatur anpassen stufe 2",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "50",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Bitcointalk06",
+        "typeId": "bitcointalk",
+        "name": "Bitcointalk",
+        "title": "Signatur anpassen stufe 3",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "100",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Creative01",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle ein Video (Youtube Follower bis 1k)",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "100",
+        "rewardType": "Tokens"
+      },
+      {
+        "id": "Creative02",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle ein Video (Youtube Follower 1k-50k)",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "500",
+        "rewardType": "Tokens"
+      },
+      {
+        "id": "Creative03",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle ein Video (Youtube Follower 50k-100k)",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "1000",
+        "rewardType": "Tokens"
+      },
+      {
+        "id": "Creative04",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle ein Video (Youtube Follower über 100k)",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "2000",
+        "rewardType": "Tokens"
+      },
+      {
+        "id": "Creative05",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle eine Pressemeldung",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "500",
+        "rewardType": "Tokens"
+      },
+      {
+        "id": "Creative06",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle eine Pressemeldung Renomierte Seite",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "2500",
+        "rewardType": "Tokens"
+      },
+      {
+        "id": "Creative07",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle einen Blog Artikel (Medium und ählich)",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "100",
+        "rewardType": "Tokens"
+      },
+      {
+        "id": "Creative08",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle einen Blog Artikel mit großer Reichweite",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "1000",
+        "rewardType": "Tokens"
+      },
+      {
+        "id": "Linkedin01",
+        "typeId": "linkedin",
+        "name": "Linkedin",
+        "title": "Likes",
+        "description": "5 likes durch die woche verteilt",
+        "rules": [
+          "You must complete a maximum of 5 retweets . Maximum of one tweet, and 1 retweet per day."
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Linkedin02",
+        "typeId": "linkedin",
+        "name": "Linkedin",
+        "title": "5 Posts",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Linkedin03",
+        "typeId": "linkedin",
+        "name": "Linkedin",
+        "title": "7 RePosts",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Linkedin04",
+        "typeId": "linkedin",
+        "name": "Linkedin",
+        "title": "7 Comments",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Linkedin05",
+        "typeId": "linkedin",
+        "name": "Linkedin",
+        "title": "Profil Beschreibung anpassen zu Asure Network",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "2",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Linkedin06",
+        "typeId": "linkedin",
+        "name": "Linkedin",
+        "title": "Post in anderen Gruppen bis 10k",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "10",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Linkedin07",
+        "typeId": "linkedin",
+        "name": "Linkedin",
+        "title": "Post in anderen Gruppen bis 50k",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "50",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Linkedin08",
+        "typeId": "linkedin",
+        "name": "Linkedin",
+        "title": "Post in anderen Gruppen über 50k",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "100",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Linkedin09",
+        "typeId": "linkedin",
+        "name": "Linkedin",
+        "title": "7 Freunde einladen (die die Asure Seite liken)",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Reddit01",
+        "typeId": "reddit",
+        "name": "Reddit",
+        "title": "7 Upvotes",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Reddit02",
+        "typeId": "reddit",
+        "name": "Reddit",
+        "title": "Post in Asure subreddit (Contribution to Asure subreddit)",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Reddit03",
+        "typeId": "reddit",
+        "name": "Reddit",
+        "title": "7 Comments",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Reddit04",
+        "typeId": "reddit",
+        "name": "Reddit",
+        "title": "Profil Beschreibung anpassen zu Asure Network",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "2",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Reddit05",
+        "typeId": "reddit",
+        "name": "Reddit",
+        "title": "Post in anderen Subreddits bis 10k",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "10",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Reddit06",
+        "typeId": "reddit",
+        "name": "Reddit",
+        "title": "Post in anderen Gruppen bis 50k",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "50",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Reddit07",
+        "typeId": "reddit",
+        "name": "Reddit",
+        "title": "Post in anderen Gruppen bis 100k",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "100",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "Reddit08",
+        "typeId": "reddit",
+        "name": "Reddit",
+        "title": "Post in anderen Gruppen über 500k",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Weekly",
+        "reward": "500",
+        "rewardType": "Stakes"
       }
-    },
+    ],
     "bug_bounty_airdrops": [
       {
         "name": "SOMISH Blockchain Labs",
