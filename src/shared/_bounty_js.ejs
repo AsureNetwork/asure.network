@@ -1,3 +1,16 @@
 <script>
+    $(function () {
+        $('.form-toggle-campaigns input').change(function () {
+            var typeId = $(this).val();
+            var isVisible = $(this).is(':checked');
 
+            var $campaign = $('[data-campaign='+ typeId + ']');
+
+            if (isVisible) {
+                $campaign.show();
+            } else {
+                $campaign.hide();
+            }
+        });
+    })
 </script>
