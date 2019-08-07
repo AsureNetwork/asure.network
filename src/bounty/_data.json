@@ -35,9 +35,10 @@
         "typeId": "airdrop",
         "name": "Airdrop",
         "title": "Registration Airdrop",
-        "description": "Just follow the easy steps and click the links below: \nhttps://forms.gle/kLfbUSbyfjRSZEkU7 \n<br/><br/>\n1) Follow Asure Official Twitter:\nhttps://twitter.com/AsureNetwork \n<br/><br/>\n2) Retweet the pinned post and put hashtags:\n#asure #asuretoken $ASR #tge #ico #ieo #crypto #defi #socialsecurity @asurenetwork \n<br/><br/>\n3) Follow Asure main Telegram:\nhttps://t.me/AsureNetwork \n<br/><br/>\n4) Follow Asure Bounty Telegram:\nhttps://t.me/AsureBounty \n<br/><br/>\n5) Follow us on other social media channels\nhttps://fb.me/AsureNetwork\nhttps://medium.com/AsureNetwork\nhttps://www.linkedin.com/company/asure\nhttps://www.youtube.com/c/AsureNetwork\nhttps://www.reddit.com/r/asure\nhttps://peepeth.com/AsureNetwork\n",
+        "description": "Just follow the easy steps in <a href=\"https://forms.gle/kLfbUSbyfjRSZEkU7\" target=\"_blank\">Airdrop form</a>. \n <br/><br/>\n1) Follow Asure Official Twitter:\nhttps://twitter.com/AsureNetwork \n<br/><br/>\n2) Retweet the pinned post and put hashtags:\n#asure #asuretoken $ASR #tge #ico #ieo #crypto #defi #socialsecurity @asurenetwork \n<br/><br/>\n3) Follow Asure Main Telegram:\nhttps://t.me/AsureNetwork \n<br/><br/>\n4) Follow Asure Bounty Telegram:\nhttps://t.me/AsureBounty \n<br/><br/>\n5) Follow us on other social media channels<br/>\nhttps://fb.me/AsureNetwork<br/>\nhttps://medium.com/AsureNetwork<br/>\nhttps://www.linkedin.com/company/asure<br/>\nhttps://www.youtube.com/c/AsureNetwork<br/>\nhttps://www.reddit.com/r/asure<br/>\nhttps://peepeth.com/AsureNetwork\n",
         "rules": [
-          "Change in wallet addresses is not permitted, so make sure that you provide the correct details the first time itself. "
+          "Change in wallet addresses is not permitted, so make sure that you provide the correct details the first time itself. ",
+          "Only one account per person. Using multi-accounts, cheating and spamming are strictly forbidden. The ones breaking the rule will be disqualified from the Bounty program without getting any tokens."
         ],
         "frequency": "Unique",
         "reward": "100",
