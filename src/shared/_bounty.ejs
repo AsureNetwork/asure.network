@@ -1,24 +1,13 @@
 <%
-hasCampaign = function (bounty, weekNo, campaignName) {
-    let result = false;
-
-    const week = bounty.weeks.find(week => week.parsedWeekNo == weekNo);
-    if (week) {
-        const campaign = week.campaigns[campaignName];
-        if (campaign) {
-            result = campaign.done;
-        }
-    }
-
-    let output = '';
-    if (result) {
-        output = 'bounty-done';
-    }
-
-    return output;
+camelize = function (str) {
+    return str.replace(/(?:^\w|[A-Z]|\b\w|\s+)/g, function (match, index) {
+        if (+match === 0) return ""; // or if (/\s+/.test(match)) for white spaces
+        return index === 0 ? match.toLowerCase() : match.toUpperCase();
+    });
 }
 %>
 <% print_section = function (typeId) {
+    var weeks = public.bounty._data.index.bountyReports.weekNos;
     var sections = public.bounty._data.index.ui.filter(data => data.typeId == typeId)
     var name = sections[0].name;
 %>
@@ -66,9 +55,12 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                     <% if(item.frequency == "Weekly") { %>
                                         <h5 class="card-title mt-2">Weeks</h5>
                                         <div class="card-text">
-                                            <% [30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 50, 51, 52, 53, 54, 55].forEach(function(week){ %>
-                                                <span class="id<%= week %>" data-toggle="tooltip" data-placement="top"
-                                                      title="Week <%= week %>">■</span>
+                                            <% weeks.forEach(function(week){ %>
+                                                <span class="week-report <%= camelize(week) %>" data-toggle="tooltip"
+                                                      data-placement="top"
+                                                      title="<%= week %>">
+                                                    ■
+                                                </span>
                                             <% }); %>
                                         </div>
                                     <% } %>
@@ -118,14 +110,16 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                        placeholder="ETH address"/>
                                 <div class="input-group-append">
                                     <button type="submit" id="new-bounty-eth-addr-btn"
-                                            class="btn btn-block btn-primary">CHECK
+                                            class="btn btn-block btn-primary text-uppercase">
+                                        Update Bounty Report
                                     </button>
                                 </div>
                             </div>
                         </form>
 
                         <form class="form-inline form-toggle-campaigns mt-3">
-                            <div class="form-check form-check-inline mr-md-3">
+                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
+                                 data-placement="bottom" title="Toggle Airdrop campaign">
                                 <input class="form-check-input" type="checkbox" id="toggle-campaign-airdrop"
                                        value="airdrop" checked>
                                 <label class="form-check-label" for="toggle-campaign-airdrop">
@@ -133,7 +127,8 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                 </label>
                             </div>
 
-                            <div class="form-check form-check-inline mr-md-3">
+                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
+                                 data-placement="bottom" title="Toggle Twitter campaign">
                                 <input class="form-check-input" type="checkbox" id="toggle-campaign-twitter"
                                        value="twitter" checked>
                                 <label class="form-check-label" for="toggle-campaign-twitter">
@@ -141,7 +136,8 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                 </label>
                             </div>
 
-                            <div class="form-check form-check-inline mr-md-3">
+                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
+                                 data-placement="bottom" title="Toggle Telegram campaign">
                                 <input class="form-check-input" type="checkbox" id="toggle-campaign-telegram"
                                        value="telegram" checked>
                                 <label class="form-check-label" for="toggle-campaign-telegram">
@@ -149,7 +145,8 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                 </label>
                             </div>
 
-                            <div class="form-check form-check-inline mr-md-3">
+                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
+                                 data-placement="bottom" title="Toggle Facebook campaign">
                                 <input class="form-check-input" type="checkbox" id="toggle-campaign-facebook"
                                        value="facebook" checked>
                                 <label class="form-check-label" for="toggle-campaign-facebook">
@@ -157,7 +154,8 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                 </label>
                             </div>
 
-                            <div class="form-check form-check-inline mr-md-3">
+                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
+                                 data-placement="bottom" title="Toggle LinkedIn campaign">
                                 <input class="form-check-input" type="checkbox" id="toggle-campaign-linkedin"
                                        value="linkedin" checked>
                                 <label class="form-check-label" for="toggle-campaign-linkedin">
@@ -165,7 +163,8 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                 </label>
                             </div>
 
-                            <div class="form-check form-check-inline mr-md-3">
+                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
+                                 data-placement="bottom" title="Toggle Reddit campaign">
                                 <input class="form-check-input" type="checkbox" id="toggle-campaign-reddit"
                                        value="reddit" checked>
                                 <label class="form-check-label" for="toggle-campaign-reddit">
@@ -173,7 +172,8 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                 </label>
                             </div>
 
-                            <div class="form-check form-check-inline mr-md-3">
+                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
+                                 data-placement="bottom" title="Toggle BitcoinTalk campaign">
                                 <input class="form-check-input" type="checkbox" id="toggle-campaign-bitcoin"
                                        value="bitcointalk" checked>
                                 <label class="form-check-label" for="toggle-campaign-bitcoin">
@@ -181,7 +181,8 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                 </label>
                             </div>
 
-                            <div class="form-check form-check-inline mr-md-3">
+                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
+                                 data-placement="bottom" title="Toggle Creative campaign">
                                 <input class="form-check-input" type="checkbox" id="toggle-campaign-creative"
                                        value="cc" checked>
                                 <label class="form-check-label" for="toggle-campaign-creative">

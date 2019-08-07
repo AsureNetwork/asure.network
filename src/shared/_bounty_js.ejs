@@ -1,4 +1,13 @@
 <script>
+    'use strict';
+
+    function camelize(str) {
+        return str.replace(/(?:^\w|[A-Z]|\b\w|\s+)/g, function (match, index) {
+            if (+match === 0) return ""; // or if (/\s+/.test(match)) for white spaces
+            return index === 0 ? match.toLowerCase() : match.toUpperCase();
+        });
+    }
+
     function AsureStorage() {
         this.STORAGE_KEY = 'ASURE-BOUNTY-STATE';
     }
@@ -66,11 +75,34 @@
     };
 
     BountyCard.prototype.updateBountyReport = function updateBountyReport(ethAddr) {
+        var self = this;
+
+        self.resetAllTaskReports();
+
         if (!ethAddr) {
             return;
         }
 
-        console.log('Loading bounty report for', ethAddr);
+        var reports = window.bountyReports.data;
+        var taskIds = window.bountyTaskIds;
+
+        var ethAddrReports = reports.find(r => r.address === ethAddr);
+        if (!ethAddrReports) {
+            console.log('No bounty reports for', ethAddr);
+            return;
+        }
+
+        console.log('Loading bounty reports for', ethAddr);
+        var aggregatedReports = taskIds.map(taskId => {
+            var weekNos = ethAddrReports.weeks
+                .filter(week => week.campaigns.hasOwnProperty(taskId) && week.campaigns[taskId].done)
+                .map(week => ({weekNo: week.weekNo, parsedWeekNo: week.parsedWeekNo}));
+
+            return {taskId, weekNos};
+        });
+
+        console.log('Found bounty reports', reports);
+        aggregatedReports.forEach(report => self.updateTaskReport(report));
     }
 
     BountyCard.prototype.toggleCampaigns = function toggleCampaigns(campaigns) {
@@ -89,6 +121,30 @@
             }
         })
     }
+
+    BountyCard.prototype.resetAllTaskReports = function() {
+        var taskIds = window.bountyTaskIds;
+        taskIds.forEach(taskId => {
+            var $task = $('[data-taskid=' + taskId + ']');
+
+            $task.find('.card-header').removeClass('bg-success');
+            $task.find('.week-report').each(function () {
+                $(this).removeClass('week-report-completed');
+            });
+        });
+    }
+
+    BountyCard.prototype.updateTaskReport = function updateTaskReport(report) {
+        var $task = $('[data-taskid=' + report.taskId + ']');
+
+        if (report.weekNos.length > 0) {
+            $task.find('.card-header').addClass('bg-success');
+        }
+
+        report.weekNos.forEach(weekNo => {
+            $task.find('.' + camelize(weekNo.parsedWeekNo)).addClass('week-report-completed');
+        });
+    };
 
     $(function () {
         var storage = new AsureStorage();
