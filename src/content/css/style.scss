@@ -1342,6 +1342,77 @@ span[data-toggle="popover"] {
   }
 }
 
+.blc-campaign {
+  .head {
+    padding: 60px 0;
+  }
+
+  &.blc-campaign-airdrop {
+    background-color: $blue;
+
+    .head {
+      h2, small {
+        color: #fff;
+      }
+    }
+  }
+
+  &.blc-campaign-twitter {
+    //background-color: #1da1f2;
+    background-color: $cyan;
+
+    .head {
+      h2, small {
+        color: #fff;
+      }
+    }
+  }
+
+  &.blc-campaign-facebook {
+    //background-color: #3C5A99;
+    background-color: $teal;
+
+    .head {
+      h2, small {
+        color: #fff;
+      }
+    }
+  }
+
+  &.blc-campaign-telegram {
+    //background-color: #0088cc;
+    background-color: $green;
+
+    .head {
+      h2, small {
+        color: #fff;
+      }
+    }
+  }
+
+  &.blc-campaign-linkedin {
+    //background-color: #0077b5;
+    background-color: $yellow;
+
+    .head {
+      h2, small {
+        color: #fff;
+      }
+    }
+  }
+
+  &.blc-campaign-bitcointalk {
+    //background-color: #E5E5E8;
+    background-color: $orange;
+  }
+
+  &.blc-campaign-reddit {
+    //background-color: #E5E5E8;
+    background-color: $purple;
+  }
+}
+
+
 .blc-about {
   padding: 80px 0 80px;
 

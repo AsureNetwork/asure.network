@@ -18,25 +18,28 @@ hasCampaign = function (bounty, weekNo, campaignName) {
     return output;
 }
 %>
-
 <% print_section = function (typeId) {
     var sections = public.bounty._data.index.ui.filter(data => data.typeId == typeId)
     var name = sections[0].name;
 %>
-    <div class="row mb-4" data-campaign="<%= typeId %>">
-        <div class="col-xl-12 pb-4 bg-green shadow">
-            <h2 class="text-center m-4 text-uppercase"><%= name %></h2>
-            <small class="text-muted" id="my-rewards-<%= name %>">
-                Rewards: 1000 Stakes
-            </small>
+<div class="blc-campaign blc-campaign-<%= typeId %>">
+    <div class="container">
+        <div class="row" data-campaign="<%= typeId %>">
+            <div class="col-xl-12 pb-4">
+                <div class="head m-0">
+                    <h2 class="title hr text-uppercase"><%= name %></h2>
+                    <small id="my-rewards-<%= name %>">
+                        Rewards: 1000 Stakes
+                    </small>
+                </div>
 
-            <div class="card-deck">
-                <% sections.forEach(function(item){ %>
-                    <div class="col-6">
-                        <div class="card mb-2">
-                            <div class="card-header">
-                                <h5><%= item.title %> (ID: <%= item.id %>)
-                                    <span class="text-right float-right">
+                <div class="card-deck">
+                    <% sections.forEach(function(item){ %>
+                        <div class="<%= sections.length === 1 ? 'col-12' : 'col-6' %>">
+                            <div class="card mb-2">
+                                <div class="card-header">
+                                    <h5><%= item.title %> (ID: <%= item.id %>)
+                                        <span class="text-right float-right">
                             <a data-toggle="collapse" href="#collapseRules<%= item.id %>" role="button"
                                aria-expanded="false" aria-controls="collapse">
                                 <i class="far fa-question-circle"></i></a>
@@ -66,14 +69,16 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                     Reward: <strong><%= item.reward %></strong> <%= item.rewardType %>
                                     / <%= item.frequency %>
 
-                                </small>
+                                    </small>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                <% }); %>
+                    <% }); %>
+                </div>
             </div>
         </div>
     </div>
+</div>
 <% } %>
 
 <section class="blc-bounty bg-white-blue">
@@ -176,24 +181,23 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                 </div>
             </div>
         </div>
-
-        <%= print_section("airdrop") %>
-
-        <%= print_section("twitter") %>
-
-        <%= print_section("telegram") %>
-
-        <%= print_section("facebook") %>
-
-        <%= print_section("linkedin") %>
-
-        <%= print_section("bitcointalk") %>
-
-        <%= print_section("reddit") %>
-
-        <%= print_section("cc") %>
-
     </div>
+    <%= print_section("airdrop") %>
+
+    <%= print_section("twitter") %>
+
+    <%= print_section("telegram") %>
+
+    <%= print_section("facebook") %>
+
+    <%= print_section("linkedin") %>
+
+    <%= print_section("bitcointalk") %>
+
+    <%= print_section("reddit") %>
+
+    <%= print_section("cc") %>
+
 </section>
 
 
