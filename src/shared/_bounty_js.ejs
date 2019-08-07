@@ -76,8 +76,10 @@
 
     BountyCard.prototype.updateBountyReport = function updateBountyReport(ethAddr) {
         var self = this;
+
+        self.resetAllTaskReports();
+
         if (!ethAddr) {
-            self.resetAllTaskReports();
             return;
         }
 
@@ -87,7 +89,6 @@
         var ethAddrReports = reports.find(r => r.address === ethAddr);
         if (!ethAddrReports) {
             console.log('No bounty reports for', ethAddr);
-            self.resetAllTaskReports();
             return;
         }
 
@@ -106,7 +107,7 @@
 
     BountyCard.prototype.toggleCampaigns = function toggleCampaigns(campaigns) {
         var self = this;
-        Object.keys(campaigns).forEach(function (typeId) {
+        Object.keys(campaigns).forEach(function(typeId) {
             var isVisible = campaigns[typeId];
             var $toggle = self.$campaignToggles.filter('[value=' + typeId + ']');
             var $campaign = $('[data-campaign=' + typeId + ']');
@@ -126,6 +127,7 @@
         taskIds.forEach(taskId => {
             var $task = $('[data-taskid=' + taskId + ']');
 
+            $task.find('.card-header').removeClass('bg-success');
             $task.find('.week-report').each(function () {
                 $(this).removeClass('week-report-completed');
             });
@@ -134,6 +136,10 @@
 
     BountyCard.prototype.updateTaskReport = function updateTaskReport(report) {
         var $task = $('[data-taskid=' + report.taskId + ']');
+
+        if (report.weekNos.length > 0) {
+            $task.find('.card-header').addClass('bg-success');
+        }
 
         report.weekNos.forEach(weekNo => {
             $task.find('.' + camelize(weekNo.parsedWeekNo)).addClass('week-report-completed');
