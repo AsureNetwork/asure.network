@@ -33,13 +33,12 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                     </small>
                 </div>
 
-                <div class="card-deck">
+                <div class="card-columns <%= sections.length === 1 ? 'card-columns-1' : '' %>">
                     <% sections.forEach(function(item){ %>
-                        <div class="<%= sections.length === 1 ? 'col-12' : 'col-6' %>">
-                            <div class="card mb-2">
-                                <div class="card-header">
-                                    <h5><%= item.title %> (ID: <%= item.id %>)
-                                        <span class="text-right float-right">
+                        <div class="card mb-2">
+                            <div class="card-header">
+                                <h5><%= item.title %> (ID: <%= item.id %>)
+                                    <span class="text-right float-right">
                             <a data-toggle="collapse" href="#collapseRules<%= item.id %>" role="button"
                                aria-expanded="false" aria-controls="collapse">
                                 <i class="far fa-question-circle"></i></a>
@@ -49,18 +48,22 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                             <div class="card-body">
                                 <%- item.description %>
                                 <div class="collapse" id="collapseRules<%= item.id %>">
-                                    <h5 class="mt-2">Rules</h5>
-                                    <ul>
-                                        <% item.rules.forEach(function(rule){ %>
-                                            <li><%= rule %></li>
-                                        <% }); %>
-                                    </ul>
-                                    <% if(item.frequency=="Weekly"){ %>
-                                        <h5 class="mt-2">Weeks</h5>
-                                        <% [30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 50, 51, 52, 53, 54, 55].forEach(function(week){ %>
-                                        <span class="id<%= week %>" data-toggle="tooltip" data-placement="top"
-                                              title="Week <%= week %>">■</span>
-                                        <% }); %>
+                                    <h5 class="card-title mt-2">Rules</h5>
+                                    <div class="card-text">
+                                        <ul>
+                                            <% item.rules.forEach(function(rule){ %>
+                                                <li><%= rule %></li>
+                                            <% }); %>
+                                        </ul>
+                                    </div>
+                                    <% if(item.frequency == "Weekly"){ %>
+                                        <h5 class="card-title mt-2">Weeks</h5>
+                                        <div class="card-text">
+                                            <% [30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 50, 51, 52, 53, 54, 55].forEach(function(week){ %>
+                                                <span class="id<%= week %>" data-toggle="tooltip" data-placement="top"
+                                                      title="Week <%= week %>">■</span>
+                                            <% }); %>
+                                        </div>
                                     <% } %>
                                 </div>
                             </div>
@@ -69,8 +72,7 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                     Reward: <strong><%= item.reward %></strong> <%= item.rewardType %>
                                     / <%= item.frequency %>
 
-                                    </small>
-                                </div>
+                                </small>
                             </div>
                         </div>
                     <% }); %>
