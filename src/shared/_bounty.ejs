@@ -52,12 +52,13 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                             <li><%= rule %></li>
                                         <% }); %>
                                     </ul>
-                                    <h5 class="mt-2">Weeks</h5>
-                                    <% [30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 50, 51, 52, 53, 54, 55].forEach(function(week){ %>
-                                    <span class="id<%= week %>" data-toggle="tooltip" data-placement="top"
-                                          title="Week <%= week %>">■</span>
-                                    <% }); %>
-
+                                    <% if(item.frequency=="Weekly"){ %>
+                                        <h5 class="mt-2">Weeks</h5>
+                                        <% [30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 50, 51, 52, 53, 54, 55].forEach(function(week){ %>
+                                        <span class="id<%= week %>" data-toggle="tooltip" data-placement="top"
+                                              title="Week <%= week %>">■</span>
+                                        <% }); %>
+                                    <% } %>
                                 </div>
                             </div>
                             <div class="card-footer">
