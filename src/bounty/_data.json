@@ -713,7 +713,7 @@
       }
     ],
     "bountyReports": {
-      "created": "2019-08-07T10:46:06.725Z",
+      "created": "2019-08-07T14:26:11.396Z",
       "weekNos": [
         "Week 22",
         "Week 23",
@@ -755,19 +755,19 @@
               "weekNo": "Week 34 - August 19, 2019 - August 25, 2019",
               "parsedWeekNo": "Week 34",
               "campaigns": {
-                "Twitter01": {
+                "TWITTER01": {
                   "done": true
                 },
-                "Twitter03": {
+                "TWITTER03": {
                   "done": true
                 },
-                "Twitter05": {
+                "TWITTER05": {
                   "done": true
                 },
-                "Telegram01": {
+                "TELEGRAM01": {
                   "done": true
                 },
-                "Telegram03": {
+                "TELEGRAM03": {
                   "done": true
                 }
               }
