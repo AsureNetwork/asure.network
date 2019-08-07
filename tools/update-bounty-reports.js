@@ -3,7 +3,7 @@ const path = require('path');
 const _ = require('lodash');
 const fetchSpreadsheet = require('./lib/fetch-spreadsheet');
 
-const weekNos = _.range(22, 53).map(weekNo => `Week ${weekNo}`);
+const weekNos = _.range(34, 53).map(weekNo => `Week ${weekNo}`);
 
 function parseCampaigns(groupedWeek) {
     return groupedWeek.reduce((acc, cur) => {
