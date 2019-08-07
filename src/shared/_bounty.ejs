@@ -48,15 +48,17 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                             <div class="card-body">
                                 <%- item.description %>
                                 <div class="collapse" id="collapseRules<%= item.id %>">
-                                    <h5 class="card-title mt-2">Rules</h5>
-                                    <div class="card-text">
-                                        <ul>
-                                            <% item.rules.forEach(function(rule){ %>
-                                                <li><%= rule %></li>
-                                            <% }); %>
-                                        </ul>
-                                    </div>
-                                    <% if(item.frequency == "Weekly"){ %>
+                                    <% if (item.rules.length) { %>
+                                        <h5 class="card-title mt-2">Rules</h5>
+                                        <div class="card-text">
+                                            <ul>
+                                                <% item.rules.forEach(function(rule){ %>
+                                                    <li><%= rule %></li>
+                                                <% }); %>
+                                            </ul>
+                                        </div>
+                                    <% } %>
+                                    <% if(item.frequency == "Weekly") { %>
                                         <h5 class="card-title mt-2">Weeks</h5>
                                         <div class="card-text">
                                             <% [30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 50, 51, 52, 53, 54, 55].forEach(function(week){ %>

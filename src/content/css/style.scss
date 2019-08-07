@@ -1362,6 +1362,10 @@ span[data-toggle="popover"] {
   }
 
   .card-columns {
+    column-count: 2;
+    @include media-breakpoint-only(xs) {
+      column-count: 1;
+    }
     @include media-breakpoint-only(sm) {
       column-count: 2;
     }
