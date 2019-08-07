@@ -11,7 +11,7 @@ function parseBountyTasks(rows) {
 
     return rows.map((row) => {
         const bountyTask = _.zipObject(headers, row);
-        bountyTask.rules = bountyTask.rules.split('\n');
+        bountyTask.rules = bountyTask.rules.split('\n').filter(r => r !== '');
         return bountyTask;
     });
 }
