@@ -1,24 +1,13 @@
 <%
-hasCampaign = function (bounty, weekNo, campaignName) {
-    let result = false;
-
-    const week = bounty.weeks.find(week => week.parsedWeekNo == weekNo);
-    if (week) {
-        const campaign = week.campaigns[campaignName];
-        if (campaign) {
-            result = campaign.done;
-        }
-    }
-
-    let output = '';
-    if (result) {
-        output = 'bounty-done';
-    }
-
-    return output;
+camelize = function (str) {
+    return str.replace(/(?:^\w|[A-Z]|\b\w|\s+)/g, function (match, index) {
+        if (+match === 0) return ""; // or if (/\s+/.test(match)) for white spaces
+        return index === 0 ? match.toLowerCase() : match.toUpperCase();
+    });
 }
 %>
 <% print_section = function (typeId) {
+    var weeks = public.bounty._data.index.bountyReports.weekNos;
     var sections = public.bounty._data.index.ui.filter(data => data.typeId == typeId)
     var name = sections[0].name;
 %>
@@ -64,9 +53,11 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                     <% if(item.frequency == "Weekly") { %>
                                         <h5 class="card-title mt-2">Weeks</h5>
                                         <div class="card-text">
-                                            <% [30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 50, 51, 52, 53, 54, 55].forEach(function(week){ %>
-                                                <span class="id<%= week %>" data-toggle="tooltip" data-placement="top"
-                                                      title="Week <%= week %>">■</span>
+                                            <% weeks.forEach(function(week){ %>
+                                                <span class="week-report <%= camelize(week) %>" data-toggle="tooltip" data-placement="top"
+                                                      title="<%= week %>">
+                                                    ■
+                                                </span>
                                             <% }); %>
                                         </div>
                                     <% } %>

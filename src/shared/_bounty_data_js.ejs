@@ -1,3 +1,4 @@
 <script>
     window.bountyReports = <%- JSON.stringify(bountyReports) %>;
+    window.bountyTaskIds = <%- JSON.stringify(public.bounty._data.index.ui.map(data => data.id)) %>;
 </script>
