@@ -5,199 +5,221 @@
     "description": "Asure.Network - Bounty Campaign for TGE",
     "faq": [
       {
+        "q": "How to apply?",
+        "a": "Please submit your work report via weekly report Form as well as on the Bounty thread till the end of every week.<br/><br/>1. Fill out the registration application <a href=\"https://forms.gle/kLfbUSbyfjRSZEkU7\" target=\"_blank\">form</a> once.<br/>        2. Kindly fill up the forms in <a href=\"https://bitcointalk.org/index.php?topic=5150750.msg51349151\" target=\"_blank\">Bitcointalk</a>.<br/>        3. Fill in your activities in the <a href=\"https://forms.gle/uzwm5xwyvsnoJ2aY9\" target=\"_blank\">form</a>.<br/><br/>        <strong>Report Example</strong><br/>        ERC-20 Wallet Address : ________<br/>        Campaign ID: ________<br/>        Week Number: __________<br/>        Work URLs: <br/>        1. _________<br/>        2. _________<br/>        3. _________<br/>        4. _________<br/>        5. _________<br/>"
+      },
+      {
+        "q": "What are the general rules?",
+        "a": "kommt noch"
+      },
+      {
+        "q": "Where can I find spreadsheet?",
+        "a": "There is no spreadsheet but we create https://asure.network/bounty site where you can check your shares."
+      },
+      {
         "q": "Can I buy tokens?",
-        "a": "You have to register for <a href=\"https://www.asure.network/kyc\" target=\"_blank\">KYC / Whitelisting From</a> and from the 1st of August you can buy tokens."
+        "a": "You have to register for <a href=\"https://www.asure.network/kyc\" target=\"_blank\">KYC / Whitelisting From</a> and from the 1st of December you can buy tokens."
       },
       {
         "q": "Is KYC needed for bounty hunters?",
         "a": "No. For Bounty Hunters KYC is not needed at the moment."
       },
       {
-        "q": "Which blockchain will you use?",
-        "a": "We are are developing a new blockchain for social security applications wich will be connected via bridges to other public blockchains like ethereum-blockchain, binnace-blockchain, polkadot-blockchain, etc."
-      },
-      {
-        "q": "How can I buy ASR tokens?",
-        "a": "The first to <a href=\"https://asure.network/kyc\">sign up</a> for whitelisting. <br/> From August 1th                 to August 15th there will be Smart Contract addresse on this website."
+        "q": "When will the bounty ASR tokens be distributed?",
+        "a": "The distribution of the tokens to bounty participants will occur after the end (31. Dec. 2019) of TGE."
       }
     ],
     "ui": [
       {
-        "id": "Twitter01",
+        "id": "TWITTER01",
         "typeId": "twitter",
         "name": "Twitter",
         "title": "Likes",
         "description": "5 likes per week of the posts on our main Twitter channel.",
         "rules": [
-          "Asures",
-          "sdasd",
-          "dsfsd"
+          "Main Twitter channel: https://twitter.com/AsureNetwork",
+          "Hashtags that can be used: #cryptocurrency #blockchain $asr #ico",
+          "#tge #network #infrastructure #innovation",
+          "#pension #insurance #BasicIncome #rente",
+          "#InsurTech #assurance #together #blockchain",
+          "#TokenSales #tokensale #change #invest #investmentresearch #wealthmanagement"
         ],
         "frequency": "Weekly",
         "reward": "7",
         "rewardType": "Stakes"
       },
       {
-        "id": "Twitter02",
+        "id": "TWITTER02",
         "typeId": "twitter",
         "name": "Twitter",
         "title": "Retweets",
         "description": "5 retweets per week of our tweets in our main Twitter channel.",
         "rules": [
-          ""
+          "Main Twitter channel: https://twitter.com/AsureNetwork",
+          "Hashtags that can be used: #cryptocurrency #blockchain $asr #ico",
+          "#tge #network #infrastructure #innovation",
+          "#pension #insurance #BasicIncome #rente",
+          "#InsurTech #assurance #together #blockchain",
+          "#TokenSales #tokensale #change #invest #investmentresearch #wealthmanagement"
         ],
         "frequency": "Weekly",
         "reward": "7",
         "rewardType": "Stakes"
       },
       {
-        "id": "Twitter03",
+        "id": "TWITTER03",
         "typeId": "twitter",
         "name": "Twitter",
         "title": "Posts",
-        "description": "5 posts per week about our project Asure Network, telling about our vision and mentioning @AsureNetwork (our vision can be found in our Whitepaper or in this article: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb)",
+        "description": "5 posts per week about our project Asure Network, telling about our vision and mentioning @AsureNetwork (our vision can be found in our Whitepaper or in our article)",
         "rules": [
-          ""
+          "Link to our Whitepaper in English: https://www.asure.network/asure.network.whitepaper.en.pdf",
+          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb"
         ],
         "frequency": "Weekly",
         "reward": "7",
         "rewardType": "Stakes"
       },
       {
-        "id": "Twitter04",
+        "id": "TWITTER04",
         "typeId": "twitter",
         "name": "Twitter",
         "title": "Comments",
-        "description": "5 comments per week telling about our vision (as close to our own words as possible) and mentioning @AsureNetwork twitter.",
+        "description": "5 comments per week telling about our vision (as close to our own words as possible,  our vision can be found in our Whitepaper or in our article) and mentioning @AsureNetwork twitter.",
         "rules": [
-          ""
+          "Link to our Whitepaper in English: https://www.asure.network/asure.network.whitepaper.en.pdf",
+          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb"
         ],
         "frequency": "Weekly",
         "reward": "7",
         "rewardType": "Stakes"
       },
       {
-        "id": "Twitter05",
+        "id": "TWITTER05",
         "typeId": "twitter",
         "name": "Twitter",
         "title": "Profile",
         "description": "Put a link to Asure Network website in your Twitter description",
         "rules": [
-          ""
+          "Link to Asure Network website: https://www.asure.network/"
         ],
         "frequency": "Weekly",
         "reward": "2",
         "rewardType": "Stakes"
       },
       {
-        "id": "Telegram01",
+        "id": "TELEGRAM01",
         "typeId": "telegram",
         "name": "Telegram",
         "title": "Posts in der Gruppe bis zu 7 Fragen ",
         "description": "Creative and interesting questions about Asure Network in our main Telegram group (5 questions per week)",
         "rules": [
-          ""
+          "Link to our main Telegram group: https://t.me/AsureNetwork"
         ],
         "frequency": "Weekly",
         "reward": "7",
         "rewardType": "Stakes"
       },
       {
-        "id": "Telegram02",
+        "id": "TELEGRAM02",
         "typeId": "telegram",
         "name": "Telegram",
         "title": "Answer the questions of other community members",
-        "description": "If (and only if) you already know the answer to a question raised by another Telegram community member, answer the question.",
+        "description": "If (and only if) you already know the answer to a question raised by another Telegram community member in either Telegram group of ours, answer the question.",
         "rules": [
-          ""
+          "Link to our main Telegram group: https://t.me/AsureNetwork",
+          "Link to our Bounty Telegram group: https://t.me/AsureBounty"
         ],
         "frequency": "Weekly",
         "reward": "7",
         "rewardType": "Stakes"
       },
       {
-        "id": "Telegram03",
+        "id": "TELEGRAM03",
         "typeId": "telegram",
         "name": "Telegram",
         "title": "Post in another crypto-related Telegram group with less than 1k members",
         "description": "Post information about Asure Network containing the images we produced (can be found in our Twitter posts or in our Medium article \"Announcement: Asure.Network TGE\") in other crypto-related Telegram groups with a short description of our project.",
         "rules": [
-          ""
+          "Link to the \"Announcement: Asure.Network TGE\" article: https://medium.com/asurenetwork/announcement-asure-network-tge-995f386bf109",
+          "Main Twitter channel: https://twitter.com/AsureNetwork"
         ],
         "frequency": "Weekly",
         "reward": "10",
         "rewardType": "Stakes"
       },
       {
-        "id": "Telegram04",
+        "id": "TELEGRAM04",
         "typeId": "telegram",
         "name": "Telegram",
         "title": "Post in another crypto-related Telegram group with 1k - 5k members",
         "description": "Post information about Asure Network containing the images we produced (can be found in our Twitter posts or in our Medium article \"Announcement: Asure.Network TGE\") in other crypto-related Telegram groups with a short description of our project.",
         "rules": [
-          ""
+          "Link to the \"Announcement: Asure.Network TGE\" article: https://medium.com/asurenetwork/announcement-asure-network-tge-995f386bf109",
+          "Main Twitter channel: https://twitter.com/AsureNetwork"
         ],
         "frequency": "Weekly",
         "reward": "50",
         "rewardType": "Stakes"
       },
       {
-        "id": "Telegram05",
+        "id": "TELEGRAM05",
         "typeId": "telegram",
         "name": "Telegram",
         "title": "Post in another crypto-related Telegram group with more than 5k members",
         "description": "Post information about Asure Network containing the images we produced (can be found in our Twitter posts or in our Medium article \"Announcement: Asure.Network TGE\") in other crypto-related Telegram groups with a short description of our project.",
         "rules": [
-          ""
+          "Link to the \"Announcement: Asure.Network TGE\" article: https://medium.com/asurenetwork/announcement-asure-network-tge-995f386bf109",
+          "Main Twitter channel: https://twitter.com/AsureNetwork"
         ],
         "frequency": "Weekly",
         "reward": "100",
         "rewardType": "Stakes"
       },
       {
-        "id": "Telegram06",
+        "id": "TELEGRAM06",
         "typeId": "telegram",
         "name": "Telegram",
         "title": "Invite friends to our Telegram group",
         "description": "Invite 5 people per week to our main Telegram group ",
         "rules": [
-          ""
+          "Link to our main Telegram group: https://t.me/AsureNetwork"
         ],
         "frequency": "Weekly",
         "reward": "7",
         "rewardType": "Stakes"
       },
       {
-        "id": "Facebook01",
+        "id": "FACEBOOK01",
         "typeId": "facebook",
         "name": "Facebook",
-        "title": "7 Likes",
+        "title": "Likes",
         "description": "5 likes per week of the posts on our main Facebook group. ",
         "rules": [
-          ""
+          "Main Facebook group: https://www.facebook.com/AsureNetwork/"
         ],
         "frequency": "Weekly",
         "reward": "7",
         "rewardType": "Stakes"
       },
       {
-        "id": "Facebook02",
+        "id": "FACEBOOK02",
         "typeId": "facebook",
         "name": "Facebook",
-        "title": "7 Posts",
-        "description": "Write 5 posts per week about Asure Network in any crypto-related Facebook group.",
+        "title": "Posts",
+        "description": "Write 5 original (unique) posts per week about Asure Network in any crypto-related Facebook group.",
         "rules": [
-          ""
+          "Hashtags that can be used: #TGE #ICO #Blockchain"
         ],
         "frequency": "Weekly",
         "reward": "7",
         "rewardType": "Stakes"
       },
       {
-        "id": "Facebook03",
+        "id": "FACEBOOK03",
         "typeId": "facebook",
         "name": "Facebook",
-        "title": "7 RePosts",
+        "title": "Reposts",
         "description": "Share 5 reposts per week of our posts in our main Facebook group.",
         "rules": [
           ""
@@ -207,11 +229,11 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Facebook04",
+        "id": "FACEBOOK04",
         "typeId": "facebook",
         "name": "Facebook",
-        "title": "7 Comments",
-        "description": "",
+        "title": "Comments",
+        "description": "5 comments per week telling about our vision (as close to our own words as possible) and mentioning @AsureNetwork Facebook group.",
         "rules": [
           ""
         ],
@@ -220,11 +242,11 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Facebook05",
+        "id": "FACEBOOK05",
         "typeId": "facebook",
         "name": "Facebook",
-        "title": "Profil Beschreibung anpassen zu Asure Network",
-        "description": "",
+        "title": "Profile",
+        "description": "Put a link to Asure Network website in your Facebook description.",
         "rules": [
           ""
         ],
@@ -233,11 +255,11 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Facebook06",
+        "id": "FACEBOOK06",
         "typeId": "facebook",
         "name": "Facebook",
-        "title": "Post in anderen Gruppen bis 10k",
-        "description": "",
+        "title": "Post in another crypto-related Facebook group with less than 1k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found in our Twitter posts or in our Medium article \"Announcement: Asure.Network TGE\") in other crypto-related Facebook groups with a short description of our project.",
         "rules": [
           ""
         ],
@@ -246,11 +268,11 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Facebook07",
+        "id": "FACEBOOK07",
         "typeId": "facebook",
         "name": "Facebook",
-        "title": "Post in anderen Gruppen bis 50k",
-        "description": "",
+        "title": "Post in another crypto-related Facebook group with 1k - 5k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found in our Twitter posts or in our Medium article \"Announcement: Asure.Network TGE\") in other crypto-related Facebook groups with a short description of our project.",
         "rules": [
           ""
         ],
@@ -259,11 +281,11 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Facebook08",
+        "id": "FACEBOOK08",
         "typeId": "facebook",
         "name": "Facebook",
-        "title": "Post in anderen Gruppen über 50k",
-        "description": "",
+        "title": "Post in another crypto-related Facebook group with more than 5k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found in our Twitter posts or in our Medium article \"Announcement: Asure.Network TGE\") in other crypto-related Facebook groups with a short description of our project.",
         "rules": [
           ""
         ],
@@ -272,11 +294,11 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Facebook09",
+        "id": "FACEBOOK09",
         "typeId": "facebook",
         "name": "Facebook",
-        "title": "7 Freunde einladen (die die Asure Seite liken)",
-        "description": "",
+        "title": "Invite friends to our Facebook group",
+        "description": "Invite 5 people per week to our main Facebook group, they should like our Facebook group.",
         "rules": [
           ""
         ],
@@ -285,7 +307,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Bitcointalk01",
+        "id": "BITCOINTALK01",
         "typeId": "bitcointalk",
         "name": "Bitcointalk",
         "title": "5 Comments",
@@ -298,7 +320,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Bitcointalk02",
+        "id": "BITCOINTALK02",
         "typeId": "bitcointalk",
         "name": "Bitcointalk",
         "title": "Post in anderen Kategorien starten (Diskussion starten / Moderieren)",
@@ -311,7 +333,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Bitcointalk03",
+        "id": "BITCOINTALK03",
         "typeId": "bitcointalk",
         "name": "Bitcointalk",
         "title": "Profil Beschreibung anpassen zu Asure Network",
@@ -324,7 +346,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Bitcointalk04",
+        "id": "BITCOINTALK04",
         "typeId": "bitcointalk",
         "name": "Bitcointalk",
         "title": "Signatur anpassen stufe 1",
@@ -337,141 +359,11 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Bitcointalk05",
-        "typeId": "bitcointalk",
-        "name": "Bitcointalk",
-        "title": "Signatur anpassen stufe 2",
-        "description": "",
-        "rules": [
-          ""
-        ],
-        "frequency": "Weekly",
-        "reward": "50",
-        "rewardType": "Stakes"
-      },
-      {
-        "id": "Bitcointalk06",
-        "typeId": "bitcointalk",
-        "name": "Bitcointalk",
-        "title": "Signatur anpassen stufe 3",
-        "description": "",
-        "rules": [
-          ""
-        ],
-        "frequency": "Weekly",
-        "reward": "100",
-        "rewardType": "Stakes"
-      },
-      {
-        "id": "Creative01",
-        "typeId": "cc",
-        "name": "Creative",
-        "title": "Erstelle ein Video (Youtube Follower bis 1k)",
-        "description": "",
-        "rules": [
-          ""
-        ],
-        "frequency": "Einzel",
-        "reward": "100",
-        "rewardType": "Tokens"
-      },
-      {
-        "id": "Creative02",
-        "typeId": "cc",
-        "name": "Creative",
-        "title": "Erstelle ein Video (Youtube Follower 1k-50k)",
-        "description": "",
-        "rules": [
-          ""
-        ],
-        "frequency": "Einzel",
-        "reward": "500",
-        "rewardType": "Tokens"
-      },
-      {
-        "id": "Creative03",
-        "typeId": "cc",
-        "name": "Creative",
-        "title": "Erstelle ein Video (Youtube Follower 50k-100k)",
-        "description": "",
-        "rules": [
-          ""
-        ],
-        "frequency": "Einzel",
-        "reward": "1000",
-        "rewardType": "Tokens"
-      },
-      {
-        "id": "Creative04",
-        "typeId": "cc",
-        "name": "Creative",
-        "title": "Erstelle ein Video (Youtube Follower über 100k)",
-        "description": "",
-        "rules": [
-          ""
-        ],
-        "frequency": "Einzel",
-        "reward": "2000",
-        "rewardType": "Tokens"
-      },
-      {
-        "id": "Creative05",
-        "typeId": "cc",
-        "name": "Creative",
-        "title": "Erstelle eine Pressemeldung",
-        "description": "",
-        "rules": [
-          ""
-        ],
-        "frequency": "Einzel",
-        "reward": "500",
-        "rewardType": "Tokens"
-      },
-      {
-        "id": "Creative06",
-        "typeId": "cc",
-        "name": "Creative",
-        "title": "Erstelle eine Pressemeldung Renomierte Seite",
-        "description": "",
-        "rules": [
-          ""
-        ],
-        "frequency": "Einzel",
-        "reward": "2500",
-        "rewardType": "Tokens"
-      },
-      {
-        "id": "Creative07",
-        "typeId": "cc",
-        "name": "Creative",
-        "title": "Erstelle einen Blog Artikel (Medium und ählich)",
-        "description": "",
-        "rules": [
-          ""
-        ],
-        "frequency": "Einzel",
-        "reward": "100",
-        "rewardType": "Tokens"
-      },
-      {
-        "id": "Creative08",
-        "typeId": "cc",
-        "name": "Creative",
-        "title": "Erstelle einen Blog Artikel mit großer Reichweite",
-        "description": "",
-        "rules": [
-          ""
-        ],
-        "frequency": "Einzel",
-        "reward": "1000",
-        "rewardType": "Tokens"
-      },
-      {
-        "id": "Linkedin01",
+        "id": "LINKEDIN01",
         "typeId": "linkedin",
         "name": "Linkedin",
         "title": "Likes",
-        "description": "5 likes durch die woche verteilt",
+        "description": "5 likes per week of the posts on our main Asure company linkedin profile.",
         "rules": [
           "You must complete a maximum of 5 retweets . Maximum of one tweet, and 1 retweet per day."
         ],
@@ -480,10 +372,10 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Linkedin02",
+        "id": "LINKEDIN02",
         "typeId": "linkedin",
         "name": "Linkedin",
-        "title": "5 Posts",
+        "title": "Posts",
         "description": "",
         "rules": [
           ""
@@ -493,10 +385,10 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Linkedin03",
+        "id": "LINKEDIN03",
         "typeId": "linkedin",
         "name": "Linkedin",
-        "title": "7 RePosts",
+        "title": "RePosts",
         "description": "",
         "rules": [
           ""
@@ -506,11 +398,11 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Linkedin04",
+        "id": "LINKEDIN04",
         "typeId": "linkedin",
         "name": "Linkedin",
-        "title": "7 Comments",
-        "description": "",
+        "title": "Comments",
+        "description": "5 comments per week of the asure posts",
         "rules": [
           ""
         ],
@@ -519,7 +411,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Linkedin05",
+        "id": "LINKEDIN05",
         "typeId": "linkedin",
         "name": "Linkedin",
         "title": "Profil Beschreibung anpassen zu Asure Network",
@@ -532,7 +424,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Linkedin06",
+        "id": "LINKEDIN06",
         "typeId": "linkedin",
         "name": "Linkedin",
         "title": "Post in anderen Gruppen bis 10k",
@@ -545,7 +437,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Linkedin07",
+        "id": "LINKEDIN07",
         "typeId": "linkedin",
         "name": "Linkedin",
         "title": "Post in anderen Gruppen bis 50k",
@@ -558,7 +450,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Linkedin08",
+        "id": "LINKEDIN08",
         "typeId": "linkedin",
         "name": "Linkedin",
         "title": "Post in anderen Gruppen über 50k",
@@ -571,7 +463,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Linkedin09",
+        "id": "LINKEDIN09",
         "typeId": "linkedin",
         "name": "Linkedin",
         "title": "7 Freunde einladen (die die Asure Seite liken)",
@@ -584,11 +476,11 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Reddit01",
+        "id": "REDDIT01",
         "typeId": "reddit",
         "name": "Reddit",
-        "title": "7 Upvotes",
-        "description": "",
+        "title": "Upvotes",
+        "description": "5 upvoted per week of the posts on our main Asure subreddit",
         "rules": [
           ""
         ],
@@ -597,11 +489,11 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Reddit02",
+        "id": "REDDIT02",
         "typeId": "reddit",
         "name": "Reddit",
         "title": "Post in Asure subreddit (Contribution to Asure subreddit)",
-        "description": "",
+        "description": "create one post about asure per week in asure subreddit",
         "rules": [
           ""
         ],
@@ -610,11 +502,11 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Reddit03",
+        "id": "REDDIT03",
         "typeId": "reddit",
         "name": "Reddit",
-        "title": "7 Comments",
-        "description": "",
+        "title": "Comments",
+        "description": "5 comments per week of the asure subreddit posts",
         "rules": [
           ""
         ],
@@ -623,7 +515,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Reddit04",
+        "id": "REDDIT04",
         "typeId": "reddit",
         "name": "Reddit",
         "title": "Profil Beschreibung anpassen zu Asure Network",
@@ -636,7 +528,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Reddit05",
+        "id": "REDDIT05",
         "typeId": "reddit",
         "name": "Reddit",
         "title": "Post in anderen Subreddits bis 10k",
@@ -649,7 +541,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Reddit06",
+        "id": "REDDIT06",
         "typeId": "reddit",
         "name": "Reddit",
         "title": "Post in anderen Gruppen bis 50k",
@@ -662,7 +554,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Reddit07",
+        "id": "REDDIT07",
         "typeId": "reddit",
         "name": "Reddit",
         "title": "Post in anderen Gruppen bis 100k",
@@ -675,7 +567,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "Reddit08",
+        "id": "REDDIT08",
         "typeId": "reddit",
         "name": "Reddit",
         "title": "Post in anderen Gruppen über 500k",
@@ -686,6 +578,110 @@
         "frequency": "Weekly",
         "reward": "500",
         "rewardType": "Stakes"
+      },
+      {
+        "id": "CREATIVE01",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle ein Video (Youtube Follower bis 1k)",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "100",
+        "rewardType": "Tokens"
+      },
+      {
+        "id": "CREATIVE02",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle ein Video (Youtube Follower 1k-50k)",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "500",
+        "rewardType": "Tokens"
+      },
+      {
+        "id": "CREATIVE03",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle ein Video (Youtube Follower 50k-100k)",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "1000",
+        "rewardType": "Tokens"
+      },
+      {
+        "id": "CREATIVE04",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle ein Video (Youtube Follower über 100k)",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "2000",
+        "rewardType": "Tokens"
+      },
+      {
+        "id": "CREATIVE05",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle eine Pressemeldung",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "500",
+        "rewardType": "Tokens"
+      },
+      {
+        "id": "CREATIVE06",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle eine Pressemeldung Renomierte Seite",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "2500",
+        "rewardType": "Tokens"
+      },
+      {
+        "id": "CREATIVE07",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle einen Blog Artikel (Medium und ählich)",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "100",
+        "rewardType": "Tokens"
+      },
+      {
+        "id": "CREATIVE08",
+        "typeId": "cc",
+        "name": "Creative",
+        "title": "Erstelle einen Blog Artikel mit großer Reichweite",
+        "description": "",
+        "rules": [
+          ""
+        ],
+        "frequency": "Einzel",
+        "reward": "1000",
+        "rewardType": "Tokens"
       }
     ],
     "bug_bounty_airdrops": [

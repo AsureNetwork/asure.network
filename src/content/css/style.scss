@@ -1033,6 +1033,35 @@ span[data-toggle="popover"] {
   }
 }
 
+.blc-bounty {
+  padding: 60px 0;
+  font-size: 0.80em;
+  h2 {
+    font-size: 26px;
+    color: #444;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    @media (max-width: 768px) {
+      padding-top: 30px;
+    }
+  }
+  h5 {
+    font-size: 1.0rem;
+  }
+  .card{
+    .card-header{
+      font-size: 0.50em;
+      padding:.5rem 1rem 0rem 1.25rem;
+    }
+    .card-body{
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    .card-footer {
+      padding:0rem 1rem .5rem 1.25rem;
+    }
+  }
+}
 .flip-container {
   border: 1px solid #ccc;
 
