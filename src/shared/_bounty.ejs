@@ -1,80 +1,86 @@
 <%
 hasCampaign = function (bounty, weekNo, campaignName) {
-let result = false;
+    let result = false;
 
-const week = bounty.weeks.find(week => week.parsedWeekNo == weekNo);
-if (week) {
-const campaign = week.campaigns[campaignName];
-if (campaign) {
-result = campaign.done;
-}
-}
+    const week = bounty.weeks.find(week => week.parsedWeekNo == weekNo);
+    if (week) {
+        const campaign = week.campaigns[campaignName];
+        if (campaign) {
+            result = campaign.done;
+        }
+    }
 
-let output = '';
-if (result) {
-output = 'bounty-done';
-}
+    let output = '';
+    if (result) {
+        output = 'bounty-done';
+    }
 
-return output;
+    return output;
 }
 %>
 
-<% print_section = function (name,sections) {%>
-<div class="row mb-2">
-    <div class="col-xl-12 pb-4 bg-green shadow">
-        <h2 class="text-center m-2 text-uppercase"><%= name %></h2>
-        <div class="text-center m-2 " id="my-rewards-<%= name %>">
-            Rewards: 1000 Stakes
-        </div>
+<% print_section = function (typeId) {
+    var sections = public.bounty._data.index.ui.filter(data => data.typeId == typeId)
+    var name = sections[0].name;
+%>
+    <div class="row mb-4" data-campaign="<%= typeId %>">
+        <div class="col-xl-12 pb-4 bg-green shadow">
+            <h2 class="text-center m-4 text-uppercase"><%= name %></h2>
+            <small class="text-muted" id="my-rewards-<%= name %>">
+                Rewards: 1000 Stakes
+            </small>
 
-        <div class="card-deck">
-            <% sections.forEach(function(item){ %>
-            <div class="col-6">
-                <div class="card mb-2">
-                    <div class="card-header">
-                        <h5><%= item.id %>: <%= item.title %>
-                            <span class="text-right float-right">
-                            <a data-toggle="collapse" href="#collapseRules<%=item.id%>" role="button" aria-expanded="false" aria-controls="collapse">
+            <div class="card-deck">
+                <% sections.forEach(function(item){ %>
+                    <div class="col-6">
+                        <div class="card mb-2">
+                            <div class="card-header">
+                                <h5><%= item.title %> (ID: <%= item.id %>)
+                                    <span class="text-right float-right">
+                            <a data-toggle="collapse" href="#collapseRules<%= item.id %>" role="button"
+                               aria-expanded="false" aria-controls="collapse">
                                 <i class="far fa-question-circle"></i></a>
                             </span>
-                        </h5>
-                    </div>
-                    <div class="card-body">
-                        <%= item.description %>
-                        <div class="collapse" id="collapseRules<%=item.id%>">
-                            <h5 class="mt-2">Rules</h5>
-                                <ul>
-                                    <% item.rules.forEach(function(rule){ %>
-                                    <li><%= rule %></li>
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <%= item.description %>
+                                <div class="collapse" id="collapseRules<%= item.id %>">
+                                    <h5 class="mt-2">Rules</h5>
+                                    <ul>
+                                        <% item.rules.forEach(function(rule){ %>
+                                            <li><%= rule %></li>
+                                        <% }); %>
+                                    </ul>
+                                    <h5 class="mt-2">Weeks</h5>
+                                    <% [30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 50, 51, 52, 53, 54, 55].forEach(function(week){ %>
+                                    <span class="id<%= week %>" data-toggle="tooltip" data-placement="top"
+                                          title="Week <%= week %>">■</span>
                                     <% }); %>
-                                </ul>
-                            <% if(item.rewardType=='Weekly'){ %>
-                                <h5 class="mt-2">Weeks</h5>
-                                <% [30,31,32,33,34,35,36,37,38,39,40,50,51,52,53,54,55].forEach(function(week){ %>
-                                    <span class="id<%=week%>" data-toggle="tooltip" data-placement="top" title="Week <%=week%>">■</span>
-                                <% }); %>
-                            <%}%>
+
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">
+                                    Reward: <strong><%= item.reward %></strong> <%= item.rewardType %>
+                                    / <%= item.frequency %>
+
+                                </small>
+                            </div>
                         </div>
                     </div>
-                    <div class="card-footer">
-                        <small class="text-muted">
-                            Reward: <strong><%= item.reward%></strong> <%= item.rewardType%> / <%= item.frequency%>
-
-                        </small>
-                    </div>
-                </div>
+                <% }); %>
             </div>
-            <% }); %>
         </div>
     </div>
-</div>
-<%}%>
+<% } %>
 
 <section class="blc-bounty bg-white-blue">
     <div class="container">
         <div class="head m-0">
-            <h1 class="title hr">Asure Network Bounty II</h1>
+            <h1 class="title hr">Asure Network Bounty Campaign II</h1>
         </div>
+
 
         <div class="row">
             <div class="col-lg-12">
@@ -82,70 +88,85 @@ return output;
                     <div class="card-header">
                         <h5>Bounty Status
                             <span class="text-right float-right">
-                                        <a data-toggle="collapse" href="#collapseBountyInfo" role="button" aria-expanded="false" aria-controls="collapse">
+                                        <a data-toggle="collapse" href="#collapseBountyInfo" role="button"
+                                           aria-expanded="false" aria-controls="collapse">
                                         <i class="far fa-question-circle"></i></a>
                             </span>
                         </h5>
                     </div>
                     <div class="card-body">
-                        <form>
-                            <div class="input-group">
+                        <form class="form-inline form-bounty-eth-addr">
+                            <label class="sr-only" for="new-bounty-eth-addr">ETH address</label>
+                            <div class="input-group flex-grow-1">
                                 <input type="text"
                                        id="new-bounty-eth-addr"
                                        class="form-control"
                                        placeholder="ETH address"/>
                                 <div class="input-group-append">
-                                    <button type="submit" id="new-bounty-eth-addr-btn" class="btn btn-block btn-primary">CHECK
+                                    <button type="submit" id="new-bounty-eth-addr-btn"
+                                            class="btn btn-block btn-primary">CHECK
                                     </button>
                                 </div>
                             </div>
+                        </form>
 
-                            <div class="input-group">
-                                <div class="form-check form-check-inline mr-4">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" checked>
-                                    <label class="form-check-label" for="inlineCheckbox1">
-                                        <i class="fab fa-twitter"></i>
-                                    </label>
-                                </div>
-                                <div class="form-check form-check-inline mr-4">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" checked>
-                                    <label class="form-check-label" for="inlineCheckbox2">
-                                        <i class="fab fa-telegram"></i>
-                                    </label>
-                                </div>
-                                <div class="form-check form-check-inline mr-4">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" checked>
-                                    <label class="form-check-label" for="inlineCheckbox3">
-                                        <i class="fab fa-facebook"></i>
-                                    </label>
-                                </div>
-                                <div class="form-check form-check-inline mr-4">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option3" checked>
-                                    <label class="form-check-label" for="inlineCheckbox4">
-                                        <i class="fab fa-linkedin"></i>
-                                    </label>
-                                </div>
-                                <div class="form-check form-check-inline mr-4">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option3" checked>
-                                    <label class="form-check-label" for="inlineCheckbox5">
-                                        <i class="fab fa-reddit"></i>
-                                    </label>
-                                </div>
-                                <div class="form-check form-check-inline mr-4">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox6" value="option3" checked>
-                                    <label class="form-check-label" for="inlineCheckbox6">
-                                        <i class="fab fa-bitcoin"></i>
-                                    </label>
-                                </div>
-                                <div class="form-check form-check-inline mr-4">
-                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox7" value="option3" checked>
-                                    <label class="form-check-label" for="inlineCheckbox7">
-                                        <i class="fab fa-creative-commons"></i>
-                                        <i class="fab fa-youtube"></i>
-                                        <i class="fab fa-medium"></i>
-                                    </label>
-                                </div>
+                        <form class="form-inline form-toggle-campaigns mt-3">
+                            <div class="form-check form-check-inline mr-md-3">
+                                <input class="form-check-input" type="checkbox" id="toggle-campaign-twitter"
+                                       value="twitter" checked>
+                                <label class="form-check-label" for="toggle-campaign-twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </label>
+                            </div>
 
+                            <div class="form-check form-check-inline mr-md-3">
+                                <input class="form-check-input" type="checkbox" id="toggle-campaign-telegram"
+                                       value="telegram" checked>
+                                <label class="form-check-label" for="toggle-campaign-telegram">
+                                    <i class="fab fa-telegram"></i>
+                                </label>
+                            </div>
+
+                            <div class="form-check form-check-inline mr-md-3">
+                                <input class="form-check-input" type="checkbox" id="toggle-campaign-facebook"
+                                       value="facebook" checked>
+                                <label class="form-check-label" for="toggle-campaign-facebook">
+                                    <i class="fab fa-facebook"></i>
+                                </label>
+                            </div>
+
+                            <div class="form-check form-check-inline mr-md-3">
+                                <input class="form-check-input" type="checkbox" id="toggle-campaign-linkedin"
+                                       value="linkedin" checked>
+                                <label class="form-check-label" for="toggle-campaign-linkedin">
+                                    <i class="fab fa-linkedin"></i>
+                                </label>
+                            </div>
+
+                            <div class="form-check form-check-inline mr-md-3">
+                                <input class="form-check-input" type="checkbox" id="toggle-campaign-reddit"
+                                       value="reddit" checked>
+                                <label class="form-check-label" for="toggle-campaign-reddit">
+                                    <i class="fab fa-reddit"></i>
+                                </label>
+                            </div>
+
+                            <div class="form-check form-check-inline mr-md-3">
+                                <input class="form-check-input" type="checkbox" id="toggle-campaign-bitcoin"
+                                       value="bitcointalk" checked>
+                                <label class="form-check-label" for="toggle-campaign-bitcoin">
+                                    <i class="fab fa-bitcoin"></i>
+                                </label>
+                            </div>
+
+                            <div class="form-check form-check-inline mr-md-3">
+                                <input class="form-check-input" type="checkbox" id="toggle-campaign-creative"
+                                       value="cc" checked>
+                                <label class="form-check-label" for="toggle-campaign-creative">
+                                    <i class="fab fa-creative-commons mr-1"></i>
+                                    <i class="fab fa-youtube mr-1"></i>
+                                    <i class="fab fa-medium mr-1"></i>
+                                </label>
                             </div>
                         </form>
                         <%- partial("_bounty_info") %>
@@ -194,20 +215,19 @@ return output;
             </div>
         </div>
 
+        <%= print_section("twitter") %>
 
-        <%= print_section("Twitter",public.bounty._data.index.ui.filter(data => data.typeId == "twitter")) %>
+        <%= print_section("telegram") %>
 
-        <%= print_section("Telegram",public.bounty._data.index.ui.filter(data => data.typeId == "telegram")) %>
+        <%= print_section("facebook") %>
 
-        <%= print_section("Facebook",public.bounty._data.index.ui.filter(data => data.typeId == "facebook")) %>
+        <%= print_section("linkedin") %>
 
-        <%= print_section("Linkedin",public.bounty._data.index.ui.filter(data => data.typeId == "linkedin")) %>
+        <%= print_section("bitcointalk") %>
 
-        <%= print_section("Bitcointalk",public.bounty._data.index.ui.filter(data => data.typeId == "bitcointalk")) %>
+        <%= print_section("reddit") %>
 
-        <%= print_section("Reddit",public.bounty._data.index.ui.filter(data => data.typeId == "reddit")) %>
-
-        <%= print_section("Creative",public.bounty._data.index.ui.filter(data => data.typeId == "cc")) %>
+        <%= print_section("cc") %>
 
     </div>
 </section>

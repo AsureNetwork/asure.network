@@ -97,7 +97,7 @@ function updateHarpData(bountyReports) {
     const harpDataFile = path.join(__dirname, '../src/bounty/_data.json');
     const harpData = JSON.parse(fs.readFileSync(harpDataFile, 'utf-8'));
 
-    harpData.index.bounties = bountyReports;
+    harpData.index.bountyReports = bountyReports;
 
     fs.writeFileSync(harpDataFile, JSON.stringify(harpData,null, 2));
 }

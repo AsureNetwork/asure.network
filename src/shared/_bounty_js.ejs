@@ -1,3 +1,97 @@
 <script>
+    function AsureStorage() {
+        this.STORAGE_KEY = 'ASURE-BOUNTY-STATE';
+    }
 
+    AsureStorage.prototype.load = function loadStore() {
+        var store = JSON.parse(localStorage.getItem(this.STORAGE_KEY));
+        if (!store) {
+            store = {
+                ethAddr: '',
+                toggledCampaings: {}
+            }
+        }
+        return store;
+    };
+
+    AsureStorage.prototype.save = function saveStore(store) {
+        localStorage.setItem(this.STORAGE_KEY, JSON.stringify(store));
+    };
+
+    AsureStorage.prototype.update = function updateStore(updater) {
+        var store = this.load();
+        updater(store);
+        this.save(store);
+    };
+
+    function BountyCard(storage) {
+        var self = this;
+
+        self.storage = storage;
+
+        self.$formEthAddr = $('.form-bounty-eth-addr');
+        self.$ethAddr = self.$formEthAddr.find('input');
+        self.$check = self.$formEthAddr.find('button');
+
+        self.$check.click(function (evt) {
+            evt.preventDefault();
+            var ethAddr = self.$ethAddr.val();
+            self.storage.update(store => store.ethAddr = ethAddr);
+            self.updateBountyReport(ethAddr);
+        });
+
+        self.$campaignToggles = $('.form-toggle-campaigns input');
+
+        self.$campaignToggles.change(function () {
+            var typeId = $(this).val();
+            var isVisible = $(this).is(':checked');
+
+            self.storage.update(store => {
+                store.toggledCampaings[typeId] = isVisible;
+                self.toggleCampaigns(store.toggledCampaings);
+            });
+        });
+
+        self.init();
+    }
+
+    BountyCard.prototype.init = function init() {
+        var store = this.storage.load();
+
+        this.$ethAddr.val(store.ethAddr);
+
+
+        this.toggleCampaigns(store.toggledCampaings);
+        this.updateBountyReport(store.ethAddr);
+    };
+
+    BountyCard.prototype.updateBountyReport = function updateBountyReport(ethAddr) {
+        if (!ethAddr) {
+            return;
+        }
+
+        console.log('Loading bounty report for', ethAddr);
+    }
+
+    BountyCard.prototype.toggleCampaigns = function toggleCampaigns(campaigns) {
+        var self = this;
+        Object.keys(campaigns).forEach(function(typeId) {
+            var isVisible = campaigns[typeId];
+            var $toggle = self.$campaignToggles.filter('[value=' + typeId + ']');
+            var $campaign = $('[data-campaign=' + typeId + ']');
+
+            if (isVisible) {
+                $toggle.prop('checked', true);
+                $campaign.show();
+            } else {
+                $toggle.prop('checked', false);
+                $campaign.hide();
+            }
+        })
+    }
+
+    $(function () {
+        var storage = new AsureStorage();
+        var bountyCard = new BountyCard(storage);
+    });
 </script>
