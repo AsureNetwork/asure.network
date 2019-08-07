@@ -31,6 +31,19 @@
     ],
     "ui": [
       {
+        "id": "AIRDROP01",
+        "typeId": "airdrop",
+        "name": "Airdrop",
+        "title": "Registration Airdrop",
+        "description": "Just follow the easy steps and click the links below: \nhttps://forms.gle/kLfbUSbyfjRSZEkU7 \n<br/><br/>\n1) Follow Asure Official Twitter:\nhttps://twitter.com/AsureNetwork \n<br/><br/>\n2) Retweet the pinned post and put hashtags:\n#asure #asuretoken $ASR #tge #ico #ieo #crypto #defi #socialsecurity @asurenetwork \n<br/><br/>\n3) Follow Asure main Telegram:\nhttps://t.me/AsureNetwork \n<br/><br/>\n4) Follow Asure Bounty Telegram:\nhttps://t.me/AsureBounty \n<br/><br/>\n5) Follow us on other social media channels\nhttps://fb.me/AsureNetwork\nhttps://medium.com/AsureNetwork\nhttps://www.linkedin.com/company/asure\nhttps://www.youtube.com/c/AsureNetwork\nhttps://www.reddit.com/r/asure\nhttps://peepeth.com/AsureNetwork\n",
+        "rules": [
+          "Change in wallet addresses is not permitted, so make sure that you provide the correct details the first time itself. "
+        ],
+        "frequency": "Unique",
+        "reward": "1",
+        "rewardType": "Stakes"
+      },
+      {
         "id": "TWITTER01",
         "typeId": "twitter",
         "name": "Twitter",
@@ -41,8 +54,8 @@
           "Hashtags that can be used: #cryptocurrency #blockchain $asr #ico",
           "#tge #network #infrastructure #innovation",
           "#pension #insurance #BasicIncome #rente",
-          "#InsurTech #assurance #together #blockchain",
-          "#TokenSales #tokensale #change #invest #investmentresearch #wealthmanagement"
+          "#InsurTech #assurance #blockchain",
+          "#TokenSales #tokensale #invest #investmentresearch #wealthmanagement"
         ],
         "frequency": "Weekly",
         "reward": "7",
@@ -138,8 +151,8 @@
         "id": "TELEGRAM03",
         "typeId": "telegram",
         "name": "Telegram",
-        "title": "Post in another crypto-related Telegram group with less than 1k members",
-        "description": "Post information about Asure Network containing the images we produced (can be found in our Twitter posts or in our Medium article \"Announcement: Asure.Network TGE\") in other crypto-related Telegram groups with a short description of our project.",
+        "title": "Post about Asure Network in another crypto-related Telegram group with less than 1k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found on our Dropbox) in other crypto-related Telegram groups with a short description of our project.",
         "rules": [
           "Link to the \"Announcement: Asure.Network TGE\" article: https://medium.com/asurenetwork/announcement-asure-network-tge-995f386bf109",
           "Main Twitter channel: https://twitter.com/AsureNetwork"
@@ -152,11 +165,10 @@
         "id": "TELEGRAM04",
         "typeId": "telegram",
         "name": "Telegram",
-        "title": "Post in another crypto-related Telegram group with 1k - 5k members",
-        "description": "Post information about Asure Network containing the images we produced (can be found in our Twitter posts or in our Medium article \"Announcement: Asure.Network TGE\") in other crypto-related Telegram groups with a short description of our project.",
+        "title": "Post about Asure Network in another crypto-related Telegram group with 1k - 5k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found on our Dropbox) in other crypto-related Telegram groups with a short description of our project.",
         "rules": [
-          "Link to the \"Announcement: Asure.Network TGE\" article: https://medium.com/asurenetwork/announcement-asure-network-tge-995f386bf109",
-          "Main Twitter channel: https://twitter.com/AsureNetwork"
+          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
         ],
         "frequency": "Weekly",
         "reward": "50",
@@ -166,11 +178,10 @@
         "id": "TELEGRAM05",
         "typeId": "telegram",
         "name": "Telegram",
-        "title": "Post in another crypto-related Telegram group with more than 5k members",
-        "description": "Post information about Asure Network containing the images we produced (can be found in our Twitter posts or in our Medium article \"Announcement: Asure.Network TGE\") in other crypto-related Telegram groups with a short description of our project.",
+        "title": "Post about Asure Network in another crypto-related Telegram group with more than 5k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found on our Dropbox) in other crypto-related Telegram groups with a short description of our project.",
         "rules": [
-          "Link to the \"Announcement: Asure.Network TGE\" article: https://medium.com/asurenetwork/announcement-asure-network-tge-995f386bf109",
-          "Main Twitter channel: https://twitter.com/AsureNetwork"
+          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
         ],
         "frequency": "Weekly",
         "reward": "100",
@@ -222,7 +233,7 @@
         "title": "Reposts",
         "description": "Share 5 reposts per week of our posts in our main Facebook group.",
         "rules": [
-          ""
+          "Main Facebook group: https://www.facebook.com/AsureNetwork/"
         ],
         "frequency": "Weekly",
         "reward": "7",
@@ -233,9 +244,10 @@
         "typeId": "facebook",
         "name": "Facebook",
         "title": "Comments",
-        "description": "5 comments per week telling about our vision (as close to our own words as possible) and mentioning @AsureNetwork Facebook group.",
+        "description": "5 comments per week telling about our vision (as close to our own words as possible,  our vision can be found in our Whitepaper or in our article) and mentioning @AsureNetwork Facebook group.",
         "rules": [
-          ""
+          "Link to our Whitepaper in English: https://www.asure.network/asure.network.whitepaper.en.pdf",
+          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb"
         ],
         "frequency": "Weekly",
         "reward": "7",
@@ -248,7 +260,7 @@
         "title": "Profile",
         "description": "Put a link to Asure Network website in your Facebook description.",
         "rules": [
-          ""
+          "Link to Asure Network website: https://www.asure.network/"
         ],
         "frequency": "Weekly",
         "reward": "2",
@@ -259,9 +271,9 @@
         "typeId": "facebook",
         "name": "Facebook",
         "title": "Post in another crypto-related Facebook group with less than 1k members",
-        "description": "Post information about Asure Network containing the images we produced (can be found in our Twitter posts or in our Medium article \"Announcement: Asure.Network TGE\") in other crypto-related Facebook groups with a short description of our project.",
+        "description": "Post information about Asure Network containing the images we produced (can be found on our Dropbox) in other crypto-related Facebook groups with a short description of our project.",
         "rules": [
-          ""
+          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
         ],
         "frequency": "Weekly",
         "reward": "10",
@@ -272,9 +284,9 @@
         "typeId": "facebook",
         "name": "Facebook",
         "title": "Post in another crypto-related Facebook group with 1k - 5k members",
-        "description": "Post information about Asure Network containing the images we produced (can be found in our Twitter posts or in our Medium article \"Announcement: Asure.Network TGE\") in other crypto-related Facebook groups with a short description of our project.",
+        "description": "Post information about Asure Network containing the images we produced (can be found on our Dropbox) in other crypto-related Facebook groups with a short description of our project.",
         "rules": [
-          ""
+          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
         ],
         "frequency": "Weekly",
         "reward": "50",
@@ -285,9 +297,9 @@
         "typeId": "facebook",
         "name": "Facebook",
         "title": "Post in another crypto-related Facebook group with more than 5k members",
-        "description": "Post information about Asure Network containing the images we produced (can be found in our Twitter posts or in our Medium article \"Announcement: Asure.Network TGE\") in other crypto-related Facebook groups with a short description of our project.",
+        "description": "Post information about Asure Network containing the images we produced (can be found on our Dropbox) in other crypto-related Facebook groups with a short description of our project.",
         "rules": [
-          ""
+          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
         ],
         "frequency": "Weekly",
         "reward": "100",
@@ -300,7 +312,7 @@
         "title": "Invite friends to our Facebook group",
         "description": "Invite 5 people per week to our main Facebook group, they should like our Facebook group.",
         "rules": [
-          ""
+          "Main Facebook group: https://www.facebook.com/AsureNetwork/"
         ],
         "frequency": "Weekly",
         "reward": "7",
@@ -311,9 +323,11 @@
         "typeId": "bitcointalk",
         "name": "Bitcointalk",
         "title": "5 Comments",
-        "description": "",
+        "description": "5 comments per week telling about our vision or our mainsale TGE (as close to our own words as possible, our vision can be found in our Whitepaper or in our article) and mentioning @AsureNetwork Twitter channel and/or Asure Network website.",
         "rules": [
-          ""
+          "Link to our Whitepaper in English: https://www.asure.network/asure.network.whitepaper.en.pdf",
+          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb",
+          "Link to Asure Network website: https://www.asure.network/"
         ],
         "frequency": "Weekly",
         "reward": "7",
@@ -323,10 +337,11 @@
         "id": "BITCOINTALK02",
         "typeId": "bitcointalk",
         "name": "Bitcointalk",
-        "title": "Post in anderen Kategorien starten (Diskussion starten / Moderieren)",
-        "description": "",
+        "title": "Post about Asure Network in other Bitcointalk groups",
+        "description": "Post information about Asure Network containing the images we produced (can be found on our Dropbox) in other related Bitcointalk groups with a short description of our project.",
         "rules": [
-          ""
+          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0",
+          "Moderate the channel if it is a new one, answer questions of other users on that channel."
         ],
         "frequency": "Weekly",
         "reward": "50",
@@ -336,10 +351,10 @@
         "id": "BITCOINTALK03",
         "typeId": "bitcointalk",
         "name": "Bitcointalk",
-        "title": "Profil Beschreibung anpassen zu Asure Network",
-        "description": "",
+        "title": "Profile",
+        "description": "Put a link to Asure Network website in your Bitcointalk profile.",
         "rules": [
-          ""
+          "Link to Asure Network website: https://www.asure.network/"
         ],
         "frequency": "Weekly",
         "reward": "2",
@@ -349,10 +364,10 @@
         "id": "BITCOINTALK04",
         "typeId": "bitcointalk",
         "name": "Bitcointalk",
-        "title": "Signatur anpassen stufe 1",
-        "description": "",
+        "title": "Signatures",
+        "description": "Create an original BB code or Text signature containing the link to Asure Network website.",
         "rules": [
-          ""
+          "Link to Asure Network website: https://www.asure.network/"
         ],
         "frequency": "Weekly",
         "reward": "25",
@@ -363,9 +378,9 @@
         "typeId": "linkedin",
         "name": "Linkedin",
         "title": "Likes",
-        "description": "5 likes per week of the posts on our main Asure company linkedin profile.",
+        "description": "5 likes per week of the posts on our main Asure company LinkedIn profile.",
         "rules": [
-          "You must complete a maximum of 5 retweets . Maximum of one tweet, and 1 retweet per day."
+          "Asure company LinkedIn profile: https://www.linkedin.com/company/asure/"
         ],
         "frequency": "Weekly",
         "reward": "7",
@@ -376,9 +391,9 @@
         "typeId": "linkedin",
         "name": "Linkedin",
         "title": "Posts",
-        "description": "",
+        "description": "Post information about Asure Network containing the images we produced (can be found on our Dropbox) in LinkedIn with your own LinkedIn profile, Asure company LinkedIn profile should be mentioned.",
         "rules": [
-          ""
+          "Asure company LinkedIn profile: https://www.linkedin.com/company/asure/"
         ],
         "frequency": "Weekly",
         "reward": "7",
@@ -389,9 +404,9 @@
         "typeId": "linkedin",
         "name": "Linkedin",
         "title": "RePosts",
-        "description": "",
+        "description": "Share 5 reposts per week of our posts in our LinkedIn company group.",
         "rules": [
-          ""
+          "Asure company LinkedIn profile: https://www.linkedin.com/company/asure/"
         ],
         "frequency": "Weekly",
         "reward": "7",
@@ -402,7 +417,7 @@
         "typeId": "linkedin",
         "name": "Linkedin",
         "title": "Comments",
-        "description": "5 comments per week of the asure posts",
+        "description": "zu entfernen",
         "rules": [
           ""
         ],
@@ -414,10 +429,10 @@
         "id": "LINKEDIN05",
         "typeId": "linkedin",
         "name": "Linkedin",
-        "title": "Profil Beschreibung anpassen zu Asure Network",
-        "description": "",
+        "title": "Profile",
+        "description": "Put a link to Asure Network website in your LinkedIn profile.",
         "rules": [
-          ""
+          "Link to Asure Network website: https://www.asure.network/"
         ],
         "frequency": "Weekly",
         "reward": "2",
@@ -427,10 +442,10 @@
         "id": "LINKEDIN06",
         "typeId": "linkedin",
         "name": "Linkedin",
-        "title": "Post in anderen Gruppen bis 10k",
-        "description": "",
+        "title": "Post in another crypto-related LinkedIn group with less than 1k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found on our Dropbox) in another crypto-related LinkedIn group with a short description of our project.",
         "rules": [
-          ""
+          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
         ],
         "frequency": "Weekly",
         "reward": "10",
@@ -440,10 +455,10 @@
         "id": "LINKEDIN07",
         "typeId": "linkedin",
         "name": "Linkedin",
-        "title": "Post in anderen Gruppen bis 50k",
-        "description": "",
+        "title": "Post in another crypto-related LinkedIn group with 1k - 5k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found on our Dropbox) in another crypto-related LinkedIn group with a short description of our project.",
         "rules": [
-          ""
+          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
         ],
         "frequency": "Weekly",
         "reward": "50",
@@ -453,10 +468,10 @@
         "id": "LINKEDIN08",
         "typeId": "linkedin",
         "name": "Linkedin",
-        "title": "Post in anderen Gruppen über 50k",
-        "description": "",
+        "title": "Post in another crypto-related LinkedIn group with more than 5k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found on our Dropbox) in another crypto-related LinkedIn group with a short description of our project.",
         "rules": [
-          ""
+          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
         ],
         "frequency": "Weekly",
         "reward": "100",
@@ -467,7 +482,7 @@
         "typeId": "linkedin",
         "name": "Linkedin",
         "title": "7 Freunde einladen (die die Asure Seite liken)",
-        "description": "",
+        "description": "Invite 5 people per week to our main LinkedIn company group, they should like our LinkedIn company group.",
         "rules": [
           ""
         ],
@@ -480,9 +495,9 @@
         "typeId": "reddit",
         "name": "Reddit",
         "title": "Upvotes",
-        "description": "5 upvoted per week of the posts on our main Asure subreddit",
+        "description": "5 upvotes per week of the posts on our main Asure subreddit",
         "rules": [
-          ""
+          "Main Asure subreddit: https://reddit.com/r/Asure/"
         ],
         "frequency": "Weekly",
         "reward": "7",
@@ -493,9 +508,10 @@
         "typeId": "reddit",
         "name": "Reddit",
         "title": "Post in Asure subreddit (Contribution to Asure subreddit)",
-        "description": "create one post about asure per week in asure subreddit",
+        "description": "Create one original (unique) post about Asure Network per week on our main Asure subreddit",
         "rules": [
-          ""
+          "Main Asure subreddit: https://reddit.com/r/Asure/",
+          "Cross-post your posts in the relevant subreddits: /r/altcoins/, /r/CryptoCurrencies/, /r/CryptoCurrency/, /r/CryptoMarkets/, /r/CryptocurrencyICO/, /r/ethereum/, /r/ethinvestor/, /r/ethtrader/, /r/investing/, /r/venturecapital/ and so on."
         ],
         "frequency": "Weekly",
         "reward": "7",
@@ -506,9 +522,9 @@
         "typeId": "reddit",
         "name": "Reddit",
         "title": "Comments",
-        "description": "5 comments per week of the asure subreddit posts",
+        "description": "5 comments per week of the Asure subreddit posts",
         "rules": [
-          ""
+          "Main Asure subreddit: https://reddit.com/r/Asure/"
         ],
         "frequency": "Weekly",
         "reward": "7",
@@ -518,10 +534,10 @@
         "id": "REDDIT04",
         "typeId": "reddit",
         "name": "Reddit",
-        "title": "Profil Beschreibung anpassen zu Asure Network",
-        "description": "",
+        "title": "Profile",
+        "description": "Put a link to Asure Network website in your Reddit profile.",
         "rules": [
-          ""
+          "Link to Asure Network website: https://www.asure.network/"
         ],
         "frequency": "Weekly",
         "reward": "2",
@@ -531,10 +547,10 @@
         "id": "REDDIT05",
         "typeId": "reddit",
         "name": "Reddit",
-        "title": "Post in anderen Subreddits bis 10k",
-        "description": "",
+        "title": "Post in another crypto-related subreddit with less than 10k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found on our Dropbox) in other crypto-related Facebook groups with a short description of our project.",
         "rules": [
-          ""
+          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
         ],
         "frequency": "Weekly",
         "reward": "10",
@@ -544,10 +560,10 @@
         "id": "REDDIT06",
         "typeId": "reddit",
         "name": "Reddit",
-        "title": "Post in anderen Gruppen bis 50k",
-        "description": "",
+        "title": "Post in another crypto-related subreddit with 10k - 50k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found on our Dropbox) in other crypto-related Facebook groups with a short description of our project.",
         "rules": [
-          ""
+          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
         ],
         "frequency": "Weekly",
         "reward": "50",
@@ -557,10 +573,10 @@
         "id": "REDDIT07",
         "typeId": "reddit",
         "name": "Reddit",
-        "title": "Post in anderen Gruppen bis 100k",
-        "description": "",
+        "title": "Post in another crypto-related subreddit with 50k-100k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found on our Dropbox) in other crypto-related Facebook groups with a short description of our project.",
         "rules": [
-          ""
+          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
         ],
         "frequency": "Weekly",
         "reward": "100",
@@ -570,10 +586,10 @@
         "id": "REDDIT08",
         "typeId": "reddit",
         "name": "Reddit",
-        "title": "Post in anderen Gruppen über 500k",
-        "description": "",
+        "title": "Post in another crypto-related subreddit with more than 100k members",
+        "description": "Post information about Asure Network containing the images we produced (can be found on our Dropbox) in other crypto-related Facebook groups with a short description of our project.",
         "rules": [
-          ""
+          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
         ],
         "frequency": "Weekly",
         "reward": "500",
@@ -583,12 +599,12 @@
         "id": "CREATIVE01",
         "typeId": "cc",
         "name": "Creative",
-        "title": "Erstelle ein Video (Youtube Follower bis 1k)",
-        "description": "",
+        "title": "Create a Video on Youtube (amount of followers up to 1k)",
+        "description": "Create and upload an original video review of the Asure Network project.",
         "rules": [
           ""
         ],
-        "frequency": "Einzel",
+        "frequency": "Once",
         "reward": "100",
         "rewardType": "Tokens"
       },
@@ -596,12 +612,12 @@
         "id": "CREATIVE02",
         "typeId": "cc",
         "name": "Creative",
-        "title": "Erstelle ein Video (Youtube Follower 1k-50k)",
-        "description": "",
+        "title": "Create a Video on Youtube (amount of followers 1k-50k)",
+        "description": "Create and upload an original video review of the Asure Network project.",
         "rules": [
           ""
         ],
-        "frequency": "Einzel",
+        "frequency": "Once",
         "reward": "500",
         "rewardType": "Tokens"
       },
@@ -609,12 +625,12 @@
         "id": "CREATIVE03",
         "typeId": "cc",
         "name": "Creative",
-        "title": "Erstelle ein Video (Youtube Follower 50k-100k)",
-        "description": "",
+        "title": "Create a Video on Youtube (amount of followers 50k-100k)",
+        "description": "Create and upload an original video review of the Asure Network project.",
         "rules": [
           ""
         ],
-        "frequency": "Einzel",
+        "frequency": "Once",
         "reward": "1000",
         "rewardType": "Tokens"
       },
@@ -622,12 +638,12 @@
         "id": "CREATIVE04",
         "typeId": "cc",
         "name": "Creative",
-        "title": "Erstelle ein Video (Youtube Follower über 100k)",
-        "description": "",
+        "title": "Create a Video on Youtube (amount of followers more than 100k)",
+        "description": "Create and upload an original video review of the Asure Network project.",
         "rules": [
           ""
         ],
-        "frequency": "Einzel",
+        "frequency": "Once",
         "reward": "2000",
         "rewardType": "Tokens"
       },
@@ -635,12 +651,12 @@
         "id": "CREATIVE05",
         "typeId": "cc",
         "name": "Creative",
-        "title": "Erstelle eine Pressemeldung",
-        "description": "",
+        "title": "Create a press-release on your own website.",
+        "description": "The information must be as close as possible to the way we describe the project, examples are to be found on our Medium blog.",
         "rules": [
-          ""
+          "Our blog on Medium: https://medium.com/asurenetwork"
         ],
-        "frequency": "Einzel",
+        "frequency": "Once",
         "reward": "500",
         "rewardType": "Tokens"
       },
@@ -648,12 +664,12 @@
         "id": "CREATIVE06",
         "typeId": "cc",
         "name": "Creative",
-        "title": "Erstelle eine Pressemeldung Renomierte Seite",
-        "description": "",
+        "title": "Create a press-release on a well-known website (more than 5k unique visitors per month).",
+        "description": "The information must be as close as possible to the way we describe the project, examples are to be found on our Medium blog.",
         "rules": [
-          ""
+          "Our blog on Medium: https://medium.com/asurenetwork"
         ],
-        "frequency": "Einzel",
+        "frequency": "Once",
         "reward": "2500",
         "rewardType": "Tokens"
       },
@@ -661,12 +677,13 @@
         "id": "CREATIVE07",
         "typeId": "cc",
         "name": "Creative",
-        "title": "Erstelle einen Blog Artikel (Medium und ählich)",
+        "title": "Create a blog article (either on your Medium blog or on your own blog elsewhere) about Asure Network containing the images we produced (can be found on our Dropbox).",
         "description": "",
         "rules": [
-          ""
+          "Our blog on Medium: https://medium.com/asurenetwork",
+          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
         ],
-        "frequency": "Einzel",
+        "frequency": "Once",
         "reward": "100",
         "rewardType": "Tokens"
       },
@@ -674,12 +691,13 @@
         "id": "CREATIVE08",
         "typeId": "cc",
         "name": "Creative",
-        "title": "Erstelle einen Blog Artikel mit großer Reichweite",
+        "title": "Create a blog article (either on your Medium blog or on your own blog elsewhere) about Asure Network containing the images we produced (can be found on our Dropbox), your blog or website has more than 5k unique visitors per month.",
         "description": "",
         "rules": [
-          ""
+          "Our blog on Medium: https://medium.com/asurenetwork",
+          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
         ],
-        "frequency": "Einzel",
+        "frequency": "Once",
         "reward": "1000",
         "rewardType": "Tokens"
       }

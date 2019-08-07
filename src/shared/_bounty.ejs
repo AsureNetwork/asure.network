@@ -44,7 +44,7 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                 </h5>
                             </div>
                             <div class="card-body">
-                                <%= item.description %>
+                                <%- item.description %>
                                 <div class="collapse" id="collapseRules<%= item.id %>">
                                     <h5 class="mt-2">Rules</h5>
                                     <ul>
@@ -177,44 +177,7 @@ hasCampaign = function (bounty, weekNo, campaignName) {
             </div>
         </div>
 
-
-        <div class="row mb-2">
-            <div class="col-xl-12 pb-4 bg-green shadow">
-                <h2 class="text-center m-2 text-uppercase">Airdrop</h2>
-                <div class="text-center m-2" id="my-rewards-">
-
-                </div>
-
-                <div class="card-deck">
-
-                    <div class="col-12">
-                        <div class="card mb-2">
-                            <div class="card-header">
-                                <h5>AIRDROP01
-                                    <span class="text-right float-right">
-                            <a data-toggle="collapse" href="#collapseRulesAIRDROP01" role="button" aria-expanded="false" aria-controls="collapse">
-                                <i class="far fa-question-circle"></i></a>
-                            </span>
-                                </h5>
-                            </div>
-                            <div class="card-body">
-                                5 likes per week of the posts on our main Twitter channel.
-                                <div class="collapse" id="collapseRulesAIRDROP01">
-                                    <h5 class="mt-2">Rules</h5>
-                                </div>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">
-                                    Reward: <strong>7</strong> Stakes / Weekly
-
-                                </small>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+        <%= print_section("airdrop") %>
 
         <%= print_section("twitter") %>
 
