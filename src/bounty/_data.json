@@ -394,7 +394,7 @@
         "typeId": "linkedin",
         "name": "Linkedin",
         "title": "Posts",
-        "description": "Post information about Asure Network containing the images we produced in LinkedIn with your own LinkedIn profile, Asure company LinkedIn profile should be mentioned.",
+        "description": "Post information about Asure Network containing the images we produced, in LinkedIn with your own LinkedIn profile, Asure company LinkedIn profile should be mentioned.",
         "rules": [
           "Asure company LinkedIn profile: https://www.linkedin.com/company/asure/",
           "Images for the posts can be found on Asure Network Dropbox.",
@@ -446,7 +446,7 @@
         "typeId": "linkedin",
         "name": "Linkedin",
         "title": "Post in another crypto-related LinkedIn group with less than 1k members",
-        "description": "Post information about Asure Network containing the images we produced in another crypto-related LinkedIn group with a short description of our project.",
+        "description": "Post information about Asure Network containing the images we produced, in another crypto-related LinkedIn group with a short description of our project.",
         "rules": [
           "Images for the posts can be found on Asure Network Dropbox.",
           "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
@@ -460,7 +460,7 @@
         "typeId": "linkedin",
         "name": "Linkedin",
         "title": "Post in another crypto-related LinkedIn group with 1k - 5k members",
-        "description": "Post information about Asure Network containing the images we produced in another crypto-related LinkedIn group with a short description of our project.",
+        "description": "Post information about Asure Network containing the images we produced, in another crypto-related LinkedIn group with a short description of our project.",
         "rules": [
           "Images for the posts can be found on Asure Network Dropbox.",
           "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
@@ -474,7 +474,7 @@
         "typeId": "linkedin",
         "name": "Linkedin",
         "title": "Post in another crypto-related LinkedIn group with more than 5k members",
-        "description": "Post information about Asure Network containing the images we produced in another crypto-related LinkedIn group with a short description of our project.",
+        "description": "Post information about Asure Network containing the images we produced, in another crypto-related LinkedIn group with a short description of our project.",
         "rules": [
           "Images for the posts can be found on Asure Network Dropbox.",
           "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
@@ -552,7 +552,7 @@
         "typeId": "reddit",
         "name": "Reddit",
         "title": "Post in another crypto-related subreddit with less than 10k members",
-        "description": "Post information about Asure Network containing the images we produced in other crypto-related Facebook groups with a short description of our project.",
+        "description": "Post information about Asure Network containing the images we produced, in other crypto-related Facebook groups with a short description of our project.",
         "rules": [
           "Images for the posts can be found on Asure Network Dropbox.",
           "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
@@ -566,7 +566,7 @@
         "typeId": "reddit",
         "name": "Reddit",
         "title": "Post in another crypto-related subreddit with 10k - 50k members",
-        "description": "Post information about Asure Network containing the images we produced in other crypto-related Facebook groups with a short description of our project.",
+        "description": "Post information about Asure Network containing the images we produced, in other crypto-related Facebook groups with a short description of our project.",
         "rules": [
           "Images for the posts can be found on Asure Network Dropbox.",
           "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
@@ -580,7 +580,7 @@
         "typeId": "reddit",
         "name": "Reddit",
         "title": "Post in another crypto-related subreddit with 50k-100k members",
-        "description": "Post information about Asure Network containing the images we produced in other crypto-related Facebook groups with a short description of our project.",
+        "description": "Post information about Asure Network containing the images we produced, in other crypto-related Facebook groups with a short description of our project.",
         "rules": [
           "Images for the posts can be found on Asure Network Dropbox.",
           "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
@@ -594,7 +594,7 @@
         "typeId": "reddit",
         "name": "Reddit",
         "title": "Post in another crypto-related subreddit with more than 100k members",
-        "description": "Post information about Asure Network containing the images we produced in other crypto-related Facebook groups with a short description of our project.",
+        "description": "Post information about Asure Network containing the images we produced, in other crypto-related Facebook groups with a short description of our project.",
         "rules": [
           "Images for the posts can be found on Asure Network Dropbox.",
           "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
@@ -608,8 +608,11 @@
         "typeId": "cc",
         "name": "Creative",
         "title": "Create a Video on Youtube (amount of followers up to 1k)",
-        "description": "Create and upload an original video review of the Asure Network project.",
-        "rules": [],
+        "description": "Create and upload an original video review of the Asure Network project.\nIt should be clear from the video what the Asure Project vision is about  (our vision can be found in our Whitepaper or in our article).",
+        "rules": [
+          "Link to our Whitepaper in English: https://www.asure.network/asure.network.whitepaper.en.pdf",
+          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb"
+        ],
         "frequency": "Once",
         "reward": "100",
         "rewardType": "Tokens"
@@ -619,8 +622,11 @@
         "typeId": "cc",
         "name": "Creative",
         "title": "Create a Video on Youtube (amount of followers 1k-50k)",
-        "description": "Create and upload an original video review of the Asure Network project.",
-        "rules": [],
+        "description": "Create and upload an original video review of the Asure Network project.\nIt should be clear from the video what the Asure Project vision is about  (our vision can be found in our Whitepaper or in our article).",
+        "rules": [
+          "Link to our Whitepaper in English: https://www.asure.network/asure.network.whitepaper.en.pdf",
+          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb"
+        ],
         "frequency": "Once",
         "reward": "500",
         "rewardType": "Tokens"
@@ -630,8 +636,11 @@
         "typeId": "cc",
         "name": "Creative",
         "title": "Create a Video on Youtube (amount of followers 50k-100k)",
-        "description": "Create and upload an original video review of the Asure Network project.",
-        "rules": [],
+        "description": "Create and upload an original video review of the Asure Network project.\nIt should be clear from the video what the Asure Project vision is about  (our vision can be found in our Whitepaper or in our article).",
+        "rules": [
+          "Link to our Whitepaper in English: https://www.asure.network/asure.network.whitepaper.en.pdf",
+          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb"
+        ],
         "frequency": "Once",
         "reward": "1000",
         "rewardType": "Tokens"
@@ -641,8 +650,11 @@
         "typeId": "cc",
         "name": "Creative",
         "title": "Create a Video on Youtube (amount of followers more than 100k)",
-        "description": "Create and upload an original video review of the Asure Network project.",
-        "rules": [],
+        "description": "Create and upload an original video review of the Asure Network project.\nIt should be clear from the video what the Asure Project vision is about  (our vision can be found in our Whitepaper or in our article).",
+        "rules": [
+          "Link to our Whitepaper in English: https://www.asure.network/asure.network.whitepaper.en.pdf",
+          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb"
+        ],
         "frequency": "Once",
         "reward": "2000",
         "rewardType": "Tokens"

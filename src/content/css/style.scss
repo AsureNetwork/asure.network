@@ -14,6 +14,17 @@ $green: #99c759;
 $teal: #58c9c4;
 $cyan: #7ec5b7;
 
+$blue0: #f0f8ff;
+$blue1: #e6eff8;
+$blue2: #d5e2ed;
+$blue3: #c1d3e0;
+$blue4: #acc1d1;
+$blue5: #96aec2;
+$blue6: #7f9cb3;
+$blue7: #698ba4;
+$blue8: #567b97;
+$blue9: #466e8c;
+
 $success: $teal;
 
 @import "../../../node_modules/bootstrap/scss/bootstrap";
@@ -1375,7 +1386,7 @@ span[data-toggle="popover"] {
   }
 
   &.blc-campaign-airdrop {
-    background-color: $blue;
+    background-color: $blue9;
 
     .head {
       h2, small {
@@ -1386,18 +1397,7 @@ span[data-toggle="popover"] {
 
   &.blc-campaign-twitter {
     //background-color: #1da1f2;
-    background-color: $cyan;
-
-    .head {
-      h2, small {
-        color: #fff;
-      }
-    }
-  }
-
-  &.blc-campaign-facebook {
-    //background-color: #3C5A99;
-    background-color: $teal;
+    background-color: $blue8;
 
     .head {
       h2, small {
@@ -1408,7 +1408,7 @@ span[data-toggle="popover"] {
 
   &.blc-campaign-telegram {
     //background-color: #0088cc;
-    background-color: $green;
+    background-color: $blue7;
 
     .head {
       h2, small {
@@ -1417,9 +1417,22 @@ span[data-toggle="popover"] {
     }
   }
 
+  &.blc-campaign-facebook {
+    //background-color: #3C5A99;
+    background-color: $blue6;
+
+    .head {
+      h2, small {
+        color: #fff;
+      }
+    }
+  }
+
+
+
   &.blc-campaign-linkedin {
     //background-color: #0077b5;
-    background-color: $yellow;
+    background-color: $blue5;
 
     .head {
       h2, small {
@@ -1430,12 +1443,12 @@ span[data-toggle="popover"] {
 
   &.blc-campaign-bitcointalk {
     //background-color: #E5E5E8;
-    background-color: $orange;
+    background-color: $blue4;
   }
 
   &.blc-campaign-reddit {
     //background-color: #E5E5E8;
-    background-color: $purple;
+    background-color: $blue3;
   }
 }
 
