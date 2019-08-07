@@ -35,18 +35,21 @@ hasCampaign = function (bounty, weekNo, campaignName) {
 
                 <div class="card-columns <%= sections.length === 1 ? 'card-columns-1' : '' %>">
                     <% sections.forEach(function(item){ %>
-                        <div class="card mb-2">
+                        <div class="card mb-2" data-taskid="<%= item.id %>">
                             <div class="card-header">
-                                <h5><%= item.title %> (ID: <%= item.id %>)
-                                    <span class="text-right float-right">
-                            <a data-toggle="collapse" href="#collapseRules<%= item.id %>" role="button"
-                               aria-expanded="false" aria-controls="collapse">
-                                <i class="far fa-question-circle"></i></a>
-                            </span>
-                                </h5>
+                                <h5><%= item.title %></h5>
+                                <h6 class="text-muted" style="font-size: 13px"><%= item.id %></h6>
                             </div>
                             <div class="card-body">
-                                <%- item.description %>
+                                <div class="card-text">
+                                    <%- item.description %>
+                                    <% if (item.rules.length || item.frequency == "Weekly") { %>
+                                        <a data-toggle="collapse" href="#collapseRules<%= item.id %>" role="button"
+                                           aria-expanded="false" aria-controls="collapse">
+                                            More ...
+                                        </a>
+                                    <% } %>
+                                </div>
                                 <div class="collapse" id="collapseRules<%= item.id %>">
                                     <% if (item.rules.length) { %>
                                         <h5 class="card-title mt-2">Rules</h5>
@@ -70,11 +73,10 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                 </div>
                             </div>
                             <div class="card-footer">
-                                <small class="text-muted">
+                                <div>
                                     Reward: <strong><%= item.reward %></strong> <%= item.rewardType %>
                                     / <%= item.frequency %>
-
-                                </small>
+                                </div>
                             </div>
                         </div>
                     <% }); %>
