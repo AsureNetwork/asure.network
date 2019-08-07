@@ -44,10 +44,12 @@ hasCampaign = function (bounty, weekNo, campaignName) {
                                 <div class="card-text">
                                     <%- item.description %>
                                     <% if (item.rules.length || item.frequency == "Weekly") { %>
-                                        <a data-toggle="collapse" href="#collapseRules<%= item.id %>" role="button"
-                                           aria-expanded="false" aria-controls="collapse">
-                                            More ...
-                                        </a>
+                                        <p class="text-center m-0">
+                                            <a data-toggle="collapse" href="#collapseRules<%= item.id %>" role="button"
+                                               aria-expanded="false" aria-controls="collapse">
+                                                 more
+                                            </a>
+                                        </p>
                                     <% } %>
                                 </div>
                                 <div class="collapse" id="collapseRules<%= item.id %>">
