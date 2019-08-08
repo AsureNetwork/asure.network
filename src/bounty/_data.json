@@ -488,7 +488,7 @@
         "id": "LINKEDIN09",
         "typeId": "linkedin",
         "name": "Linkedin",
-        "title": "Invite Friends (die die Asure Seite liken)",
+        "title": "Invite friends",
         "description": "Invite 5 people per week to our main LinkedIn company group, they should like our LinkedIn company group.",
         "rules": [],
         "frequency": "Weekly",
@@ -612,9 +612,10 @@
         "description": "Create and upload an original video review of the Asure Network project.\nIt should be clear from the video what the Asure Project vision is about  (our vision can be found in our Whitepaper or in our article).",
         "rules": [
           "Link to our Whitepaper in English: https://www.asure.network/asure.network.whitepaper.en.pdf",
-          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb"
+          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb",
+          "Maximum of 5 submissions per user"
         ],
-        "frequency": "Once",
+        "frequency": "Submission",
         "reward": "100",
         "rewardType": "Tokens"
       },
@@ -626,9 +627,10 @@
         "description": "Create and upload an original video review of the Asure Network project.\nIt should be clear from the video what the Asure Project vision is about  (our vision can be found in our Whitepaper or in our article).",
         "rules": [
           "Link to our Whitepaper in English: https://www.asure.network/asure.network.whitepaper.en.pdf",
-          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb"
+          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb",
+          "Maximum of 5 submissions per user"
         ],
-        "frequency": "Once",
+        "frequency": "Submission",
         "reward": "500",
         "rewardType": "Tokens"
       },
@@ -640,9 +642,10 @@
         "description": "Create and upload an original video review of the Asure Network project.\nIt should be clear from the video what the Asure Project vision is about  (our vision can be found in our Whitepaper or in our article).",
         "rules": [
           "Link to our Whitepaper in English: https://www.asure.network/asure.network.whitepaper.en.pdf",
-          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb"
+          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb",
+          "Maximum of 5 submissions per user"
         ],
-        "frequency": "Once",
+        "frequency": "Submission",
         "reward": "1000",
         "rewardType": "Tokens"
       },
@@ -654,9 +657,10 @@
         "description": "Create and upload an original video review of the Asure Network project.\nIt should be clear from the video what the Asure Project vision is about  (our vision can be found in our Whitepaper or in our article).",
         "rules": [
           "Link to our Whitepaper in English: https://www.asure.network/asure.network.whitepaper.en.pdf",
-          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb"
+          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb",
+          "Maximum of 5 submissions per user"
         ],
-        "frequency": "Once",
+        "frequency": "Submission",
         "reward": "2000",
         "rewardType": "Tokens"
       },
@@ -667,9 +671,10 @@
         "title": "Create a press-release on your own website (less 1k)",
         "description": "The information must be as close as possible to the way we describe the project, examples are to be found on our Medium blog. Less than 5k unique visitors per month.",
         "rules": [
-          "Our blog on Medium: https://medium.com/asurenetwork"
+          "Our blog on Medium: https://medium.com/asurenetwork",
+          "Maximum of 5 submissions per user"
         ],
-        "frequency": "Once",
+        "frequency": "Submission",
         "reward": "500",
         "rewardType": "Tokens"
       },
@@ -680,9 +685,10 @@
         "title": "Create a press-release on a well-known website (more than 1k)",
         "description": "The information must be as close as possible to the way we describe the project, examples are to be found on our Medium blog. More than 5k unique visitors per month.",
         "rules": [
-          "Our blog on Medium: https://medium.com/asurenetwork"
+          "Our blog on Medium: https://medium.com/asurenetwork",
+          "Maximum of 5 submissions per user"
         ],
-        "frequency": "Once",
+        "frequency": "Submission",
         "reward": "2500",
         "rewardType": "Tokens"
       },
@@ -694,11 +700,12 @@
         "description": "Create a blog article about Asure Network containing the images from our Website or Dropbox. Your blog has less than 10k unique views per month.",
         "rules": [
           "Write a public post or an article about Asure Network in any language, with at least 300 words and containing 2 links to https://www.asure.network/.",
-          "The website/blog where you post the content has to be relevant and connected to the crypto/financial world.\r",
+          "The website/blog where you post the content has to be relevant and connected to the crypto/financial world.",
           "Your article/blog post has to have good writing quality.",
-          "Use images from our <a href=\"https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0\" target=\"_blank\">Dropbox</a>."
+          "Use images from our <a href=\"https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0\" target=\"_blank\">Dropbox</a>.",
+          "Maximum of 5 submissions per user"
         ],
-        "frequency": "Once",
+        "frequency": "Submission",
         "reward": "100",
         "rewardType": "Tokens"
       },
@@ -706,15 +713,16 @@
         "id": "CREATIVE08",
         "typeId": "cc",
         "name": "Creative",
-        "title": "Create a blog article about Asure Network. (more 10k)",
+        "title": "Create a blog article about Asure Network. (more then 10k)",
         "description": "Create a blog article about Asure Network containing the images from our Website or Dropbox.  Your blog has more than 10k unique visitors per month.",
         "rules": [
           "Write a public post or an article about Asure Network in any language, with at least 300 words and containing 2 links to https://www.asure.network/.",
-          "The website/blog where you post the content has to be relevant and connected to the crypto/financial world.\r",
+          "The website/blog where you post the content has to be relevant and connected to the crypto/financial world.",
           "Your article/blog post has to have good writing quality.",
-          "Use images from our <a href=\"https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0\" target=\"_blank\">Dropbox</a>."
+          "Use images from our <a href=\"https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0\" target=\"_blank\">Dropbox</a>.",
+          "Maximum of 5 submissions per user"
         ],
-        "frequency": "Once",
+        "frequency": "Submission",
         "reward": "1000",
         "rewardType": "Tokens"
       }
