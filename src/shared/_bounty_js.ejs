@@ -125,7 +125,7 @@
                 campaignSummary.totalStakes > 0 ?
                     '<span class="badge badge-secondary mr-3">My campaign stakes are ' + campaignSummary.totalStakes + '</span>' : '',
                 campaignSummary.totalTokens > 0 ?
-                    '<span class="badge badge-secondary">My campaign tokens are' + campaignSummary.totalTokens + '</span>' : ''
+                    '<span class="badge badge-secondary">My campaign tokens are ' + campaignSummary.totalTokens + '</span>' : ''
             ];
             $('#campaign-' + campaignSummary.typeId).find('.campaign-total-rewards').append(badges.join(''));
 
@@ -159,7 +159,9 @@
                             summary.totalStakes += Number(task.reward);
                         }
                     } else if (task.rewardType === 'Tokens') {
-                        console.log("Tokens")
+                        if (task.frequency === 'Submission') {
+                            summary.totalTokens += Number(task.reward) * report.weekNos.length;
+                        }
                     }
 
                     return summary;
@@ -215,12 +217,16 @@
         if (report.weekNos.length > 0) {
             $task.find('.card-header').addClass('bg-success');
 
+            var totalReward;
             if (report.task.frequency === 'Weekly') {
                 report.weekNos.forEach(weekNo => {
                     $task.find('.' + camelize(weekNo.parsedWeekNo)).addClass('week-report-completed');
                 });
 
-                var totalReward = Number(report.task.reward) * report.weekNos.length;
+                totalReward = Number(report.task.reward) * report.weekNos.length;
+                $task.find('.task-total-rewards').append('<span class="badge badge-secondary badge-total-reward">My task ' + report.task.rewardType.toLocaleLowerCase() + ' are ' + totalReward + '</span>')
+            } else if (report.task.frequency === 'Submission') {
+                totalReward = Number(report.task.reward) * report.weekNos.length;
                 $task.find('.task-total-rewards').append('<span class="badge badge-secondary badge-total-reward">My task ' + report.task.rewardType.toLocaleLowerCase() + ' are ' + totalReward + '</span>')
             }
         }
