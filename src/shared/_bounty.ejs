@@ -11,7 +11,7 @@ camelize = function (str) {
     var sections = public.bounty._data.index.ui.filter(data => data.typeId == typeId)
     var name = sections[0].name;
 %>
-<div class="blc-campaign blc-campaign-<%= typeId %>">
+<div id="campaign-<%= typeId %>" class="blc-campaign blc-campaign-<%= typeId %>">
     <div class="container">
         <div class="row" data-campaign="<%= typeId %>">
             <div class="col-xl-12 pb-4">
@@ -114,78 +114,112 @@ camelize = function (str) {
                         </form>
 
                         <form class="form-inline form-toggle-campaigns mt-3">
-                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
-                                 data-placement="bottom" title="Toggle Airdrop campaign">
-                                <input class="form-check-input" type="checkbox" id="toggle-campaign-airdrop"
-                                       value="airdrop" checked>
-                                <label class="form-check-label" for="toggle-campaign-airdrop">
-                                    <i class="fas fa-plane"></i>
-                                </label>
+                            <div class="form-check form-check-inline">
+                                <div class="form-check form-check-inline mr-md-3">
+                                    <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input" id="toggle-campaign-airdrop"
+                                               value="airdrop" checked>
+                                        <label class="custom-control-label" for="toggle-campaign-airdrop">
+                                            <a href="/bounty/#campaign-airdrop" data-toggle="tooltip"
+                                               data-placement="bottom" title="Goto Airdrop campaign">
+                                                <i class="fas fa-plane"></i>
+                                            </a>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
 
-                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
-                                 data-placement="bottom" title="Toggle Twitter campaign">
-                                <input class="form-check-input" type="checkbox" id="toggle-campaign-twitter"
-                                       value="twitter" checked>
-                                <label class="form-check-label" for="toggle-campaign-twitter">
-                                    <i class="fab fa-twitter"></i>
-                                </label>
+                            <div class="form-check form-check-inline">
+                                <div class="custom-control custom-switch mr-md-3">
+                                    <input class="custom-control-input" type="checkbox" id="toggle-campaign-twitter"
+                                           value="twitter" checked>
+                                    <label class="custom-control-label" for="toggle-campaign-twitter">
+                                        <a href="/bounty/#campaign-twitter" data-toggle="tooltip"
+                                           data-placement="bottom" title="Goto Twitter campaign">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </label>
+                                </div>
                             </div>
 
-                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
-                                 data-placement="bottom" title="Toggle Telegram campaign">
-                                <input class="form-check-input" type="checkbox" id="toggle-campaign-telegram"
-                                       value="telegram" checked>
-                                <label class="form-check-label" for="toggle-campaign-telegram">
-                                    <i class="fab fa-telegram"></i>
-                                </label>
+                            <div class="form-check form-check-inline">
+                                <div class="custom-control custom-switch mr-md-3">
+                                    <input class="custom-control-input" type="checkbox" id="toggle-campaign-telegram"
+                                           value="telegram" checked>
+                                    <label class="custom-control-label" for="toggle-campaign-telegram">
+                                        <a href="/bounty/#campaign-telegram" data-toggle="tooltip"
+                                           data-placement="bottom" title="Goto Telegram campaign">
+                                            <i class="fab fa-telegram"></i>
+                                        </a>
+                                    </label>
+                                </div>
                             </div>
 
-                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
-                                 data-placement="bottom" title="Toggle Facebook campaign">
-                                <input class="form-check-input" type="checkbox" id="toggle-campaign-facebook"
-                                       value="facebook" checked>
-                                <label class="form-check-label" for="toggle-campaign-facebook">
-                                    <i class="fab fa-facebook"></i>
-                                </label>
+                            <div class="form-check form-check-inline">
+                                <div class="custom-control custom-switch mr-md-3">
+                                    <input class="custom-control-input" type="checkbox" id="toggle-campaign-facebook"
+                                           value="facebook" checked>
+                                    <label class="custom-control-label" for="toggle-campaign-facebook">
+                                        <a href="/bounty/#campaign-facebook" data-toggle="tooltip"
+                                           data-placement="bottom" title="Goto Facebook campaign">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                    </label>
+                                </div>
                             </div>
 
-                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
-                                 data-placement="bottom" title="Toggle LinkedIn campaign">
-                                <input class="form-check-input" type="checkbox" id="toggle-campaign-linkedin"
-                                       value="linkedin" checked>
-                                <label class="form-check-label" for="toggle-campaign-linkedin">
-                                    <i class="fab fa-linkedin"></i>
-                                </label>
+                            <div class="form-check form-check-inline">
+                                <div class="custom-control custom-switch mr-md-3">
+                                    <input class="custom-control-input" type="checkbox" id="toggle-campaign-linkedin"
+                                           value="linkedin" checked>
+                                    <label class="custom-control-label" for="toggle-campaign-linkedin">
+                                        <a href="/bounty/#campaign-linkedin" data-toggle="tooltip"
+                                           data-placement="bottom" title="Goto LinkedIn campaign">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </label>
+                                </div>
                             </div>
 
-                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
-                                 data-placement="bottom" title="Toggle Reddit campaign">
-                                <input class="form-check-input" type="checkbox" id="toggle-campaign-reddit"
-                                       value="reddit" checked>
-                                <label class="form-check-label" for="toggle-campaign-reddit">
-                                    <i class="fab fa-reddit"></i>
-                                </label>
+                            <div class="form-check form-check-inline">
+                                <div class="custom-control custom-switch mr-md-3">
+                                    <input class="custom-control-input" type="checkbox" id="toggle-campaign-reddit"
+                                           value="reddit" checked>
+                                    <label class="custom-control-label" for="toggle-campaign-reddit">
+                                        <a href="/bounty/#campaign-reddit" data-toggle="tooltip"
+                                           data-placement="bottom" title="Goto Reddit campaign">
+                                            <i class="fab fa-reddit"></i>
+                                        </a>
+                                    </label>
+                                </div>
                             </div>
 
-                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
-                                 data-placement="bottom" title="Toggle BitcoinTalk campaign">
-                                <input class="form-check-input" type="checkbox" id="toggle-campaign-bitcoin"
-                                       value="bitcointalk" checked>
-                                <label class="form-check-label" for="toggle-campaign-bitcoin">
-                                    <i class="fab fa-bitcoin"></i>
-                                </label>
+                            <div class="form-check form-check-inline">
+                                <div class="custom-control custom-switch mr-md-3">
+                                    <input class="custom-control-input" type="checkbox" id="toggle-campaign-bitcoin"
+                                           value="bitcointalk" checked>
+                                    <label class="custom-control-label" for="toggle-campaign-bitcoin">
+                                        <a href="/bounty/#campaign-bitcointalk" data-toggle="tooltip"
+                                           data-placement="bottom" title="Goto BitcoinTalk campaign">
+                                            <i class="fab fa-bitcoin"></i>
+                                        </a>
+                                    </label>
+                                </div>
                             </div>
 
-                            <div class="form-check form-check-inline mr-md-3" data-toggle="tooltip"
-                                 data-placement="bottom" title="Toggle Creative campaign">
-                                <input class="form-check-input" type="checkbox" id="toggle-campaign-creative"
-                                       value="cc" checked>
-                                <label class="form-check-label" for="toggle-campaign-creative">
-                                    <i class="fab fa-creative-commons mr-1"></i>
-                                    <i class="fab fa-youtube mr-1"></i>
-                                    <i class="fab fa-medium mr-1"></i>
-                                </label>
+                            <div class="form-check form-check-inline">
+                                <div class="custom-control custom-switch mr-md-3">
+                                    <input class="custom-control-input" type="checkbox" id="toggle-campaign-creative"
+                                           value="cc" checked>
+                                    <label class="custom-control-label" for="toggle-campaign-creative">
+                                        <a href="/bounty/#campaign-cc" data-toggle="tooltip"
+                                           data-placement="bottom" title="Goto Creative campaign">
+                                            <i class="fab fa-creative-commons mr-1"></i>
+                                            <i class="fab fa-youtube mr-1"></i>
+                                            <i class="fab fa-medium mr-1"></i>
+                                        </a>
+                                    </label>
+                                </div>
                             </div>
                         </form>
                     </div>
