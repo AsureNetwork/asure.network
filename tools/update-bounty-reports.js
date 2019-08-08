@@ -10,9 +10,18 @@ function parseCampaigns(groupedWeek) {
         const campaignGroups = [
             'Twitter Campaign',
             'Telegram Campaign',
+            'Facebook Campaign',
+            'Bitcointalk Campaign',
+            'LinkedIn Campaign',
+            'Reddit Campaign',
+            'Creative Campaign',
         ];
 
         campaignGroups.forEach(campaignGroup => {
+            if (!cur[campaignGroup]) {
+                return;
+            }
+
             cur[campaignGroup].split(',').forEach(campaign => {
                 let normalizedCampaign = campaign.substring(0, campaign.indexOf(':')).trim();
 
