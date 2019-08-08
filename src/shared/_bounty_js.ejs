@@ -8,6 +8,10 @@
         });
     }
 
+    function onlyUnique(value, index, self) {
+        return self.indexOf(value) === index;
+    }
+
     function AsureStorage() {
         this.STORAGE_KEY = 'ASURE-BOUNTY-STATE';
     }
@@ -39,6 +43,8 @@
         self.storage = storage;
         self.bountyTasks = window.bountyTasks;
         self.bountyReports = window.bountyReports;
+
+        self.bountyTypeIds = self.bountyTasks.map(task => task.typeId).filter(onlyUnique);
 
         self.$formEthAddr = $('.form-bounty-eth-addr');
         self.$ethAddr = self.$formEthAddr.find('input');
@@ -86,7 +92,6 @@
         }
 
 
-
         var ethAddrReports = self.bountyReports.data.find(r => r.address === ethAddr);
         if (!ethAddrReports) {
             console.log('No bounty reports for', ethAddr);
@@ -99,16 +104,43 @@
                 .filter(week => week.campaigns.hasOwnProperty(task.id) && week.campaigns[task.id].done)
                 .map(week => ({weekNo: week.weekNo, parsedWeekNo: week.parsedWeekNo}));
 
-            return { task, weekNos};
+            return {task, weekNos};
         });
 
         console.log('Found bounty reports', self.bountyReports.data);
         aggregatedReports.forEach(report => self.updateTaskReport(report));
+
+        self.bountyTypeIds.forEach(typeId => {
+            var summary = aggregatedReports
+                .filter(report => report.task.typeId === typeId && report.weekNos.length > 0)
+                .reduce((summary, report) => {
+                    var task = report.task;
+                    if (task.rewardType === 'Stakes') {
+                        if (task.frequency === 'Weekly') {
+                            summary.totalStakes += Number(task.reward) * report.weekNos.length;
+                        } else {
+                            summary.totalStakes += Number(task.reward);
+                        }
+                    } else if (task.rewardType === 'Tokens') {
+                        console.log("Tokens")
+                    }
+
+                    return summary;
+                }, {totalStakes: 0, totalTokens: 0});
+
+            var badges = [
+                summary.totalStakes > 0 ?
+                    '<span class="badge badge-secondary mr-3">My campaign stakes are ' + summary.totalStakes + '</span>' : '',
+                summary.totalTokens > 0 ?
+                    '<span class="badge badge-secondary">My campaign tokens are' + summary.totalTokens + '</span>' : ''
+            ];
+            $('#campaign-' + typeId).find('.campaign-total-rewards').append(badges.join(''));
+        });
     }
 
     BountyCard.prototype.toggleCampaigns = function toggleCampaigns(campaigns) {
         var self = this;
-        Object.keys(campaigns).forEach(function(typeId) {
+        Object.keys(campaigns).forEach(function (typeId) {
             var isVisible = campaigns[typeId];
             var $toggle = self.$campaignToggles.filter('[value=' + typeId + ']');
             var $campaign = $('[data-campaign=' + typeId + ']');
@@ -123,7 +155,13 @@
         })
     }
 
-    BountyCard.prototype.resetAllTaskReports = function() {
+    BountyCard.prototype.resetAllTaskReports = function () {
+        var self = this;
+
+        self.bountyTypeIds.forEach(typeId => {
+            $('#campaign-' + typeId).find('.campaign-total-rewards').empty();
+        });
+
         self.bountyTasks.forEach(task => {
             var $task = $('[data-taskid=' + task.id + ']');
 
@@ -147,7 +185,7 @@
                 });
 
                 var totalReward = Number(report.task.reward) * report.weekNos.length;
-                $task.find('.task-total-rewards').append('<span class="badge badge-secondary badge-total-reward">Total ' + totalReward + '</span>')
+                $task.find('.task-total-rewards').append('<span class="badge badge-secondary badge-total-reward">My task ' + report.task.rewardType.toLocaleLowerCase() + ' are ' + totalReward + '</span>')
             }
         }
     };
