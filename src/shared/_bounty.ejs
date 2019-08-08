@@ -66,7 +66,7 @@ camelize = function (str) {
                                     <% } %>
                                 </div>
                             </div>
-                            <div class="card-footer">
+                            <div class="card-footer d-flex justify-content-between">
                                 <div>
                                     Reward:
                                     <strong class="task-reward">
@@ -76,6 +76,7 @@ camelize = function (str) {
                                     /
                                     <span class="task-frequency"><%= item.frequency %></span>
                                 </div>
+                                <div class="task-total-rewards"></div>
                             </div>
                         </div>
                     <% }); %>

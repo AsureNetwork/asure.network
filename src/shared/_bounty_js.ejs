@@ -131,6 +131,7 @@
             $task.find('.week-report').each(function () {
                 $(this).removeClass('week-report-completed');
             });
+            $task.find('.task-total-rewards').empty();
         });
     }
 
@@ -139,11 +140,16 @@
 
         if (report.weekNos.length > 0) {
             $task.find('.card-header').addClass('bg-success');
-        }
 
-        report.weekNos.forEach(weekNo => {
-            $task.find('.' + camelize(weekNo.parsedWeekNo)).addClass('week-report-completed');
-        });
+            if (report.task.frequency === 'Weekly') {
+                report.weekNos.forEach(weekNo => {
+                    $task.find('.' + camelize(weekNo.parsedWeekNo)).addClass('week-report-completed');
+                });
+
+                var totalReward = Number(report.task.reward) * report.weekNos.length;
+                $task.find('.task-total-rewards').append('<span class="badge badge-secondary badge-total-reward">Total ' + totalReward + '</span>')
+            }
+        }
     };
 
     $(function () {
