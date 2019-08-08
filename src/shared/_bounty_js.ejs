@@ -84,10 +84,12 @@
 
     BountyCard.prototype.updateBountyReport = function updateBountyReport(ethAddr) {
         var self = this;
+        var $feedback = $('.new-bounty-eth-addr-info');
 
         self.resetAllTaskReports();
 
         if (!ethAddr) {
+            $feedback.text('');
             return;
         }
 
@@ -95,6 +97,7 @@
         var ethAddrReports = self.bountyReports.data.find(r => r.address === ethAddr);
         if (!ethAddrReports) {
             console.log('No bounty reports for', ethAddr);
+            $feedback.text('The provided Ethereum address is currently not registered with the Asure Bounty Program II (Last Update: ' + self.bountyReports.created + ').');
             return;
         }
 
@@ -108,6 +111,8 @@
         });
 
         console.log('Found bounty reports', self.bountyReports.data);
+        $feedback.text('Bounty report loaded for Ethereum address ' + ethAddr + ' (Last Update: ' + self.bountyReports.created + ').');
+
         aggregatedReports.forEach(report => self.updateTaskReport(report));
 
         self.bountyTypeIds.forEach(typeId => {
