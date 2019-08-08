@@ -35,7 +35,7 @@
         "typeId": "airdrop",
         "name": "Airdrop",
         "title": "Registration Airdrop",
-        "description": "Just follow the easy steps in <a href=\"https://forms.gle/kLfbUSbyfjRSZEkU7\" target=\"_blank\">Airdrop form</a>. \n <br/><br/>\n1) Follow Asure Official Twitter:\nhttps://twitter.com/AsureNetwork \n<br/><br/>\n2) Retweet the pinned post and put hashtags:\n#asure #asuretoken $ASR #tge #ico #ieo #crypto #defi #socialsecurity @asurenetwork \n<br/><br/>\n3) Follow Asure Main Telegram:\nhttps://t.me/AsureNetwork \n<br/><br/>\n4) Follow Asure Bounty Telegram:\nhttps://t.me/AsureBounty \n<br/><br/>\n5) Follow us on other social media channels<br/>\nhttps://fb.me/AsureNetwork<br/>\nhttps://medium.com/AsureNetwork<br/>\nhttps://www.linkedin.com/company/asure<br/>\nhttps://www.youtube.com/c/AsureNetwork<br/>\nhttps://www.reddit.com/r/asure<br/>\nhttps://peepeth.com/AsureNetwork\n",
+        "description": "Just follow the easy steps in <a href=\"https://forms.gle/kLfbUSbyfjRSZEkU7\" target=\"_blank\">Airdrop form</a>. \n <br/><br/>\n1) Follow Asure Official Twitter:\n<a href=\"https://twitter.com/AsureNetwork\" target=\"_blank\">https://twitter.com/AsureNetwork</a>\n<br/>\n2) Retweet the pinned post and put hashtags: #asure #asuretoken $ASR #tge #ico #ieo #crypto #defi #socialsecurity @asurenetwork \n<br/>\n3) Follow Asure Main Telegram:\n<a href=\"https://t.me/AsureNetwork\" target=\"_blank\">https://t.me/AsureNetwork</a>\n<br/>\n4) Follow Asure Bounty Telegram:\n<a href=\"https://t.me/AsureBounty\" target=\"_blank\">https://t.me/AsureBounty</a>\n<br/><br/>\n5) Follow us on other social media channels<br/>\n<a href=\"https://fb.me/AsureNetwork\" target=\"_blank\">https://fb.me/AsureNetwork</a><br/>\n<a href=\"https://medium.com/AsureNetwork\" target=\"_blank\">https://medium.com/AsureNetwork</a><br/>\n<a href=\"https://www.linkedin.com/company/asure\" target=\"_blank\">https://www.linkedin.com/company/asure</a><br/>\n<a href=\"https://www.youtube.com/c/AsureNetwork\" target=\"_blank\">https://www.youtube.com/c/AsureNetwork</a><br/>\n<a href=\"https://www.reddit.com/r/asure\" target=\"_blank\">https://www.reddit.com/r/asure</a><br/>\n<a href=\"https://peepeth.com/AsureNetwork\" target=\"_blank\">https://peepeth.com/AsureNetwork</a>\n",
         "rules": [
           "Change in wallet addresses is not permitted, so make sure that you provide the correct details the first time itself. ",
           "Only one account per person. Using multi-accounts, cheating and spamming are strictly forbidden. The ones breaking the rule will be disqualified from the Bounty program without getting any tokens."
@@ -326,7 +326,7 @@
         "id": "BITCOINTALK01",
         "typeId": "bitcointalk",
         "name": "Bitcointalk",
-        "title": "5 Comments",
+        "title": "Comments",
         "description": "5 comments per week telling about our vision or our mainsale TGE (as close to our own words as possible, our vision can be found in our Whitepaper or in our article) and mentioning @AsureNetwork Twitter channel and/or Asure Network website.",
         "rules": [
           "Link to our Whitepaper in English: https://www.asure.network/asure.network.whitepaper.en.pdf",
@@ -488,7 +488,7 @@
         "id": "LINKEDIN09",
         "typeId": "linkedin",
         "name": "Linkedin",
-        "title": "7 Freunde einladen (die die Asure Seite liken)",
+        "title": "Invite Friends (die die Asure Seite liken)",
         "description": "Invite 5 people per week to our main LinkedIn company group, they should like our LinkedIn company group.",
         "rules": [],
         "frequency": "Weekly",
@@ -664,8 +664,8 @@
         "id": "CREATIVE05",
         "typeId": "cc",
         "name": "Creative",
-        "title": "Create a press-release on your own website.",
-        "description": "The information must be as close as possible to the way we describe the project, examples are to be found on our Medium blog.",
+        "title": "Create a press-release on your own website (less 1k)",
+        "description": "The information must be as close as possible to the way we describe the project, examples are to be found on our Medium blog. Less than 5k unique visitors per month.",
         "rules": [
           "Our blog on Medium: https://medium.com/asurenetwork"
         ],
@@ -677,8 +677,8 @@
         "id": "CREATIVE06",
         "typeId": "cc",
         "name": "Creative",
-        "title": "Create a press-release on a well-known website (more than 5k unique visitors per month).",
-        "description": "The information must be as close as possible to the way we describe the project, examples are to be found on our Medium blog.",
+        "title": "Create a press-release on a well-known website (more than 1k)",
+        "description": "The information must be as close as possible to the way we describe the project, examples are to be found on our Medium blog. More than 5k unique visitors per month.",
         "rules": [
           "Our blog on Medium: https://medium.com/asurenetwork"
         ],
@@ -690,11 +690,13 @@
         "id": "CREATIVE07",
         "typeId": "cc",
         "name": "Creative",
-        "title": "Create a blog article about Asure Network containing the images we produced (can be found on our Dropbox).",
-        "description": "Post either on your Medium blog or on your own blog elsewhere.",
+        "title": "Create a blog article about Asure Network. (less 10k)",
+        "description": "Create a blog article about Asure Network containing the images from our Website or Dropbox. Your blog has less than 10k unique views per month.",
         "rules": [
-          "Our blog on Medium: https://medium.com/asurenetwork",
-          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
+          "Write a public post or an article about Asure Network in any language, with at least 300 words and containing 2 links to https://www.asure.network/.",
+          "The website/blog where you post the content has to be relevant and connected to the crypto/financial world.\r",
+          "Your article/blog post has to have good writing quality.",
+          "Use images from our <a href=\"https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0\" target=\"_blank\">Dropbox</a>."
         ],
         "frequency": "Once",
         "reward": "100",
@@ -704,11 +706,13 @@
         "id": "CREATIVE08",
         "typeId": "cc",
         "name": "Creative",
-        "title": "Create a blog article about Asure Network containing the images we produced (can be found on our Dropbox), your blog or website has more than 5k unique visitors per month.",
-        "description": "Post either on your Medium blog or on your own blog elsewhere.",
+        "title": "Create a blog article about Asure Network. (more 10k)",
+        "description": "Create a blog article about Asure Network containing the images from our Website or Dropbox.  Your blog has more than 10k unique visitors per month.",
         "rules": [
-          "Our blog on Medium: https://medium.com/asurenetwork",
-          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
+          "Write a public post or an article about Asure Network in any language, with at least 300 words and containing 2 links to https://www.asure.network/.",
+          "The website/blog where you post the content has to be relevant and connected to the crypto/financial world.\r",
+          "Your article/blog post has to have good writing quality.",
+          "Use images from our <a href=\"https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0\" target=\"_blank\">Dropbox</a>."
         ],
         "frequency": "Once",
         "reward": "1000",

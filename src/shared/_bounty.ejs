@@ -47,7 +47,7 @@ camelize = function (str) {
                                         <div class="card-text">
                                             <ul>
                                                 <% item.rules.forEach(function(rule){ %>
-                                                    <li><%= rule %></li>
+                                                    <li><%- rule %></li>
                                                 <% }); %>
                                             </ul>
                                         </div>
@@ -97,7 +97,7 @@ camelize = function (str) {
 
         <div class="row">
             <div class="col-lg-12">
-                <div class="card mb-4 mt-4">
+                <div class="card mb-4">
                     <div class="card-body">
                         <form class="form-inline form-bounty-eth-addr">
                             <label class="sr-only" for="new-bounty-eth-addr">ETH address</label>
@@ -109,7 +109,7 @@ camelize = function (str) {
                                 <div class="input-group-append">
                                     <button type="submit" id="new-bounty-eth-addr-btn"
                                             class="btn btn-block btn-primary text-uppercase">
-                                        Update Bounty Report
+                                        Load Bounty Report
                                     </button>
                                 </div>
                             </div>
