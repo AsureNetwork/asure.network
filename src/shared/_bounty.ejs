@@ -113,24 +113,28 @@ camelize = function (str) {
                             </small>
                         </form>
 
-                        <form class="form-inline form-toggle-campaigns mt-3">
-                            <div class="form-check form-check-inline">
-                                <div class="form-check form-check-inline mr-md-3">
-                                    <div class="custom-control custom-switch">
-                                        <input type="checkbox" class="custom-control-input" id="toggle-campaign-airdrop"
-                                               value="airdrop" checked>
-                                        <label class="custom-control-label" for="toggle-campaign-airdrop">
-                                            <a href="/bounty/#campaign-airdrop" data-toggle="tooltip"
-                                               data-placement="bottom" title="Goto Airdrop campaign">
-                                                <i class="fas fa-plane"></i>
-                                            </a>
-                                        </label>
-                                    </div>
+                        <form class="form-toggle-campaigns mt-3 d-block d-md-flex flex-wrap justify-content-between">
+                            <div class="d-flex justify-content-between d-md-block" data-toggle-campaign="airdrop">
+                                <div class="custom-control custom-switch">
+                                    <input type="checkbox" class="custom-control-input" id="toggle-campaign-airdrop"
+                                           value="airdrop" checked>
+                                    <label class="custom-control-label" for="toggle-campaign-airdrop">
+                                        <a href="/bounty/#campaign-airdrop" data-toggle="tooltip"
+                                           data-placement="bottom" title="Goto Airdrop campaign">
+                                            <i class="fas fa-plane"></i>
+                                        </a>
+                                    </label>
+                                </div>
+                                <div class="campaign-stakes">
+                                    <span class="text-muted"></span>
+                                </div>
+                                <div class="campaign-tokens">
+                                    <span class="text-muted"></span>
                                 </div>
                             </div>
 
-                            <div class="form-check form-check-inline">
-                                <div class="custom-control custom-switch mr-md-3">
+                            <div class="d-flex justify-content-between d-md-block" data-toggle-campaign="twitter">
+                                <div class="custom-control custom-switch">
                                     <input class="custom-control-input" type="checkbox" id="toggle-campaign-twitter"
                                            value="twitter" checked>
                                     <label class="custom-control-label" for="toggle-campaign-twitter">
@@ -140,10 +144,16 @@ camelize = function (str) {
                                         </a>
                                     </label>
                                 </div>
+                                <div class="campaign-stakes">
+                                    <span class="text-muted"></span>
+                                </div>
+                                <div class="campaign-tokens">
+                                    <span class="text-muted"></span>
+                                </div>
                             </div>
 
-                            <div class="form-check form-check-inline">
-                                <div class="custom-control custom-switch mr-md-3">
+                            <div class="d-flex justify-content-between d-md-block" data-toggle-campaign="telegram">
+                                <div class="custom-control custom-switch">
                                     <input class="custom-control-input" type="checkbox" id="toggle-campaign-telegram"
                                            value="telegram" checked>
                                     <label class="custom-control-label" for="toggle-campaign-telegram">
@@ -153,10 +163,16 @@ camelize = function (str) {
                                         </a>
                                     </label>
                                 </div>
+                                <div class="campaign-stakes">
+                                    <span class="text-muted"></span>
+                                </div>
+                                <div class="campaign-tokens">
+                                    <span class="text-muted"></span>
+                                </div>
                             </div>
 
-                            <div class="form-check form-check-inline">
-                                <div class="custom-control custom-switch mr-md-3">
+                            <div class="d-flex justify-content-between d-md-block" data-toggle-campaign="facebook">
+                                <div class="custom-control custom-switch">
                                     <input class="custom-control-input" type="checkbox" id="toggle-campaign-facebook"
                                            value="facebook" checked>
                                     <label class="custom-control-label" for="toggle-campaign-facebook">
@@ -166,10 +182,16 @@ camelize = function (str) {
                                         </a>
                                     </label>
                                 </div>
+                                <div class="campaign-stakes">
+                                    <span class="text-muted"></span>
+                                </div>
+                                <div class="campaign-tokens">
+                                    <span class="text-muted"></span>
+                                </div>
                             </div>
 
-                            <div class="form-check form-check-inline">
-                                <div class="custom-control custom-switch mr-md-3">
+                            <div class="d-flex justify-content-between d-md-block" data-toggle-campaign="linkedin">
+                                <div class="custom-control custom-switch">
                                     <input class="custom-control-input" type="checkbox" id="toggle-campaign-linkedin"
                                            value="linkedin" checked>
                                     <label class="custom-control-label" for="toggle-campaign-linkedin">
@@ -179,10 +201,16 @@ camelize = function (str) {
                                         </a>
                                     </label>
                                 </div>
+                                <div class="campaign-stakes">
+                                    <span class="text-muted"></span>
+                                </div>
+                                <div class="campaign-tokens">
+                                    <span class="text-muted"></span>
+                                </div>
                             </div>
 
-                            <div class="form-check form-check-inline">
-                                <div class="custom-control custom-switch mr-md-3">
+                            <div class="d-flex justify-content-between d-md-block" data-toggle-campaign="reddit">
+                                <div class="custom-control custom-switch">
                                     <input class="custom-control-input" type="checkbox" id="toggle-campaign-reddit"
                                            value="reddit" checked>
                                     <label class="custom-control-label" for="toggle-campaign-reddit">
@@ -192,10 +220,16 @@ camelize = function (str) {
                                         </a>
                                     </label>
                                 </div>
+                                <div class="campaign-stakes">
+                                    <span class="text-muted"></span>
+                                </div>
+                                <div class="campaign-tokens">
+                                    <span class="text-muted"></span>
+                                </div>
                             </div>
 
-                            <div class="form-check form-check-inline">
-                                <div class="custom-control custom-switch mr-md-3">
+                            <div class="d-flex justify-content-between d-md-block" data-toggle-campaign="bitcointalk">
+                                <div class="custom-control custom-switch">
                                     <input class="custom-control-input" type="checkbox" id="toggle-campaign-bitcoin"
                                            value="bitcointalk" checked>
                                     <label class="custom-control-label" for="toggle-campaign-bitcoin">
@@ -205,10 +239,16 @@ camelize = function (str) {
                                         </a>
                                     </label>
                                 </div>
+                                <div class="campaign-stakes">
+                                    <span class="text-muted"></span>
+                                </div>
+                                <div class="campaign-tokens">
+                                    <span class="text-muted"></span>
+                                </div>
                             </div>
 
-                            <div class="form-check form-check-inline">
-                                <div class="custom-control custom-switch mr-md-3">
+                            <div class="d-flex justify-content-between d-md-block" data-toggle-campaign="cc">
+                                <div class="custom-control custom-switch">
                                     <input class="custom-control-input" type="checkbox" id="toggle-campaign-creative"
                                            value="cc" checked>
                                     <label class="custom-control-label" for="toggle-campaign-creative">
@@ -219,6 +259,24 @@ camelize = function (str) {
                                             <i class="fab fa-medium mr-1"></i>
                                         </a>
                                     </label>
+                                </div>
+                                <div class="campaign-stakes">
+                                    <span class="text-muted"></span>
+                                </div>
+                                <div class="campaign-tokens">
+                                    <span class="text-muted"></span>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-between d-md-block">
+                                <div>
+                                    <strong>Total</strong>
+                                </div>
+                                <div class="campaign-stakes-total">
+                                    <strong></strong>
+                                </div>
+                                <div class="campaign-tokens-total">
+                                    <strong></strong>
                                 </div>
                             </div>
                         </form>

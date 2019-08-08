@@ -114,9 +114,41 @@
         $feedback.text('Bounty report loaded for Ethereum address ' + ethAddr + '. Last Update: ' + self.bountyReports.created + '.');
 
         aggregatedReports.forEach(report => self.updateTaskReport(report));
+        self.updateRewardSummaries(aggregatedReports);
+    }
 
-        self.bountyTypeIds.forEach(typeId => {
-            var summary = aggregatedReports
+    BountyCard.prototype.updateRewardSummaries = function updateRewardSummaries(reports) {
+        var self = this;
+        var campaignSummaries = self.calcCampaignSummaries(reports);
+        campaignSummaries.forEach(campaignSummary => {
+            var badges = [
+                campaignSummary.totalStakes > 0 ?
+                    '<span class="badge badge-secondary mr-3">My campaign stakes are ' + campaignSummary.totalStakes + '</span>' : '',
+                campaignSummary.totalTokens > 0 ?
+                    '<span class="badge badge-secondary">My campaign tokens are' + campaignSummary.totalTokens + '</span>' : ''
+            ];
+            $('#campaign-' + campaignSummary.typeId).find('.campaign-total-rewards').append(badges.join(''));
+
+            var $toggleCampaign = $('[data-toggle-campaign=' + campaignSummary.typeId + ']');
+            $toggleCampaign.find('.campaign-stakes span').text(campaignSummary.totalStakes + ' stakes');
+            $toggleCampaign.find('.campaign-tokens span').text(campaignSummary.totalTokens + ' tokens');
+        });
+
+        var programSummary = campaignSummaries.reduce((programSummary, summary) => {
+            programSummary.totalStakes += summary.totalStakes;
+            programSummary.totalTokens += summary.totalTokens;
+            return programSummary;
+        }, {totalStakes: 0, totalTokens: 0});
+
+        $('.campaign-stakes-total strong').text(programSummary.totalStakes + ' stakes');
+        $('.campaign-tokens-total strong').text(programSummary.totalTokens + ' tokens');
+    };
+
+    BountyCard.prototype.calcCampaignSummaries = function calcCampaignSummaries(reports) {
+        var self = this;
+
+        return self.bountyTypeIds.map(typeId => {
+            return reports
                 .filter(report => report.task.typeId === typeId && report.weekNos.length > 0)
                 .reduce((summary, report) => {
                     var task = report.task;
@@ -131,15 +163,7 @@
                     }
 
                     return summary;
-                }, {totalStakes: 0, totalTokens: 0});
-
-            var badges = [
-                summary.totalStakes > 0 ?
-                    '<span class="badge badge-secondary mr-3">My campaign stakes are ' + summary.totalStakes + '</span>' : '',
-                summary.totalTokens > 0 ?
-                    '<span class="badge badge-secondary">My campaign tokens are' + summary.totalTokens + '</span>' : ''
-            ];
-            $('#campaign-' + typeId).find('.campaign-total-rewards').append(badges.join(''));
+                }, {typeId: typeId, totalStakes: 0, totalTokens: 0});
         });
     }
 
@@ -165,7 +189,14 @@
 
         self.bountyTypeIds.forEach(typeId => {
             $('#campaign-' + typeId).find('.campaign-total-rewards').empty();
+
+            var $toggleCampaign = $('[data-toggle-campaign=' + typeId + ']');
+            $toggleCampaign.find('.campaign-stakes span').text('');
+            $toggleCampaign.find('.campaign-tokens span').text('');
         });
+
+        $('.campaign-stakes-total strong').text('');
+        $('.campaign-tokens-total strong').text('');
 
         self.bountyTasks.forEach(task => {
             var $task = $('[data-taskid=' + task.id + ']');
