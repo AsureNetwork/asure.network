@@ -70,7 +70,7 @@ function parseWeekNo(weekNo) {
 function transformData(input) {
     const groupedByAddr = _.groupBy(input, 'ERC-20 Wallet Address');
 
-    return Object.keys(groupedByAddr).map(addr => {
+    const reports = Object.keys(groupedByAddr).map(addr => {
         const groupedWeek = _.groupBy(groupedByAddr[addr], 'Week Number');
         return {
             address: addr,
@@ -83,6 +83,14 @@ function transformData(input) {
             })
         };
     });
+
+    // Every Ethereum address that used the report form
+    // is part of the airdrop campaign too.
+    reports.forEach(report => {
+        report.weeks[0].campaigns['AIRDROP01'] = {done: true};
+    });
+
+    return reports;
 }
 
 function printStatistics(transformedData) {
@@ -108,7 +116,7 @@ function updateHarpData(bountyReports) {
 
     harpData.index.bountyReports = bountyReports;
 
-    fs.writeFileSync(harpDataFile, JSON.stringify(harpData,null, 2));
+    fs.writeFileSync(harpDataFile, JSON.stringify(harpData, null, 2));
 }
 
 (async () => {

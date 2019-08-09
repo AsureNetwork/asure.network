@@ -762,7 +762,7 @@
       }
     ],
     "bountyReports": {
-      "created": "2019-08-08T16:45:53.389Z",
+      "created": "2019-08-09T10:47:22.234Z",
       "weekNos": [
         "Week 34",
         "Week 35",
@@ -805,6 +805,9 @@
                   "done": true
                 },
                 "TELEGRAM03": {
+                  "done": true
+                },
+                "AIRDROP01": {
                   "done": true
                 }
               }
