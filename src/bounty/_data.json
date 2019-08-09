@@ -387,13 +387,42 @@
         "id": "BITCOINTALK04",
         "typeId": "bitcointalk",
         "name": "Bitcointalk",
-        "title": "Signatures",
-        "description": "Create an original BB code or Text signature containing the link to Asure Network website.",
+        "title": "Signatures JR MEMBER",
+        "description": "Use this BB code signature\n<pre>\n[center]ASURE NETWORK● ●●●●●●●●●● https://asure.network ●●●●●●●●●● ●\n● First scalable decentralized social security network ●[/center]\n</pre>",
         "rules": [
+          "You must keep the signature until the campaign ends. Early removal will result in disqualification.",
           "Link to Asure Network website: https://www.asure.network/"
         ],
         "frequency": "Weekly",
-        "reward": "10",
+        "reward": "7",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "BITCOINTALK05",
+        "typeId": "bitcointalk",
+        "name": "Bitcointalk",
+        "title": "Signatures MEMBER",
+        "description": "Use this BB code signature\n<pre>\n[center]     [url=https://twitter.com/AsureNetwork]Twitter[/url]  ● -                                                                                                                          - ●  [url=https://bitcointalk.org/index.php?topic=5144579]ANN[/url]     \r\n   [   ●●●●● [url=https://asure.network]ASURE NETWORK[/url] ●●●●●   ]  ●  First scalable decentralized social security network ●  ]\r\n [url=https://t.me/AsureNetwork]Telegram[/url]  ● -                                                                                                                          - ●  [url=https://bitcointalk.org/index.php?topic=BOUNTY_NR]Bounty[/url][/center]\n</pre>",
+        "rules": [
+          "You must keep the signature until the campaign ends. Early removal will result in disqualification.",
+          "Link to Asure Network website: https://www.asure.network/"
+        ],
+        "frequency": "Weekly",
+        "reward": "20",
+        "rewardType": "Stakes"
+      },
+      {
+        "id": "BITCOINTALK06",
+        "typeId": "bitcointalk",
+        "name": "Bitcointalk",
+        "title": "Signatures FULL MEMBER - HERO",
+        "description": "Use this BB code signature\n<pre>\n[center]  [url=https://twitter.com/AsureNetwork][b][color=#69acd6]Twitter[/color][/b][/url]           ● -                                                                                                                                      - ●  [url=https://bitcointalk.org/index.php?topic=5144579][b][color=#69acd6]ANN[/color][/b][/url]     \r\n         [   ●●●●● [url=https://asure.network][b][color=#69acd6]ASURE NETWORK[/color][/b][/url] ●●●●●   ]  ●  [b][color=#28c9a4]First scalable decentralized social security network[/color][/b] ●  ]\r\n[url=https://t.me/AsureNetwork][b][color=#69acd6]Telegram[/color][/b][/url]        ● -  [color=#58c9c4]●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●[/color] ●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●  - ●  [url=https://bitcointalk.org/index.php?topic=BOUNTY_NR][b][color=#69acd6]Bounty[/color][/b][/url][/center]\n</pre>",
+        "rules": [
+          "You must keep the signature until the campaign ends. Early removal will result in disqualification.",
+          "Link to Asure Network website: https://www.asure.network/"
+        ],
+        "frequency": "Weekly",
+        "reward": "50",
         "rewardType": "Stakes"
       },
       {

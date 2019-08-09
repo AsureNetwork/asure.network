@@ -3,11 +3,10 @@
 var sections = public.bounty._data.index.ui.filter(data => data.typeId == typeId)
 var name = sections[0].name;
 %>
-[hr]
 [size=18pt][b]<%= name %>[/b][/size]
     <% sections.forEach(function(item){ %>
 [size=12pt][b]<%= item.id %>[/b][/size]: [size=12pt]<%= item.title %>[/size]
-<%= item.description %>
+<%= item.description.replace('<pre>','[code]').replace('</pre>','[/code]') %>
 [size=12pt]Reward: [b]<%= item.reward %>[/b] <%= item.rewardType %> / <%= item.frequency %>[/size]
     <% }); %>
 
@@ -26,7 +25,7 @@ var name = sections[0].name;
                 [img][/img]
                 <pre>
                 <%
-print_bitcointalk("airdrop");
+
 print_bitcointalk("facebook");
 print_bitcointalk("twitter");
 print_bitcointalk("telegram");
@@ -35,6 +34,27 @@ print_bitcointalk("bitcointalk");
 print_bitcointalk("reddit");
 print_bitcointalk("cc");
                 %>
+
+
+[size=18pt][b]Rules[/b][/size]
+
+[li]We reserve the right to limit the number of participants in the campaigns at any time.[/li]
+[li]We reserve the right to change the conditions of our bounty campaign at any time.[/li]
+[li]Only one account per person. Using multi-accounts, cheating and spamming are strictly forbidden.[/li]
+[li]Your payment address cannot be changed. Once you apply, your address will be locked. (Every participant is responsible for the protection of his/her payment address and private keys).[/li]
+[li]You need to join our Bounty Telegram group in order to participate in the Asure Bounty program.[/li]
+[li]Without joining the telegram group, you will not be counted on any Bounty.[/li]
+[li]The Telegram link is: https://t.me/AsureNetwork[/li]
+[li]The Bounty Telegram link is: https://t.me/AsureBounty[/li]
+[li]Any users who get their Bitcointalk/Facebook/Twitter account banned will lose ALL stakes. Please use your accounts responsibly.[/li]
+[li]The ones breaking the rule will be disqualified from the Bounty program without getting any tokens.[/li]
+[li]We reserve the right to disqualify any user at any time.[/li]
+[li]You accept, that we can repost your post in our publications.[/li]
+[li]By signing up for the bounty, you accept these terms.[/li]
+
+
+Note: ALL BOUNTY RELATED QUESTIONS MUST BE ASKED ONLY IN OUR BOUNTY GROUP HERE: https://t.me/AsureBounty
+
                 </pre>
             </div>
         </div>
