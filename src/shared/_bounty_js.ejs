@@ -159,6 +159,7 @@
             return programSummary;
         }, {totalStakes: 0, totalTokens: 0});
 
+        $('.campaign-total-title').show();
         $('.campaign-stakes-total strong').text(programSummary.totalStakes + ' stakes');
         $('.campaign-tokens-total strong').text(programSummary.totalTokens + ' tokens');
     };
@@ -216,6 +217,7 @@
             $toggleCampaign.find('.campaign-tokens span').text('');
         });
 
+        $('.campaign-total-title').hide();
         $('.campaign-stakes-total strong').text('');
         $('.campaign-tokens-total strong').text('');
 
