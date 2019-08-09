@@ -109,7 +109,8 @@
         var ethAddrReports = self.bountyReports.data.find(r => r.address === ethAddr);
         if (!ethAddrReports) {
             console.log('No bounty reports for', ethAddr);
-            $feedback.text('The provided Ethereum address is currently not registered with the Asure Bounty Program II. Last Update: ' + self.bountyReports.created + '.');
+            $feedback.text('The provided Ethereum address has no weekly reports in the Asure Bounty Program II yet. Last Update: ' + self.bountyReports.created + '.');
+            self.updateBountyProrgam1Summary(ethAddr);
             return;
         }
 
@@ -162,12 +163,15 @@
         $('.campaign-total-title').show();
         $('.campaign-stakes-total strong').text(programSummary.totalStakes + ' stakes');
         $('.campaign-tokens-total strong').text(programSummary.totalTokens + ' tokens');
+        self.updateBountyProrgam1Summary(ethAddr);
+    };
 
+    BountyCard.prototype.updateBountyProrgam1Summary = function updateBountyReport1(ethAddr) {
         if (window.bountyProgram1Results.hasOwnProperty(ethAddr)) {
             $('.campaign-tokens-bounty1 span').text(window.bountyProgram1Results[ethAddr]);
             $('.campaign-tokens-bounty1').show();
         }
-    };
+    }
 
     BountyCard.prototype.calcCampaignSummaries = function calcCampaignSummaries(reports) {
         var self = this;
