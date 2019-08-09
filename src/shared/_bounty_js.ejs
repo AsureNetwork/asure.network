@@ -144,10 +144,10 @@
             var $toggleCampaign = $('[data-toggle-campaign=' + campaignSummary.typeId + ']');
             $toggleCampaign.find('.campaign-stakes span').text(campaignSummary.totalStakes + ' stakes');
             $toggleCampaign.find('.campaign-tokens span').text(campaignSummary.totalTokens + ' tokens');
-            if (campaignSummary.totalStakes == 0) {
+            if (campaignSummary.totalStakes === 0) {
                 $toggleCampaign.find('.campaign-stakes span').hide();
             }
-            if (campaignSummary.totalTokens == 0) {
+            if (campaignSummary.totalTokens === 0) {
                 $toggleCampaign.find('.campaign-tokens span').hide();
             }
 
@@ -244,7 +244,7 @@
 
                 totalReward = Number(report.task.reward) * report.weekNos.length;
                 $task.find('.task-total-rewards').append('<span class="badge badge-secondary badge-total-reward">My task ' + report.task.rewardType.toLocaleLowerCase() + ' are ' + totalReward + '</span>')
-            } else if (report.task.frequency === 'Submission') {
+            } else if (report.task.frequency === 'Submission' || report.task.frequency === 'Unique') {
                 totalReward = Number(report.task.reward) * report.weekNos.length;
                 $task.find('.task-total-rewards').append('<span class="badge badge-secondary badge-total-reward">My task ' + report.task.rewardType.toLocaleLowerCase() + ' are ' + totalReward + '</span>')
             }
