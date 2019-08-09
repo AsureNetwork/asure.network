@@ -762,7 +762,7 @@
       }
     ],
     "bountyReports": {
-      "created": "2019-08-07T14:58:19.073Z",
+      "created": "2019-08-08T16:45:53.389Z",
       "weekNos": [
         "Week 34",
         "Week 35",
@@ -805,6 +805,162 @@
                   "done": true
                 },
                 "TELEGRAM03": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 35 - August 26, 2019 - September 1, 2019",
+              "parsedWeekNo": "Week 35",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM01": {
+                  "done": true
+                },
+                "TELEGRAM02": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "TELEGRAM05": {
+                  "done": true
+                },
+                "TELEGRAM06": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "BITCOINTALK01": {
+                  "done": true
+                },
+                "BITCOINTALK02": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "BITCOINTALK04": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "LINKEDIN09": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                },
+                "REDDIT08": {
+                  "done": true
+                },
+                "CREATIVE01": {
+                  "done": true
+                },
+                "CREATIVE02": {
+                  "done": true
+                },
+                "CREATIVE03": {
+                  "done": true
+                },
+                "CREATIVE04": {
+                  "done": true
+                },
+                "CREATIVE05": {
+                  "done": true
+                },
+                "CREATIVE06": {
+                  "done": true
+                },
+                "CREATIVE07": {
+                  "done": true
+                },
+                "CREATIVE08": {
+                  "done": true
+                },
+                "CREATIVE09": {
                   "done": true
                 }
               }
