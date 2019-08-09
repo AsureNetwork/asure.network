@@ -126,10 +126,10 @@
         $feedback.text('Bounty report loaded for Ethereum address ' + ethAddr + '. Last Update: ' + self.bountyReports.created + '.');
 
         aggregatedReports.forEach(report => self.updateTaskReport(report));
-        self.updateRewardSummaries(aggregatedReports);
+        self.updateRewardSummaries(aggregatedReports, ethAddr);
     }
 
-    BountyCard.prototype.updateRewardSummaries = function updateRewardSummaries(reports) {
+    BountyCard.prototype.updateRewardSummaries = function updateRewardSummaries(reports, ethAddr) {
         var self = this;
         var campaignSummaries = self.calcCampaignSummaries(reports);
         campaignSummaries.forEach(campaignSummary => {
@@ -162,6 +162,11 @@
         $('.campaign-total-title').show();
         $('.campaign-stakes-total strong').text(programSummary.totalStakes + ' stakes');
         $('.campaign-tokens-total strong').text(programSummary.totalTokens + ' tokens');
+
+        if (window.bountyProgram1Results.hasOwnProperty(ethAddr)) {
+            $('.campaign-tokens-bounty1 span').text(window.bountyProgram1Results[ethAddr]);
+            $('.campaign-tokens-bounty1').show();
+        }
     };
 
     BountyCard.prototype.calcCampaignSummaries = function calcCampaignSummaries(reports) {
@@ -220,6 +225,7 @@
         $('.campaign-total-title').hide();
         $('.campaign-stakes-total strong').text('');
         $('.campaign-tokens-total strong').text('');
+        $('.campaign-tokens-bounty1').hide();
 
         self.bountyTasks.forEach(task => {
             var $task = $('[data-taskid=' + task.id + ']');
