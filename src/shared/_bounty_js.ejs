@@ -47,7 +47,10 @@
         self.bountyTypeIds = self.bountyTasks.map(task => task.typeId).filter(onlyUnique);
 
         self.$formEthAddr = $('.form-bounty-eth-addr');
+        self.$ethText = self.$formEthAddr.find('a');
+        self.$ethTextView = self.$formEthAddr.find('.new-bounty-eth-addr-text-div');
         self.$ethAddr = self.$formEthAddr.find('input');
+        self.$ethAddrView = self.$formEthAddr.find('.new-bounty-eth-addr-input-div');
         self.$check = self.$formEthAddr.find('button');
 
         self.$check.click(function (evt) {
@@ -55,6 +58,13 @@
             var ethAddr = self.$ethAddr.val();
             self.storage.update(store => store.ethAddr = ethAddr);
             self.updateBountyReport(ethAddr);
+            self.$ethTextView.show();
+            self.$ethAddrView.hide();
+        });
+        self.$ethText.click(function (evt) {
+            evt.preventDefault();
+            self.$ethTextView.hide();
+            self.$ethAddrView.show();
         });
 
         self.$campaignToggles = $('.form-toggle-campaigns input');
@@ -77,7 +87,6 @@
 
         this.$ethAddr.val(store.ethAddr);
 
-
         this.toggleCampaigns(store.toggledCampaings);
         this.updateBountyReport(store.ethAddr);
     };
@@ -88,11 +97,14 @@
 
         self.resetAllTaskReports();
 
-        if (!ethAddr) {
+        if (ethAddr === '') {
             $feedback.text('');
             return;
+        }else{
+            self.$ethText.text(ethAddr);
+            self.$ethTextView.show();
+            self.$ethAddrView.hide();
         }
-
 
         var ethAddrReports = self.bountyReports.data.find(r => r.address === ethAddr);
         if (!ethAddrReports) {
@@ -132,6 +144,13 @@
             var $toggleCampaign = $('[data-toggle-campaign=' + campaignSummary.typeId + ']');
             $toggleCampaign.find('.campaign-stakes span').text(campaignSummary.totalStakes + ' stakes');
             $toggleCampaign.find('.campaign-tokens span').text(campaignSummary.totalTokens + ' tokens');
+            if (campaignSummary.totalStakes == 0) {
+                $toggleCampaign.find('.campaign-stakes span').hide();
+            }
+            if (campaignSummary.totalTokens == 0) {
+                $toggleCampaign.find('.campaign-tokens span').hide();
+            }
+
         });
 
         var programSummary = campaignSummaries.reduce((programSummary, summary) => {
