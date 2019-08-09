@@ -174,7 +174,7 @@
         "id": "TELEGRAM04",
         "typeId": "telegram",
         "name": "Telegram",
-        "title": "Post about Asure Network in another crypto-related Telegram group [1k - 10k members]",
+        "title": "Post about Asure Network in another crypto-related Telegram group [10k - 50k members]",
         "description": "Post information about Asure Network containing the images we produced in other crypto-related Telegram groups with a short description of our project.",
         "rules": [
           "Add link to Asure Network website: https://www.asure.network/",
@@ -190,7 +190,7 @@
         "id": "TELEGRAM05",
         "typeId": "telegram",
         "name": "Telegram",
-        "title": "Post about Asure Network in another crypto-related Telegram group [more than 10k members]",
+        "title": "Post about Asure Network in another crypto-related Telegram group [more than 50k members]",
         "description": "Post information about Asure Network containing the images we produced in other crypto-related Telegram groups with a short description of our project.",
         "rules": [
           "Add link to Asure Network website: https://www.asure.network/",
@@ -633,7 +633,7 @@
         "id": "CREATIVE03",
         "typeId": "cc",
         "name": "Creative",
-        "title": "Create a Video on Youtube [more than 100k followers ]",
+        "title": "Create a Video on Youtube [more than 100k followers]",
         "description": "Create and upload an original video review of the Asure Network project.\nIt should be clear from the video what the Asure Project vision is about  (our vision can be found in our Whitepaper or in our article).",
         "rules": [
           "Add link to Asure Network website: https://www.asure.network/",
