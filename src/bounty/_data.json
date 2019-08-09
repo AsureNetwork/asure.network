@@ -574,20 +574,6 @@
         "id": "REDDIT06",
         "typeId": "reddit",
         "name": "Reddit",
-        "title": "Post in another crypto-related subreddit [10k - 50k members]",
-        "description": "Post information about Asure Network containing the images we produced, in other crypto-related Facebook groups with a short description of our project.",
-        "rules": [
-          "Images for the posts can be found on Asure Network Dropbox.",
-          "Asure Network Dropbox: https://www.dropbox.com/sh/46std9u0knlq2cz/AAAR3N1LiMs0vG0ZqWf7RSj9a?dl=0"
-        ],
-        "frequency": "Weekly",
-        "reward": "50",
-        "rewardType": "Stakes"
-      },
-      {
-        "id": "REDDIT07",
-        "typeId": "reddit",
-        "name": "Reddit",
         "title": "Post in another crypto-related subreddit [50k - 100k members]",
         "description": "Post information about Asure Network containing the images we produced, in other crypto-related Facebook groups with a short description of our project.",
         "rules": [
@@ -599,7 +585,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "REDDIT08",
+        "id": "REDDIT07",
         "typeId": "reddit",
         "name": "Reddit",
         "title": "Post in another crypto-related subreddit [more than 100k members]",
@@ -631,22 +617,6 @@
         "id": "CREATIVE02",
         "typeId": "cc",
         "name": "Creative",
-        "title": "Create a Video on Youtube [1k - 20k followers]",
-        "description": "Create and upload an original video review of the Asure Network project.\nIt should be clear from the video what the Asure Project vision is about  (our vision can be found in our Whitepaper or in our article).",
-        "rules": [
-          "Add link to Asure Network website: https://www.asure.network/",
-          "Link to our Whitepaper in English: https://www.asure.network/asure.network.whitepaper.en.pdf",
-          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb",
-          "Maximum of 5 submissions per user"
-        ],
-        "frequency": "Submission",
-        "reward": "1000",
-        "rewardType": "Tokens"
-      },
-      {
-        "id": "CREATIVE03",
-        "typeId": "cc",
-        "name": "Creative",
         "title": "Create a Video on Youtube [20k - 100k followers]",
         "description": "Create and upload an original video review of the Asure Network project.\nIt should be clear from the video what the Asure Project vision is about  (our vision can be found in our Whitepaper or in our article).",
         "rules": [
@@ -660,7 +630,7 @@
         "rewardType": "Tokens"
       },
       {
-        "id": "CREATIVE04",
+        "id": "CREATIVE03",
         "typeId": "cc",
         "name": "Creative",
         "title": "Create a Video on Youtube [more than 100k followers ]",
@@ -676,7 +646,7 @@
         "rewardType": "Tokens"
       },
       {
-        "id": "CREATIVE05",
+        "id": "CREATIVE04",
         "typeId": "cc",
         "name": "Creative",
         "title": "Comments",
@@ -687,7 +657,7 @@
         "rewardType": "Stakes"
       },
       {
-        "id": "CREATIVE06",
+        "id": "CREATIVE05",
         "typeId": "cc",
         "name": "Creative",
         "title": "Create a blog-post/press-release on your own website/blog",
@@ -701,7 +671,7 @@
         "rewardType": "Tokens"
       },
       {
-        "id": "CREATIVE07",
+        "id": "CREATIVE06",
         "typeId": "cc",
         "name": "Creative",
         "title": "Create a blog-post/press-release on a well-known website [more than 100k views/month]",
@@ -715,7 +685,7 @@
         "rewardType": "Tokens"
       },
       {
-        "id": "CREATIVE08",
+        "id": "CREATIVE07",
         "typeId": "cc",
         "name": "Creative",
         "title": "Translate documents",
@@ -728,7 +698,7 @@
         "rewardType": "Tokens"
       },
       {
-        "id": "CREATIVE09",
+        "id": "CREATIVE08",
         "typeId": "cc",
         "name": "Creative",
         "title": "Translate unformatted content",
