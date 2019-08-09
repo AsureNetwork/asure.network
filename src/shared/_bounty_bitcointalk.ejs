@@ -1,0 +1,45 @@
+
+<% print_bitcointalk = function (typeId) {
+var sections = public.bounty._data.index.ui.filter(data => data.typeId == typeId)
+var name = sections[0].name;
+%>
+[hr]
+[size=18pt][b]<%= name %>[/b][/size]
+    <% sections.forEach(function(item){ %>
+[size=12pt][b]<%= item.id %>[/b][/size]: [size=12pt]<%= item.title %>[/size]
+<%= item.description %>
+[size=12pt]Reward: [b]<%= item.reward %>[/b] <%= item.rewardType %> / <%= item.frequency %>[/size]
+    <% }); %>
+
+<% } %>
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card mt-4">
+            <div class="card-header">
+                <h5>Bitcointalk</h5>
+            </div>
+            <div class="card-body ">
+                [size=32px][b]Welcome to the Asure Bounty Programm II[/b][/size]<br/>
+                <br/>
+                [img][/img]
+                <pre>
+                <%
+print_bitcointalk("airdrop");
+print_bitcointalk("facebook");
+print_bitcointalk("twitter");
+print_bitcointalk("telegram");
+print_bitcointalk("linkedin");
+print_bitcointalk("bitcointalk");
+print_bitcointalk("reddit");
+print_bitcointalk("cc");
+                %>
+                </pre>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

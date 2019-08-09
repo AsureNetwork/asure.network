@@ -85,6 +85,7 @@ camelize = function (str) {
 </div>
 <% } %>
 
+
 <section class="blc-bounty bg-white-blue">
     <div class="container">
         <div class="head m-0">
@@ -136,6 +137,25 @@ camelize = function (str) {
                                 </div>
                             </div>
 
+                            <div class="d-flex justify-content-between d-md-block" data-toggle-campaign="facebook">
+                                <div class="custom-control custom-switch">
+                                    <input class="custom-control-input" type="checkbox" id="toggle-campaign-facebook"
+                                           value="facebook" checked>
+                                    <label class="custom-control-label" for="toggle-campaign-facebook">
+                                        <a href="/bounty/#campaign-facebook" data-toggle="tooltip"
+                                           data-placement="bottom" title="Goto Facebook campaign">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                    </label>
+                                </div>
+                                <div class="campaign-stakes">
+                                    <span class="text-muted"></span>
+                                </div>
+                                <div class="campaign-tokens">
+                                    <span class="text-muted"></span>
+                                </div>
+                            </div>
+
                             <div class="d-flex justify-content-between d-md-block" data-toggle-campaign="twitter">
                                 <div class="custom-control custom-switch">
                                     <input class="custom-control-input" type="checkbox" id="toggle-campaign-twitter"
@@ -163,25 +183,6 @@ camelize = function (str) {
                                         <a href="/bounty/#campaign-telegram" data-toggle="tooltip"
                                            data-placement="bottom" title="Goto Telegram campaign">
                                             <i class="fab fa-telegram"></i>
-                                        </a>
-                                    </label>
-                                </div>
-                                <div class="campaign-stakes">
-                                    <span class="text-muted"></span>
-                                </div>
-                                <div class="campaign-tokens">
-                                    <span class="text-muted"></span>
-                                </div>
-                            </div>
-
-                            <div class="d-flex justify-content-between d-md-block" data-toggle-campaign="facebook">
-                                <div class="custom-control custom-switch">
-                                    <input class="custom-control-input" type="checkbox" id="toggle-campaign-facebook"
-                                           value="facebook" checked>
-                                    <label class="custom-control-label" for="toggle-campaign-facebook">
-                                        <a href="/bounty/#campaign-facebook" data-toggle="tooltip"
-                                           data-placement="bottom" title="Goto Facebook campaign">
-                                            <i class="fab fa-facebook"></i>
                                         </a>
                                     </label>
                                 </div>
@@ -288,13 +289,14 @@ camelize = function (str) {
             </div>
         </div>
     </div>
+
     <%= print_section("airdrop") %>
+
+    <%= print_section("facebook") %>
 
     <%= print_section("twitter") %>
 
     <%= print_section("telegram") %>
-
-    <%= print_section("facebook") %>
 
     <%= print_section("linkedin") %>
 

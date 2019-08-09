@@ -1424,9 +1424,20 @@ span[data-toggle="popover"] {
     }
   }
 
+  &.blc-campaign-facebook {
+    //background-color: #3C5A99;
+    background-color: $blue8;
+
+    .head {
+      h2, small {
+        color: #fff;
+      }
+    }
+  }
+
   &.blc-campaign-twitter {
     //background-color: #1da1f2;
-    background-color: $blue8;
+    background-color: $blue7;
 
     .head {
       h2, small {
@@ -1437,17 +1448,6 @@ span[data-toggle="popover"] {
 
   &.blc-campaign-telegram {
     //background-color: #0088cc;
-    background-color: $blue7;
-
-    .head {
-      h2, small {
-        color: #fff;
-      }
-    }
-  }
-
-  &.blc-campaign-facebook {
-    //background-color: #3C5A99;
     background-color: $blue6;
 
     .head {
@@ -1456,8 +1456,6 @@ span[data-toggle="popover"] {
       }
     }
   }
-
-
 
   &.blc-campaign-linkedin {
     //background-color: #0077b5;
