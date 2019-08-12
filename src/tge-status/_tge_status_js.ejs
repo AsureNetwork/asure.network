@@ -42,7 +42,7 @@
         return new ethers.Contract(address, abi, provider);
     }
 
-    function createPreSaleContract(providerOrSigner, crowdsaleData) {
+    function createMainSaleContract(providerOrSigner, crowdsaleData) {
         var abi = tgeContractsAbis.AsureCrowdsale;
         var address = crowdsaleData.addr;
 
@@ -69,8 +69,8 @@
         });
     }
 
-    function buyTokens(preSale, beneficiary, ethAmount) {
-        return preSale.buyTokens(beneficiary, {
+    function buyTokens(mainSale, beneficiary, ethAmount) {
+        return mainSale.buyTokens(beneficiary, {
             gasLimit: 750000,
             value: ethers.utils.parseEther(ethAmount),
         }).then(function onBuyTxResolved(tx) {
@@ -149,16 +149,16 @@
         return Promise.resolve(ethers.getDefaultProvider());
     }
 
-    function loadPreSaleData(provider, addr, tgeData) {
-        var preSale = createPreSaleContract(provider, tgeData.preSale);
+    function loadMainSaleData(provider, addr, tgeData) {
+        var mainSale = createMainSaleContract(provider, tgeData.mainSale);
         var token = createAsureTokenContract(provider, tgeData.token);
 
         var promises = [
-            preSale.isOpen().catch(function (ex) {
+            mainSale.isOpen().catch(function (ex) {
                 console.error('isOpen', ex);
                 throw ex;
             }),
-            preSale.isWhitelisted(addr).catch(function (ex) {
+            mainSale.isWhitelisted(addr).catch(function (ex) {
                 console.error('isWhitelisted', ex);
                 throw ex;
             }),
@@ -177,8 +177,8 @@
                 balance: resolved[2]
             }
 
-            console.log('PreSale isOpen', result.isOpen);
-            console.log('PreSale isWhitelisted', result.isWhitelisted);
+            console.log('MainSale isOpen', result.isOpen);
+            console.log('MainSale isWhitelisted', result.isWhitelisted);
             console.log('ASR balance', result.balance);
 
             return result;
@@ -251,7 +251,7 @@
                     return;
                 }
 
-                loadPreSaleData(provider, addr, tgeData).then(function (result) {
+                loadMainSaleData(provider, addr, tgeData).then(function (result) {
                     $('.btn-add-token-metamask').click(function (evt) {
                         evt.preventDefault();
                         suggestTokenInMetaMask(provider, tgeData.token);
@@ -264,9 +264,9 @@
                     var $amountAsr = $('#amountAsr');
                     var $buy = $('.btn-buy');
 
-                    $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.preSale, tgeData.dateFormat));
+                    $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.mainSale, tgeData.dateFormat));
                     $amountEth.change(function () {
-                        $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.preSale, tgeData.dateFormat));
+                        $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.mainSale, tgeData.dateFormat));
                     });
 
                     $('#termOfUse, #holdPrivKey, #sendingEth, #noExchangeAddress').change(function () {
@@ -293,8 +293,8 @@
                         var $loading = $('.alert-loading');
                         $loading.show();
 
-                        var preSale = createPreSaleContract(provider.getSigner(), tgeData.preSale);
-                        buyTokens(preSale, result.addr, $amountEth.val()).then(
+                        var mainSale = createMainSaleContract(provider.getSigner(), tgeData.mainSale);
+                        buyTokens(mainSale, result.addr, $amountEth.val()).then(
                             function onBuyTokensResolved(txHash) {
                                 var etherscanUrl = createEtherscanUrl(options.chainId, txHash);
                                 var $modal = $('#modal-buy-success');
@@ -314,7 +314,7 @@
                             $loading.hide();
                         });
                     });
-                }, function onLoadPreSaleDataReject(ex) {
+                }, function onLoadMainSaleDataReject(ex) {
                     console.error(ex);
                 });
             }, function onCreateEthersProviderReject(ex) {
