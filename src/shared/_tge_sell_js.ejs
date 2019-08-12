@@ -58,7 +58,7 @@
                     moment.duration(now.diff(startMoment));
 
 
-                self.$element.find('.counter-days').text(duration.days());
+                self.$element.find('.counter-days').text(Math.floor(duration.asDays()));
                 self.$element.find('.counter-hours').text(duration.hours());
                 self.$element.find('.counter-minutes').text(duration.minutes());
                 self.$element.find('.counter-seconds').text(duration.seconds());
@@ -99,13 +99,13 @@
 
     Tge.prototype.updateTgeContractDetails = function updateTgeContractDetails() {
         var $details = $('.card-tge-contract-details');
-        $details.find('.tge-contract-addr').text(tgeData.preSale.addr);
-        $details.find('.tge-contract-addr').attr('href', 'https://etherscan.io/address/' + tgeData.preSale.addr);
+        $details.find('.tge-contract-addr').text(tgeData.mainSale.addr);
+        $details.find('.tge-contract-addr').attr('href', 'https://etherscan.io/address/' + tgeData.mainSale.addr);
     };
 
     $(function () {
-        var opening = moment(tgeData.preSale.opening, tgeData.dateFormat);
-        var closing = moment(tgeData.preSale.closing, tgeData.dateFormat);
+        var opening = moment(tgeData.mainSale.opening, tgeData.dateFormat);
+        var closing = moment(tgeData.mainSale.closing, tgeData.dateFormat);
         // var now = moment();
         // var opening = now.clone().add('10', 'seconds');
         // var closing = opening.clone().add('10', 'seconds');
