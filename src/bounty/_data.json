@@ -6,7 +6,7 @@
     "faq": [
       {
         "q": "How to apply?",
-        "a": "Please submit your work report via weekly report Form as well as on the Bounty thread till the end of every week.<br/><br/>1. Fill out the registration application <a href=\"https://forms.gle/kLfbUSbyfjRSZEkU7\" target=\"_blank\">form</a> once.<br/>        2. Kindly fill up the forms in <a href=\"https://bitcointalk.org/index.php?topic=5150750.msg51349151\" target=\"_blank\">Bitcointalk</a>.<br/>        3. Fill in your activities in the <a href=\"https://forms.gle/uzwm5xwyvsnoJ2aY9\" target=\"_blank\">form</a>.<br/><br/>        <strong>Report Example</strong><br/>        ERC-20 Wallet Address : ________<br/>        Campaign ID: ________<br/>        Week Number: __________<br/>        Work URLs: <br/>        1. _________<br/>        2. _________<br/>        3. _________<br/>        4. _________<br/>        5. _________<br/>"
+        "a": "Please submit your work report via weekly report Form as well as on the Bounty thread till the end of every week.<br/><br/>1. Fill out the registration application <a href=\"https://forms.gle/kLfbUSbyfjRSZEkU7\" target=\"_blank\">form</a> once.<br/>        2. Kindly fill up the forms in <a href=\"https://bitcointalk.org/index.php?topic=5175635\" target=\"_blank\">Bitcointalk</a>.<br/>        3. Fill in your activities in the <a href=\"https://forms.gle/uzwm5xwyvsnoJ2aY9\" target=\"_blank\">form</a>.<br/><br/>        <strong>Report Example</strong><br/>        ERC-20 Wallet Address : ________<br/>        Campaign ID: ________<br/>        Week Number: __________<br/>        Work URLs: <br/>        1. _________<br/>        2. _________<br/>        3. _________<br/>        4. _________<br/>        5. _________<br/>"
       },
       {
         "q": "What are the general rules?",
@@ -751,7 +751,7 @@
       }
     ],
     "bountyReports": {
-      "created": "2019-08-09T10:47:22.234Z",
+      "created": "2019-08-14T14:54:57.843Z",
       "weekNos": [
         "Week 34",
         "Week 35",
