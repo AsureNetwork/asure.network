@@ -153,7 +153,7 @@
                 <div class="col-md-12">
                     <div id="card-registration" class="card shadow">
                         <div class="card-header text-center bg-green">
-                            <h2>PreSale Token Generation Event Status</h2>
+                            <h2>Main-sale Token Generation Event Status</h2>
                             <p class="hidden">ETH address: <a href="#" target="_blank" rel="noopener"></a></p>
                         </div>
                         <div class="card-body bg-light-green">
@@ -164,7 +164,7 @@
 
                             <div class="alert alert-primary alert-network hidden" role="alert">
                                 <strong>Wrong Ethereum network</strong>
-                                The Asure Network pre-sale will take place in the Ethereum Mainnet.
+                                The Asure Network main-sale will take place in the Ethereum Mainnet.
                                 Please ensure you have selected the Ethereum Mainnet in your wallet (e.g. MetaMask)
                             </div>
 
@@ -221,11 +221,11 @@
                                     <div class="col-xl-3 col-sm-6 d-flex pt-3">
                                         <div class="card flex-fill">
                                             <div class="card-body d-flex flex-column text-center">
-                                                <h5 class="card-title text-uppercase">Pre-sale open</h5>
+                                                <h5 class="card-title text-uppercase">Main-sale open</h5>
                                                 <div class="card-text align-items-center">
                                                     <input type="text" readonly="readonly" class="form-control-plaintext text-center" id="isOpen" value="">
                                                     <small class="form-text text-muted text-center">
-                                                        The Pre-sale will take place from August 1st to August 15th
+                                                        The Main-sale will take place from December 1st to December 31th
                                                         2019.
                                                     </small>
                                                 </div>
@@ -263,10 +263,7 @@
                                                 </div>
                                             </div>
                                             <small class="form-text text-muted">
-                                                You receive a 50% bonus until August 8th.
-                                            </small>
-                                            <small class="form-text text-muted">
-                                                You receive a 25% bonus until August 15th.
+                                                You receive a 15% bonus until December 15th.
                                             </small>
                                         </div>
                                         <div class="col-md-3 d-flex align-items-end">
@@ -336,7 +333,7 @@
                                             <div class="alert alert-primary alert-buy" role="alert">
                                                 The following requirements have to be met to buy ASR token:
                                                 <ul>
-                                                    <li>The Asure Network pre-sale is open.</li>
+                                                    <li>The Asure Network main-sale is open.</li>
                                                     <li>You have installed the <a href="https://metamask.io/">MetaMask
                                                             Browser plugin</a></li>
                                                     <li>You have successfully registered with our KYC process.</li>
@@ -390,7 +387,7 @@
                         </div>
                         <div class="modal-body">
                             <strong>Congratulations!</strong>
-                            <p>You successfully participated in the Asure Network pre-sale.</p>
+                            <p>You successfully participated in the Asure Network main-sale.</p>
                             <a href="#" target="_blank" rel="noopener" class="text-break etherscanUrl">
                                 View transaction on Etherscan
                             </a>
@@ -664,6 +661,8 @@
     $(function () {
         $('[data-toggle="popover"]').popover();
 
+        $('[data-toggle="tooltip"]').tooltip();
+
         $('ul.nav-tabs li:first-child a').tab('show');
 
         $('#bounty-eth-addr-btn').click(function (evt) {
@@ -886,6 +885,8 @@
         });
     }
 </script>
+
+
 
 
 
@@ -1986,7 +1987,7 @@
         return new ethers.Contract(address, abi, provider);
     }
 
-    function createPreSaleContract(providerOrSigner, crowdsaleData) {
+    function createMainSaleContract(providerOrSigner, crowdsaleData) {
         var abi = tgeContractsAbis.AsureCrowdsale;
         var address = crowdsaleData.addr;
 
@@ -2013,8 +2014,8 @@
         });
     }
 
-    function buyTokens(preSale, beneficiary, ethAmount) {
-        return preSale.buyTokens(beneficiary, {
+    function buyTokens(mainSale, beneficiary, ethAmount) {
+        return mainSale.buyTokens(beneficiary, {
             gasLimit: 750000,
             value: ethers.utils.parseEther(ethAmount),
         }).then(function onBuyTxResolved(tx) {
@@ -2093,16 +2094,16 @@
         return Promise.resolve(ethers.getDefaultProvider());
     }
 
-    function loadPreSaleData(provider, addr, tgeData) {
-        var preSale = createPreSaleContract(provider, tgeData.preSale);
+    function loadMainSaleData(provider, addr, tgeData) {
+        var mainSale = createMainSaleContract(provider, tgeData.mainSale);
         var token = createAsureTokenContract(provider, tgeData.token);
 
         var promises = [
-            preSale.isOpen().catch(function (ex) {
+            mainSale.isOpen().catch(function (ex) {
                 console.error('isOpen', ex);
                 throw ex;
             }),
-            preSale.isWhitelisted(addr).catch(function (ex) {
+            mainSale.isWhitelisted(addr).catch(function (ex) {
                 console.error('isWhitelisted', ex);
                 throw ex;
             }),
@@ -2121,8 +2122,8 @@
                 balance: resolved[2]
             }
 
-            console.log('PreSale isOpen', result.isOpen);
-            console.log('PreSale isWhitelisted', result.isWhitelisted);
+            console.log('MainSale isOpen', result.isOpen);
+            console.log('MainSale isWhitelisted', result.isWhitelisted);
             console.log('ASR balance', result.balance);
 
             return result;
@@ -2195,7 +2196,7 @@
                     return;
                 }
 
-                loadPreSaleData(provider, addr, tgeData).then(function (result) {
+                loadMainSaleData(provider, addr, tgeData).then(function (result) {
                     $('.btn-add-token-metamask').click(function (evt) {
                         evt.preventDefault();
                         suggestTokenInMetaMask(provider, tgeData.token);
@@ -2208,9 +2209,9 @@
                     var $amountAsr = $('#amountAsr');
                     var $buy = $('.btn-buy');
 
-                    $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.preSale, tgeData.dateFormat));
+                    $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.mainSale, tgeData.dateFormat));
                     $amountEth.change(function () {
-                        $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.preSale, tgeData.dateFormat));
+                        $amountAsr.val($amountEth.val() * getCurrentCrowdsaleRate(tgeData.mainSale, tgeData.dateFormat));
                     });
 
                     $('#termOfUse, #holdPrivKey, #sendingEth, #noExchangeAddress').change(function () {
@@ -2237,8 +2238,8 @@
                         var $loading = $('.alert-loading');
                         $loading.show();
 
-                        var preSale = createPreSaleContract(provider.getSigner(), tgeData.preSale);
-                        buyTokens(preSale, result.addr, $amountEth.val()).then(
+                        var mainSale = createMainSaleContract(provider.getSigner(), tgeData.mainSale);
+                        buyTokens(mainSale, result.addr, $amountEth.val()).then(
                             function onBuyTokensResolved(txHash) {
                                 var etherscanUrl = createEtherscanUrl(options.chainId, txHash);
                                 var $modal = $('#modal-buy-success');
@@ -2258,7 +2259,7 @@
                             $loading.hide();
                         });
                     });
-                }, function onLoadPreSaleDataReject(ex) {
+                }, function onLoadMainSaleDataReject(ex) {
                     console.error(ex);
                 });
             }, function onCreateEthersProviderReject(ex) {
