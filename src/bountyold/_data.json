@@ -32,8 +32,10 @@
       }
     ],
     "bounties": {
-      "created": "2019-08-14T20:45:52.291Z",
+      "created": "2019-08-15T10:12:49.326Z",
       "weekNos": [
+        "Week 20",
+        "Week 21",
         "Week 22",
         "Week 23",
         "Week 24",
@@ -1392,6 +1394,21 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 33 - August 12, 2019 - August 18, 2019",
+              "parsedWeekNo": "Week 33",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -2517,6 +2534,1236 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Youtube Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x590Cb961aff1c2FA489467e81AF2Bb08b802A402",
+          "weeks": [
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "Translation Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x72b4a6ab2b08d94f7af28bdea71f3194e328c079",
+          "weeks": [
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Youtube Campaign": {
+                  "done": true
+                },
+                "Translation Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xb94df82cc246fdec930c3b8c5f44ef169d8d894a",
+          "weeks": [
+            {
+              "weekNo": "Week 23 - June 3, 2019 - June 9, 2019",
+              "parsedWeekNo": "Week 23",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Youtube Campaign": {
+                  "done": true
+                },
+                "Translation Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x7647c8ba0b63eb21e5eded4c7a1ea62ede71d8f7",
+          "weeks": [
+            {
+              "weekNo": "Week 25 - June 17, 2019 - June 23, 2019",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Youtube Campaign": {
+                  "done": true
+                },
+                "Translation Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 21 - May 20, 2019 - May 26, 2019",
+              "parsedWeekNo": "Week 21",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Translation Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xbf79ad0a31a62f4ada0df22fb0f72b454a97de29",
+          "weeks": [
+            {
+              "weekNo": "Week 20  - May 13, 2019 - May 19, 2019",
+              "parsedWeekNo": "Week 20",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Youtube Campaign": {
+                  "done": true
+                },
+                "Translation Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 24 - June 10, 2019 - June 16, 2019",
+              "parsedWeekNo": "Week 24",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Youtube Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xcac23f1693160cfbbe5082b593cbc6af18db41ad",
+          "weeks": [
+            {
+              "weekNo": "Week 20  - May 13, 2019 - May 19, 2019",
+              "parsedWeekNo": "Week 20",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Translation Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 21 - May 20, 2019 - May 26, 2019",
+              "parsedWeekNo": "Week 21",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x1f8594bfb9eb056255d3518996739080d6c2fc10",
+          "weeks": [
+            {
+              "weekNo": "Week 23 - June 3, 2019 - June 9, 2019",
+              "parsedWeekNo": "Week 23",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Translation Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 24 - June 10, 2019 - June 16, 2019",
+              "parsedWeekNo": "Week 24",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 25 - June 17, 2019 - June 23, 2019",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 34 - August 19, 2019 - August 25, 2019",
+              "parsedWeekNo": "Week 34",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x7712f8498a5e7b03ccdbee6987f1d5ee6e50a339",
+          "weeks": [
+            {
+              "weekNo": "Week 22 - May 27, 2019 - June 2, 2019",
+              "parsedWeekNo": "Week 22",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 25 - June 17, 2019 - June 23, 2019",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xbc5a33064342eab0c885102d3ee4598a61cd29db",
+          "weeks": [
+            {
+              "weekNo": "Week 20  - May 13, 2019 - May 19, 2019",
+              "parsedWeekNo": "Week 20",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 27 - July 1, 2019 - July 7, 2019",
+              "parsedWeekNo": "Week 27",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x4cafd5919eaed6e6f35e3a0bc307ba51087eeb58",
+          "weeks": [
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 32 - August 5, 2019 - August 11, 2019",
+              "parsedWeekNo": "Week 32",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x4b92b69bb91c02b473cfc6313c8a8004d9bd4f30",
+          "weeks": [
+            {
+              "weekNo": "Week 22 - May 27, 2019 - June 2, 2019",
+              "parsedWeekNo": "Week 22",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Youtube Campaign": {
+                  "done": true
+                },
+                "Translation Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 24 - June 10, 2019 - June 16, 2019",
+              "parsedWeekNo": "Week 24",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xe0c0b7d496b3df1c6445c9e309dd944649afbeb5",
+          "weeks": [
+            {
+              "weekNo": "Week 22 - May 27, 2019 - June 2, 2019",
+              "parsedWeekNo": "Week 22",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 20  - May 13, 2019 - May 19, 2019",
+              "parsedWeekNo": "Week 20",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 24 - June 10, 2019 - June 16, 2019",
+              "parsedWeekNo": "Week 24",
+              "campaigns": {
+                "Creative Contest": {
+                  "done": true
+                },
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x68b8ac60311d4c31b36ca3247763e798f877754a",
+          "weeks": [
+            {
+              "weekNo": "Week 27 - July 1, 2019 - July 7, 2019",
+              "parsedWeekNo": "Week 27",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x08ab6cc2c66b56520976ae9995f3fff0807c8f19",
+          "weeks": [
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x44253ca7e976854c152afbf2e6a8930f675a34fb",
+          "weeks": [
+            {
+              "weekNo": "Week 33 - August 12, 2019 - August 18, 2019",
+              "parsedWeekNo": "Week 33",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xbeae1eeba3fc26cf21396b7ce7e83827c99ade3f",
+          "weeks": [
+            {
+              "weekNo": "Week 25 - June 17, 2019 - June 23, 2019",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x6e8a9dae6f66bdb8d850ed4c4e241a1528b86a07",
+          "weeks": [
+            {
+              "weekNo": "Week 21 - May 20, 2019 - May 26, 2019",
+              "parsedWeekNo": "Week 21",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xcf691fb721b6bfba941f7a2ac9d3af0b143664ea",
+          "weeks": [
+            {
+              "weekNo": "Week 26 - June 24, 2019 - June 30, 2019",
+              "parsedWeekNo": "Week 26",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x103c0c63fd4b7ec5b0a6bfe102d5024a78d746bb",
+          "weeks": [
+            {
+              "weekNo": "Week 22 - May 27, 2019 - June 2, 2019",
+              "parsedWeekNo": "Week 22",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 23 - June 3, 2019 - June 9, 2019",
+              "parsedWeekNo": "Week 23",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 25 - June 17, 2019 - June 23, 2019",
+              "parsedWeekNo": "Week 25",
+              "campaigns": {
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 27 - July 1, 2019 - July 7, 2019",
+              "parsedWeekNo": "Week 27",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 28 - July 8, 2019 - July 14, 2019",
+              "parsedWeekNo": "Week 28",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Facebook Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 30 - July 22, 2019 - July 28, 2019",
+              "parsedWeekNo": "Week 30",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Telegram Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xc058fd181b6327be55a6711456b040dc3449bf93",
+          "weeks": [
+            {
+              "weekNo": "Week 23 - June 3, 2019 - June 9, 2019",
+              "parsedWeekNo": "Week 23",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x69178b786123fa3dc0acee85f4c68dd9d4610d7e",
+          "weeks": [
+            {
+              "weekNo": "Week 20  - May 13, 2019 - May 19, 2019",
+              "parsedWeekNo": "Week 20",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Peepeth Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 27 - July 1, 2019 - July 7, 2019",
+              "parsedWeekNo": "Week 27",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 23 - June 3, 2019 - June 9, 2019",
+              "parsedWeekNo": "Week 23",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Reddit Campaign": {
+                  "done": true
+                },
+                "Bitcointalk Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 26 - June 24, 2019 - June 30, 2019",
+              "parsedWeekNo": "Week 26",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true
+                },
+                "Twitter Campaign": {
+                  "done": true
+                },
+                "Signature Campaign": {
                   "done": true
                 }
               }
