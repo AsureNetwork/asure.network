@@ -712,9 +712,11 @@
         "typeId": "cc",
         "name": "Creative",
         "title": "Create a blog-post/press-release on a well-known website [more than 100k views/month]",
-        "description": "The information must be as close as possible to the way we describe the project, examples are to be found on our Medium blog. More than 100k unique views per month.",
+        "description": "The information must be as close as possible to the way we describe the project, examples are to be found on our Medium blog. More than 100k unique views per month and crypto-related. (Forbes, TechCrunch)",
         "rules": [
           "Our blog on Medium: https://medium.com/asurenetwork",
+          "Forbes, Techcrunch, BitcoinMagazin and others are crypto-related.",
+          "Platforms like Facebook, Linkedin, Medium are not crypto-related and don't count in this category.",
           "Maximum of 5 submissions per user"
         ],
         "frequency": "Submission",
