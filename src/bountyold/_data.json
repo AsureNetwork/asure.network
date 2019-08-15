@@ -32,7 +32,7 @@
       }
     ],
     "bounties": {
-      "created": "2019-08-15T19:32:10.436Z",
+      "created": "2019-08-15T19:36:54.060Z",
       "weekNos": [
         "Week 20",
         "Week 21",
@@ -2509,6 +2509,36 @@
             {
               "weekNo": "Week 31 - July 29, 2019 - August 4, 2019",
               "parsedWeekNo": "Week 31",
+              "campaigns": {
+                "LinkedIn Campaign": {
+                  "done": true,
+                  "count": 1
+                },
+                "Twitter Campaign": {
+                  "done": true,
+                  "count": 1
+                },
+                "Telegram Campaign": {
+                  "done": true,
+                  "count": 1
+                },
+                "Facebook Campaign": {
+                  "done": true,
+                  "count": 1
+                },
+                "Peepeth Campaign": {
+                  "done": true,
+                  "count": 1
+                },
+                "Reddit Campaign": {
+                  "done": true,
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weekNo": "Week 32 - August 5, 2019 - August 11, 2019",
+              "parsedWeekNo": "Week 32",
               "campaigns": {
                 "LinkedIn Campaign": {
                   "done": true,
