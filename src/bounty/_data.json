@@ -31,6 +31,14 @@
       {
         "q": "Are partial tasks accepted?",
         "a": "No, but you can complete the task for two weeks or more and then report it."
+      },
+      {
+        "q": "How many ASR tokens do I get per 1 stake?",
+        "a": "This can only be said when the bounty program is completed and depends on the number of participants and completed tasks."
+      },
+      {
+        "q": "On which Exchange is the Asure (ASR) Token listed?",
+        "a": "The Asure (ASR) token is not listed on any exchange yet, the listing we plan to do after the Main-sale (31. Dec. 2019). But you can not prevent the token from being listed earlier by the Exchanges."
       }
     ],
     "ui": [
