@@ -761,7 +761,7 @@
       }
     ],
     "bountyReports": {
-      "created": "2019-08-15T15:10:22.728Z",
+      "created": "2019-08-15T17:38:39.139Z",
       "weekNos": [
         "Week 34",
         "Week 35",
@@ -1008,6 +1008,23 @@
               }
             }
           ]
+        },
+        {
+          "address": "0x0720244cc4922aB44E92616283a14dfa18Bd8c50",
+          "weeks": [
+            {
+              "weekNo": "Week 34 - August 19, 2019 - August 25, 2019",
+              "parsedWeekNo": "Week 34",
+              "campaigns": {
+                "CREATIVE07": {
+                  "done": true
+                },
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1052,7 +1069,7 @@
       "0x81C6e21Ce13598f35e53FE1d1cdE964C8E7fCC1C": 5015,
       "0x857Bf961C8b363502a0FD31cc43eE0Cf99D5DB99": 780,
       "0xF908364Deb4D2c86B372F6958D2AAaE394823932": 3760,
-      "0x0720244cc4922aB44E92616283a14dfa18Bd8c50": 2500,
+      "0x0720244cc4922aB44E92616283a14dfa18Bd8c50": 1000,
       "0xD97555D3571836B979ABBb90cc3d8015bA7b0a53": 6590,
       "0x9DEa99C445A7C12f33C6418A47cebD894fdf7332": 780,
       "0x5a25EcBeA79F054Bb9c691317b18e2257e029579": 8245,
@@ -1076,17 +1093,17 @@
       "0x4d083561Eb2d741C1AefAeD20a4B54E2Ef5AC4b0": 6065,
       "0xd0b7EBa60C80ac84062FCc6d367E0b1603F9Fe09": 780,
       "0x91406b5d57893e307f042d71c91e223a7058eb72": 2000,
-      "0x590Cb961aff1c2FA489467e81AF2Bb08b802A402": 2500,
-      "0x72b4a6ab2b08d94f7af28bdea71f3194e328c079": 8875,
-      "0xb94df82cc246fdec930c3b8c5f44ef169d8d894a": 8875,
-      "0x7647c8ba0b63eb21e5eded4c7a1ea62ede71d8f7": 13925,
-      "0xbf79ad0a31a62f4ada0df22fb0f72b454a97de29": 13370,
-      "0xcac23f1693160cfbbe5082b593cbc6af18db41ad": 13685,
-      "0x1f8594bfb9eb056255d3518996739080d6c2fc10": 18765,
+      "0x590Cb961aff1c2FA489467e81AF2Bb08b802A402": 2000,
+      "0x72b4a6ab2b08d94f7af28bdea71f3194e328c079": 6875,
+      "0xb94df82cc246fdec930c3b8c5f44ef169d8d894a": 6875,
+      "0x7647c8ba0b63eb21e5eded4c7a1ea62ede71d8f7": 12425,
+      "0xbf79ad0a31a62f4ada0df22fb0f72b454a97de29": 11370,
+      "0xcac23f1693160cfbbe5082b593cbc6af18db41ad": 11685,
+      "0x1f8594bfb9eb056255d3518996739080d6c2fc10": 16765,
       "0x7712f8498a5e7b03ccdbee6987f1d5ee6e50a339": 7150,
       "0xbc5a33064342eab0c885102d3ee4598a61cd29db": 9610,
       "0x4cafd5919eaed6e6f35e3a0bc307ba51087eeb58": 6810,
-      "0x4b92b69bb91c02b473cfc6313c8a8004d9bd4f30": 13390,
+      "0x4b92b69bb91c02b473cfc6313c8a8004d9bd4f30": 11390,
       "0xe0c0b7d496b3df1c6445c9e309dd944649afbeb5": 12560,
       "0x68b8ac60311d4c31b36ca3247763e798f877754a": 9970,
       "0x08ab6cc2c66b56520976ae9995f3fff0807c8f19": 3125,
