@@ -10,7 +10,7 @@
       },
       {
         "q": "What are the general rules?",
-        "a": "kommt noch"
+        "a": "<ul><li>We reserve the right to limit the number of participants in the campaigns at any time. </li>        <li>We reserve the right to change the conditions of our bounty campaign at        any time.        </li>        <li>Only one account per person. Using multi-accounts, cheating and spamming        are strictly forbidden.        </li>        <li>Your payment address cannot be changed. Once you apply, your address        will be locked. (Every participant is responsible for the protection of his/her payment        address and private keys).        </li>        <li>You need to join our Bounty Telegram group in order to participate in        the Asure Bounty program. <br/>Without joining the telegram group, you will not be        counted on any Bounty. <br/>        The Telegram link is: <a href=\"https://t.me/AsureNetwork\" target=\"_blank\">https://t.me/AsureNetwork</a>      </li>        The Bounty Telegram link is: <a href=\"https://t.me/AsureBounty\" target=\"_blank\">https://t.me/AsureBounty</a></li>      <li>        Any users who get their Bitcointalk/Facebook/Twitter account banned will lose ALL        stakes. Please use your accounts responsibly.        </li>        <li>The ones breaking the rule will be disqualified from the Bounty program without getting        any tokens.        </li>        <li>We reserve the right to disqualify any user at any time.</li>        <li>You accept, that we can repost your post in our publications.</li>        <li>By signing up for the bounty, you accept these terms.</li>        </ul>        <div class=\"alert alert-info\">        <strong>Note</strong>        ALL BOUNTY RELATED QUESTIONS MUST BE ASKED ONLY IN OUR BOUNTY GROUP HERE: <a href=\"https://t.me/AsureBounty\" target=\"_blank\">https://t.me/AsureBounty</a></div>"
       },
       {
         "q": "Where can I find spreadsheet?",
@@ -759,7 +759,7 @@
       }
     ],
     "bountyReports": {
-      "created": "2019-08-15T09:32:05.517Z",
+      "created": "2019-08-15T15:10:22.728Z",
       "weekNos": [
         "Week 34",
         "Week 35",
