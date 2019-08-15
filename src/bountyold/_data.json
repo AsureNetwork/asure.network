@@ -32,7 +32,7 @@
       }
     ],
     "bounties": {
-      "created": "2019-08-15T10:12:49.326Z",
+      "created": "2019-08-15T12:24:01.923Z",
       "weekNos": [
         "Week 20",
         "Week 21",
@@ -90,10 +90,12 @@
               "parsedWeekNo": "Week 23",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -107,13 +109,16 @@
               "parsedWeekNo": "Week 23",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -122,13 +127,16 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -137,13 +145,16 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -152,16 +163,20 @@
               "parsedWeekNo": "Week 26",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -170,13 +185,16 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -185,7 +203,8 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -194,16 +213,20 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -217,10 +240,12 @@
               "parsedWeekNo": "Week 23",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -229,10 +254,12 @@
               "parsedWeekNo": "Week 24",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -241,10 +268,12 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -253,10 +282,12 @@
               "parsedWeekNo": "Week 26",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -265,10 +296,12 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -277,10 +310,12 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -289,7 +324,8 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -298,7 +334,8 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -307,7 +344,8 @@
               "parsedWeekNo": "Week 34",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -316,10 +354,12 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -328,10 +368,12 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -345,16 +387,20 @@
               "parsedWeekNo": "Week 24",
               "campaigns": {
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -363,13 +409,16 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -378,13 +427,16 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -393,13 +445,16 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -408,13 +463,16 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -423,16 +481,20 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -441,19 +503,24 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -462,22 +529,28 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -491,16 +564,20 @@
               "parsedWeekNo": "Week 24",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -509,13 +586,16 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -524,16 +604,20 @@
               "parsedWeekNo": "Week 26",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -542,16 +626,20 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -560,16 +648,20 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -578,16 +670,20 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -596,16 +692,20 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -614,13 +714,16 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -634,10 +737,12 @@
               "parsedWeekNo": "Week 23",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -646,10 +751,12 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -663,7 +770,8 @@
               "parsedWeekNo": "Week 24",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -672,7 +780,8 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -681,7 +790,8 @@
               "parsedWeekNo": "Week 26",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -690,7 +800,8 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -699,7 +810,8 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -708,7 +820,8 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -717,7 +830,8 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -726,7 +840,8 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -740,7 +855,8 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 3
                 }
               }
             }
@@ -754,10 +870,12 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -766,10 +884,12 @@
               "parsedWeekNo": "Week 26",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -778,10 +898,12 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -790,10 +912,12 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -802,10 +926,12 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -814,10 +940,12 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -826,10 +954,12 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -838,10 +968,12 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -855,10 +987,12 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -867,10 +1001,12 @@
               "parsedWeekNo": "Week 26",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -879,10 +1015,12 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -891,10 +1029,12 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -903,10 +1043,12 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -915,10 +1057,12 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -927,10 +1071,12 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -939,10 +1085,12 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -956,7 +1104,8 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -970,13 +1119,16 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -985,13 +1137,16 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1000,10 +1155,12 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1012,10 +1169,12 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1024,10 +1183,12 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1036,10 +1197,12 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1048,10 +1211,12 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1065,7 +1230,8 @@
               "parsedWeekNo": "Week 26",
               "campaigns": {
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1079,7 +1245,8 @@
               "parsedWeekNo": "Week 22",
               "campaigns": {
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1088,7 +1255,8 @@
               "parsedWeekNo": "Week 26",
               "campaigns": {
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1102,10 +1270,12 @@
               "parsedWeekNo": "Week 26",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1114,10 +1284,12 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1126,10 +1298,12 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1138,10 +1312,12 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1150,10 +1326,12 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1162,10 +1340,12 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1179,10 +1359,12 @@
               "parsedWeekNo": "Week 26",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1191,10 +1373,12 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1203,10 +1387,12 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1220,10 +1406,12 @@
               "parsedWeekNo": "Week 26",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1232,10 +1420,12 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1249,7 +1439,8 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1263,7 +1454,8 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 }
               }
             }
@@ -1277,7 +1469,8 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1291,7 +1484,8 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1305,7 +1499,8 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1319,13 +1514,16 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1334,13 +1532,16 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1349,10 +1550,12 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 }
               }
             },
@@ -1361,10 +1564,12 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1373,10 +1578,12 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1385,13 +1592,16 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1400,13 +1610,16 @@
               "parsedWeekNo": "Week 33",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1420,7 +1633,8 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 3
                 }
               }
             }
@@ -1434,7 +1648,8 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 3
                 }
               }
             }
@@ -1448,10 +1663,12 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1465,10 +1682,12 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1482,7 +1701,8 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1491,7 +1711,8 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1505,7 +1726,8 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 3
                 }
               }
             }
@@ -1519,13 +1741,16 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1534,13 +1759,16 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1549,13 +1777,16 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1564,13 +1795,16 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1584,7 +1818,8 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1598,7 +1833,8 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 3
                 }
               }
             }
@@ -1612,25 +1848,32 @@
               "parsedWeekNo": "Week 33",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1644,10 +1887,12 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 }
               }
             },
@@ -1656,13 +1901,16 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1671,13 +1919,16 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1686,13 +1937,16 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1701,13 +1955,16 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1721,16 +1978,20 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1744,7 +2005,8 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1758,7 +2020,8 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 4
                 }
               }
             }
@@ -1772,10 +2035,12 @@
               "parsedWeekNo": "Week 26",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1789,13 +2054,16 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 }
               }
             },
@@ -1804,13 +2072,16 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1819,13 +2090,16 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1839,7 +2113,8 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1853,13 +2128,16 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1868,13 +2146,16 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1883,13 +2164,16 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1903,7 +2187,8 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1912,7 +2197,8 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1926,22 +2212,28 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -1950,22 +2242,28 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1979,7 +2277,8 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -1993,19 +2292,24 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2014,19 +2318,24 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2035,22 +2344,28 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2064,7 +2379,8 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2078,7 +2394,8 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2092,7 +2409,8 @@
               "parsedWeekNo": "Week 29",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2101,7 +2419,8 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2110,10 +2429,12 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2122,10 +2443,12 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2139,16 +2462,20 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 }
               }
             }
@@ -2162,7 +2489,8 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 }
               }
             }
@@ -2176,7 +2504,8 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2185,7 +2514,8 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2199,22 +2529,28 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2228,10 +2564,12 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2245,13 +2583,16 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2265,7 +2606,8 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2279,7 +2621,8 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2293,22 +2636,28 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2322,16 +2671,20 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2345,7 +2698,8 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2354,7 +2708,8 @@
               "parsedWeekNo": "Week 33",
               "campaigns": {
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 2
                 }
               }
             }
@@ -2368,16 +2723,20 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2391,7 +2750,8 @@
               "parsedWeekNo": "Week 33",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2405,13 +2765,16 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2420,10 +2783,12 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2432,10 +2797,12 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2444,10 +2811,12 @@
               "parsedWeekNo": "Week 33",
               "campaigns": {
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2456,10 +2825,12 @@
               "parsedWeekNo": "Week 34",
               "campaigns": {
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2473,13 +2844,16 @@
               "parsedWeekNo": "Week 33",
               "campaigns": {
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 5
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 7
                 }
               }
             }
@@ -2493,7 +2867,8 @@
               "parsedWeekNo": "Week 33",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2507,7 +2882,8 @@
               "parsedWeekNo": "Week 33",
               "campaigns": {
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2516,7 +2892,8 @@
               "parsedWeekNo": "Week 31",
               "campaigns": {
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2525,7 +2902,8 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2534,7 +2912,8 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2548,7 +2927,8 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 4
                 }
               }
             }
@@ -2562,37 +2942,48 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2606,37 +2997,48 @@
               "parsedWeekNo": "Week 23",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2650,37 +3052,48 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2689,31 +3102,40 @@
               "parsedWeekNo": "Week 21",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2727,31 +3149,40 @@
               "parsedWeekNo": "Week 20",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2760,31 +3191,40 @@
               "parsedWeekNo": "Week 24",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2798,34 +3238,44 @@
               "parsedWeekNo": "Week 20",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2834,28 +3284,36 @@
               "parsedWeekNo": "Week 21",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -2869,34 +3327,44 @@
               "parsedWeekNo": "Week 23",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2905,31 +3373,40 @@
               "parsedWeekNo": "Week 24",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2938,31 +3415,40 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -2971,31 +3457,40 @@
               "parsedWeekNo": "Week 34",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -3009,22 +3504,28 @@
               "parsedWeekNo": "Week 22",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -3033,22 +3534,28 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -3062,25 +3569,32 @@
               "parsedWeekNo": "Week 20",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -3089,28 +3603,36 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -3124,16 +3646,20 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -3142,25 +3668,32 @@
               "parsedWeekNo": "Week 32",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -3174,37 +3707,48 @@
               "parsedWeekNo": "Week 22",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Youtube Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Translation Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -3213,25 +3757,32 @@
               "parsedWeekNo": "Week 24",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -3245,28 +3796,36 @@
               "parsedWeekNo": "Week 22",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -3275,28 +3834,36 @@
               "parsedWeekNo": "Week 20",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -3305,25 +3872,32 @@
               "parsedWeekNo": "Week 24",
               "campaigns": {
                 "Creative Contest": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -3337,28 +3911,36 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -3367,28 +3949,36 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -3402,19 +3992,24 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -3428,25 +4023,32 @@
               "parsedWeekNo": "Week 33",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -3460,10 +4062,12 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -3477,25 +4081,32 @@
               "parsedWeekNo": "Week 21",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -3509,19 +4120,24 @@
               "parsedWeekNo": "Week 26",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -3535,13 +4151,16 @@
               "parsedWeekNo": "Week 22",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -3550,22 +4169,28 @@
               "parsedWeekNo": "Week 23",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -3574,19 +4199,24 @@
               "parsedWeekNo": "Week 25",
               "campaigns": {
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -3595,19 +4225,24 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -3616,28 +4251,36 @@
               "parsedWeekNo": "Week 28",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Facebook Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -3646,22 +4289,28 @@
               "parsedWeekNo": "Week 30",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Telegram Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -3675,19 +4324,24 @@
               "parsedWeekNo": "Week 23",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
@@ -3701,16 +4355,20 @@
               "parsedWeekNo": "Week 20",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Peepeth Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -3719,16 +4377,20 @@
               "parsedWeekNo": "Week 27",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -3737,19 +4399,24 @@
               "parsedWeekNo": "Week 23",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Reddit Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Bitcointalk Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             },
@@ -3758,13 +4425,16 @@
               "parsedWeekNo": "Week 26",
               "campaigns": {
                 "LinkedIn Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Twitter Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 },
                 "Signature Campaign": {
-                  "done": true
+                  "done": true,
+                  "count": 1
                 }
               }
             }
