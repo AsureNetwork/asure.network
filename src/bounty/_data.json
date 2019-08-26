@@ -276,8 +276,8 @@
         "title": "Comments",
         "description": "5 comments per week to Asure Network Facebook posts talking about Asure Network.",
         "rules": [
-          "Link to our Whitepaper in English: https://www.asure.network/asure.network.whitepaper.en.pdf",
-          "Link to the article mentioned in the description: https://medium.com/asurenetwork/sustainability-audit-through-visions-in-blockchain-projects-aaca3b5dd5eb",
+          "You can comment our posts by writing valuable and meaningful comments that are at least 15 words long.\r",
+          "You can comment under foreign posts, these should be valuable and meaningful and please use link to the website (https://asure.network) or Facebook site (@AsureNetwork).",
           "Max 2 comments can be made per day"
         ],
         "frequency": "Weekly",
