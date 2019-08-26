@@ -129,7 +129,11 @@ function updateHarpData(bountyReports) {
         const rows = res.data.values;
         if (rows.length) {
             const bountyReports = parseBountyReports(rows);
-            const transformedBountyReports = transformData(bountyReports);
+
+            const blacklist = [];
+            const blacklisted = bountyReport => !blacklist.includes(bountyReport['ERC-20 Wallet Address']);
+
+            const transformedBountyReports = transformData(bountyReports.filter(blacklisted));
 
             printStatistics(transformedBountyReports);
 
