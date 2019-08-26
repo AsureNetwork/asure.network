@@ -778,7 +778,7 @@
       }
     ],
     "bountyReports": {
-      "created": "2019-08-26T09:24:48.885Z",
+      "created": "2019-08-26T09:58:51.706Z",
       "weekNos": [
         "Week 34",
         "Week 35",
@@ -4302,6 +4302,23 @@
               "parsedWeekNo": "Week 34",
               "campaigns": {
                 "CREATIVE05": {
+                  "done": true
+                },
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x6Ae594491a72021881e2c2e5A3D95BB5B8701BAD",
+          "weeks": [
+            {
+              "weekNo": "Week 34 - August 19, 2019 - August 25, 2019",
+              "parsedWeekNo": "Week 34",
+              "campaigns": {
+                "CREATIVE07": {
                   "done": true
                 },
                 "AIRDROP01": {
