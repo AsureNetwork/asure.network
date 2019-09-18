@@ -778,7 +778,7 @@
       }
     ],
     "bountyReports": {
-      "created": "2019-09-10T15:58:55.326Z",
+      "created": "2019-09-18T07:37:49.578Z",
       "weekNos": [
         "Week 34",
         "Week 35",
@@ -996,6 +996,9 @@
                 },
                 "REDDIT02": {
                   "done": true
+                },
+                "TWITTER02": {
+                  "done": true
                 }
               }
             }
@@ -1182,6 +1185,57 @@
                   "done": true
                 },
                 "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
                   "done": true
                 },
                 "REDDIT07": {
@@ -1538,6 +1592,123 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "CREATIVE04": {
+                  "done": true
+                },
+                "CREATIVE05": {
+                  "done": true
+                },
+                "CREATIVE06": {
+                  "done": true
+                },
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM01": {
+                  "done": true
+                },
+                "TELEGRAM02": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "TELEGRAM05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -1610,6 +1781,36 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -1726,6 +1927,45 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "FACEBOOK01": {
                   "done": true
@@ -2024,6 +2264,225 @@
                   "done": true
                 },
                 "CREATIVE05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                },
+                "CREATIVE01": {
+                  "done": true
+                },
+                "CREATIVE04": {
+                  "done": true
+                },
+                "CREATIVE05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 38 - September 16, 2019 - September 22, 2019",
+              "parsedWeekNo": "Week 38",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "CREATIVE01": {
+                  "done": true
+                },
+                "CREATIVE04": {
+                  "done": true
+                },
+                "CREATIVE05": {
+                  "done": true
+                },
+                "REDDIT07": {
                   "done": true
                 }
               }
@@ -2358,6 +2817,87 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -2444,6 +2984,51 @@
                   "done": true
                 },
                 "LINKEDIN03": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
                   "done": true
                 }
               }
@@ -2763,6 +3348,84 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "TELEGRAM05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -3035,6 +3698,54 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -3145,6 +3856,36 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -3332,6 +4073,57 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -3380,6 +4172,24 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -3490,6 +4300,48 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -3797,6 +4649,93 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -3881,6 +4820,42 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "FACEBOOK01": {
                   "done": true
@@ -4042,6 +5017,63 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -4283,6 +5315,54 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -4633,6 +5713,72 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TELEGRAM01": {
+                  "done": true
+                },
+                "TELEGRAM02": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM06": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -4872,6 +6018,84 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -4952,6 +6176,48 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -5133,6 +6399,111 @@
                   "done": true
                 },
                 "REDDIT07": {
+                  "done": true
+                },
+                "CREATIVE05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM01": {
+                  "done": true
+                },
+                "TELEGRAM02": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "TELEGRAM05": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                },
+                "CREATIVE04": {
                   "done": true
                 },
                 "CREATIVE05": {
@@ -5533,6 +6904,36 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -5623,6 +7024,45 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "FACEBOOK01": {
                   "done": true
@@ -5792,6 +7232,48 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -5890,6 +7372,36 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 38 - September 16, 2019 - September 22, 2019",
+              "parsedWeekNo": "Week 38",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -5941,6 +7453,57 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -6092,6 +7655,54 @@
                   "done": true
                 },
                 "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
                   "done": true
                 },
                 "FACEBOOK05": {
@@ -6286,6 +7897,63 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "BITCOINTALK07": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -6409,6 +8077,81 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "TELEGRAM05": {
+                  "done": true
+                },
+                "TELEGRAM06": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -6853,6 +8596,72 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -6925,6 +8734,36 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -7130,6 +8969,63 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "BITCOINTALK07": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -7202,6 +9098,36 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -7326,6 +9252,36 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -7424,6 +9380,36 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -7496,6 +9482,36 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -7683,6 +9699,51 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -7781,6 +9842,36 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -7841,6 +9932,36 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -7980,6 +10101,45 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -8155,6 +10315,51 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "BITCOINTALK05": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -8221,6 +10426,33 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "FACEBOOK01": {
                   "done": true
@@ -8483,6 +10715,84 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -8632,6 +10942,30 @@
                   "done": true
                 },
                 "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
                   "done": true
                 },
                 "LINKEDIN06": {
@@ -8823,6 +11157,81 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "BITCOINTALK06": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -8993,6 +11402,87 @@
                   "done": true
                 },
                 "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
                   "done": true
                 },
                 "TWITTER05": {
@@ -9665,6 +12155,69 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -9889,6 +12442,33 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -10109,6 +12689,93 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "BITCOINTALK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -10146,6 +12813,18 @@
                 "TWITTER02": {
                   "done": true
                 },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
                 "FACEBOOK01": {
                   "done": true
                 },
@@ -10195,6 +12874,36 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -10364,6 +13073,75 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM02": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -10400,6 +13178,39 @@
             {
               "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
               "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -10479,6 +13290,54 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -10535,6 +13394,30 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -10552,6 +13435,18 @@
                   "done": true
                 },
                 "AIRDROP01": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
                   "done": true
                 }
               }
@@ -10652,6 +13547,39 @@
                   "done": true
                 },
                 "AIRDROP01": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
                   "done": true
                 }
               }
@@ -10928,6 +13856,66 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -10990,6 +13978,60 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "BITCOINTALK07": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -11049,6 +14091,57 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -11090,6 +14183,42 @@
                   "done": true
                 },
                 "AIRDROP01": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT03": {
                   "done": true
                 }
               }
@@ -11172,6 +14301,51 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -11210,6 +14384,45 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TELEGRAM06": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -11236,6 +14449,24 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -11245,6 +14476,460 @@
             {
               "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
               "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "CREATIVE02": {
+                  "done": true
+                },
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xd0b7EBa60C80ac84062FCc6d367E0b1603F9Fe09",
+          "weeks": [
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "CREATIVE01": {
+                  "done": true
+                },
+                "CREATIVE05": {
+                  "done": true
+                },
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x3D8a8CF1BCe4B158BEd93801c6A7BFe7189669F9",
+          "weeks": [
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "CREATIVE05": {
+                  "done": true
+                },
+                "CREATIVE06": {
+                  "done": true
+                },
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x25e7b04d04114666c10dE6F8af8953Eb0746a681",
+          "weeks": [
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TELEGRAM01": {
+                  "done": true
+                },
+                "TELEGRAM02": {
+                  "done": true
+                },
+                "TELEGRAM06": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "BITCOINTALK04": {
+                  "done": true
+                },
+                "BITCOINTALK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x98fa0aacEFfA848F56786856d279019266ba9928",
+          "weeks": [
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "CREATIVE05": {
+                  "done": true
+                },
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x9b19A019DF4EA35723135E49c0F346A3fAA9A6FD",
+          "weeks": [
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x026A49269848C60Dbdd5aF68917dd121a08D92DB",
+          "weeks": [
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "BITCOINTALK07": {
+                  "done": true
+                },
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x3780dF04c6d0074F6aAC8f1F5acAD61c57604496",
+          "weeks": [
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                },
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x569fcb7a5B28D89b279Ffd047Bf67A4Af4149a67",
+          "weeks": [
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x879b1014DE9787c30f265eeE1433a99eAe2B1F19",
+          "weeks": [
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 36 - September 2, 2019 - September 8, 2019",
+              "parsedWeekNo": "Week 36",
+              "campaigns": {
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x1Ed480D9bbd94e8DD9ff736966f6096055b53c10",
+          "weeks": [
+            {
+              "weekNo": "Week 37 - September 9, 2019 - September 15, 2019",
+              "parsedWeekNo": "Week 37",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x8fdF12Bea4Ae2C6E5206Afb0B15E51b4E3978b44",
+          "weeks": [
+            {
+              "weekNo": "Week 38 - September 16, 2019 - September 22, 2019",
+              "parsedWeekNo": "Week 38",
               "campaigns": {
                 "CREATIVE02": {
                   "done": true
