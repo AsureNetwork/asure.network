@@ -55,7 +55,7 @@
 
         self.$check.click(function (evt) {
             evt.preventDefault();
-            var ethAddr = self.$ethAddr.val();
+            var ethAddr = self.$ethAddr.val().toLowerCase();
             self.storage.update(store => store.ethAddr = ethAddr);
             self.updateBountyReport(ethAddr);
             self.$ethTextView.show();

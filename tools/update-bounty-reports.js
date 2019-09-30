@@ -73,7 +73,7 @@ function transformData(input) {
     const reports = Object.keys(groupedByAddr).map(addr => {
         const groupedWeek = _.groupBy(groupedByAddr[addr], 'Week Number');
         return {
-            address: addr,
+            address: addr.toLowerCase(),
             weeks: Object.keys(groupedWeek).map(weekNo => {
                 return {
                     weekNo: weekNo,
