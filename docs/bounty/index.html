@@ -6882,10 +6882,10 @@ It should be clear from the video what the Asure Project vision is about  (our v
     BountyCard.prototype.init = function init() {
         var store = this.storage.load();
 
-        this.$ethAddr.val(store.ethAddr);
+        this.$ethAddr.val(store.ethAddr.toLowerCase());
 
         this.toggleCampaigns(store.toggledCampaings);
-        this.updateBountyReport(store.ethAddr);
+        this.updateBountyReport(store.ethAddr.toLowerCase());
     };
 
     BountyCard.prototype.updateBountyReport = function updateBountyReport(ethAddr) {
@@ -6902,6 +6902,8 @@ It should be clear from the video what the Asure Project vision is about  (our v
             self.$ethTextView.show();
             self.$ethAddrView.hide();
         }
+
+        ethAddr = ethAddr.toLowerCase();
 
         var ethAddrReports = self.bountyReports.data.find(r => r.address === ethAddr);
         if (!ethAddrReports) {

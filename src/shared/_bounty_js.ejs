@@ -85,10 +85,10 @@
     BountyCard.prototype.init = function init() {
         var store = this.storage.load();
 
-        this.$ethAddr.val(store.ethAddr);
+        this.$ethAddr.val(store.ethAddr.toLowerCase());
 
         this.toggleCampaigns(store.toggledCampaings);
-        this.updateBountyReport(store.ethAddr);
+        this.updateBountyReport(store.ethAddr.toLowerCase());
     };
 
     BountyCard.prototype.updateBountyReport = function updateBountyReport(ethAddr) {
@@ -105,6 +105,8 @@
             self.$ethTextView.show();
             self.$ethAddrView.hide();
         }
+
+        ethAddr = ethAddr.toLowerCase();
 
         var ethAddrReports = self.bountyReports.data.find(r => r.address === ethAddr);
         if (!ethAddrReports) {
