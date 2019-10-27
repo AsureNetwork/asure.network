@@ -778,7 +778,7 @@
       }
     ],
     "bountyReports": {
-      "created": "2019-10-21T11:11:20.333Z",
+      "created": "2019-10-27T18:21:14.709Z",
       "weekNos": [
         "Week 34",
         "Week 35",
@@ -2477,6 +2477,111 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TELEGRAM01": {
+                  "done": true
+                },
+                "TELEGRAM02": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "TELEGRAM05": {
+                  "done": true
+                },
+                "TELEGRAM06": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                },
+                "CREATIVE04": {
+                  "done": true
+                },
+                "CREATIVE05": {
+                  "done": true
+                },
+                "CREATIVE06": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -2913,6 +3018,36 @@
                   "done": true
                 },
                 "TWITTER05": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 44 - October 28, 2019 - November 3, 2019",
+              "parsedWeekNo": "Week 44",
+              "campaigns": {
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
                   "done": true
                 }
               }
@@ -4369,6 +4504,108 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
+              "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM01": {
+                  "done": true
+                },
+                "TELEGRAM02": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM05": {
+                  "done": true
+                },
+                "TELEGRAM06": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "BITCOINTALK01": {
+                  "done": true
+                },
+                "BITCOINTALK02": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -5079,6 +5316,87 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -5271,6 +5589,33 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "TELEGRAM05": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TELEGRAM03": {
                   "done": true
@@ -5870,6 +6215,18 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -6448,6 +6805,36 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -6700,6 +7087,36 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -7349,6 +7766,24 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -8659,6 +9094,42 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -9016,6 +9487,63 @@
             {
               "weekNo": "Week 41 - October 7, 2019 - October 13, 2019",
               "parsedWeekNo": "Week 41",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -10635,6 +11163,75 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
+              "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -10839,6 +11436,30 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "FACEBOOK01": {
                   "done": true
@@ -11928,6 +12549,90 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM02": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "TELEGRAM05": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "BITCOINTALK06": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -12366,6 +13071,48 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -12999,6 +13746,45 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -13582,6 +14368,30 @@
                   "done": true
                 },
                 "LINKEDIN03": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
                   "done": true
                 }
               }
@@ -14485,6 +15295,63 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "BITCOINTALK06": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -14908,6 +15775,123 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM01": {
+                  "done": true
+                },
+                "TELEGRAM02": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "TELEGRAM05": {
+                  "done": true
+                },
+                "TELEGRAM06": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "BITCOINTALK01": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                },
+                "CREATIVE04": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -16446,6 +17430,63 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "BITCOINTALK04": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -18587,6 +19628,51 @@
             {
               "weekNo": "Week 41 - October 7, 2019 - October 13, 2019",
               "parsedWeekNo": "Week 41",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "BITCOINTALK04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -21442,6 +22528,99 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN07": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -22112,6 +23291,72 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -22618,6 +23863,93 @@
                   "done": true
                 },
                 "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                },
+                "CREATIVE04": {
+                  "done": true
+                },
+                "CREATIVE06": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM01": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM05": {
+                  "done": true
+                },
+                "TELEGRAM06": {
                   "done": true
                 },
                 "FACEBOOK01": {
@@ -24245,6 +25577,75 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
+              "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM04": {
+                  "done": true
+                },
+                "TELEGRAM05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -24842,6 +26243,18 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -24856,6 +26269,15 @@
                   "done": true
                 },
                 "AIRDROP01": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "CREATIVE07": {
                   "done": true
                 }
               }
@@ -25093,6 +26515,39 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "BITCOINTALK04": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -25406,6 +26861,45 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -25563,6 +27057,66 @@
                   "done": true
                 },
                 "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
+              "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "BITCOINTALK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
                   "done": true
                 },
                 "REDDIT03": {
@@ -25923,6 +27477,63 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "REDDIT07": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -27041,6 +28652,24 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -27797,6 +29426,51 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -27869,6 +29543,18 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "BITCOINTALK06": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "BITCOINTALK03": {
                   "done": true
@@ -28924,6 +30610,39 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -29085,6 +30804,42 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -29220,6 +30975,42 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -29428,6 +31219,42 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -29559,6 +31386,27 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -29649,6 +31497,42 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -29842,6 +31726,42 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -29950,6 +31870,42 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -30122,6 +32078,42 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 44 - October 28, 2019 - November 3, 2019",
+              "parsedWeekNo": "Week 44",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -30251,6 +32243,42 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -30459,6 +32487,42 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -30597,6 +32661,42 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -30770,6 +32870,42 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -31132,6 +33268,42 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -31867,6 +34039,42 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -31996,6 +34204,42 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -32870,6 +35114,39 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -33026,6 +35303,42 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -33137,6 +35450,42 @@
             {
               "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
               "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -33383,6 +35732,45 @@
                   "done": true
                 },
                 "FACEBOOK09": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK07": {
+                  "done": true
+                },
+                "FACEBOOK08": {
                   "done": true
                 }
               }
@@ -33906,6 +36294,36 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -34027,6 +36445,48 @@
                   "done": true
                 },
                 "LINKEDIN03": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN05": {
                   "done": true
                 },
                 "REDDIT01": {
@@ -34659,6 +37119,123 @@
                   "done": true
                 }
               }
+            },
+            {
+              "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
+              "parsedWeekNo": "Week 42",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "TWITTER03": {
+                  "done": true
+                },
+                "TWITTER04": {
+                  "done": true
+                },
+                "TWITTER05": {
+                  "done": true
+                },
+                "TELEGRAM01": {
+                  "done": true
+                },
+                "TELEGRAM02": {
+                  "done": true
+                },
+                "TELEGRAM03": {
+                  "done": true
+                },
+                "TELEGRAM05": {
+                  "done": true
+                },
+                "TELEGRAM06": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "FACEBOOK05": {
+                  "done": true
+                },
+                "FACEBOOK06": {
+                  "done": true
+                },
+                "FACEBOOK08": {
+                  "done": true
+                },
+                "FACEBOOK09": {
+                  "done": true
+                },
+                "BITCOINTALK01": {
+                  "done": true
+                },
+                "BITCOINTALK02": {
+                  "done": true
+                },
+                "BITCOINTALK03": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN06": {
+                  "done": true
+                },
+                "LINKEDIN08": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT04": {
+                  "done": true
+                },
+                "REDDIT06": {
+                  "done": true
+                },
+                "CREATIVE01": {
+                  "done": true
+                },
+                "CREATIVE04": {
+                  "done": true
+                },
+                "CREATIVE05": {
+                  "done": true
+                },
+                "CREATIVE08": {
+                  "done": true
+                }
+              }
             }
           ]
         },
@@ -34682,6 +37259,24 @@
                   "done": true
                 },
                 "AIRDROP01": {
+                  "done": true
+                }
+              }
+            },
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
                   "done": true
                 }
               }
@@ -34819,11 +37414,11 @@
           ]
         },
         {
-          "address": "0xbc79c174ea7254dee22c3e7247c08d216486254a",
+          "address": "0x50f18ea1070891cc75ff5a2c9146418e6f26151f",
           "weeks": [
             {
-              "weekNo": "Week 42 - October 14, 2019 - October 20, 2019",
-              "parsedWeekNo": "Week 42",
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
               "campaigns": {
                 "TWITTER01": {
                   "done": true
@@ -34837,9 +37432,56 @@
                 "TWITTER04": {
                   "done": true
                 },
-                "TWITTER05": {
+                "FACEBOOK01": {
                   "done": true
                 },
+                "FACEBOOK02": {
+                  "done": true
+                },
+                "FACEBOOK03": {
+                  "done": true
+                },
+                "FACEBOOK04": {
+                  "done": true
+                },
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "REDDIT01": {
+                  "done": true
+                },
+                "REDDIT02": {
+                  "done": true
+                },
+                "REDDIT03": {
+                  "done": true
+                },
+                "REDDIT05": {
+                  "done": true
+                },
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x5facaadd40ae912dccf963096bcb530c413839ee",
+          "weeks": [
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
                 "FACEBOOK01": {
                   "done": true
                 },
@@ -34864,7 +37506,22 @@
                 "FACEBOOK08": {
                   "done": true
                 },
-                "FACEBOOK09": {
+                "LINKEDIN01": {
+                  "done": true
+                },
+                "LINKEDIN02": {
+                  "done": true
+                },
+                "LINKEDIN03": {
+                  "done": true
+                },
+                "LINKEDIN04": {
+                  "done": true
+                },
+                "LINKEDIN05": {
+                  "done": true
+                },
+                "LINKEDIN08": {
                   "done": true
                 },
                 "REDDIT01": {
@@ -34876,9 +37533,6 @@
                 "REDDIT03": {
                   "done": true
                 },
-                "REDDIT04": {
-                  "done": true
-                },
                 "REDDIT05": {
                   "done": true
                 },
@@ -34888,10 +37542,47 @@
                 "REDDIT07": {
                   "done": true
                 },
-                "CREATIVE04": {
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0x6b9537cbc95a62367c778776aaa9d4e4a164569d",
+          "weeks": [
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "CREATIVE02": {
                   "done": true
                 },
-                "CREATIVE06": {
+                "AIRDROP01": {
+                  "done": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "address": "0xc558b1ee6ca6055498d7dcaf4e913aa6af21644b",
+          "weeks": [
+            {
+              "weekNo": "Week 43 - October 21, 2019 - October 27, 2019",
+              "parsedWeekNo": "Week 43",
+              "campaigns": {
+                "TWITTER01": {
+                  "done": true
+                },
+                "TWITTER02": {
+                  "done": true
+                },
+                "FACEBOOK01": {
+                  "done": true
+                },
+                "FACEBOOK03": {
                   "done": true
                 },
                 "AIRDROP01": {
