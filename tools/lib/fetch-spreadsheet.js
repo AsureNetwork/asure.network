@@ -66,7 +66,7 @@ function getNewToken(oAuth2Client, callback) {
 function fetchSpreadsheet(params) {
     return new Promise((resolve, reject) => {
         // Load client secrets from a local file.
-        fs.readFile(path.join(__dirname, '../../google-sheets-creds.json'), (err, content) => {
+        fs.readFile(path.join(__dirname, '../../google-sheets-creds.json'), 'utf-8',(err, content) => {
             if (err) return console.log('Error loading client secret file:', err);
             // Authorize a client with credentials, then call the Google Sheets API.
             authorize(JSON.parse(content), (auth) => {
