@@ -66,3 +66,4 @@ old
 .vscode
 
 google-sheets-*.json
+output-bounty-reports.csv

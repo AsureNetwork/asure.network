@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const _ = require('lodash');
+const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const fetchSpreadsheet = require('./lib/fetch-spreadsheet');
 const fetchBountyTasks = require('./lib/fetch-bounty-tasks');
 
@@ -191,6 +192,46 @@ function printStatistics(output) {
     }
 }
 
+function flattenOutput(output) {
+    const convertFloat = f => f.toString().replace('.', ',');
+    
+    return _.flatten(output.data.map(member => {
+       return member.summary.campaigns.map(campaign => {
+           return {
+               bountyTotalAsrTokens: convertFloat(output.summary.totalAsrTokens),
+               bountyTotalAsrTokensForStakes: convertFloat(output.summary.stakesAsrTokens),
+               bountyTotalStakes: convertFloat(output.summary.totalStakes),
+               bountyAsrTokenPerStake: convertFloat(output.summary.asrTokenPerStake),
+               hunterEthAddress: member.address,
+               hunterTotalAsrTokens: convertFloat(member.summary.totalTokens),
+               campaign: campaign.campaign,
+               count: campaign.count,
+               tokens: convertFloat(campaign.tokens)
+           }
+       });
+    }));
+}
+
+function exportAsCsv(data) {
+    const csvWriter = createCsvWriter({
+        path: 'output-bounty-reports.csv',
+        fieldDelimiter: ';',
+        header: [
+            {id: 'bountyTotalAsrTokens', title: '[BOUNTY] Total ASR Tokens'},
+            {id: 'bountyTotalAsrTokensForStakes', title: '[BOUNTY] Total ASR Tokens For Stakes'},
+            {id: 'bountyTotalStakes', title: '[BOUNTY] Total Stakes'},
+            {id: 'bountyAsrTokenPerStake', title: '[BOUNTY] ASR Token Per Stake'},
+            {id: 'hunterEthAddress', title: '[HUNTER] ETH Address'},
+            {id: 'hunterTotalAsrTokens', title: '[HUNTER] Total ASR Tokens'},
+            {id: 'campaign', title: 'Campaign'},
+            {id: 'count', title: 'Count'},
+            {id: 'tokens', title: 'Tokens'},
+        ]
+    });
+
+    return csvWriter.writeRecords(data);
+}
+
 function parseBountyReports(rows) {
     const headers = rows.shift();
 
@@ -237,6 +278,7 @@ function updateHarpData(bountyReports) {
 
             calcRewards(output);
             printStatistics(output);
+            await exportAsCsv(flattenOutput(output));
             updateHarpData(output);
             console.log('Done.');
         } else {
