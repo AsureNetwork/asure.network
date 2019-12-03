@@ -147,8 +147,30 @@ function calcRewards(output) {
     output.summary.stakesAsrTokens = output.summary.totalAsrTokens - output.summary.totalTokens;
     output.summary.asrTokenPerStake = output.summary.stakesAsrTokens / output.summary.totalStakes;
     for (const member of output.data) {
-        member.totalTokens = member.tokens + (member.stakes * output.summary.asrTokenPerStake);
+        member.summary = {
+            totalTokens: member.tokens + (member.stakes * output.summary.asrTokenPerStake),
+            campaigns: output.bountyTasks.map((task) => {
+                const campaignDoneCount = member.weeks.filter(week => week.campaigns[task.id] && week.campaigns[task.id].done).length;
+                let campaignTokens = 0;
+                if (task.rewardType === "Stakes" && task.frequency === "Once") {
+                    campaignTokens = task.reward * output.summary.asrTokenPerStake;
+                } else if (task.rewardType === "Stakes" && task.frequency === "Weekly") {
+                    campaignTokens = campaignDoneCount * task.reward * output.summary.asrTokenPerStake;
+                } else if (task.rewardType === "Tokens" && task.frequency === "Submission") {
+                    campaignTokens = campaignDoneCount * task.reward;
+                }
+                
+                return {
+                    campaign: task.id,
+                    count: campaignDoneCount,
+                    tokens: campaignTokens
+                };
+            }).filter(campaign => campaign.count > 0)
+        };
+        member.summary.campaigns = _.orderBy(member.summary.campaigns, ['tokens'], ['desc']);
     }
+
+    output.data = _.orderBy(output.data, ['summary.totalTokens'], ['desc'])
 }
 
 function printStatistics(output) {
@@ -159,11 +181,13 @@ function printStatistics(output) {
         }
     }
 
-    console.log(`Total Bounty Members: ${output.data.length}, Total Campaigns: ${totalCampaigns}`);    
+    console.log(`Total Bounty Members: ${output.data.length}, Total Campaigns: ${totalCampaigns}`);
     console.log(`Total ASR: ${output.summary.totalAsrTokens}, Total Stakes ASR: ${output.summary.stakesAsrTokens}, Total Stakes ${output.summary.totalStakes}, 1 Stake = ${output.summary.asrTokenPerStake} ASR`);
-    
-    for (const member of _.orderBy(output.data, ['totalTokens'], ['desc'])) {
-        console.log(`ETH addr: ${member.address}, ASR: ${member.totalTokens}`);
+
+    for (let i = 0; i < output.data.length; i++) {
+        const member = output.data[i];
+        console.log(`${i} ETH addr: ${member.address}, ASR: ${member.summary.totalTokens}`);
+        console.table(member.summary.campaigns);
     }
 }
 
