@@ -159,12 +159,23 @@
         var programSummary = campaignSummaries.reduce((programSummary, summary) => {
             programSummary.totalStakes += summary.totalStakes;
             programSummary.totalTokens += summary.totalTokens;
+
             return programSummary;
         }, {totalStakes: 0, totalTokens: 0});
 
         $('.campaign-total-title').show();
         $('.campaign-stakes-total strong').text(programSummary.totalStakes + ' stakes');
         $('.campaign-tokens-total strong').text(programSummary.totalTokens + ' tokens');
+
+        var bounty1 = window.bountyProgram1Results[ethAddr]?window.bountyProgram1Results[ethAddr]:0;
+
+        $('.tokens-total-formula strong').text(
+            programSummary.totalStakes+ ' stakes x '+
+            self.bountyReports.summary.asrTokenPerStake.toFixed(4) + ' factor + '+
+            programSummary.totalTokens+ ' tokens + '+
+            bounty1+' tokens =');
+        var total=programSummary.totalStakes*self.bountyReports.summary.asrTokenPerStake + programSummary.totalTokens + bounty1;
+        $('.tokens-total strong').text(total.toFixed(4) + ' ASR');
         self.updateBountyProrgam1Summary(ethAddr);
     };
 
