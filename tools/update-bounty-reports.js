@@ -121,7 +121,7 @@ function calcRewards(output) {
         if (airdropTask) {
             member.stakes += Number(airdropTask.reward);
             airdropTask.totalStakes += Number(airdropTask.reward);
-            output.summary.totalTokens += Number(airdropTask.reward);
+            output.summary.totalStakes += Number(airdropTask.reward);
         }
 
         for (let week of member.weeks) {
@@ -149,7 +149,7 @@ function calcRewards(output) {
     output.summary.asrTokenPerStake = output.summary.stakesAsrTokens / output.summary.totalStakes;
     for (const member of output.data) {
         member.summary = {
-            totalTokens: member.tokens + (member.stakes * output.summary.asrTokenPerStake),
+            totalTokens: member.tokens + ((member.stakes || 0) * output.summary.asrTokenPerStake),
             campaigns: output.bountyTasks.map((task) => {
                 const campaignDoneCount = member.weeks.filter(week => week.campaigns[task.id] && week.campaigns[task.id].done).length;
                 let campaignTokens = 0;
@@ -183,11 +183,12 @@ function printStatistics(output) {
     }
 
     console.log(`Total Bounty Members: ${output.data.length}, Total Campaigns: ${totalCampaigns}`);
-    console.log(`Total ASR: ${output.summary.totalAsrTokens}, Total Stakes ASR: ${output.summary.stakesAsrTokens}, Total Stakes ${output.summary.totalStakes}, 1 Stake = ${output.summary.asrTokenPerStake} ASR`);
+    console.log(`Total ASR: ${output.summary.totalAsrTokens}, Total Token ASR: ${output.summary.totalTokens}, Total Stakes ASR: ${output.summary.stakesAsrTokens}, Total Stakes ${output.summary.totalStakes}, 1 Stake = ${output.summary.asrTokenPerStake} ASR`);
 
+    console.log(`Total tokens spend: ${_.sumBy(output.data, 'summary.totalTokens')}, Tokens: ${_.sumBy(output.data, 'tokens')}, Stakes; ${_.sumBy(output.data, 'stakes')}`);
     for (let i = 0; i < output.data.length; i++) {
         const member = output.data[i];
-        console.log(`${i} ETH addr: ${member.address}, ASR: ${member.summary.totalTokens}`);
+        console.log(`${i} ETH addr: ${member.address}, ASR: ${member.summary.totalTokens}, (Tokens: ${member.tokens}, Stakes: ${member.stakes})`);
         //console.table(member.summary.campaigns);
     }
 }
