@@ -188,7 +188,7 @@ function printStatistics(output) {
     for (let i = 0; i < output.data.length; i++) {
         const member = output.data[i];
         console.log(`${i} ETH addr: ${member.address}, ASR: ${member.summary.totalTokens}`);
-        console.table(member.summary.campaigns);
+        //console.table(member.summary.campaigns);
     }
 }
 
@@ -210,6 +210,17 @@ function flattenOutput(output) {
            }
        });
     }));
+}
+
+function exportAsJSON(data) {
+    const result = data.data.map(member => {
+        return {
+            address: member.address,
+            totalTokens: member.summary.totalTokens 
+        };
+    });
+    
+    fs.writeFileSync('output-bounty-reports.json', JSON.stringify(result, null, 2));
 }
 
 function exportAsCsv(data) {
@@ -278,6 +289,7 @@ function updateHarpData(bountyReports) {
 
             calcRewards(output);
             printStatistics(output);
+            exportAsJSON(output);
             await exportAsCsv(flattenOutput(output));
             updateHarpData(output);
             console.log('Done.');
