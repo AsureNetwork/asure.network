@@ -5,7 +5,7 @@
   "faq": [
     {
       "q": "What exactly is your business model?",
-      "a": "Just as Bitcoin does not belong to any organization but aims for decentralization, so we do not have a bussines model but want to make social insurance a way out in a decentralized network so that the benefits of the new technology can serve the common good to improve people's lives."
+      "a": "Just as Bitcoin does not belong to any organization but aims for decentralization, so we do not have a business model but want to make social insurance a way out in a decentralized network so that the benefits of the new technology can serve the common good to improve people's lives."
     },
     {
       "q": "What is Asure Network?",
@@ -17,11 +17,11 @@
     },
     {
       "q": "How can I buy ASR tokens?",
-      "a": "The first to <a href=\"https://asure.network/kyc\">sign up</a> for whitelisting. <br/> From December 1st to December 31th there will be smart contract addresse on this website."
+      "a": "You can buy ASR-Tokens on <a href=\"https://app.uniswap.org/#/swap?use=v3&outputCurrency=0x15dfc197e7ac7d81a07250b5bdebaa96fc1c5dfa&slippage=150\" target=\"_blank\">UniSwap</a> website."
     },
     {
-      "q":"What cryptocurrencies are accepted in the token sale?",
-      "a":"ETH is the only cryptocurrency accepted during the token sale in exchange for ASR tokens. You will be                 required to have an Ethereum wallet to participate in the token sale. ASR are Ethereum derived tokens. If you hold BTC or some other cryptocurrency it can be exchanged for ETH and used to participate in the token sale."
+      "q":"What cryptocurrencies are accepted?",
+      "a":"ETH is the direct cryptocurrency wich is supported."
     },
     {
       "q": "What does the token do?",
@@ -29,7 +29,7 @@
     },
     {
       "q": "What is an ERC20 token?",
-      "a": "An ERC20 token is a blockchain-based asset with similar functionality to bitcoin, ether, and bitcoin                cash: it can hold value and be sent and received."
+      "a": "An ERC20 token is a blockchain-based asset with similar functionality to bitcoin, ether, and bitcoin cash: it can hold value and be sent and received."
     },
     {
       "q": "Do you have a fixed supply of ASR tokens?",
@@ -41,7 +41,7 @@
     },
     {
       "q": "Are you on any exchanges yet?",
-      "a": "No. We have targets on our timeline to have the ASR token available on exchanges."
+      "a": "Yes. Some decentrized exchanges listed ASR tokens."
     },
     {
       "q": "Should I invest in your token?",
@@ -52,16 +52,12 @@
       "a": "Almost, we are very close to an MVP (minimum viable product) which our beta tester will be using. Out Testnet is live and can be found here. http://explorer.asure.network"
     },
     {
-      "q": "Are there any plans for an IEO?",
-      "a": "Yes, our crowdsale contract is designed for that and we are talking to several exchanges about the options and the right time."
-    },
-    {
       "q":"Which wallet can be used to store ASR?",
       "a":"ASR is an ERC20 token, meaning it can be stored in ERC20 compatible wallets such as MyEtherWallet, TrustWallet and others."
     },
     {
       "q":"Where is your organisation based?",
-      "a":"Our organisation is established in Zug, Switzerland of the Swiss Crypto Valley."
+      "a":"Our organisation was established in Zug, Switzerland of the Swiss Crypto Valley."
     },
     {
       "q":"How can I follow your updates?",

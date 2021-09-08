@@ -1,4 +1,48 @@
-<% include ../helpers.ejs %>
+<%
+fixUrl = function(path, url){
+    //work with current.path in helper directly is not correct
+    let count = path.length-1;
+    let fixedUrl="";
+    for(let i=0; i<count; i++){
+        fixedUrl = fixedUrl.concat("../");
+    }
+    fixedUrl = fixedUrl.concat(url);
+    return fixedUrl;
+}
+
+prefixUrl = function(){
+//work with current.path in helper directly is not correct
+var pathPrefix = "";
+ for (var i = 0; i < current.path.length-1; i++) {
+  pathPrefix += "../";
+ }
+ return pathPrefix;
+}
+
+getBlogData = function(path){
+    //work with current.path in helper directly is not correct
+    let blogName = path[path.length - 2];
+
+    return public.blog.posts._data[blogName]
+}
+getByKey = function (key, value) {
+    if(current.path[0] === "blog" && current.path[1] === "posts"){
+        let length = current.path.length - 1;
+        let blogName = current.path[length - 1];
+        let fileName = current.path[length];
+
+        let valueInFolder = public.blog.posts[blogName]._data[fileName] ? public.blog.posts[blogName]._data[fileName][key] : null;
+
+        if(valueInFolder) {
+            return valueInFolder;
+        }
+
+        value = public.blog.posts._data[blogName][key];
+    }
+
+    return value;
+}
+%>
 <div>
     <%- partial("../shared/_privacy") %>
 </div>

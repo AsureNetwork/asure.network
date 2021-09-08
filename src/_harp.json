@@ -10,23 +10,13 @@
         "urlSegment": ""
       },
       "tge": {
-        "title": "TGE",
+        "title": "TOKEN",
         "url": "#tge",
         "urlSegment": ""
       },
       "news": {
         "title": "Media",
         "url": "#media",
-        "urlSegment": ""
-      },
-      "team": {
-        "title": "Team",
-        "url": "#team",
-        "urlSegment": ""
-      },
-      "roadmap": {
-        "title": "Roadmap",
-        "url": "#roadmap",
         "urlSegment": ""
       },
       "partners": {

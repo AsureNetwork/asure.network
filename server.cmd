@@ -1,2 +1,2 @@
-harp server src --port 9001
+harp src --port 9001
 pause

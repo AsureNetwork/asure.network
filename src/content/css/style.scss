@@ -372,6 +372,10 @@ section {
   background: #f0f8ff;
 }
 
+.bg-white-pink {  
+  background: radial-gradient(50% 50% at 50% 50%,#fc077d10 0,rgba(255,255,255,0) 100%);
+}
+
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link, .nav-tabs .nav-link.active {
   border-radius: 0px;
   text-transform: uppercase;
@@ -1916,6 +1920,56 @@ span[data-toggle="popover"] {
       color: #a90cfb;
     }
   }
+
+    .bg-color1-item {
+        .grp .in {
+          background-color: $blue;
+        }
+      .parcent, .summ {
+        color: $blue;
+      }
+    }
+
+     .bg-color2-item {
+                .grp .in {
+                  background-color: $teal;
+                }
+              .parcent, .summ {
+                color: $teal;
+              }
+    }
+    .bg-color3-item {
+          .grp .in {
+              background-color: $red;
+          }
+          .parcent, .summ {
+            color: $red;
+          }
+     }
+     .bg-color4-item {
+                 .grp .in {
+                   background-color: $yellow;
+                 }
+               .parcent, .summ {
+                 color: $yellow;
+               }
+     }
+     .bg-color5-item {
+                      .grp .in {
+                        background-color: $green;
+                      }
+                    .parcent, .summ {
+                      color: $green;
+                    }
+          }
+     .bg-color6-item {
+                           .grp .in {
+                             background-color: $purple;
+                           }
+                         .parcent, .summ {
+                           color: $purple;
+                         }
+               }
 }
 
 .blc-faq, .blc-cookie-policy {

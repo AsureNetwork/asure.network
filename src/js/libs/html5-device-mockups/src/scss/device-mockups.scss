@@ -1,5 +1,7 @@
+@use "sass:math";
 @import "general.scss";
 @import "devices.scss";
+
 
 .device {
 
@@ -7,7 +9,7 @@
 
         &[data-device="#{$device}"][data-orientation="#{$orientation}"][data-color="#{$color}"] {
 
-            $paddingCalc: percentage($image_height / ($image_width / 300) / 300);
+            $paddingCalc: percentage(math.div(math.div($image-height, math.div($image-width, 300)), 300));
             $imageURL: '#{$mockup-path}/#{$device}/#{$orientation}_#{$color}.png';
 
             padding-bottom: #{$paddingCalc};
@@ -15,14 +17,14 @@
 
             .screen {
 
-                $topCalc: percentage($screen_top / $image_height);
-                $leftCalc: percentage($screen_left / $image_width);
+                $topCalc: percentage(math.div($screen_top, $image_height));
+                $leftCalc: percentage(math.div($screen_left, $image_width));
 
                 $screenWidth: $image_width - $screen_right - $screen_left;
                 $screenHeight: $image_height - $screen_top - $screen_bottom;
 
-                $widthCalc: percentage($screenWidth / $image_width);
-                $heightCalc: percentage($screenHeight / $image_height);
+                $widthCalc: percentage(math.div($screenWidth, $image_width));
+                $heightCalc: percentage(math.div($screenHeight, $image_height));
 
                 top: #{$topCalc};
                 left: #{$leftCalc};
@@ -37,14 +39,14 @@
                     display: none;
                 }
 
-                $topCalc: percentage($button_top / $image_height);
-                $leftCalc: percentage($bottom_left / $image_width);
+                $topCalc: percentage(math.div($button_top, $image_height));
+                $leftCalc: percentage(math.div($bottom_left, $image_width));
 
                 $buttonWidth: $image_width - $button_right - $bottom_left;
                 $buttonHeight: $image_height - $button_top - $button_bottom;
 
-                $widthCalc: percentage($buttonWidth / $image_width);
-                $heightCalc: percentage($buttonHeight / $image_height);
+                $widthCalc: percentage(math.div($buttonWidth, $image_width));
+                $heightCalc: percentage(math.div($buttonHeight, $image_height));
 
                 top: #{$topCalc};
                 left: #{$leftCalc};

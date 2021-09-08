@@ -1,6 +1,50 @@
 ﻿<!doctype html>
-<% include helpers.ejs %>
 <html lang="en">
+<%
+fixUrl = function(path, url){
+    //work with current.path in helper directly is not correct
+    let count = path.length-1;
+    let fixedUrl="";
+    for(let i=0; i<count; i++){
+        fixedUrl = fixedUrl.concat("../");
+    }
+    fixedUrl = fixedUrl.concat(url);
+    return fixedUrl;
+}
+
+prefixUrl = function(){
+//work with current.path in helper directly is not correct
+var pathPrefix = "";
+ for (var i = 0; i < current.path.length-1; i++) {
+  pathPrefix += "../";
+ }
+ return pathPrefix;
+}
+
+getBlogData = function(path){
+    //work with current.path in helper directly is not correct
+    let blogName = path[path.length - 2];
+
+    return public.blog.posts._data[blogName]
+}
+getByKey = function (key, value) {
+    if(current.path[0] === "blog" && current.path[1] === "posts"){
+        let length = current.path.length - 1;
+        let blogName = current.path[length - 1];
+        let fileName = current.path[length];
+
+        let valueInFolder = public.blog.posts[blogName]._data[fileName] ? public.blog.posts[blogName]._data[fileName][key] : null;
+
+        if(valueInFolder) {
+            return valueInFolder;
+        }
+
+        value = public.blog.posts._data[blogName][key];
+    }
+
+    return value;
+}
+%>
 <head>
     <title><%= getByKey("title", title) %></title>
     <meta charset="utf-8">
@@ -53,6 +97,33 @@
 
     <link rel="stylesheet" type="text/css"
           href="<%= prefixUrl() %>js/libs/html5-device-mockups/dist/device-mockups.min.css">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Group', 'ASR'],
+          ['Public',                27000000],
+          ['Burn reservation',      13334000],
+          ['Team',                  8000000],
+          ['Family & Friends',      5000000],
+          ['Advisors',              2000000]
+        ]);
+
+        var options = {
+          title: '',
+          width: 500,
+          height: 500,
+          colors: ['#69acd6', '#58c9c4', '#e2324b', '#d49b40', '#99c759'],
+          legend: 'none'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
 
     <!-- Facebook Pixel Code -->
     <script>
