@@ -1,0 +1,149 @@
+<section class="blc-tge bg-white-blue" id="tge">
+    <div class="container">
+        <div class="head">
+            <h1 class="title hr">Token Information</h1>
+            <div class="row">
+                <div class="offset-md-2 col-md-8 justify">                    
+
+                </div>
+            </div>
+        </div>
+
+        <div class="ico">
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div>
+                        <h2>ASR Token</h2>
+
+
+                        The token will be used for On-Chain
+                        <span data-toggle="popover"
+                              title="Governance"
+                              data-placement="bottom"
+                              data-trigger="hover"
+                              data-content="On-Chain governance is crucial. ASR token holders will be able to govern the Asure blockchain,
+                network, and vote over future improvements."
+                        ><strong>Governance</strong></span>
+                        and by
+                        <span data-toggle="popover"
+                              title="Network Validators"
+                              data-placement="bottom"
+                              data-trigger="hover"
+                              data-content="Validators need to stake ASR tokens to validate transactions
+                within the Asure network. In return, the network validators receive the networks transaction fees in
+                the form of ASR as an incentive for validating correct blocks."
+                        ><strong>Network Validators</strong></span> as well as
+                        <span data-toggle="popover"
+                              title="Service Providers"
+                              data-placement="bottom"
+                              data-trigger="hover"
+                              data-content="The ASR token serves as an incentive for service providers within the Asure platform to work
+                correctly and as advertised within their SLA’s."
+                        ><strong>Service Providers</strong></span> to
+                        participate as stakers in the proof-of-stake consensus mechanisms of the Asure network.
+
+                        <p class="my-4">
+                            <a class="btn btn-action btn-shadow btn-block-xs-only" href="https://app.uniswap.org/#/swap?use=v3&exactField=output&outputCurrency=0x15dfc197e7ac7d81a07250b5bdebaa96fc1c5dfa&slippage=1000" target="_blank">
+                                BUY NOW
+                            </a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <h2>Explorer</h2>
+
+                        <p>
+                            Contract Adress: <b>0x15dfc197e7ac7d81a07250b5bdebaa96fc1c5dfa</b>
+                        </p>
+                        <p class="my-4">
+                            <a class="btn btn-warning btn-shadow btn-block-xs-only" href="https://etherscan.io/token/0x15dfc197e7ac7d81a07250b5bdebaa96fc1c5dfa" target="_blank">
+                                ETHERSCAN
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="item">
+                        <div>
+                            <h2 class="d-block d-lg-none">Details</h2>
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="nav-item">
+                                    <a class="nav-link active" href="#tab-info" aria-controls="messages" role="tab"
+                                       data-toggle="tab">
+                                        Info
+                                    </a>
+                                </li>
+                                <li role="presentation" class="nav-item">
+                                     <a class="nav-link" href="#tab-crowdsale" aria-controls="profile" role="tab"
+                                        data-toggle="tab">
+                                         Chart
+                                     </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane active" id="tab-info">
+                                    <table class="table table-sm">
+                                        <tbody>
+                                            <tr>
+                                                <td style="border-top: 0px solid #fff;">Created</td>
+                                                <td class="text-left text-md-right orange" style="border-top: 0px solid #fff;">1st August 2019</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Classification</td>
+                                                <td class="text-left text-md-right orange">Utility Token</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Current Network</td>
+                                                <td class="text-left text-md-right orange">Ethereum</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Type</td>
+                                                <td class="text-left text-md-right orange">ERC20 Token</td>
+                                            </tr>
+                                             <tr>
+                                                <td>Circulating Supply</td>
+                                                <td class="text-left text-md-right orange"> 27,000,000 ASR</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Total Supply</td>
+                                                <td class="text-left text-md-right orange">55,334,000 ASR</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Max Supply</td>
+                                                <td class="text-left text-md-right orange">55,334,000 ASR</td>
+                                            </tr>
+                                            <tr>
+                                                 <td>Target Total Supply*</td>
+                                                 <td class="text-left text-md-right orange">42,000,000 ASR</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Exchange currencies</td>
+                                                <td class="text-left text-md-right orange">ETH</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <small>
+										* 13,334,000 ASR tokens will be burned during the next few years ("Ultimate Question of Life, the Universe, and Everything")							
+                                    </small>
+                                </div>
+                                <div role="tabpanel" class="tab-pane" id="tab-crowdsale" style="min-height:400px;">
+
+                                    <div id="piechart_3d"></div>
+
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-lg-12">
+					<br/><br/>
+					<%-	partial("_token_distribution") %>
+				</div>
+            </div>
+        </div>
+    </div>
+</section>
